@@ -127,12 +127,4 @@ beegfs 4 (exp)                                          144 TB (HDD)
 Virtual infrastructure
 ----------------------
 
-
-
 The rest of the infrastructure runs on a VMWare ESXi host, which run various virtual machines (VMs) for handling web servers and applications, databases, domain control, monitoring, remote access, etc. Although they have a small amount of local disk, the VMs primarily use a separate Storage Area Network (SAN) for data.
-
-====  =======  ==========  ======
-Year  Name     CPU Cores   Memory
-====  =======  ==========  ======
-#######  48          384 GB
-====  =======  ==========  ======

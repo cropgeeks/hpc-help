@@ -1,7 +1,7 @@
 Bioconda
 ========
 
-Bioconda (https://bioconda.github.io) is a package manager that specializes in providing bioinformatics software, with a repository of over 2,700 packages (as of Oct 2017) ready to install.
+Bioconda (https://bioconda.github.io) is a package manager that specializes in providing bioinformatics software, with a repository of over 6,000 packages (as of Nov 2019) ready to install.
 
 Using Bioconda allows you to pick and choose the software (and versions) that you want without any danger of clashing with anyone else's requirements, and as most packages require nothing more than running ``conda install <packagename>``, the process is incredibly easy.
 
@@ -14,7 +14,7 @@ Follow the instructions below to get up and running with Bioconda in just a few 
 Installing Bioconda
 -------------------
 
-To install Bioconda, simply run: ``install-bioconda`` while logged into gruffalo. This will automatically download the necessary files for you, install it to an appropriate area, and then setup the correct channels for finding software for you. By default, it'll install channel information for R, conda-forge, and Bioconda itself.
+To install Bioconda, simply run: ``install-bioconda`` while logged into ``gruffalo``. This will automatically download the necessary files for you, install it to an appropriate area, and then setup the correct channels for finding software for you. By default, it'll install channel information for R, conda-forge, and Bioconda itself.
 
 .. important::
   You must log out and in again (or open a new shell window) before the changes made by the install script will take effect.
@@ -198,7 +198,7 @@ If you want to get rid of an environment, make sure it's not active, then run::
   $ conda remove --all -n samtools-old
 
 .. note::
-  One school of thought suggests installing every package into its own unique environment. While this certainly avoids any dependency clash problems, it can make things a little awkward if you have pipelines or scripts relying on multiple packages as you're then constantly running ``source activate`` and ``source deactivate``. Ultimately though, it's up to you how you set up and manage Bioconda.
+  One school of thought suggests installing every package into its own unique environment. While this certainly avoids any dependency clash problems, it can make things a little awkward if you have pipelines or scripts relying on multiple packages as you're then constantly running ``conda activate`` and ``conda deactivate``. Ultimately though, it's up to you how you set up and manage Bioconda.
 
   
 Removing Bioconda
