@@ -1,16 +1,14 @@
 Getting Connected
 =================
 
-You'll need an SSH client to access the cluster. Good options for Windows users include `WSL`_ (Windows 10 only), `Cygwin/mintty`_, or `PuTTY`_. If you're connecting from a macOS or Linux machine, then it'll almost certainly have an SSH client already available.
+You'll need an SSH client to access ``gruffalo``. Good options for Windows users include `WSL`_ (Windows 10 only), `Cygwin/mintty`_, or `PuTTY`_. If you're connecting from a macOS or Linux machine, then it'll almost certainly have an SSH client already available.
 
 .. _`PuTTY`: https://www.putty.org/
 .. _`Cygwin/mintty`: https://www.cygwin.com/
 .. _`WSL`: https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux
 
 
-To connect to the system, you first need to be onsite at one of our six supported institutes (JHI, NIAB, SRUC, RBGE, NHM, or RBGK). :doc:`remote-access` works too, but you need to be able to connect normally first to enable it.
-
-SSH requires you to specify your username along with the full domain name of the cluster's head node, ``gruffalo``.
+To connect to the system, you first need to be onsite at one of our :doc:`organizations`. :doc:`remote-access` works too, but you'll need to connect normally first to enable it.
 
 
 Using OpenSSH
@@ -31,9 +29,9 @@ Remembering to replace ``<username>`` with the actual username you have been ass
 
 If you are connecting for the first time with your current laptop or PC, then you'll need to accept ``gruffalo's`` public SSH host key, which should match one of the three fingerprint values shown below::
 
-  RSA: SHA256:aI5jCSOmmMacxXl0M+BzIAbb34MaRkoZHbTPdJaJomY
-  ECDSA: SHA256:NoLoMfq1VVC9TkxpunRH2SFObHHG0FsOc8395QRvKZ8  
-  ED25519: SHA256:+iQrQgoWNQmSzBorSDnC3zkMpT5njWtJ89kdh2vpDvc
+  RSA: SHA256:27bXQAwDYqyvNIMujn9d5bE9elgk+KF3UJMNjRAuNKA
+  ECDSA: SHA256:ORFcun5bSbLPQ8uCW/R1yqvXbfvhHGuDWkSzRhHARzY 
+  ED25519: SHA256:x9XTBSIWPynrVFRcK1HGokuUTxXHgMFhijKoD6ptNuo
 
 .. important::
   Do not connect if the fingerprint is different as it could be a sign that the server has been compromised or that your connection is being interfered with. You should contact ########### before proceeding.
@@ -55,7 +53,7 @@ The following gives an example of all of the steps outlined above:
 You can make subsequent connections faster, by editing your ``~/.ssh/config`` file to include the following lines::
 
   Host gruffalo
-    Hostname 143.234.127.101
+    Hostname gruffalo.cropdiversity.ac.uk
     User <username>
 
 You'll then be able to connect using just ``ssh gruffalo``.
@@ -64,7 +62,7 @@ You'll then be able to connect using just ``ssh gruffalo``.
 Using PuTTY
 -----------
 
-To configure PuTTY, simply enter ``<username>@143.234.127.101`` where it asks you to specify the ``Host Name (or IP address)``, remembering to replace ``<username>`` with the actual username you have been assigned.
+To configure PuTTY, simply enter ``<username>@gruffalo.cropdiversity.ac.uk`` where it asks you to specify the ``Host Name (or IP address)``, remembering to replace ``<username>`` with the actual username you have been assigned.
 
 .. image:: media/putty.png
 

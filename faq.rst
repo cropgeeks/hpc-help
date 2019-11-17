@@ -28,7 +28,7 @@ making sure to replace ``<username>`` with the username you were allocated when 
 How do I submit jobs to the cluster?
 ------------------------------------
 
-The cluster uses the SLURM job scheduling system and all jobs should be submitted (from ``gruffalo``) to SLURM, where they will be allocated resources on one of the underlying compute nodes. More detailed instructions can be found on the :doc:`slurm` page.
+The cluster uses the Slurm Work Manager job scheduling system and all jobs should be submitted (from ``gruffalo``) to Slurm, where they will be allocated resources on one of the underlying compute nodes. More detailed instructions can be found on the :doc:`slurm` page.
   
 What software is available?
 ---------------------------

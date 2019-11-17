@@ -1,8 +1,11 @@
 Requesting an Account
 =====================
 
-You can request an account by visiting https://forms.gle/dKAp2aCy2YnG26SAA
+.. important::
+  Before requesting an account, first check your eligibility using the information on the :doc:`organizations` page.
 
-Your account details will be emailed to you once ready, but there's nothing to stop you learning more about the system while you wait by browsing the documentation.
+To request an account, please visit https://forms.gle/dKAp2aCy2YnG26SAA and provide all the details asked for.
+
+Your account information will be emailed to you once ready, but there's nothing to stop you learning more about the system while you wait by browsing this documentation.
 
 You'll also be automatically added to the ########### mailing list, which is used to inform everyone about exciting new features or changes to the system, scheduled (or otherwise!) shutdowns, and so on.

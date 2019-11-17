@@ -3,6 +3,9 @@ System Overview
 
 You can monitor the current state of the cluster at https://hpc.cropdiversity.ac.uk/ganglia
 
+.. note::
+  All the machines listed below are connected together over a super-fast 25-gigabit fibre optic network. 
+
 Compute cluster
 ---------------
 
@@ -11,7 +14,7 @@ The tables below lists the various batches of hardware the make up the current c
 - **Year**: 2019 (October)
 - **Theme**: Marvel Cinematic Universe
 - **Hardware**: Dell PowerEdge C6420 (48x) and R940xa (1x)
-- **CPU/GPU**: 2nd-Gen Intel Xeon Scaleable (Cascade Lake) / Nvidia Tesla
+- **CPUs/GPUs**: 2nd-Gen Intel Xeon Scaleable (Cascade Lake) / Nvidia Tesla
 - **Capacity**: 3,200 (hyperthreaded) CPU cores, 10,240 Cuda cores, and 1,280 Tensor cores
 
 ==============  ==============================  ============  ======  ============
@@ -72,7 +75,7 @@ yondu           2x Silver 4216 @2.1Ghz 16C/32T                192 GB  1.3 TB (SS
 - **Year**: 2019 (March)
 - **Theme**: Bond Villians
 - **Hardware**: Dell PowerEdge R640 (2x) and R740 (1x)
-- **CPU/GPU**: 1nd-Gen Intel Xeon Scaleable (Skylake) / Nvidia Tesla 
+- **CPUs/GPUs**: 1nd-Gen Intel Xeon Scaleable (Skylake) / Nvidia Tesla 
 - **Capacity**: 160 (hyperthreaded) CPU cores, 5,120 Cuda cores, and 640 Tensor cores
 
 ==============  ==============================  =============  ======  ============
@@ -101,10 +104,13 @@ starbuck        2x E5-2680 v4 @2.4GHz 14C/24T                  256 GB  370 GB (S
 Storage and backup
 ------------------
 
+The BeeGFS storage array runs alongside the cluster, however the backup system is located in another location for redundancy.
+
 - **Year**: 2019 (October)
 - **Theme**: Back to the Future
 - **Hardware**: Dell PowerEdge R740xa (4x), MD1400 (4x), R640 (1x), and ME484 (1x)
 - **CPUs**: 2nd-Gen Intel Xeon Scaleable (Cascade Lake)
+- **Capacity**: 1.5 PB (storage) and 1.0 PB (backup)
 
 ==============  ==============================  ======  ============
 Name            CPUs                            Memory  Disk
@@ -127,4 +133,15 @@ beegfs 4 (exp)                                          144 TB (HDD)
 Virtual infrastructure
 ----------------------
 
-The rest of the infrastructure runs on a VMWare ESXi host, which run various virtual machines (VMs) for handling web servers and applications, databases, domain control, monitoring, remote access, etc. Although they have a small amount of local disk, the VMs primarily use a separate Storage Area Network (SAN) for data.
+The rest of the infrastructure runs on VMWare ESXi hosts, with various virtual machines (VMs) for handling web servers and applications, databases, domain control, monitoring, remote access, etc. Although they have a small amount of local disk, the VMs primarily use a separate Storage Area Network (SAN) for data.
+
+- **Year**: 2019 (October)
+- **Hardware**: Dell PowerEdge R640 (2x)
+- **CPUs**: 2nd-Gen Intel Xeon Scaleable (Cascade Lake)
+
+==============  ==============================  ======  ============
+Name            CPUs                            Memory  Disk
+==============  ==============================  ======  ============
+???             2x Gold 6242 CPU @2.8G 16C/32T  384 GB  240 GB (SSD)
+???             2x Gold 6242 CPU @2.8G 16C/32T  384 GB  240 GB (SSD)
+==============  ==============================  ======  ============

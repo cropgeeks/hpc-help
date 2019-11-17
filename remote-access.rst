@@ -87,9 +87,9 @@ Many locations, including other institutions or public locations (airports, cafe
 SSH uses port 22 by default, but if you find your connection to ``gruffalo`` being blocked, it'll also accept connections on port 443, which is normally used for encrypted web traffic and therefore usually available. You can tell OpenSSH to connect this way by passing ``-p 443`` as an extra parameter, or by editing your ``~/.ssh/config`` file to include the following::
 
   Host gruffalo
-    Hostname 143.234.127.101
+    Hostname gruffalo.cropdiversity.ac.uk
     Port 443
     Username <username>
 
 .. note::
-  Only the most evil of deep-packet inspection (DPI) firewalls are likely to block SSH over port 443, so if you're connecting remotely often it's probably worth setting port 443 as your default.
+  Only the most evil of deep-packet inspection (DPI) firewalls are likely to block SSH over port 443, so if you're going to connect remotely a lot it's probably worth setting port 443 as your default.

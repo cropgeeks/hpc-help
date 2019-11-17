@@ -26,10 +26,18 @@ Hello! Here you'll find the documentation for the UK's "Crop Diversity Bioinform
    :maxdepth: 2
    :caption: High performance computing
    
+   slurm
    bioconda
    compiling
    file-compression
    singularity
+   gpu
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Miscellaneous
+
+   monitoring
 
 .. toctree::
    :maxdepth: 1
