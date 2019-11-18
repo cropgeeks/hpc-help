@@ -88,7 +88,7 @@ To request a specific set of resources use the following type of command::
 
   $ srun --partition medium --time 0-02:00:00 --mem 10G --cpus-per-task 10 --pty bash
 
-In this example we request the medium partition with a maximum session time of 2 hours (the time format is DAYS-HOURS:MINUTES:SECONDS), 10 gigabytes of memory (use K for kilobytes, M for megabytes, G for gigabytes and T for terabytes), and 10 CPUs (ie threads). SLURM has the concept of tasks, which can be useful when running MPI jobs, but are often not required for common bioinformatics jobs, therefore we have not requested multiple tasks and implicitly accepted the default of a single task. Therefore 10 CPUs per task means we have simply have 10 CPUs in total (there is no plain --cpus option in SLURM).
+In this example we request the medium partition with a maximum session time of 2 hours (the time format is DAYS-HOURS:MINUTES:SECONDS), 10 gigabytes of memory (use K for kilobytes, M for megabytes, G for gigabytes and T for terabytes), and 10 CPUs (ie threads). SLURM has the concept of tasks, which can be useful when running MPI jobs, but are often not required for common bioinformatics jobs, therefore we have not requested multiple tasks and implicitly accepted the default of a single task. Therefore 10 CPUs per task means we simply have 10 CPUs in total (there is no plain --cpus option in SLURM).
 
 Submitting a Job Script
 -----------------------
@@ -109,5 +109,27 @@ This is a normal bash shell script with the SLURM options inserted near the top 
 
 Cancelling a Job
 ----------------
+To cancel one of your jobs from the queue use scancel::
 
-  $ scancel
+  $ scancel <jobid>
+
+Where ``<jobid>`` is the job id number of your job.
+
+Job Information During and After Completion
+-------------------------------------------
+In order to check on your job while running use the scontrol command::
+
+  $ scontrol show job <jobid>
+
+Which will show various details about jobs while they are running, such as the current memory usage and the time the job would be killed for overrunning its timelimit.
+
+After a job has completed your can also use the sacct command::
+
+  $ sacct -j <jobid>
+
+Will show some basic information. For more details try::
+
+  $  sacct -j <jobid> --format JobID,JobName,User,ReqMem,MaxVMSize,MaxRSS,NodeList,AllocCPUS,TotalCPU,State,Start,End
+
+MaxRSS is the maximum real memory used by the job and MaxVMSize is the maximum it requested for itself but did not necessarily fill up, and includes any swap usage.
+
