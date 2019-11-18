@@ -107,7 +107,7 @@ This is a normal bash shell script with the SLURM options inserted near the top 
 
   $ sbatch slurm_script.sh
 
-By default the standard output and error messages that would have printed to the screen of the batch job are captured and saved in the current working directory to a file called slurm-<jobid>.out. This behaviour can be modified using the --output and --error options (see the manual page for sbatch for details)::
+By default the standard output and error messages that would have printed to the screen of the batch job are captured and saved in the current working directory to a file called slurm-<jobid>.out. This behaviour can be modified using the --output and --error options (see the manual page of sbatch for details)::
 
   $ man sbatch
 
