@@ -6,7 +6,7 @@ Real-time metrics
 
 You can view real-time metrics (load, network activity, etc) for all of the cluster's servers by clicking on the following link:
 
-https://hpc.cropdiversity.ac.uk/ganglia
+https://ganglia.cropdiversity.ac.uk
   
   |ganglia|
 
