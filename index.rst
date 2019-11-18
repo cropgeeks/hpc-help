@@ -4,7 +4,7 @@ Crop Diversity HPC
 Hello! Here you'll find the documentation for the UK's "Crop Diversity Bioinformatics High Performance Computing (HPC)" Linux cluster - ``gruffalo`` - and its associated data storage and services.
 
 .. important::
-  Run by the James Hutton Institute's `Information & Computational Sciences`_ (ICS) Research Computing team, and NIAB's ########### team, this resource supports the computational needs of researchers from six UK institutions. See :doc:`organizations` for details.
+  Run by the James Hutton Institute's `Information & Computational Sciences`_ (ICS) Research Computing team, and the Scientific Computing section of NIAB's IT team, this resource supports the computational needs of researchers from six UK institutions. See :doc:`organizations` for details.
 
 
 .. toctree::
