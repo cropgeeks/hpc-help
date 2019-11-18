@@ -42,8 +42,8 @@ This will add a column called S:C:T for sockets, cores and threads on each node.
 
 This will produce a detailed scrollable list which you can exiting by pressing q. Each node is listed separately showing CPUTot (total CPUS), CPUAlloc (how many are currently busy), FreeMem (unused memory) and AllocMem (memory currently in use) etc.
 
-Monitoring Running Jobs
------------------------
+Viewing the Current Job Queues
+------------------------------
 To see what jobs are currently running or queuing use the squeue command::
 
   $ squeue
@@ -76,11 +76,13 @@ To see just your own jobs use::
 
 Where ``<username>`` is your actual username.
 
-Running an interactive session using default a resource allocation use the following command::
+Requesting an Interactive Session
+---------------------------------
+To run an interactive SLURM session with a default resource allocation use the following command::
 
   $ srun --pty bash
 
-If resources are not immediately available the command will abort, otherwise you will be logged into a compute node using a default resource allocation available. Please remember to type exit top log out when done.
+If the resources are not immediately available the command will abort, otherwise you will be logged into a compute node using a default resource allocation available. Please remember to type exit top log out when done.
 
 To request a specific set of resources use the following type of command::
 
@@ -88,3 +90,24 @@ To request a specific set of resources use the following type of command::
 
 In this example we request the medium partition with a maximum session time of 2 hours (the time format is DAYS-HOURS:MINUTES:SECONDS), 10 gigabytes of memory (use K for kilobytes, M for megabytes, G for gigabytes and T for terabytes), and 10 CPUs (ie threads). SLURM has the concept of tasks, which can be useful when running MPI jobs, but are often not required for common bioinformatics jobs, therefore we have not requested multiple tasks and implicitly accepted the default of a single task. Therefore 10 CPUs per task means we have simply have 10 CPUs in total (there is no plain --cpus option in SLURM).
 
+Submitting a Job Script
+-----------------------
+Most long running jobs should be handled using a job script which is submitted to the appropriate partition using the sbatch command. Here is an example of a simple SLURM job script containing the resource request information inside the script itself::
+
+  #!/usr/bin/env bash
+  #SBATCH --partition=short
+  #SBATCH --time=0-00:01:00
+  #SBATCH --mem=1G
+  #SBATCH --cpus-per-task=1
+  echo Starting job...
+  sleep 20
+  echo Finished!
+
+This is a normal bash shell script with the SLURM options inserted near the top using the #SBATCH prefix. The exact same options is were used with srun are available for SLURM scripts. In this case we asked for 1 minute of run time on the short partition with 1 gigabyte of meory and 1 CPU. After the SLURM options normal bash commands can be used. Assuming the script is saved to a file called slurm_script.sh in the current directory we would submit the script using:
+
+  $ sbatch slurm_script.sh
+
+Cancelling a Job
+----------------
+
+  $ scancel
