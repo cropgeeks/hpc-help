@@ -103,9 +103,13 @@ Most long running jobs should be handled using a job script which is submitted t
   sleep 20
   echo Finished!
 
-This is a normal bash shell script with the SLURM options inserted near the top using the #SBATCH prefix. The exact same options is were used with srun are available for SLURM scripts. In this case we asked for 1 minute of run time on the short partition with 1 gigabyte of meory and 1 CPU. After the SLURM options normal bash commands can be used. Assuming the script is saved to a file called slurm_script.sh in the current directory we would submit the script using:
+This is a normal bash shell script with the SLURM options inserted near the top using the #SBATCH prefix. The exact same options as were used with srun are available for SLURM scripts. In this case we asked for 1 minute of run time on the short partition with 1 gigabyte of memory and 1 CPU. After the SLURM options normal bash commands can be used. Assuming the script is saved to a file called slurm_script.sh in the current directory we would submit the script using::
 
   $ sbatch slurm_script.sh
+
+By default the standard output and error messages that would have printed to the screen of the batch job are captured and saved in the current working directory to a file called slurm-<jobid>.out. This behaviour can be modified using the --output and --error options (see the manual page for sbatch for details)::
+
+  $ man sbatch
 
 Cancelling a Job
 ----------------
@@ -159,3 +163,4 @@ Here we have told SLURM to launch a total of 1000 instances of the job script in
 
   $ sbatch --wait --array=1-1000%50 array_script.sh
 
+Output from each job is by default sent to a file called slurm-<jobid>_<arrayid>.out.
