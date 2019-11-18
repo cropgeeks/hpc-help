@@ -15,11 +15,11 @@ Choosing a job partition (queue)
 
 SLURM is configured to allow requests to be made to one of three different job queues, called partitions by SLURM, each of which has slightly different rules about what jobs or sessions can be run and which compute nodes they can run on. The ``short`` partition allows jobs of up to 1 hour, the ``medium`` partition allows jobs of up to 1 day, and the ``unlimited`` queue has no time limit. There are also limitations on which nodes can be access from which partition and whether interactive sessions are available or not. You should therefore make sure the partition you are requesting is suitable for the job you are running.
 
-To identify what resources are currently available use SLURM's sinfo command, which will list the available compute nodes:
+To identify what resources are currently available use SLURM's sinfo command, which will list the available compute nodes::
 
   $ sinfo
 
-With no options added this command will show the following type of output:
+With no options added this command will show the following type of output::
 
   PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
   unlimited    up   infinite      1    mix compute02
@@ -32,11 +32,11 @@ With no options added this command will show the following type of output:
   short*       up    1:00:00      1  alloc compute01
   short*       up    1:00:00      4   idle compute[03-06]
 
-The compute nodes are listed against the partition(s) they can be accessed from. It also shows the partition time limits and the number of nodes broken down by whether they are completely unused (shown as "idle"), partially used by running jobs (mix) or completed occupied (alloc). Additional information about the compute nodes is available by giving further options to the command, such as the following command:
+The compute nodes are listed against the partition(s) they can be accessed from. It also shows the partition time limits and the number of nodes broken down by whether they are completely unused (shown as "idle"), partially used by running jobs (mix) or completed occupied (alloc). Additional information about the compute nodes is available by giving further options to the command, such as the following command::
 
   $ sinfo -o "%20P %5D %6t %8z %10m %11l %N"
 
-This will add a column called S:C:T for sockets, cores and threads on each node. The total number of available CPUs is the product of these three numbers: CPUs=sockets*cores*threads. SLURM is configured to manage each thread as a separate "CPU" for the purposes of resource allocation. It will also show the total node memory in megabytes. Further information is available using:
+This will add a column called S:C:T for sockets, cores and threads on each node. The total number of available CPUs is the product of these three numbers: CPUs=sockets*cores*threads. SLURM is configured to manage each thread as a separate "CPU" for the purposes of resource allocation. It will also show the total node memory in megabytes. Further information is available using::
 
  $ scontrol show nodes | less
 
@@ -44,11 +44,11 @@ This will produce a detailed scrollable list which you can exiting by pressing q
 
 Monitoring Running Jobs
 -----------------------
-To see what jobs are currently running or queuing use the squeue command:
+To see what jobs are currently running or queuing use the squeue command::
 
   $ squeue
 
-The output shows the following columns:
+The output shows the following columns::
 
   JOBID       a unique number identifying the job
   PARTITION   which partition (queue) the job is in
