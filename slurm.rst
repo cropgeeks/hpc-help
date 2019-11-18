@@ -119,8 +119,8 @@ To cancel one of your jobs from the queue use scancel::
 
 Where ``<jobid>`` is the job id number of your job.
 
-Job Information During and After Completion
--------------------------------------------
+Job Information During and After Execution
+------------------------------------------
 In order to check on your job while running use the scontrol command::
 
   $ scontrol show job <jobid>
