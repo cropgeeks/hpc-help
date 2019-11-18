@@ -13,7 +13,7 @@ Once you have logged into ``gruffalo`` using ssh you are connected to the login 
 Choosing a job partition (queue)
 --------------------------------
 
-SLURM is configured to allow requests to be made to one of three different job queues, called partitions by SLURM, each of which has slightly different rules about what jobs or sessions can be run and which compute nodes they can run on. The ``short`` partition allows jobs to run of up to 1 hour, the ``medium`` partition allows jobs of up to 1 day, and the ``unlimited`` queue has no time limit.
+SLURM is configured to allow requests to be made to one of three different job queues, called partitions by SLURM, each of which has slightly different rules about what jobs or sessions can be run and which compute nodes they can run on. The ``short`` partition allows jobs of up to 1 hour, the ``medium`` partition allows jobs of up to 1 day, and the ``unlimited`` queue has no time limit.
 
 To identify what resources are currently available use SLURM's sinfo command, which will list the available compute nodes and which partition(s) they can be accessed from:
 
@@ -21,14 +21,14 @@ To identify what resources are currently available use SLURM's sinfo command, wh
 
 With no options added this command will show the following type of output:
 
-  $ PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
-  $ unlimited    up   infinite      1    mix compute02
-  $ unlimited    up   infinite      1  alloc compute01
-  $ unlimited    up   infinite      2   idle compute[03-04]
-  $ medium       up 1-00:00:00      1    mix compute02
-  $ medium       up 1-00:00:00      1  alloc compute01
-  $ medium       up 1-00:00:00      3   idle compute[03-05]
-  $ short*       up    1:00:00      1    mix compute02
-  $ short*       up    1:00:00      1  alloc compute01
-  $ short*       up    1:00:00      4   idle compute[03-06]
+  PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
+  unlimited    up   infinite      1    mix compute02
+  unlimited    up   infinite      1  alloc compute01
+  unlimited    up   infinite      2   idle compute[03-04]
+  medium       up 1-00:00:00      1    mix compute02
+  medium       up 1-00:00:00      1  alloc compute01
+  medium       up 1-00:00:00      3   idle compute[03-05]
+  short*       up    1:00:00      1    mix compute02
+  short*       up    1:00:00      1  alloc compute01
+  short*       up    1:00:00      4   idle compute[03-06]
 
