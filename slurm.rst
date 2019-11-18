@@ -8,7 +8,7 @@ Slurm is responsible for accepting, scheduling, dispatching, and managing the ex
 Once you have logged into ``gruffalo`` using ssh you are connected to the login server. To carry out any computational work you now need to request either than interactive session or a batch job using SLURM, so that the computationally intensive workloads all run on the compute nodes and not on the login server itself.
 
 .. important::
-  All data analysis programs and computational workloads **must** be run on the compute nodes through SLURM and not directly on the login server - ``gruffalo`` - as it does not have the resources to support such work. Failure to follow this procedure may negatively affect others users of the system, disrupt the functioning of the HPC itself and result in your programs and / or account being suspended by the administrators.
+  All data analysis programs and computational workloads **must** be run on the compute nodes through SLURM and not directly on the login server - ``gruffalo`` - as it does not have the resources to support heavy workloads. Failure to follow this procedure may negatively affect others users of the system, disrupt the functioning of the HPC itself and result in your programs and / or account being suspended by the administrators.
 
 Choosing a job partition (queue)
 --------------------------------
@@ -69,3 +69,22 @@ The output shows the following columns::
   NODES       how many nodes it's been allocated
   NODELIST    list of nodes it's running on
   (REASON)    or the reason it's not yet able to run
+
+To see just your own jobs use::
+
+  $ squeue -u <username>
+
+Where ``<username>`` is your actual username.
+
+Running an interactive session using default a resource allocation use the following command::
+
+  $ srun --pty bash
+
+If resources are not immediately available the command will abort, otherwise you will be logged into a compute node using a default resource allocation available. Please remember to type exit top log out when done.
+
+To request a specific set of resources use the following type of command::
+
+  $ srun --partition medium --time 0-02:00:00 --mem 10G --cpus-per-task 10 --pty bash
+
+In this example we request the medium partition with a maximum session time of 2 hours (the time format is DAYS-HOURS:MINUTES:SECONDS), 10 gigabytes of memory (use K for kilobytes, M for megabytes, G for gigabytes and T for terabytes), and 10 CPUs (ie threads). SLURM has the concept of tasks, which can be useful when running MPI jobs, but are often not required for common bioinformatics jobs, therefore we have not requested multiple tasks and implicitly accepted the default of a single task. Therefore 10 CPUs per task means we have simply have 10 CPUs in total (there is no plain --cpus option in SLURM).
+
