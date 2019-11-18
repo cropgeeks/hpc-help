@@ -140,7 +140,7 @@ Often a workload can be accelerated by splitting it up into many smaller parts a
   #!/usr/bin/env bash
   #SBATCH --partition=medium
   #SBATCH --time=0-02:00:00
-  #SBATCH --mem=20G
+  #SBATCH --mem=5G
   #SBATCH --cpus-per-task=4
 
   export PATH=/path/to/whizzo:${PATH}
@@ -151,11 +151,11 @@ Often a workload can be accelerated by splitting it up into many smaller parts a
             --reads=${DATADIR}/reads_${SLURM_ARRAY_TASK_ID}.fastq \
             --output=${DATADIR}/mapped_${SLURM_ARRAY_TASK_ID}.bam
 
-And the sbatch commands to create an array of 1000 jobs to process all of the parts would be:
+And the sbatch command to create an array of 1000 jobs to process all of the parts would be::
 
   $ sbatch --array=1-1000%50 array_script.sh
 
-Here we have told SLURM to launch a total of 1000 instances of the job script in total, each using 4 CPUs, but to make sure that only a maximum of 50 jobs are running at the same time, to prevent from using all of the HPC's resources at once. Inside the job script we tell WhizzoMap which read file to use through the special SLURM environment variable SLURM_ARRAY_TASK_ID which SLURM automatically sets. SLURM will run the job script once for each value of SLURM_ARRAY_TASK_ID from 1 to 1000. If you this is part of a multistep pipeline script that needs to wait until all job steps have completed then use the wait option, and sbatch will not return until all jobsteps have run (or failed):
+Here we have told SLURM to launch a total of 1000 instances of the job script in total, each using 4 CPUs, but to make sure that only a maximum of 50 jobs are running at the same time, to prevent it from using all of the HPC's resources at once. Inside the job script we tell WhizzoMap which read file to use through the special SLURM environment variable SLURM_ARRAY_TASK_ID which SLURM automatically sets. SLURM will run the job script once for each value of SLURM_ARRAY_TASK_ID from 1 to 1000. If this is part of a multistep pipeline script that needs to wait until all job steps have completed then use the wait option, and sbatch will not return until all jobsteps have run (or failed)::
 
   $ sbatch --wait --array=1-1000%50 array_script.sh
 
