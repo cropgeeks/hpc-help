@@ -135,20 +135,27 @@ MaxRSS is the maximum real memory used by the job and MaxVMSize is the maximum i
 
 Example Using an Array of Jobs
 ------------------------------
-Often a workload can be accelerated by splitting it up into many smaller parts and processing each separately. SLURM provides direct support for this method of parallelisation through array jobs. Let's assume you have to map reads to a genome using a program called WhizzoMap and that you've already split your reads into 1000 fastq files called reads1.fastq to reads1000.fastq. The SLURM script for such a job might look something like the following::
+Often a workload can be accelerated by splitting it up into many smaller parts and processing each separately but in parallel. SLURM provides direct support for this method of parallelisation through array jobs. Let's assume you have to map reads to a genome using a program called WhizzoMap and that you've already split your reads into 1000 fastq files called reads1.fastq to reads1000.fastq. The SLURM script for such a job might look something like the following::
 
   #!/usr/bin/env bash
   #SBATCH --partition=medium
   #SBATCH --time=0-02:00:00
   #SBATCH --mem=20G
-  #SBATCH --cpus-per-task=8
+  #SBATCH --cpus-per-task=4
 
   export PATH=/path/to/whizzo:${PATH}
   DATADIR=/path/to/project-data
 
-  WhizzoMap --threads=8 \
-            --supertasticness-level=11 \
+  WhizzoMap --threads=4 \
             --genome=${DATADIR}/genome.fasta \
             --reads=${DATADIR}/reads_${SLURM_ARRAY_TASK_ID}.fastq \
             --output=${DATADIR}/mapped_${SLURM_ARRAY_TASK_ID}.bam
+
+And the sbatch commands to create an array of 1000 jobs to process all of the parts would be:
+
+  $ sbatch --array=1-1000%50 array_script.sh
+
+Here we have told SLURM to launch a total of 1000 instances of the job script in total, each using 4 CPUs, but to make sure that only a maximum of 50 jobs are running at the same time, to prevent from using all of the HPC's resources at once. Inside the job script we tell WhizzoMap which read file to use through the special SLURM environment variable SLURM_ARRAY_TASK_ID which SLURM automatically sets. SLURM will run the job script once for each value of SLURM_ARRAY_TASK_ID from 1 to 1000. If you this is part of a multistep pipeline script that needs to wait until all job steps have completed then use the wait option, and sbatch will not return until all jobsteps have run (or failed):
+
+  $ sbatch --wait --array=1-1000%50 array_script.sh
 
