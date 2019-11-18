@@ -133,3 +133,22 @@ Will show some basic information. For more details try::
 
 MaxRSS is the maximum real memory used by the job and MaxVMSize is the maximum it requested for itself but did not necessarily fill up, and includes any swap usage.
 
+Example Using an Array of Jobs
+------------------------------
+Often a workload can be accelerated by splitting it up into many smaller parts and processing each separately. SLURM provides direct support for this method of parallelisation through array jobs. Let's assume you have to map reads to a genome using a program called WhizzoMap and that you've already split your reads into 1000 fastq files called reads1.fastq to reads1000.fastq. The SLURM script for such a job might look something like the following::
+
+  #!/usr/bin/env bash
+  #SBATCH --partition=medium
+  #SBATCH --time=0-02:00:00
+  #SBATCH --mem=20G
+  #SBATCH --cpus-per-task=8
+
+  export PATH=/path/to/whizzo:${PATH}
+  DATADIR=/path/to/project-data
+
+  WhizzoMap --threads=8 \
+            --supertasticness-level=11 \
+            --genome=${DATADIR}/genome.fasta \
+            --reads=${DATADIR}/reads_${SLURM_ARRAY_TASK_ID}.fastq \
+            --output=${DATADIR}/mapped_${SLURM_ARRAY_TASK_ID}.bam
+
