@@ -38,6 +38,7 @@ Hello! Here you'll find the documentation for the UK's "Crop Diversity Bioinform
    :caption: Miscellaneous
 
    linux-basics
+   tips
    monitoring
 
 .. toctree::
