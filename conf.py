@@ -76,6 +76,20 @@ pygments_style = None
 #
 html_theme = 'sphinx_rtd_theme'
 
+#html_context = {
+#    "display_github": True,
+#    'source_url_prefix': "https://github.com/cropgeeks/hpc-help/blob/master/"
+#}
+
+html_context = {
+  "display_github": True, # Add 'Edit on Github' link instead of 'View page source'
+  "github_user": "cropgeeks",
+  "github_repo": "hpc-help",
+  "github_version": "master",
+  "conf_py_path": "/",
+  "source_suffix": source_suffix,
+}
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
