@@ -19,7 +19,7 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'Crop Diversity HPC'
+project = 'Crop Diversity HPC Help'
 copyright = '2019'
 author = 'Iain Milne'
 
