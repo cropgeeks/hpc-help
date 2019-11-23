@@ -14,7 +14,7 @@ The tables below lists the various batches of hardware the make up the current c
 - **Year**: 2019 (October)
 - **Theme**: Marvel Cinematic Universe
 - **Hardware**: Dell PowerEdge C6420 (48x) and R940xa (1x)
-- **CPUs/GPUs**: 2nd-Gen Intel Xeon Scaleable (Cascade Lake) / Nvidia Tesla
+- **CPUs/GPUs**: 2nd-Gen Intel Xeon Scalable (Cascade Lake) / Nvidia Tesla
 - **Capacity**: 3,200 (hyperthreaded) CPU cores, 10,240 Cuda cores, and 1,280 Tensor cores
 
 ==============  ==============================  ============  ======  ============
@@ -75,7 +75,7 @@ yondu           2x Silver 4216 @2.1Ghz 16C/32T                192 GB  1.3 TB (SS
 - **Year**: 2019 (March)
 - **Theme**: Bond Villians
 - **Hardware**: Dell PowerEdge R640 (2x) and R740 (1x)
-- **CPUs/GPUs**: 1nd-Gen Intel Xeon Scaleable (Skylake) / Nvidia Tesla 
+- **CPUs/GPUs**: 1nd-Gen Intel Xeon Scalable (Skylake) / Nvidia Tesla 
 - **Capacity**: 160 (hyperthreaded) CPU cores, 5,120 Cuda cores, and 640 Tensor cores
 
 ==============  ==============================  =============  ======  ============
@@ -88,7 +88,7 @@ nicknack        2x Gold 6132 @2.6GHz 14C/28T                   384 GB  1.3 TB (S
 
 
 - **Year**: 2017
-- **Theme**: Battlestar Galatica
+- **Theme**: Battlestar Galactica
 - **Hardware**: Dell PowerEdge R630 (3x)
 - **CPUs**: Intel E5 v4 (Broadwell)
 - **Capacity**: 168 (hyperthreaded) CPU cores
@@ -109,7 +109,7 @@ The BeeGFS storage array runs alongside the cluster, however the backup system i
 - **Year**: 2019 (October)
 - **Theme**: Back to the Future
 - **Hardware**: Dell PowerEdge R740xa (4x), MD1400 (4x), R640 (1x), and ME484 (1x)
-- **CPUs**: 2nd-Gen Intel Xeon Scaleable (Cascade Lake)
+- **CPUs**: 2nd-Gen Intel Xeon Scalable (Cascade Lake)
 - **Capacity**: 1.5 PB (storage) and 1.0 PB (backup)
 
 ==============  ==============================  ======  ============
@@ -137,7 +137,7 @@ The rest of the infrastructure runs on VMWare ESXi hosts, with various virtual m
 
 - **Year**: 2019 (October)
 - **Hardware**: Dell PowerEdge R640 (2x)
-- **CPUs**: 2nd-Gen Intel Xeon Scaleable (Cascade Lake)
+- **CPUs**: 2nd-Gen Intel Xeon Scalable (Cascade Lake)
 
 ==============  ==============================  ======  ============
 Name            CPUs                            Memory  Disk

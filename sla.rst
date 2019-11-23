@@ -7,7 +7,7 @@ This resource is managed by teams from JHI and NIAB. While we will endeavour to 
 Maintenance and patching
 ------------------------
 
-Like any computing system, our HPC resource relies on operating systems and software that will need updates or patches from time to time. Many of these can be applied silently in the background and will have no noticable affect, but there are certain cases - particulary with regards to the parallel storage array - where we may need to take the entire system offline to ensure we can update it safely and correctly.
+Like any computing system, our HPC resource relies on operating systems and software that will need updates or patches from time to time. Many of these can be applied silently in the background and will have no noticeable affect, but there are certain cases - particularly with regards to the parallel storage array - where we may need to take the entire system offline to ensure we can update it safely and correctly.
 
 .. important:: 
   If we plan any major upgrades or changes that require the system to be taken offline, we will communicate them to you with as much notice (ie at least several weeks) as is possible.
@@ -36,7 +36,7 @@ Hardware failure
 Power failure
 -------------
 
-The majority of our hardware is protected by uniterruptable power supply (UPS) units that can maintain power in the event of an external power failure, however, the cluster's electrical-draw when running at full capacity is significant and it may drain UPS capacity before the backup generator can take over.
+The majority of our hardware is protected by uninterruptable power supply (UPS) units that can maintain power in the event of an external power failure, however, the cluster's electrical-draw when running at full capacity is significant and it may drain UPS capacity before the backup generator can take over.
 
 .. important::
   The system may automatically shut itself down (in order to protect critical file systems and disks) if we experience an unexpected loss of power.

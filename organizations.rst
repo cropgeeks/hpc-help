@@ -15,4 +15,4 @@ We also welcome researchers closely linked with the above organizations, includi
 - Biomathematics & Statistics Scotland (BioSS)
 - JHI-hosted Plant Sciences staff/students from the University of Dundee (UoD)
 
-If you are unsure about your elegibility for an account, then please get in touch with us.
+If you are unsure about your eligibility for an account, then please get in touch with us.

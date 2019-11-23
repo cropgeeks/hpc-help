@@ -109,6 +109,6 @@ For help with building containers, it's best to check the official documentation
 .. warning::
   You'll need root/admin access to perform most build operations - basically the ability to run ``sudo singularity [options...]`` - which isn't available on gruffalo, so you'll need to run builds off-cluster (see below). However, *anything* you build, regardless of what it contains, should be runnable on the cluster - (usually) with no questions asked.
 
-If you can't run Singularity on your own PC/laptop, then you can ssh into a special Singularity *sandbox* machine called ``?????`` where all users have been granted the necassary ``sudo singularity`` rights.
+If you can't run Singularity on your own PC/laptop, then you can ssh into a special Singularity *sandbox* machine called ``?????`` where all users have been granted the necessary ``sudo singularity`` rights.
 
 This machine is isolated from the rest of the system's network, so although it'll let log on with your normal account, it doesn't have access to anything else. Once you've built an image you'll need to copy/scp it back to the cluster before it can run. It's also limited to just 64 GB of storage, so once you're done building/copying please delete any left over files.
