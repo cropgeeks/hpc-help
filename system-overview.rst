@@ -1,7 +1,7 @@
 System Overview
 ===============
 
-You can monitor the current state of the cluster at https://hpc.cropdiversity.ac.uk/ganglia
+You can monitor the current state of the cluster at https://ganglia.cropdiversity.ac.uk
 
 .. note::
   All the machines listed below are connected together over a super-fast 25-gigabit fibre optic network. 
