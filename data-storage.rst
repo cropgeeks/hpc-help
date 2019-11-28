@@ -14,95 +14,90 @@ Storage at-a-glance
 * Intermediate working data should be kept on a **scratch** drive
 * Please restrict data in ``/home`` to small and/or miscellaneous files; total usage here should be under 10 GB
 
-You can check on your data usage using the :doc:`monitoring` page.
+You can check your current data usage using the :doc:`monitoring` page.
 
 
 Data management
 ---------------
 
-There are multiple storage tiers suitable for holding user data, so it's important that you pick the right one. Selecting the wrong option can negatively affect performance, available capacity, and backup policies, so choose wisely!
+There are two main locations for storing data on the system:
 
-.. list-table::
-   :widths: 25 25 25 25
-   :header-rows: 1
+- BeeGFS shared network storage
+- Node-specific local scratch storage
 
-   * - Storage tier
-     - Path
-     - Type
-     - Use for
-   * - Project data
-     - ``/mnt/shared/projects``
-     - networked (beegfs)
-     - all primary data
-   * - Non-project data
-     - ``$HOME``
-     - networked (beegfs)
-     - random/misc files
-   * - Shared scratch
-     - ``/mnt/shared/scratch``
-     - networked (beegfs)
-     - temporary files
-   * - Local scratch
-     - ``/tmp``
-     - local to node (ssd)
-     - temporary files
-   * - Applications
-     - ``$APPS``
-     - networked (beegfs)
-     - software downloads
+Where you decide to store data will have an effect on performance, available capacity, and backup policies, so it's important that you understand the differences between the storage locations and the folders they contain. These are described in more detail below.
 
-.. important::
-  With multiple tiers of storage in use, it's important to be aware that only ``/mnt/shared/projects`` and ``$HOME`` are backed up. See the :doc:`backups` page for more details.
 
-The variable storage tiers are described in more detail below.
+BeeGFS storage
+--------------
 
-  
+The cluster's primary storage is a high-performance parallel file system running **BeeGFS**. This system, dsitributed across five servers and expansion units, has **1.5 PB** of capacity offered as a single global namespace - ``/mnt/shared`` - that is visible from all nodes of the cluster.
+
+It holds the follow data:
+
+
 Project data
 ~~~~~~~~~~~~
+
+- **Path:** ``/mnt/shared/projects``
+- **Backed up:** yes
 
 All important Institute-related project data should be stored in ``/mnt/shared/projects``.
 
 This location holds subfolders for the :doc:`organizations` (eg ``/mnt/shared/projects/jhi``) and there may be further (local) guidelines on how you should structure your data below this point.
 
-Please email ########## when starting a new project, or to request help with moving existing data into the correct folder structure.
+Please email help@cropdiversity.ac.uk when starting a new project, or to request help with moving existing data into the correct folder structure.
+  
 
+User home folders
+~~~~~~~~~~~~~~~~~
 
-Non-project data
-~~~~~~~~~~~~~~~~
+- **Path:** ``/home/<username>``
+- **Shortcut:** ``$HOME``
+- **Backed up:** yes
 
-Everyone has a ``$HOME`` folder located at ``/home/<username>``. Although backed up, it's not suitable for storing large data sets and should be restricted to small and/or miscellaneous files only – perhaps common scripts you find handy across multiple projects or random files that don’t really "fit" anywhere else.
+This is where your home folder is located (your Linux equivalent of *My Documents* on Windows). Athough backed up, it's not suitable for storing large data sets and should be restricted to small and/or miscellaneous files only – perhaps common scripts you find handy across multiple projects or random files that don’t really "fit" anywhere else.
 
 .. important::
-  Your total usage within ``$HOME`` should be less than 10 GB.
-
-
-Temporary data
-~~~~~~~~~~~~~~
-
-There are several temporary or "scratch" drive areas you can use.
+  We'd appreciate it if your total usage within ``$HOME`` can be kept to less than 10 GB.
 
 
 Shared scratch
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
-``/mnt/shared/scratch`` - **visible to all nodes** - can be used for intermediate and/or working data, and especially for large throwaway files which either do not need to be kept or can easily be regenerated. A folder is created here automatically for each user; you can structure your data however you see fit.
+- **Path:** ``/mnt/shared/scratch``
+- **Backed up:** no
 
-.. note::
-  ``/mnt/shared/scratch`` is part of the same BeeGFS filesystem as ``/home`` and ``/mnt/shared/projects``, so moving files between these locations should be super-quick.
+This area should be used for all intermediate and/or working data, and especially for large throwaway files which either do not need to be kept or can easily be regenerated. A folder is created here automatically for each user; you can structure your data below that however you see fit.
+
+.. warning::
+  We do not have the capacity to maintain backups of intermediate/working data so it is **very important** that you store this kind of data on scratch.
+
+It's also worth nothing - especially when running large or complex jobs - that job performance can be significantly enhanced if you store scratch data using node-specific scratch storage instead. Despite its high-performance, BeeGFS is still a networked filesystem and certain file operations (particularly those involving high numbers of small files) will almost always perform better using local scratch space.
 
 
-Local scratch
-^^^^^^^^^^^^^
+User applications
+~~~~~~~~~~~~~~~~~
 
-``/tmp`` - **unique to each node** - can also be used for temporary data, and as this is local storage on the actual node where your job is running it'll be *significantly* faster for all file-based operations. The only downside is that you have to copy your data here first, and that might take longer than just running the job from shared scratch.
+- **Path:** ``/mnt/shared/scratch/<username>/apps``
+- **Shortcut:** ``$APPS``
+- **Backed up:** no
 
-It's also important to be aware of the differences between local scratch drives, as the different nodes may have different capacities. Check the :doc:`system-overview` page for more details.
-
-  
-Applications
-^^^^^^^^^^^^
-
-``$APPS`` (which maps to ``/mnt/shared/scratch/<username>/apps`` is a special area that **must** be used for all downloaded (ie external) software applications – either in binary or compiled-from-source form. You can also store :doc:`singularity` containers here too.
+This is a special area that **must** be used for all downloaded (ie external) software applications – either in binary or compiled-from-source form. You can also store :doc:`singularity` containers here. If you install :doc:`bioconda`, it uses ``$APPS/conda`` for its data.
   
 .. tip::
   If something was a pain to install or compile, keep some notes about it in ``/home`` where they'll be safely backed up in case you ever need to repeat the process. 
+
+
+Local scratch
+-------------
+
+- **Path:** ``/tmp``
+- **Backed up:** no
+
+Each node also has space for temporary working data, and because it's directly attached to the node where your job is running it can be *significantly* faster for most file-based operations. The only downside is that you have to copy your data here first, and that might take longer than just running the job from shared scratch. Similarly, you need to remember to copy any results back to shared storage at the end of a job's run.
+
+.. warning::
+  Bear in mind that these scratch drives are unique per node, which means any data stored there can only be seen by that node.
+
+It's also important to be aware of the differences between local scratch drives, as the different nodes may have different capacities. Check the :doc:`system-overview` page for more details.
