@@ -23,7 +23,7 @@ Public servers
 
 We remotely monitor the status of various public-facing servers using UptimeRobot.
 
-https://stats.uptimerobot.com/Pz71DfKVPK
+https://status.cropdiversity.ac.uk/
 
   |uptimerobot|
   
