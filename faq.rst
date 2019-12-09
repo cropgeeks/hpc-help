@@ -10,13 +10,13 @@ The cluster has 55 physical nodes, providing a total of 3,528 (hyperthreaded) In
 How do I get an account on the system?
 --------------------------------------
 
-Please visit https://forms.gle/dKAp2aCy2YnG26SAA to request an account. Further details are available on the :doc:`user-accounts` page.
+Please visit :doc:`user-accounts` for details.
 
 
 How do I connect to the cluster?
 --------------------------------
 
-The cluster’s head node (where you can submit jobs from) is called ``gruffalo``, and you'll need an SSH client to connect. SSH is built into Linux and macOS, whereas for Windows you'll need to install a separate client; WSL, Cygwin, and PuTTY are all good choices.
+The cluster’s head node (where you can submit jobs from) is called ``gruffalo``, and you'll need an SSH client to connect. One is built into Linux and macOS, but for Windows you'll need to install a separate client; WSL, Cygwin, and PuTTY are all good choices.
 
 Connect to the system via ssh using::
 
