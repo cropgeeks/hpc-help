@@ -34,7 +34,7 @@ If you are connecting for the first time with your current laptop or PC, then yo
   ED25519: SHA256:x9XTBSIWPynrVFRcK1HGokuUTxXHgMFhijKoD6ptNuo
 
 .. important::
-  Do not connect if the fingerprint is different as it could be a sign that the server has been compromised or that your connection is being interfered with. You should contact ########### before proceeding.
+  Do not connect if the host key is different as it could be a sign that the server has been compromised or that your connection is being interfered with. You should :doc:`contact-us` before proceeding.
 
 If all is well, then accept the key by typing ``yes``.
 
@@ -80,7 +80,7 @@ The key's fingerprint should match one of the three values shown below::
   ED25519: 255 26:cc:0f:9b:e9:d3:b7:e2:ed:37:09:0c:ec:74:de:4d
 
 .. important::
-  Do not connect if the host key is different as it could be a sign that the server has been compromised or that your connection is being interfered with. You should contact help@cropdiversity.ac.uk before proceeding.
+  Do not connect if the host key is different as it could be a sign that the server has been compromised or that your connection is being interfered with. You should :doc:`contact-us` before proceeding.
 
 If all is well, then accept the key by selecting ``Yes``.
 

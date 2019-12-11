@@ -10,9 +10,19 @@ This resource is available for use by researchers across **all departments and s
 - Royal Botanic Garden, Kew (RBGK)
 - Scotland's Rural College (SRUC)
 
+|organizations|
+
+.. |organizations| image:: media/organizations.png
+
+
 We also welcome researchers closely linked with the above organizations, including:
 
 - Biomathematics & Statistics Scotland (BioSS)
 - JHI-hosted Plant Sciences staff/students from the University of Dundee (UoD)
 
-If you are unsure about your eligibility for an account, then please send a message to help@cropdiversity.ac.uk.
+|organizations-extra|
+
+.. |organizations-extra| image:: media/organizations-extra.png
+
+
+If you are unsure about your eligibility for an account, then please :doc:`contact-us` first.

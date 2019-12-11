@@ -46,7 +46,7 @@ All important Institute-related project data should be stored in ``/mnt/shared/p
 
 This location holds subfolders for the :doc:`organizations` (eg ``/mnt/shared/projects/jhi``) and there may be further (local) guidelines on how you should structure your data below this point.
 
-Please email help@cropdiversity.ac.uk when starting a new project, or to request help with moving existing data into the correct folder structure.
+Please :doc:`contact-us` when starting a new project, or to request help with moving existing data into the correct folder structure.
   
 
 User home folders

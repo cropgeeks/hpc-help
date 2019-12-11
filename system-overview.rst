@@ -142,6 +142,6 @@ The rest of the infrastructure runs on VMWare ESXi hosts, with various virtual m
 ==============  ==============================  ======  ============
 Name            CPUs                            Memory  Disk
 ==============  ==============================  ======  ============
-???             2x Gold 6242 CPU @2.8G 16C/32T  384 GB  240 GB (SSD)
-???             2x Gold 6242 CPU @2.8G 16C/32T  384 GB  240 GB (SSD)
+hpcvmh01        2x Gold 6242 CPU @2.8G 16C/32T  384 GB  240 GB (SSD)
+hpcvmh02        2x Gold 6242 CPU @2.8G 16C/32T  384 GB  240 GB (SSD)
 ==============  ==============================  ======  ============
