@@ -49,7 +49,7 @@ In this window you can apply additional settings to your key pair, for instance 
 .. important::
   It is advisable to protect your private key file with a passphrase, but ultimately that's up to you. If you don't, at least ensure the disk it's kept on is encrypted and that no-one else is ever given access to it. Remember, it's *your* private key. Only the public half will be installed on ``gruffalo``.
 
-To complete the generation process, save your public key and your private key to your hard drive.
+To complete the generation process, save your private key to your hard drive and also copy the text in the **Public key for pasting into OpenSSH authorized_keys file** box as this is the public-key format needed by the cluster.
 
 
 Installing your public key
