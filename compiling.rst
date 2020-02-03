@@ -30,21 +30,19 @@ Enterprise Linux distributions are designed to be around for a long time (10 yea
 At the time of writing, the version of gcc (GNU C Compiler) installed on our cluster is::
 
   $ gcc --version
-  gcc (GCC) 4.8.5 20150623 (Red Hat 4.8.5-16)
+  gcc (GCC) 8.3.1 20190507 (Red Hat 8.3.1-4)
 
-However, we can take advantage of a RHEL/CentOS feature called ``Software Collection Libraries`` (SCL) to temporarily enable a different environment that gives access to newer versions of various developer tools, such as updated versions of gcc.
+However, we can take advantage of an *Application Stream* built into RHEL/CentOS called ``GCC Toolset`` to temporarily enable different environments with newer versions of developer tools, such as updated versions of gcc.
 
-SCLs currently installed include::
+Toolsets currently installed include::
 
-  devtoolset-3
-  devtoolset-4
-  devtoolset-6
-  devtoolset-7
+  toolset-9
 
-More information on what's included in each SCL is available at https://wiki.centos.org/SpecialInterestGroup/SCLo/CollectionsList.
+To activate and work with a different toolset, use the ``scl enable`` command, as follows::
 
-To activate and work within an SCL, use the ``scl enable`` command, as follows::
-
-  $ scl enable devtoolset-7 bash
+  $ scl enable gcc-toolset-9 bash
   $ gcc --version
-  gcc (GCC) 7.2.1 20170829 (Red Hat 7.2.1-1)
+  gcc (GCC) 9.1.1 20190605 (Red Hat 9.1.1-2)
+
+.. note::
+  In previous versions of RHEL/CentOS this feature was called Software Collections Libraries, hence the scl command that's still in use.

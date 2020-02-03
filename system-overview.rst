@@ -4,8 +4,8 @@ System Overview
 You can monitor the current state of the cluster at https://ganglia.cropdiversity.ac.uk
 
 .. note::
-  Everything listed below is connected together over a super-fast 25-gigabit fibre optic network. 
-
+  Everything listed below is connected together over a super-fast 25-gigabit fibre optic network.
+  
 Compute cluster
 ---------------
 
@@ -107,26 +107,26 @@ Storage and backup
 The BeeGFS storage array runs alongside the cluster, however the backup system is located in another location for redundancy.
 
 - **Year**: 2019 (October)
-- **Theme**: Back to the Future
+- **Theme**: Back to the Future / Discworld
 - **Hardware**: Dell PowerEdge R740xa (4x), MD1400 (4x), R640 (1x), and ME484 (1x)
 - **CPUs**: 2nd-Gen Intel Xeon Scalable (Cascade Lake)
 - **Capacity**: 1.5 PB (storage) and 1.0 PB (backup)
 
-==============  ==============================  ======  ============
-Name            CPUs                            Memory  Disk
-==============  ==============================  ======  ============
-delorean        2x Silver 4208 @2.1G 8C/16T      32 GB  240 GB (SSD)
-delorean (exp)                                          1.0 PB (HDD)
-metadata        2x Silver 4208 @2.1G 8C/16T     192 GB  3.8 TB (SSD)
-beegfs 1        2x Silver 4210 @2.2G 10C/20T     96 GB  288 TB (HDD)
-beegfs 2        2x Silver 4210 @2.2G 10C/20T     96 GB  288 TB (HDD)
-beegfs 3        2x Silver 4210 @2.2G 10C/20T     96 GB  288 TB (HDD)
-beegfs 4        2x Silver 4210 @2.2G 10C/20T     96 GB  288 TB (HDD)
-beegfs 1 (exp)                                          144 TB (HDD)
-beegfs 2 (exp)                                          144 TB (HDD)
-beegfs 3 (exp)                                          144 TB (HDD)
-beegfs 4 (exp)                                          144 TB (HDD)
-==============  ==============================  ======  ============
+===============  ============================  ======  ============
+Name             CPUs                          Memory  Disk
+===============  ============================  ======  ============
+delorean         2x Silver 4208 @2.1G 8C/16T    32 GB  240 GB (SSD)
+delorean (exp)                                         1.0 PB (HDD)
+librarian        2x Silver 4208 @2.1G 8C/16T   192 GB  3.8 TB (SSD)
+rincewind        2x Silver 4210 @2.2G 10C/20T   96 GB  288 TB (HDD)
+twoflower        2x Silver 4210 @2.2G 10C/20T   96 GB  288 TB (HDD)
+death            2x Silver 4210 @2.2G 10C/20T   96 GB  288 TB (HDD)
+luggage          2x Silver 4210 @2.2G 10C/20T   96 GB  288 TB (HDD)
+rincewind (exp)                                        144 TB (HDD)
+twoflower (exp)                                        144 TB (HDD)
+death (exp)                                            144 TB (HDD)
+luggage (exp)                                          144 TB (HDD)
+===============  ============================  ======  ============
 
 
 
