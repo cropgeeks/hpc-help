@@ -75,9 +75,9 @@ If you are connecting for the first time with your current laptop or PC, you'll 
 
 The key's fingerprint should match one of the three values shown below::
 
-  RSA: 255 1c:a1:84:aa:a1:70:b9:89:76:c7:f5:63:83:7c:d2:7a
-  ECDSA: 255 9d:83:be:35:ab:11:3a:ee:4f:bd:62:11:a9:f0:d4:28  
-  ED25519: 255 26:cc:0f:9b:e9:d3:b7:e2:ed:37:09:0c:ec:74:de:4d
+  RSA: 255 71:ec:9c:2c:fb:60:7c:a7:76:33:a3:3a:4b:cc:e7:04
+  ECDSA: 255 97:49:1a:57:65:ac:3a:3b:07:5d:2b:d7:c3:f6:61:e3
+  ED25519: 255 e0:95:5e:1d:3f:74:67:82:86:a0:be:9a:70:52:5c:f1
 
 .. important::
   Do not connect if the host key is different as it could be a sign that the server has been compromised or that your connection is being interfered with. You should :doc:`contact-us` before proceeding.
