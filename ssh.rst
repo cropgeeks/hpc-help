@@ -45,12 +45,7 @@ If you're connecting for the very first time, you'll also have to change your pa
 .. note::
   Our password policy requires passwords with a length of 12 or greater, containing at least 3 of the following 5 classes: lowercase characters; uppercase characters; digits; special characters, such as comma (,), period (.), asterisk (*); other UTF-8 characters.
 
-The following gives an example of all of the steps outlined above:
-
-.. image:: ssh-demo.svg
-   :target: _ssh-demo.svg
-
-You can make subsequent connections faster, by editing your ``~/.ssh/config`` file to include the following lines::
+You can make subsequent connections faster, by editing your local ``~/.ssh/config`` file to include the following lines::
 
   Host gruffalo
     Hostname gruffalo.cropdiversity.ac.uk
