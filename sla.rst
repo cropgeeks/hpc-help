@@ -27,7 +27,7 @@ In reality (and based on prior experience) this is likely to be very rare, but y
 Hardware failure
 ----------------
 
-#$%@ happens, it's a fact of life. While there is a certain level of redundancy built into the system, failures of one or more key components could affect the uptime of the system.
+Hardware fails, it's a fact of life. While there is a certain level of redundancy built into the system, failures of one or more key components could affect the uptime of the system.
 
 .. important::
   Our agreement with Dell should see any failed hardware replaced 'next working day', however the severity of any failure will ultimately dictate how long it'll take to get the system (or any failed sub-system) up and running again.
