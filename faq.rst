@@ -33,7 +33,7 @@ The cluster uses the Slurm Work Manager job scheduling system and all jobs shoul
 What software is available?
 ---------------------------
 
-In general, there is very little application software installed system-wide (check ``/mnt/apps`` for details), as you are expected to manage and maintain your own - individual - software repositories using tools like :doc:`bioconda` and :doc:`singularity`. However, if you get stuck installing applications, then don't hesitate to get in touch.
+In general, there is very little application software installed system-wide (check ``/mnt/shared/apps`` for details), as you are expected to manage and maintain your own - individual - software repositories using tools like :doc:`bioconda` and :doc:`singularity`. However, if you get stuck installing applications, then don't hesitate to get in touch.
 
 How should I manage my data?
 ----------------------------
