@@ -26,3 +26,8 @@ Iain has been nuts on computers ever since getting access to a BBC Micro in the 
 Gordon has had a strong interest in software development since his first exposure to programming - in True Basic - at the age of 13. Two decades later the interest in programming remains, even if the programming languages have changed. While the main focus of his work is software development and DevOps, recently he's increasingly involved in Linux/HPC administration.
 
 .. |gordon| image:: media/gordon.jpg
+
+**Rob Vickerstaff** - Scientific Computing Officer, NIAB
+
+
+Rob has a background in computational biology research including neuroscience, ethology and vision. He has also worked as a bioinformatician on oats and strawberry, with a particular interest in specialist genetic mapping software. Other interests include astrophotography and virtual reality.
