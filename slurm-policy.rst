@@ -30,7 +30,7 @@ To do this, we use three queues/partitions:
 Four nodes are dedicated to the short queue, eight to the medium, and all remaining nodes for the long queue.
 
 .. note::
-  All queues run with the same priority across all nodes. Only the time limits that differ, with the short and medium queues automatically killing a job if it exceeds their limits.
+  All queues run with the same priority across all nodes. Only the time limits differ, with the short and medium queues automatically killing a job if it exceeds their limits.
 
 In addition, Slurm attempts to divide slots equally among all users (our fair-share policy). For example, if user A has multiple jobs queued and running, and then user B queues new jobs, those new jobs will rise in priority above some of A’s jobs until the number of running jobs is approximately shared equally between the two users (although B’s jobs may still have to wait until some of the previous jobs finish).
 

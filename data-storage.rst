@@ -66,6 +66,7 @@ Shared scratch
 ~~~~~~~~~~~~~~
 
 - **Path:** ``/mnt/shared/scratch``
+- **Shortcut:** ``$SCRATCH``
 - **Backed up:** no
 
 This area should be used for all intermediate and/or working data, and especially for large throwaway files which either do not need to be kept or can easily be regenerated. A folder is created here automatically for each user; you can structure your data below that however you see fit.
