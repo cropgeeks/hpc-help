@@ -32,6 +32,8 @@ Hello! Here you'll find the documentation for the UK's "Crop Diversity Bioinform
    :caption: High performance computing
    
    slurm
+   slurm-policy
+   slurm-fairshare
    bioconda
    compiling
    file-compression
