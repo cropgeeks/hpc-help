@@ -1,5 +1,5 @@
-Slurm Overview
-==============
+Slurm - Overview
+================
 
 Cluster jobs are managed using the **Slurm Workload Manager** (https://slurm.schedmd.com/).
 
