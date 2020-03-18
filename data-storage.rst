@@ -33,7 +33,7 @@ BeeGFS storage
 
 The cluster's primary storage is a high-performance parallel file system running **BeeGFS**. This system, dsitributed across five servers and expansion units, has **1.5 PB** of capacity offered as a single global namespace - ``/mnt/shared`` - that is visible from all nodes of the cluster.
 
-It holds the follow data:
+It holds the following data:
 
 
 Project data
@@ -74,7 +74,7 @@ This area should be used for all intermediate and/or working data, and especiall
 .. warning::
   We do not have the capacity to maintain backups of intermediate/working data so it is **very important** that you store this kind of data on scratch.
 
-It's also worth nothing - especially when running large or complex jobs - that job performance can be significantly enhanced if you store scratch data using node-specific scratch storage instead. Despite its high-performance, BeeGFS is still a networked filesystem and certain file operations (particularly those involving high numbers of small files) will almost always perform better using local scratch space.
+It's also worth noting - especially when running large or complex jobs - that job performance can be significantly enhanced if you store scratch data using node-specific scratch storage instead. Despite its high-performance, BeeGFS is still a networked filesystem and certain file operations (particularly those involving high numbers of small files) will almost always perform better using local scratch space.
 
 
 User applications

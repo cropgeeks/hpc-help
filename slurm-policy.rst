@@ -105,7 +105,7 @@ Shared network **BeeGFS scratch space** (``$SCRATCH`` or ``/mnt/shared/scratch/$
 **Node-specific scratch space** (``$TMPDIR``) is local to each node and uses an array of SSDs for performance so it can be much faster than BeeGFS for certain use cases, but each node's capacity is limited (see :doc:`system-overview` for details) and you need to copy your data there first.
 
 .. note::
-  ``$TMPDIR is automatically created - and destroyed! - as part of a job submission, so it's up to you to copy any input data here as the first step of an sbatch submission, and to copy data out again at the end.
+  ``$TMPDIR`` is automatically created - and destroyed! - as part of a job submission, so it's up to you to copy any input data here as the first step of an sbatch submission, and to copy data out again at the end.
 
 
 How much CPU/memory should I allocate to a job?
