@@ -76,7 +76,7 @@ Can I use the entire cluster at once?
 
 It depends.
 
-For starters, there is no queue/partition that spans the entire cluster, so any one job can't actually use the entire cluster at once. And while there are currently no limits to prevent you from submitting a job that uses every slot across one or more queues, you first need to ask yourself how sensible that would be? Consider:
+While there are currently no limits to prevent you from submitting a job that uses every slot across one or more queues, you first need to ask yourself how sensible that would be? Consider:
 
 - how long the job will last? Short running tasks allow others' jobs to rise in priority above yours (the fair-share policy), so submitting a million jobs that only last a few minutes each will 'hog' the cluster much less than just a few tens or hundreds of jobs that last for hours and hours.
 - how busy is the cluster? If it's 2am and no-one else is using the cluster, then it's less likely to be detrimental to anyone else.

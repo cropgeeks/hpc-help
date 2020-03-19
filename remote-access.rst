@@ -32,6 +32,8 @@ The keypair will be written to ~/.ssh/ and consists of two files: the private ke
   ~/.ssh/id_ed25519
   ~/.ssh/id_ed25519.pub
 
+You can now skip to the `installing`_ section.
+
 
 Generating a key pair with PuTTY
 --------------------------------
@@ -55,12 +57,17 @@ To complete the generation process, save your private key to your hard drive and
 Installing your public key
 --------------------------
 
-To install your public key, log into the cluster's Identity Management system at https://ipa.cropdiversity.ac.uk using your username and password.
-
-.. image:: media/freeipa-login.png
+To install your public key, visit https://ipa.cropdiversity.ac.uk
 
 .. note::
-  The Identity Management system is only accessible if connecting via a :doc:`organizations` network address.
+  The Identity Management system is only accessible if connecting via a :doc:`organizations` network address. If you're already somewhere remote, please :doc:`contact-us` for assistance.
+
+.. warning::
+  Depending on your browser, you may initially see a popup box prompting for your username and password. Ignore it, hitting Cancel or Escape until you see the screen below.
+
+Log in using your username and password.
+
+.. image:: media/freeipa-login.png
 
 It should default to showing you the details of your account, so scroll down until you see the section marked **SSH public keys**:
 
