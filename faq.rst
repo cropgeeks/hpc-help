@@ -16,9 +16,9 @@ Please visit :doc:`user-accounts` for details.
 How do I connect to the cluster?
 --------------------------------
 
-The cluster’s head node (where you can submit jobs from) is called ``gruffalo``, and you'll need an SSH client to connect. One is built into Linux and macOS, but for Windows you'll need to install a separate client; WSL, Cygwin, and PuTTY are all good choices.
+The cluster’s head node (where you can submit jobs from) is called ``gruffalo``, and you'll need an SSH client to connect. One is built into Linux and macOS, but for Windows you may need to install a separate client (WSL, Cygwin, and PuTTY are all good choices).
 
-Connect to the system via ssh using::
+You connect via SSH using::
 
   $ ssh <username>@gruffalo.cropdiversity.ac.uk
 
@@ -28,16 +28,21 @@ making sure to replace ``<username>`` with the username you were allocated when 
 How do I submit jobs to the cluster?
 ------------------------------------
 
-The cluster uses the Slurm Work Manager job scheduling system and all jobs should be submitted (from ``gruffalo``) to Slurm, where they will be allocated resources on one of the underlying compute nodes. More detailed instructions can be found on the :doc:`slurm` page.
+The cluster uses the Slurm Work Manager job scheduling system and all jobs should be submitted (from ``gruffalo``) to Slurm, where they will be allocated resources on one of the underlying compute nodes. More detailed instructions can be found on the :doc:`slurm-overview` page.
   
 What software is available?
 ---------------------------
 
-In general, there is very little application software installed system-wide (check ``/mnt/shared/apps`` for details), as you are expected to manage and maintain your own - individual - software repositories using tools like :doc:`bioconda` and :doc:`singularity`. However, if you get stuck installing applications, then don't hesitate to get in touch.
+In general, there is very little application software installed system-wide (check ``/mnt/shared/apps`` for details), as most tools can be managed and maintained individually using tools like :doc:`bioconda` and :doc:`singularity`.
+
+If you get stuck installing applications though, don't hesitate to :doc:`contact-us`.
 
 How should I manage my data?
 ----------------------------
 
+Considerate data management is everyone's responsibility, and it's critical that you ensure you're only storing (and backing up) important project-related data while keeping temporary and/or intermediate working data to a minimum. This helps keep the system running smoothly for everyone and ideally means we don't need to start enforcing quotas.
+
+You can find more information on how we expect you to manage your data on the :doc:`data-storage` page. A summary of your current disk usage is shown on login, with detailed tracking available via :doc:`monitoring`.
 
 Can I access the cluster when off site?
 ---------------------------------------
@@ -47,6 +52,12 @@ Yes. Access to the cluster via a username/password combination is available if y
 
 Is training available to help me with Linux or using the cluster?
 -----------------------------------------------------------------
+
+This is something we're actively investigating.
+
+In the meantime, there are some basic guides covering :doc:`linux-basics` and :doc:`tips`, as well as more in-depth information for getting the most out of cluster computing in the various topics listed under **High Performance Computing**.
+
+It's also worth joining our Slack workspace (https://cropdiversity-hpc.slack.com) where there are plenty of expects on hand to help answer your questions.
 
 Why "gruffalo"?
 ---------------
