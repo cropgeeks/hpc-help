@@ -93,8 +93,11 @@ This is a special area that **must** be used for all downloaded (ie external) so
 Local scratch
 -------------
 
-- **Path:** ``/tmp``
+- **Path:** ``$TMPDIR``
 - **Backed up:** no
+
+.. note::
+  The path for this location is only generated (and accessible via the ``$TMPDIR`` environment variable) once a Slurm job has started. 
 
 Each node also has space for temporary working data, and because it's directly attached to the node where your job is running it can be *significantly* faster for most file-based operations. The only downside is that you have to copy your data here first, and that might take longer than just running the job from shared scratch. Similarly, you need to remember to copy any results back to shared storage at the end of a job's run.
 

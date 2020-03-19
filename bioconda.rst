@@ -1,7 +1,7 @@
 Bioconda
 ========
 
-Bioconda (https://bioconda.github.io) is a package manager that specializes in providing bioinformatics software, with a repository of over 6,000 packages (as of Nov 2019) ready to install.
+Bioconda (https://bioconda.github.io) is a package manager that specializes in providing bioinformatics software, with a repository of over 7,000 packages (as of March 2020) ready to install.
 
 Using Bioconda allows you to pick and choose the software (and versions) that you want without any danger of clashing with anyone else's requirements, and as most packages require nothing more than running ``conda install <packagename>``, the process is incredibly easy.
 
@@ -188,8 +188,8 @@ Here's how to get a list of all available environments::
   $ conda env list
   # conda environments:
   #
-  samtools-old             /mnt/shared/scratch/synology/<username>/apps/conda/envs/samtools-old
-  root                  *  /mnt/shared/scratch/synology/<username>/apps/conda
+  samtools-old             /$APPS/conda/envs/samtools-old
+  root                  *  /$APPS/conda
 
 Bioconda refers to your base environment as ``root`` and marks the active one with a ``*``.
 
