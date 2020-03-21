@@ -35,6 +35,7 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
    
    slurm-overview
    slurm-policy
+   slurm-shortcuts
    bioconda
    compiling
    file-compression

@@ -11,19 +11,23 @@ Our Slurm setup runs with the following goals and constraints in mind:
 To do this, we use three queues/partitions:
 
 .. list-table::
-   :widths: 20 20 60
+   :widths: 20 20 20 60
    :header-rows: 1
 
    * - Queue
+     - CPUs
      - Run-time Limit
      - Description
    * - ``short``
+     - 256
      - 6 hours   
      - This is a high priority queue for smaller jobs with thresholds set to allow smaller jobs to squeeze through that might have to wait in the other queues.
    * - ``medium``
+     - 512
      - 24 hours   
      - This is the default queue that all jobs will submit to unless otherwise requested.
    * - ``long``
+     - 1,024
      - No limit
      - This queue is for long running jobs.
 
@@ -65,18 +69,14 @@ These rules apply to both interactive and sbatch jobs.
 Additional advice and guidance
 ------------------------------
 
-.. important::
-
-  
-
 Below are some additional questions you may have about using the cluster in a sensible - and fair - manner. Don't hesitate to :doc:`contact-us` if you're unsure though.
 
 Can I use the entire cluster at once?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 It depends.
 
-While there are currently no limits to prevent you from submitting a job that uses every slot across one or more queues, you first need to ask yourself how sensible that would be? Consider:
+While there are currently no limits to prevent you from submitting a job that uses every CPU across one or more queues, you first need to ask yourself how sensible that would be? Consider:
 
 - how long the job will last? Short running tasks allow others' jobs to rise in priority above yours (the fair-share policy), so submitting a million jobs that only last a few minutes each will 'hog' the cluster much less than just a few tens or hundreds of jobs that last for hours and hours.
 - how busy is the cluster? If it's 2am and no-one else is using the cluster, then it's less likely to be detrimental to anyone else.

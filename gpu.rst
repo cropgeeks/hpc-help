@@ -13,7 +13,7 @@ You can find more information about the V100 by visiting https://www.nvidia.com/
 .. note::
   Eventually we may create a dedicated Slurm queues to handle GPU jobs, but for now access is via the normal CPU queues.
 
-Whenever you login or run a script on a GPU node, your path will be modified to include Nvidia's cuda platform. This will be required if compiling any programs from source, for example using the ``nvcc`` compiler. Most of the system's cuda files can be found at ``/usr/local/cuda/bin``.
+Whenever you run a job on a GPU node, your path will be modified to include Nvidia's cuda platform. This will be required if compiling any programs from source, for example using the ``nvcc`` compiler. Most of the system's cuda files can be found at ``/usr/local/cuda/bin``.
 
 To see the current state (and power usage) of the Tesla card, run::
   
