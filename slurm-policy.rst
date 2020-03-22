@@ -61,7 +61,7 @@ Fair share policy
 
 The cluster uses a fair share policy that is applied according to computational time (ie time is allocated fairly with all users having equal share).
 
-When you submit your first job it'll go to the end of the queue, but the scheduler will quickly move it higher up the queue if other users with jobs running also have waiting jobs ahead of you in that queue. This isbecause Slurm attempts to divide slots equally among all users (our fair-share policy). For example, if user A has multiple jobs queued and running, and then user B queues new jobs, those new jobs will rise in priority above some of A’s jobs until the number of running jobs is approximately shared equally between the two users (although B’s jobs may still have to wait until some of the previous jobs finish).
+When you submit your first job it'll go to the end of the queue, but the scheduler will quickly move it higher up the queue if other users with jobs running also have waiting jobs ahead of you in that queue. This is because Slurm attempts to divide the available CPUs equally among all users (our fair-share policy). For example, if user A has multiple jobs queued and running, and then user B queues new jobs, those new jobs will rise in priority above some of A’s jobs until the number of running jobs is approximately shared equally between the two users (although B’s jobs may still have to wait until some of the previous jobs finish).
 
 These rules apply to both interactive and sbatch jobs.
 
@@ -78,7 +78,7 @@ It depends.
 
 While there are currently no limits to prevent you from submitting a job that uses every CPU across one or more queues, you first need to ask yourself how sensible that would be? Consider:
 
-- how long the job will last? Short running tasks allow others' jobs to rise in priority above yours (the fair-share policy), so submitting a million jobs that only last a few minutes each will 'hog' the cluster much less than just a few tens or hundreds of jobs that last for hours and hours.
+- how long the job will last? Short running tasks allow others' jobs to rise in priority above yours (the fair-share policy), so submitting a 10,000 jobs that only last a few minutes each will 'hog' the cluster much less than just a few tens or hundreds of jobs that last for hours and hours.
 - how busy is the cluster? If it's 2am and no-one else is using the cluster, then it's less likely to be detrimental to anyone else.
 - how much you value your friendship with other cluster users? Seriously. This is a shared resource, and while it's here to be used, it's not here to be abused.
 
@@ -115,6 +115,6 @@ It depends.
 
 Although ``gruffalo`` can automatically manage and prioritise jobs well - most of the time - you still need to ensure sensible job-allocation requests are made.
 
-Try to avoid submitting jobs that lock out too much of the cluster at once, either by using too many slots simultaneously for an excessive amount of time, or by requesting resources far beyond those actually used (eg asking for 16 slots for a process that only uses 1 for the majority of its runtime, or 100GB of memory for a job that only uses a fraction of that). Over-allocation of resources negativily affects both other users and additional jobs of your own.
+Try to avoid submitting jobs that lock out too much of the cluster at once, either by using too many CPUs simultaneously for an excessive amount of time, or by requesting resources far beyond those actually used (eg asking for 16 CPUs for a process that only uses one for the majority of its runtime, or 100 GB of memory for a job that only uses a fraction of that). Over-allocation of resources negativily affects both other users and additional jobs of your own.
 
-However, if you under-allocate, the cluster will kill jobs that go beyond their requested allocation, eg, if you ask for 4 cores but use 8, your job will be killed. It may therefore be tempting to just over-allocate everything for every job, asking for all the CPUs or all the memory, but this is easily spotted and we'll take action if we notice user jobs requesting all resources but not using them. It may just take a little trial and error until you get confortable with how much to request for a given job or data set.
+However, if you under-allocate on memory, the cluster will kill jobs that try to go beyond their requested allocation. It may therefore be tempting to just over-allocate everything for every job, asking for all the CPUs or all the memory, but this is easily spotted and we'll take action if we notice your jobs continually requesting resources significantly beyond what they're using. It may just take a little trial and error until you get confortable with how much to request for a given job or data set.
