@@ -1,7 +1,7 @@
 Tools & Applications
 ====================
 
-In general, we don't install many applications (or libraries) system-wide as it's easier for users to manage their own specific needs using tools like :doc:`bioconda` and :doc:`singularity`, however for cases where this isn't possbile we aim to make certain applications available under ``/mnt/shared/apps`` where they will be visible to all nodes of the cluster.
+In general, we don't install many applications (or libraries) system-wide as it's easier for users to manage their own specific needs using tools like :doc:`bioconda` and :doc:`singularity`, however for cases where this isn't possbile we aim to make certain applications (usually available under ``/mnt/shared/apps``) where they will be visible to all nodes of the cluster.
 
 
 Aspera
@@ -14,7 +14,7 @@ The **Aspera** client can be used to efficiently download very large data sets f
 Bioconda
 --------
 
-``/mnt/shared/apps/conda/install-bioconda``
+``/mnt/shared/cluster/conda/install-bioconda``
 
 Although installed separately for each user, :doc:`bioconda` has a custom install script to handle its installation for you which can be run using::
 
