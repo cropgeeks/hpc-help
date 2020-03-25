@@ -14,9 +14,9 @@ The **Aspera** client can be used to efficiently download very large data sets f
 Bioconda
 --------
 
-``/mnt/shared/cluster/conda/install-bioconda``
+``$APPS/conda`` (once installed)
 
-Although installed separately for each user, :doc:`bioconda` has a custom install script to handle its installation for you which can be run using::
+:doc:`bioconda` is a package manager that specializes in providing bioinformatics software. We have a custom install script to handle its installation for you which can be run using::
 
   $ install-bioconda
 
@@ -29,3 +29,10 @@ Databases
 ``/mnt/shared/apps/databases``
 
 We maintain several popular bioinformatics :doc:`database-mirrors` which are accessible over the high-performance storage network from any node in the cluster.
+
+Java
+----
+
+``/mnt/shared/apps/java``
+
+Updated versions of the **Java JDK** are available here. CentOS 8 ships with JDK 8 by default, although you can also get other versions via :doc:`bioconda` too.

@@ -69,6 +69,11 @@ In the meantime, there are some basic guides covering :doc:`linux-basics` and :d
 
 It's also worth joining our Slack workspace (https://cropdiversity-hpc.slack.com) where there are plenty of expects on hand to help answer your questions.
 
+Why does the login message show remaining space as a range?
+-----------------------------------------------------------
+
+The BeeGFS storage system uses transparent compression to automatically compress every file it stores. The free space message looks at the current compression ratio across system and uses that to estimate how much more data *could* be stored, if that same compression ratio were to apply. Obviously the final result will be different based on how compressible newly added files are, but it will be somewhere within the range shown.
+
 Why "gruffalo"?
 ---------------
 
