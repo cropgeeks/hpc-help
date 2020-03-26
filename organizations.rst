@@ -1,7 +1,7 @@
-Supported Organizations
+Supported Organisations
 =======================
 
-This resource is available for use by researchers across **all departments and science groups** from the following list of organizations:
+This resource is available for use by researchers across **all departments and science groups** from the following list of organisations:
 
 - The James Hutton Institute (JHI)
 - The National Institute of Agricultural Botany (NIAB)
@@ -15,7 +15,7 @@ This resource is available for use by researchers across **all departments and s
 .. |organizations| image:: media/organizations.png
 
 
-We also welcome researchers closely linked with the above organizations, including:
+We also welcome researchers closely linked with the above organisations, including:
 
 - Biomathematics & Statistics Scotland (BioSS)
 - JHI-hosted Plant Sciences staff/students from the University of Dundee (UoD)
