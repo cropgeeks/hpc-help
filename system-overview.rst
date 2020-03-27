@@ -75,7 +75,7 @@ yondu           2x Silver 4216 @2.1Ghz 16C/32T                192 GB  1.3 TB (SS
 - **Year**: 2019 (March)
 - **Theme**: Bond Villians
 - **Hardware**: Dell PowerEdge R640 (2x) and R740 (1x)
-- **CPUs/GPUs**: 1nd-Gen Intel Xeon Scalable (Skylake) / Nvidia Tesla 
+- **CPUs/GPUs**: 1st-Gen Intel Xeon Scalable (Skylake) / Nvidia Tesla 
 - **Capacity**: 160 (hyperthreaded) CPU cores, 5,120 Cuda cores, and 640 Tensor cores
 
 ==============  ==============================  =============  ======  ============
