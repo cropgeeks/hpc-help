@@ -76,7 +76,7 @@ yondu           2x Silver 4216 @2.1Ghz 16C/32T                192 GB  1.3 TB (SS
 - **Theme**: Bond Villians
 - **Hardware**: Dell PowerEdge R640 (2x) and R740 (1x)
 - **CPUs/GPUs**: 1st-Gen Intel Xeon Scalable (Skylake) / Nvidia Tesla 
-- **Capacity**: 160 (hyperthreaded) CPU cores, 5,120 Cuda cores, and 640 Tensor cores
+- **Capacity**: 80 CPU cores (160 threads), 5,120 Cuda cores, and 640 Tensor cores
 
 ==============  ==============================  =============  ======  ============
 Name            CPUs                            GPUs           Memory  Disk
@@ -91,7 +91,7 @@ nicknack        2x Gold 6132 @2.6GHz 14C/28T                   384 GB  1.3 TB (S
 - **Theme**: Battlestar Galactica
 - **Hardware**: Dell PowerEdge R630 (3x)
 - **CPUs**: Intel E5 v4 (Broadwell)
-- **Capacity**: 168 (hyperthreaded) CPU cores
+- **Capacity**: 84 CPU cores (168 threads)
 
 ==============  ==============================  =============  ======  ============
 Name            CPUs                            GPUs           Memory  Disk
