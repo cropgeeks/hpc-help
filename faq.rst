@@ -14,7 +14,7 @@ If you cite or acknowledge us in your work, please :doc:`contact-us` to let us k
 What hardware is available on the cluster?
 ------------------------------------------
 
-The cluster has 55 physical nodes, providing a total of 3,528 (hyperthreaded) Intel Xeon compute cores and 15,296 GB of memory. A 1.5 PB parallel storage array is complemented by a further petabyte of backup capacity. A full description is provided on the :doc:`system-overview` page.
+The cluster has 55 physical nodes, providing a total of 1,764 Intel Xeon compute cores (3,528 threads) and 15,296 GB of memory. A 1.5 PB parallel storage array is complemented by a further petabyte of backup capacity. A full description is provided on the :doc:`system-overview` page.
 
 
 How do I get an account on the system?
