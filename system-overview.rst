@@ -9,7 +9,7 @@ You can monitor the current state of the cluster at https://ganglia.cropdiversit
 Compute cluster
 ---------------
 
-The tables below lists the various batches of hardware the make up the current cluster, with each set of nodes named something 'fun' on a (geeky) thematic basis.
+The tables below list the various batches of hardware the make up the current cluster, with each set of nodes named something 'fun' on a (geeky) thematic basis.
 
 - **Year**: 2019 (October)
 - **Theme**: Marvel Cinematic Universe
