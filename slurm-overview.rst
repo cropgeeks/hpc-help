@@ -216,7 +216,7 @@ replacing ``<jobid>`` with the ID of your job.
 
 You can also delete all of your jobs at once::
 
-  $ scancel -u <username
+  $ scancel -u <username>
 
 
 Scratch space
