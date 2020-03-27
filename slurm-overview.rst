@@ -299,11 +299,11 @@ If you pass ``--test-only`` as a parameter to ``sbatch``, it'll validate your ba
 Specifying nodes
 ~~~~~~~~~~~~~~~~
 
-You can request one or more specific nodes to run your job (within the confines of the queue you've asked for), by using ``--nodelist``::
+You can request a specific node to run your job (within the confines of the queue you've asked for), by using ``--nodelist``::
 
   #SBATCH --nodelist=n19-32-192-loki
 
-If there's more than one node you want to include, simply separate the node names with commas. You can also do the reverse and exclude node(s) by using ``--exclude``.
+You can specify more than one node in the list, by separating the node names with commas, but note this will request allocation of all those nodes at once rather than select one from the list. You can also do the reverse and exclude node(s) by using ``--exclude``.
 
 
 Submitting binaries
