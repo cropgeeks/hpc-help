@@ -15,7 +15,7 @@ The tables below list the various batches of hardware the make up the current cl
 - **Theme**: Marvel Cinematic Universe
 - **Hardware**: Dell PowerEdge C6420 (48x) and R940xa (1x)
 - **CPUs/GPUs**: 2nd-Gen Intel Xeon Scalable (Cascade Lake) / Nvidia Tesla
-- **Capacity**: 3,200 (hyperthreaded) CPU cores, 10,240 Cuda cores, and 1,280 Tensor cores
+- **Capacity**: 1,600 CPU cores (3,200 threads), 10,240 Cuda cores, and 1,280 Tensor cores
 
 ==============  ==============================  ============  ======  ============
 Name            CPUs                            GPUs          Memory  Disk
