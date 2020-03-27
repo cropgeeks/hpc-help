@@ -26,7 +26,7 @@ Please visit :doc:`user-accounts` for details.
 How do I connect to the cluster?
 --------------------------------
 
-The cluster’s head node (where you can submit jobs from) is called ``gruffalo``, and you'll need an SSH client to connect. One is built into Linux and macOS, but for Windows you may need to install a separate client (WSL, Cygwin, and PuTTY are all good choices).
+The cluster’s head node (where you can submit jobs from) is called ``gruffalo``, and you'll need an SSH client to connect. One is built into Linux and macOS, but for Windows you may need to install a separate client (WSL, Cygwin, MobaXterm and PuTTY are all good choices).
 
 You connect via SSH using::
 
