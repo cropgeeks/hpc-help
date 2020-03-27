@@ -185,7 +185,7 @@ Or to provide the same options in an ``sbatch`` script, use::
   If you don't know what resources your job needs, it may be tempting to ask for more CPUs or memory than required - just to be safe - but you also need to be sensible with your requests, as over-allocation of resources will lower cluster availability, negativily impacting everyone. There's much more discussion of this on the :doc:`slurm-policy` page.
 
 .. important::
-  Hyperthreading is enabled on our cluster, but Slurm allocates “CPUs” to jobs at the level of a physical core, so two different jobs or job tasks will not share a physical core. This means, for example, that a job requesting three CPUs will actually be allocated two full physical cores (four threads), but still only have use of three.
+  All our servers have hyperthreading meaning each core can run two threads at once. When you request a certain number of "CPUs" from SLURM you are requesting threads (not cores). However SLURM cannot make two different jobs share the threads of a single core, so two different jobs or job tasks will not share a physical core. This means, for example, that a job requesting three CPUs will actually be allocated two full physical cores (four threads), but still only have use of three.
   
   You're therefore better off submitting jobs that always ask for an even number of CPUs.
 
