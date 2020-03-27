@@ -35,6 +35,14 @@ You connect via SSH using::
 making sure to replace ``<username>`` with the username you were allocated when requesting an account. More detailed connection instructions are available on the :doc:`ssh` page.
  
 
+Can I run jobs directly on gruffalo?
+------------------------------------
+
+Eeep! Don’t do that, no.
+
+You can use ``gruffalo`` for compiling and debugging code, installing software, editing and managing files, submitting jobs, or any other work that is not long-running or computationally intensive, but for everything else, you must submit a job using Slurm (see :doc:`slurm-overview`).
+
+
 How do I submit jobs to the cluster?
 ------------------------------------
 
