@@ -43,6 +43,7 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
    gpu
    apps
    database-mirrors
+   openmpi
 
 .. toctree::
    :maxdepth: 2
