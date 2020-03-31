@@ -1,11 +1,8 @@
 Linux Basics
 ============
 
-There are many (many) guides to using Linux that you can find on the wider internet, and it's well worth reading through them if you're new (or returning) to Linux. Here are some of our recommendations:
-
-- link
-- link
-- link
+.. tip::
+  There are many (many) guides to using Linux that you can find on the wider internet, and it's well worth reading through them if you're new (or returning) to Linux. A good one to start with is https://bioinformaticsworkbook.org/Appendix/Unix/unix-basics-1.html.
 
 About Linux
 -----------
