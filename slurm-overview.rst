@@ -79,6 +79,9 @@ Starting an interactive job is a quick and easy way to get access to a powerful 
 
   $ srun --pty bash
 
+.. tip::
+  You can also use just ``srsh``. See :doc:`slurm-shortcuts` for details.
+
 This will assign you an interactive shell on an available node and reserve - by default - one CPU and 4 GB of memory for your *exclusive* use until you exit the shell. (Information on how to request more than the default is given below in the `Allocating resources`_ section.)
 
 .. important::
