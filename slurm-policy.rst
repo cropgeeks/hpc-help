@@ -8,30 +8,49 @@ Our Slurm setup runs with the following goals and constraints in mind:
 * try to divide the cluster equally among users
 * keep all of the cluster’s processors as busy as possible all of the time
 
-To do this, we use three queues/partitions:
+To do this, we use three main queues/partitions called short, medium and long (referring to runtime), and three additional special purpose queues called debug, himem and gpu:
 
 .. list-table::
-   :widths: 20 20 20 60
+   :widths: 20 20 20 20 60
    :header-rows: 1
 
    * - Queue
-     - CPUs
+     - Total CPUs
+     - Max RAM
      - Run-time Limit
      - Description
    * - ``short``
      - 256
-     - 6 hours   
+     - 192G
+     - 6 hours
      - This is a high priority queue for smaller jobs with thresholds set to allow smaller jobs to squeeze through that might have to wait in the other queues.
    * - ``medium``
      - 512
-     - 24 hours   
+     - 192G
+     - 24 hours
      - This is the default queue that all jobs will submit to unless otherwise requested.
    * - ``long``
      - 1,024
+     - 192G
      - No limit
      - This queue is for long running jobs.
+   * - ``debug``
+     - 4
+     - 8G
+     - No limit
+     - This queue is for debugging purposes only and run on virtual machine
+   * - ``himem``
+     - 112
+     - 2980G
+     - No limit
+     - This queue is for job requiring a large amount of RAM
+   * - ``gpu``
+     - 16
+     - 70G
+     - No limit
+     - This queue is for jobs requiring GPUs, current two V100 Tesla cards are online.
 
-Four nodes are dedicated to the short queue, eight to the medium, and all remaining nodes for the long queue.
+Four nodes are dedicated to the short queue, eight to the medium, and all remaining nodes for the long queue. One virtual machine is available in the debug queue, and one node (thanos) is split between the himem and gpu queues (as we currently have no where else to house the GPUs).
 
 .. note::
   All queues run with the same priority across all nodes. Only the time limits differ, with the short and medium queues automatically killing a job if it exceeds their limits.
@@ -42,11 +61,11 @@ Specifying queues
 
 .. note::
   No special options are required to submit to the medium queue.
-  
+
 To submit to the short queue, use::
 
   sbatch --partition=short myscript.sh
-  
+
 Or to submit to the long queue, use::
 
   sbatch --partition=long myscript.sh

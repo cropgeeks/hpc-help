@@ -2,7 +2,7 @@ Slurm - Overview
 ================
 
 .. important::
-  Ideally, you'll read *all* of this page before attempting to use the cluster, even if you're already used to Slurm from other HPC setups, as the exact configuration and rules/policy almost always differ from system to system. 
+  Ideally, you'll read *all* of this page before attempting to use the cluster, even if you're already used to Slurm from other HPC setups, as the exact configuration and rules/policy almost always differ from system to system.
 
 Cluster jobs are managed using the **Slurm Workload Manager** (https://slurm.schedmd.com/).
 
@@ -40,7 +40,7 @@ Queues (partitions)
 Jobs are scheduled by submitting them to a queue - or **partition** as Slurm likes to call them - and each queue has a number of available **CPUs** that can be used for running jobs.
 
 .. note::
-  We have three queues (described in more detail on the :doc:`slurm-policy` page). If you don't specify one specifically, then jobs are submitted to the ``medium`` queue by default.
+  We have three main queues and three addition special queues (described in more detail on the :doc:`slurm-policy` page). If you don't specify one specifically, then jobs are submitted to the ``medium`` queue by default.
 
 You can see the status of the queue(s) at any time by using the ``squeue`` command::
 
@@ -71,7 +71,7 @@ The compute nodes are listed against the partition they can be accessed from and
 .. note::
   The nodes are named in the form ``nYY-CPU-MEM-name``, for example ``n19-32-192-hulk`` means it was purchased in 2019, has 32 CPU cores, 192 GB of memory and is named ``hulk``. With the exception of ``cortana``, all nodes have hyperthreading enabled, so their actual CPU count (as seen by Slurm) is doubled, meaning for example, that 64 'CPUs' are available for use on ``hulk``.
 
- 
+
 Interactive jobs
 ----------------
 
@@ -102,10 +102,10 @@ Batch jobs
 Most long running jobs should be handled using a job script, where you wrap the commands you want to run into a script file and then submit that. Here's an example, showing the contents of a file called ``test.sh``::
 
   #!/bin/bash
-  
+
   #SBATCH --job-name="test job"
   #SBATCH --export=ALL
-  
+
   echo "Starting job on $HOSTNAME"
   sleep 60
   echo "Job finished"
@@ -136,7 +136,7 @@ Use the ``--array`` option to specify an array job, eg::
   #!/bin/bash
 
   #SBATCH --array=1-50
-  
+
   mycommand.exe input_file_$SLURM_ARRAY_TASK_ID
 
 This example will run ``mycommand.exe`` 10 times, starting with ``input_file_1``, ``input_file_2``, and so on up to ``input_file_10``.
@@ -179,7 +179,7 @@ For instance, to start an interactive job on the ``short`` queue with 8 CPUs and
 Or to provide the same options in an ``sbatch`` script, use::
 
   #!/bin/bash
-  
+
   #SBATCH --partition=short
   #SBATCH --cpus-per-task=8
   #SBATCH --mem=16G
@@ -189,7 +189,7 @@ Or to provide the same options in an ``sbatch`` script, use::
 
 .. important::
   All our servers have hyperthreading meaning each core can run two threads at once. When you request a certain number of "CPUs" from SLURM you are requesting threads (not cores). However SLURM cannot make two different jobs share the threads of a single core, so two different jobs or job tasks will not share a physical core. This means, for example, that a job requesting three CPUs will actually be allocated two full physical cores (four threads), but still only have use of three.
-  
+
   You're therefore better off submitting jobs that always ask for an even number of CPUs.
 
 Further to the above point, you can see this hyperthread allocation in action by starting a simple interactive job and querying the node info::
@@ -205,7 +205,7 @@ We passed no extra parameters, meaning the job only has access to a single CPU, 
 GPU resources
 ~~~~~~~~~~~~~
 
-TODO (plus reference to :doc:`gpu`)
+The ``gpu`` queue must be used to access a GPU, which are available on the ``thanos`` node (and later on ``jaws`` once setup). Select the ``gpu`` queue and use the --gpus option to request one or both of the available GPUs. See :doc:`gpu` for details.
 
 
 Cancelling a job
@@ -225,7 +225,7 @@ You can also delete all of your jobs at once::
 Scratch space
 -------------
 
-You should ensure your jobs **only** write to scratch space while running. Don't move any final data to ``/mnt/shared/projects`` until you're sastified with the results and ready to back them up. 
+You should ensure your jobs **only** write to scratch space while running. Don't move any final data to ``/mnt/shared/projects`` until you're sastified with the results and ready to back them up.
 
 .. warning::
   **Never** write temporary/intermediate working data to a backed up area.
