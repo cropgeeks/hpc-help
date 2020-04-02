@@ -14,6 +14,8 @@ To access the GPUs submit to the ``gpu`` SLURM partition. SLURM is configured to
 
   --partition=gpu --mem=70G --cpus-per-task=16 --gpus=2
 
+See also the SLURM documentation, (although as we only have one type of GPU at present there is little need to do anything more than just ask for one or two GPUs): https://slurm.schedmd.com/gres.html#Running_Jobs
+
 Whenever you run a job on a GPU node, your path will be modified to include Nvidia's cuda platform. This will be required if compiling any programs from source, for example using the ``nvcc`` compiler. Most of the system's cuda files can be found at ``/usr/local/cuda/bin``.
 
 To see the current state (and power usage) of the Tesla card, run::
