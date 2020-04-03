@@ -38,17 +38,17 @@ To do this, we use three main queues/partitions called short, medium and long (r
      - 4
      - 8G
      - No limit
-     - This queue is for debugging purposes only and run on virtual machine
+     - This queue is for debugging purposes only and runs on a single virtual machine
    * - ``himem``
      - 112
      - 2980G
      - No limit
-     - This queue is for job requiring a large amount of RAM
+     - This queue is for jobs requiring a very large amount of RAM
    * - ``gpu``
      - 16
      - 70G
      - No limit
-     - This queue is for jobs requiring GPUs, current two V100 Tesla cards are online.
+     - This queue is for jobs requiring GPUs, currently two V100 Tesla cards are online.
 
 Four nodes are dedicated to the short queue, eight to the medium, and all remaining nodes for the long queue. One virtual machine is available in the debug queue, and one node (thanos) is split between the himem and gpu queues (as we currently have no where else to house the GPUs).
 
