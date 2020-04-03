@@ -50,10 +50,10 @@ To do this, we use three main queues/partitions called short, medium and long (r
      - No limit
      - This queue is for jobs requiring GPUs, currently two V100 Tesla cards are online.
 
-Four nodes are dedicated to the short queue, eight to the medium, and all remaining nodes for the long queue. One virtual machine is available in the debug queue, and one node (thanos) is split between the himem and gpu queues (as we currently have no where else to house the GPUs).
+Four nodes are dedicated to the ``short`` queue, eight to the ``medium`, and all remaining standard nodes for the ``long` queue. One virtual machine is available in the ``debug`` queue. One special node (thanos) contains 3T of RAM and two V100 GPUs, and is consequently split into two queues: ``himem`` and ``gpu``.
 
 .. note::
-  All queues run with the same priority across all nodes. Only the time limits differ, with the short and medium queues automatically killing a job if it exceeds their limits.
+  All queues run with the same priority across all nodes. Only the time limits differ, with the short and medium queues automatically killing a job if it exceeds their limits. GPUs can only be access from the gpu queue, and large RAM requests can only run on the himem queue.
 
 
 Specifying queues
