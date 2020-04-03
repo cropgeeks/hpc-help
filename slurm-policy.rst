@@ -53,7 +53,7 @@ To do this, we use three main queues/partitions called short, medium and long (r
 Four nodes are dedicated to the ``short`` queue, eight to the ``medium``, and all remaining standard nodes for the ``long`` queue. One virtual machine is available in the ``debug`` queue. One special node (thanos) contains 3T of RAM and two V100 GPUs, and is consequently split into two queues: ``himem`` and ``gpu``.
 
 .. note::
-  All queues run with the same priority across all nodes. Only the time limits differ, with the short and medium queues automatically killing a job if it exceeds their limits. GPUs can only be access from the gpu queue, and large RAM requests can only run on the himem queue.
+  All queues run with the same priority across all nodes. Only the time limits differ, with the short and medium queues automatically killing a job if it exceeds their limits. GPUs can only be accessed from the gpu queue, and large RAM requests can only run on the himem queue.
 
 
 Specifying queues
@@ -74,9 +74,9 @@ To submit to the high memory queue::
 
   sbatch --partition=himem myscript.sh
 
-To submit to the gpu queue::
+To submit to the gpu queue, where ``n`` specifies how many GPUs you want to use::
 
-  sbatch --partition=gpu myscript.sh
+  sbatch --partition=gpu --gpus=[n] myscript.sh
 
 To get a job list for an individual queue rather than all queues, use the ``-p`` or ``--partition`` option for ``squeue``, for example::
 
