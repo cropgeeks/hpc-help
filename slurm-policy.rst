@@ -70,18 +70,17 @@ Or to submit to the long queue, use::
 
   sbatch --partition=long myscript.sh
 
-To submit to the high memory queue:
+To submit to the high memory queue::
 
   sbatch --partition=himem myscript.sh
 
-To submit to the gpu queue:
+To submit to the gpu queue::
 
   sbatch --partition=gpu myscript.sh
 
 To get a job list for an individual queue rather than all queues, use the ``-p`` or ``--partition`` option for ``squeue``, for example::
 
   squeue --partition=short
-
 
 Fair share policy
 -----------------
