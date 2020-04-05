@@ -8,7 +8,7 @@ Our Slurm setup runs with the following goals and constraints in mind:
 * try to divide the cluster equally among users
 * keep all of the cluster’s processors as busy as possible all of the time
 
-To do this, we use three main queues/partitions called short, medium and long (referring to runtime), and three additional special purpose queues called debug, himem and gpu:
+To do this, we primarily use three main queues/partitions called ``short``, ``medium`` and ``long`` (referring to their runtime), with ``medium`` being the default queue that jobs will go to unless you specify otherwise:
 
 .. list-table::
    :widths: 20 20 20 20 60
@@ -21,62 +21,70 @@ To do this, we use three main queues/partitions called short, medium and long (r
      - Description
    * - ``short``
      - 256
-     - 192G
+     - 192 GB
      - 6 hours
      - This is a high priority queue for smaller jobs with thresholds set to allow smaller jobs to squeeze through that might have to wait in the other queues.
    * - ``medium``
      - 512
-     - 192G
+     - 192 GB
      - 24 hours
      - This is the default queue that all jobs will submit to unless otherwise requested.
    * - ``long``
      - 1,024
-     - 192G
+     - 192 GB
      - No limit
      - This queue is for long running jobs.
-   * - ``debug``
-     - 4
-     - 8G
-     - No limit
-     - This queue is for debugging purposes only and runs on a single virtual machine
+
+There are also two special queues that should only be used for jobs that require large amounts of memory or access to :doc:`gpu`:
+
+
+.. list-table::
+   :widths: 20 20 20 20 60
+   :header-rows: 1
+
+   * - Queue
+     - Total CPUs
+     - Max RAM
+     - Run-time Limit
+     - Description
    * - ``himem``
      - 112
-     - 2980G
+     - 2,980 GB
      - No limit
      - This queue is for jobs requiring a very large amount of RAM
    * - ``gpu``
      - 16
-     - 70G
+     - 70 GB
      - No limit
      - This queue is for jobs requiring GPUs, currently two V100 Tesla cards are online.
 
-Four nodes are dedicated to the ``short`` queue, eight to the ``medium``, and all remaining standard nodes for the ``long`` queue. One virtual machine is available in the ``debug`` queue. One special node (thanos) contains 3T of RAM and two V100 GPUs, and is consequently split into two queues: ``himem`` and ``gpu``.
-
 .. note::
-  All queues run with the same priority across all nodes. Only the time limits differ, with the short and medium queues automatically killing a job if it exceeds their limits. GPUs can only be accessed from the gpu queue, and large RAM requests can only run on the himem queue.
+  All queues run with the same priority across all nodes. Only the time limits differ, with the ``short`` and ``medium`` queues automatically killing a job if it exceeds their limits. GPUs can only be accessed from the ``gpu`` queue, and large RAM requests can only run on the ``himem`` queue.
 
 
 Specifying queues
 -----------------
 
 .. note::
-  No special options are required to submit to the medium queue.
+  No special options are required to submit to the ``medium`` queue.
 
-To submit to the short queue, use::
+To submit to the ``short`` queue, use::
 
   sbatch --partition=short myscript.sh
 
-Or to submit to the long queue, use::
+Or to submit to the ``long`` queue, use::
 
   sbatch --partition=long myscript.sh
 
-To submit to the high memory queue::
+To submit to the high memory (``himem``) queue, use::
 
   sbatch --partition=himem myscript.sh
 
-To submit to the gpu queue, where ``n`` specifies how many GPUs you want to use::
+To submit to the ``gpu`` queue, where ``n`` specifies how many GPUs you want to use::
 
   sbatch --partition=gpu --gpus=[n] myscript.sh
+
+For more details on accessing the GPUs, see :doc:`gpu`.
 
 To get a job list for an individual queue rather than all queues, use the ``-p`` or ``--partition`` option for ``squeue``, for example::
 
