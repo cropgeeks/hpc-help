@@ -8,7 +8,7 @@ In addition to the usual selection of Linux and Bash utilities (tar, wget, rsync
 - :doc:`singularity`
 - Slurm - see :doc:`slurm-overview`
 
-In general though, and in order to keep the cluster lean and mean, we *don't* system install applications (or libraries) as it's easier for users to manage their own specific needs using tools like :doc:`bioconda` and :doc:`singularity`, however for cases where this isn't possbile we still aim to make certain applications available (usually under ``/mnt/shared/apps``) where they're visible to all nodes of the cluster.
+In general though, and in order to keep the cluster lean and mean, we *don't* system install applications (or libraries) as it's easier for users to manage their own specific needs using tools like :doc:`bioconda` and :doc:`singularity`, however for cases where this isn't possible we still aim to make certain applications available (usually under ``/mnt/shared/apps``) where they're visible to all nodes of the cluster.
 
 .. note::
   To run applications not located on the default path, you must provide the full path to the executable in question, eg ``/mnt/shared/apps/java/13.0.2/bin/java``. This is usually the case when multiple versions exist.
