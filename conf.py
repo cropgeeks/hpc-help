@@ -88,6 +88,9 @@ html_context = {
   "github_version": "master",
   "conf_py_path": "/",
   "source_suffix": source_suffix,
+  'css_files': [
+        '_static/theme_overrides.css',  # override wide tables in RTD theme
+        ],
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
