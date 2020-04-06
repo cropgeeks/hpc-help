@@ -68,3 +68,14 @@ And then submit with ``sbatch run.sh``. You should end up with an output file si
   Process 83 on n19-32-192-loki.hpc.hutton.ac.uk out of 128
   Process 65 on n19-32-192-killmonger.hpc.hutton.ac.uk out of 128
   Process 70 on n19-32-192-killmonger.hpc.hutton.ac.uk out of 128
+
+You can also wrap MPI jobs directly using ``srun`` as follows::
+
+  $ srun -N 4 -n 4 ./hellompi
+  Process 0 on n19-32-192-hulk.hpc.hutton.ac.uk out of 4
+  Process 1 on n19-32-192-ironman.hpc.hutton.ac.uk out of 4
+  Process 2 on n19-32-192-kaecilius.hpc.hutton.ac.uk out of 4
+  Process 3 on n19-32-192-killmonger.hpc.hutton.ac.uk out of 4
+
+.. tip::
+  When using ``srun`` to execute MPI programs, you don't need to use ``mpirun``.
