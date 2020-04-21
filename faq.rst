@@ -35,6 +35,12 @@ You connect via SSH using::
 making sure to replace ``<username>`` with the username you were allocated when requesting an account. More detailed connection instructions are available on the :doc:`ssh` page.
  
 
+I've forogtten my password - can you recover it?
+------------------------------------------------
+
+Please :doc:`contact-us` for help with passwords. We can't recover (or even see) your password, but we can reset it in order to allow you to log in again, at which point you'll be prompted to set a new password.
+
+
 Can I run jobs directly on gruffalo?
 ------------------------------------
 
