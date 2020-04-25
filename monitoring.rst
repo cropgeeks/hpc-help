@@ -30,3 +30,17 @@ https://status.cropdiversity.ac.uk/
 
 .. |ganglia| image:: media/ganglia.png
 .. |uptimerobot| image:: media/uptimerobot.png
+
+
+Login attempts
+--------------
+
+You can see where in the world people are logging into ``gruffalo`` using the map below:
+
+https://cropdiversity.ac.uk/botplot
+
+  |botplot|
+
+.. |botplot| image:: media/botplot.png
+
+Each pin represents a location where one or more IP addresses have attempted to log in (tracked over the last seven days). Successfull logins are coloured green, and unsuccessfull logins are coloured red, with the opacity of the pin fading over time, ie, more solid pins represent more recent attempts.

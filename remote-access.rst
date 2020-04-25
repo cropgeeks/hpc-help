@@ -8,6 +8,9 @@ The cluster can be accessed via SSH (see :doc:`ssh`) with only password authenti
 
 To connect from remote addresses, we require using a cryptographic authentication instead of a password. For this authentication method you need to generate an SSH key pair.
 
+.. important::
+  You can see why it's critical that we enforce key use for remote access by looking at the number of rogue access attempts on our login tracker at https://cropdiversity.ac.uk/botplot.
+
 SSH key pairs consist of two individual parts: a private and a public key. The private key must always be kept secret, much like a password. The public part, however, may be transported (as the name says) publicly and will be installed on ``gruffalo``. Your private key will then be used to verify your access.
 
 The following steps will show you how to generate a key pair and how to install it. If you already have a key pair, you can skip straight to the `installing`_ section.
