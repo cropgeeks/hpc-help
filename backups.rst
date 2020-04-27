@@ -30,4 +30,5 @@ New or changed data is synced nightly to our backup server - ``delorean`` - and 
 Restoring backups
 -----------------
 
-You can browse the snapshots - and restore files and folders from them - by...
+.. important::
+  Because of the COVID-19 pandemic and lockdown, the backup system described above is not fully up and running. Please :doc:`contact-us` with all queries regarding restoring data from backup.
