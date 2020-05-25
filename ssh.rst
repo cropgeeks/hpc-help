@@ -5,7 +5,7 @@ All interaction with ``gruffalo`` is handled via an encrypted communication chan
 
 If using Linux or macOS, then you'll already have an SSH client installed that you can access via a local terminal.
 
-If using Windows, then good options include `WSL`_ (Windows 10 only), `Cygwin/mintty`_, or `MobaXterm`_, all of which will enable a local terminal (and SSH client) and give you an experience identical to Linux/macOS users. You can also use `PuTTY`_ but the instructions below assume a local terminal and you'll need to adapt the information yourself for Putty.
+If using Windows, then good options include `WSL`_ (Windows 10 only), `Cygwin/mintty`_, or `MobaXterm`_, all of which will enable a local terminal (and SSH client) and give you an experience identical to Linux/macOS users. You can also use `PuTTY`_ but the instructions below assume a local terminal and you'll need to adapt the information yourself for PuTTy.
 
 .. _`MobaXterm`: https://mobaxterm.mobatek.net/download-home-edition.html
 .. _`Cygwin/mintty`: https://www.cygwin.com/

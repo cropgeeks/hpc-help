@@ -23,7 +23,7 @@ Generating a key pair
 
 The tool **ssh-keygen** can be used to generate an SSH key pair. For further details about its usage, please refer to the *ssh-keygen(1)* manual page.
 
-If no parameter is specified on execution, ssh-keygen will create an RSA key, but we'd recommend Ed25519 keys for connections to ``gruffalo``, which can be generated using::
+If no parameter is specified on execution, ssh-keygen will create an RSA key, but Ed25519 keys are a better choice for ``gruffalo``, which can be generated using the following - **locally run** - command::
 
   $ ssh-keygen -t ed25519
   Generating public/private ed25519 key pair.
@@ -50,7 +50,7 @@ If no parameter is specified on execution, ssh-keygen will create an RSA key, bu
 .. important::
   It is **critical** that you protect your private key with a passphrase, and ideally ensure the disk it's kept on is encrypted and that no-one else is ever given access to it. Remember, it's *your* private key. Only the public half will be installed on ``gruffalo``. 
 
-The keypair will be written to ``~/.ssh/`` and consists of two files: the private key file and the public key-file::
+The keypair will be written to ``~/.ssh/`` on your local machine and consists of two files: the private key file and the public key-file::
 
   ~/.ssh/id_ed25519
   ~/.ssh/id_ed25519.pub
