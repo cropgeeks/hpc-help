@@ -4,13 +4,19 @@ Server Monitoring
 Real-time metrics
 -----------------
 
-You can view real-time metrics (load, network activity, etc) for all of the cluster's servers by clicking on the following link:
+You can view a real-time overview of the cluster's status, job allocations, and power draw by clicking on the following link:
+
+https://www.cropdiversity.ac.uk/top
+
+  |top|
+
+For a more detailed look at server load and network metrics etc, use Ganglia:
 
 https://ganglia.cropdiversity.ac.uk
   
   |ganglia|
 
-The graphs are split into three sections: the **HPC** nodes, the **Storage** servers, and other **System** (management, domain-control etc) servers.
+The Ganglia graphs are split into three sections: the **HPC** nodes, the **Storage** servers, and other **System** (management, domain-control etc) servers.
 
 
 Disk-usage summaries
@@ -28,6 +34,7 @@ https://status.cropdiversity.ac.uk/
   |uptimerobot|
   
 
+.. |top| image:: media/top.png
 .. |ganglia| image:: media/ganglia.png
 .. |uptimerobot| image:: media/uptimerobot.png
 
