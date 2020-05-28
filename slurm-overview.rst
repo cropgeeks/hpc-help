@@ -71,6 +71,12 @@ The compute nodes are listed against the partition they can be accessed from and
 .. note::
   The nodes are named in the form ``nYY-CPU-MEM-name``, for example ``n19-32-192-hulk`` means it was purchased in 2019, has 32 CPU cores, 192 GB of memory and is named ``hulk``. With the exception of ``cortana``, all nodes have hyperthreading enabled, so their actual CPU count (as seen by Slurm) is doubled, meaning for example, that 64 'CPUs' are available for use on ``hulk``.
 
+You can also get a graphical overview of the state of the cluster and see how busy/allocated it is by visiting https://www.cropdiversity.ac.uk/top/
+
+  |top|
+
+.. |top| image:: media/top.png
+
 
 Interactive jobs
 ----------------
