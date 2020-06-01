@@ -1,4 +1,4 @@
-SSH SOCKs Proxies
+SSH SOCKS Proxies
 =================
 
 Certain (usually sensitive) Crop Diversity HPC web pages are only available to you if you are connecting via a :doc:`organizations` network, and will block you from viewing them via a :doc:`remote-access` connection.
@@ -9,7 +9,7 @@ You can work around this limitation by employing SSH's ability to *proxy* your w
 
 .. |proxy| image:: media/socks-proxy.png
 
-Creating a SOCKs proxy
+Creating a SOCKS proxy
 ----------------------
 
 This is very easy to do. Connect to ``gruffalo`` as per normal, but with the additional ``-D`` option::
@@ -19,17 +19,17 @@ This is very easy to do. Connect to ``gruffalo`` as per normal, but with the add
 This tells SSH to run a **SOCKS proxy** (https://en.wikipedia.org/wiki/SOCKS) listening on port ``8080`` (you can pick any unused local port number). Your web browser can then use this proxy to forward all its traffic over the encrypted SSH connection, via ``gruffalo``, and onwards to its final destination.
 
 
-Using a SOCKs proxy
+Using a SOCKS proxy
 -------------------
 
 .. note::
-  Different web browsers have different settings for their proxy options, but support for SOCKs proxies is universal. You may have to dig around to find them, but the settings you need will be in there somewhere.
+  Different web browsers have different settings for their proxy options, but support for SOCKS proxies is universal. You may have to dig around to find them, but the settings you need will be in there somewhere.
 
 Once you've found your browser's Network/Proxy settings, you need to modify them as follows:
 
 - enable proxying
-- set the SOCKs host to ``localhost``
-- set the SOCKs port to ``8080`` (or whatever port number you selected)
+- set the SOCKS host to ``localhost``
+- set the SOCKS port to ``8080`` (or whatever port number you selected)
 
 The example below shows this configuration in Firefox.
 
