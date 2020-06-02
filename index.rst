@@ -61,7 +61,6 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
    monitoring
    linux-basics
    tips
-   ssh-socks
 
 .. toctree::
    :maxdepth: 1

@@ -21,9 +21,15 @@ The following steps will show you how to generate a key pair and how to install 
 Generating a key pair
 ---------------------
 
+.. note::
+  Use your own PC/laptop to generate your key pair - don't run these instructions on ``gruffalo``.
+
 The tool **ssh-keygen** can be used to generate an SSH key pair. For further details about its usage, please refer to the *ssh-keygen(1)* manual page.
 
-If no parameter is specified on execution, ssh-keygen will create an RSA key, but Ed25519 keys are a better choice for ``gruffalo``, which can be generated using the following - **locally run** - command::
+
+.. _`Ed25519`: https://en.wikipedia.org/wiki/EdDSA
+
+If no parameter is specified on execution, ssh-keygen will create an RSA key, but `Ed25519`_ keys are a better choice for ``gruffalo``, which can be generated using the following command::
 
   $ ssh-keygen -t ed25519
   Generating public/private ed25519 key pair.
@@ -62,13 +68,10 @@ The keypair will be written to ``~/.ssh/`` on your local machine and consists of
 Installing your public key
 --------------------------
 
-.. important::
+.. note::
   If you are working from home or away from a :doc:`organizations` network, then you won't be able to install your public key using these instructions. Instead, you can email it to us (see :doc:`contact-us` and we'll get it installed for you.
 
 To install your public key, visit https://ipa.cropdiversity.ac.uk
-
-.. note::
-  The Identity Management system is only accessible if connecting via a :doc:`organizations` network address. If you're already somewhere remote, please :doc:`contact-us` for assistance.
 
 .. warning::
   Depending on your browser, you may initially see a popup box prompting for your username and password. Ignore it, hitting Cancel or Escape until you see the screen below.
