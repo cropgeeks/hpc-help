@@ -53,3 +53,4 @@ We are now ready to run the training, which should take about 30 seconds to run 
   model.fit(train_images, train_labels, batch_size=128, epochs=15, verbose=1,
             validation_data=(test_images, test_labels))
 
+In production use you will obviously not have to create the conda environment or install tensorflow-gpu as you've now set those up in the above example. To run your own code you only need to use the srun commands to access the gpu node and then conda activate tensorflow-gpu-env.
