@@ -1,5 +1,5 @@
-Tips and Tricks
-===============
+Tips & Tricks
+=============
 
 Here are some handy tips and tricks that can make working with Linux - especially on the command line - that little bit easier.
 
