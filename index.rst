@@ -41,6 +41,7 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
    file-compression
    singularity
    gpu
+   machine-learning
    apps
    database-mirrors
    openmpi
