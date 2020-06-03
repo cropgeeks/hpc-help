@@ -1,7 +1,10 @@
 System Overview
 ===============
 
-You can monitor the current state of the cluster at https://ganglia.cropdiversity.ac.uk
+You can monitor the current state of the cluster using:
+
+- https://www.cropdiversity.ac.uk/top - job/allocation based overview
+- https://ganglia.cropdiversity.ac.uk - detailed stats per node
 
 .. note::
   Everything listed below is connected together over a super-fast 25-gigabit fibre optic network.
@@ -10,7 +13,7 @@ Compute cluster
 ---------------
 
 .. important::
-  Due to the ongoing COVID-19 situation, not all of the machines listed below are currently up and running. The Ganglia link (above) will show which machines are currently live.
+  Due to the ongoing COVID-19 situation, not all of the machines listed below are currently up and running. The links above will show which machines are currently live.
 
 The tables below list the various batches of hardware the make up the current cluster, with each set of nodes named something 'fun' on a (geeky) thematic basis.
 
