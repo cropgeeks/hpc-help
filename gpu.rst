@@ -10,11 +10,20 @@ Each card has 5,120 **CUDA** processing cores and 640 **Tensor** cores. CUDA is 
 
 You can find more information about the V100 by visiting https://www.nvidia.com/en-gb/data-center/tesla-v100/.
 
-To access the GPUs submit to the ``gpu`` SLURM partition. SLURM is configured to allocate GPU resources at the level of whole GPUs (rather than CUDA cores), therefore for ``thanos`` you can request one or both of the GPUs, and for ``jaws`` you can request a single GPU. ``thanos`` is also the high memory node, therefore it has two partitions, one for high memory jobs and one for GPU jobs. Currently the gpu partition has 70G of RAM assigned to it and 16 cpus, therefore the maximum resources you can allocate to a single GPU job are::
+To access the GPUs submit to the ``gpu`` Slurm partition, for example, to run an interactive job::
+
+  $ srsh --partition=gpu --gpus=1
+
+.. note::
+  Slurm is configured to allocate GPU resources at the level of whole GPUs (rather than CUDA cores), therefore you can request ``--gpus=1`` (``thanos`` or ``jaws``) or ``--gpus=2`` (``thanos`` only).
+
+``thanos`` is also the high memory node and spans two partitions, one for high memory jobs and one for GPU jobs. Currently the ``gpu`` partition has 70G of RAM assigned to it and 16 CPUs, therefore the maximum resources you can allocate to a single GPU job are::
 
   --partition=gpu --mem=70G --cpus-per-task=16 --gpus=2
 
-See also the SLURM documentation, (although as we only have one type of GPU at present there is little need to do anything more than just ask for one or two GPUs): https://slurm.schedmd.com/gres.html#Running_Jobs
+See also Slurm's documentation on `Generic Resource Scheduling`_, although as we only have one type of GPU at present there is little need to do anything more than just ask for one or two GPUs.
+
+.. _`Generic Resource Scheduling`: https://slurm.schedmd.com/gres.html#Running_Jobs
 
 Whenever you run a job on a GPU node, your path will be modified to include Nvidia's cuda platform. This will be required if compiling any programs from source, for example using the ``nvcc`` compiler. Most of the system's cuda files can be found at ``/usr/local/cuda/bin``.
 
