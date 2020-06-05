@@ -190,6 +190,8 @@ Or to provide the same options in an ``sbatch`` script, use::
   #SBATCH --cpus-per-task=8
   #SBATCH --mem=16G
 
+  echo "CPUs available: $SLURM_CPUS_PER_TASK"
+
 .. warning::
   If you don't know what resources your job needs, it may be tempting to ask for more CPUs or memory than required - just to be safe - but you also need to be sensible with your requests, as over-allocation of resources will lower cluster availability, negativily impacting everyone. There's much more discussion of this on the :doc:`slurm-policy` page.
 
