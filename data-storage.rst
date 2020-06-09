@@ -97,11 +97,11 @@ Local scratch
 - **Backed up:** no
 
 .. note::
-  The path for this location is only generated (and accessible via the ``$TMPDIR`` environment variable) once a Slurm job has started. 
+  The path for this location is only generated (and accessible via the ``$TMPDIR`` environment variable) once a Slurm job has started, and is unique to that job. 
 
 Each node also has space for temporary working data, and because it's directly attached to the node where your job is running it can be *significantly* faster for most file-based operations. The only downside is that you have to copy your data here first, and that might take longer than just running the job from shared scratch. Similarly, you need to remember to copy any results back to shared storage at the end of a job's run.
 
 .. warning::
-  Bear in mind that these scratch drives are unique per node, which means any data stored there can only be seen by that node.
+  Bear in mind that these scratch drives are unique per node, which means any data stored there can only be seen by that node. The contents are automatically erased when the job ends, so you *must* copy any files you need to keep back to somewhere on shared storage as the final step in you job script.
 
 It's also important to be aware of the differences between local scratch drives, as the different nodes may have different capacities. Check the :doc:`system-overview` page for more details.
