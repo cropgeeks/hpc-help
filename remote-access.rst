@@ -101,7 +101,7 @@ You can now test your key by attempting to connect to ``gruffalo`` and issuing a
 
 If you manage to log in successfully, then you should be good to connect from anywhere. Excellent!
 
-.. note::
+.. tip::
   If have problems, try connecting with ``ssh -vvv`` which will produce lots of debug output and may give some hints as to where things are going wrong.
 
 
