@@ -70,7 +70,7 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
 
    organizations
    sla
-   code-of-conduct
+   acceptable-use
    gdpr
 
 .. _Information & Computational Sciences: https://ics.hutton.ac.uk

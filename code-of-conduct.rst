@@ -1,3 +1,0 @@
-Computing Code of Conduct
-=========================
-
