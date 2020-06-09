@@ -45,6 +45,7 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
    apps
    database-mirrors
    openmpi
+   green-computing
 
 .. toctree::
    :maxdepth: 2
