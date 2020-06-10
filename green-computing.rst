@@ -1,13 +1,18 @@
 Green Computing
 ===============
 
-Green computing is the environmentally responsible and eco-friendly use of computers and their resources.
+Green computing attempts to lower the carbon footprint of computing via environmentally responsible and eco-friendly use of computers and their resources.
+
+.. centered::
+  |logo|
+
+.. |logo| image:: media/green-computing.png
 
 We have attempted to *greenify* our compute cluster by allowing idle nodes to power down when not in use, **saving energy** by lowering the electrical demand of the cluster, which in turn reduces load on its cooling systems, saving yet more energy and hence money. 
 
 By intelligently monitoring job submissions, nodes can be automatically powered up again as and when they are needed.
 
-.. note::
+.. important::
   This is still an experimental service, so please :doc:`contact-us` to report any problems or issues.
 
 
@@ -33,30 +38,33 @@ You may also see the following characters listed against node states in relation
 - ``%`` the node is powering down
 
 
-When will nodes power down?
----------------------------
+When will nodes power up/down?
+------------------------------
 
-Nodes will power down fifteen minutes after their last job completes.
+Nodes power down **fifteen minutes** after their last job completes, but power up again **whenever** Slurm allocates them a new job.
 
-
-When will nodes power up?
--------------------------
-
-A node will power up as soon as Slurm allocates a job to it.
-
-It takes 3 or 4 minutes for a node to resume operation, so any jobs assigned to it won't start until it's ready. ``squeue`` may show your job's status as ``CF`` (configuring) during this process.
+It takes 3 or 4 minutes for a node to resume operation, and jobs obviously won't start running on it until it's ready. ``squeue`` may show your job's status as ``CF`` (configuring) during this process.
 
 - **Batch jobs** - if you've submitted a batch job, then you don't need to do anything different; it'll queue and start once the node is ready
-- **Interactive jobs** - if you've submitted an interactive job, your terminal prompt waits (for 3 or 4 minutes) until the node powers up, then logs you in
-
-.. warning::
-  Very occasionally, an interactive job may start before the node completes its network mappings (you'll see a ``bash-4.4$`` prompt if so) and if this happens, it's better to log off/cancel the job and resubmit.
-
+- **Interactive jobs** - if you've submitted an interactive job, your terminal prompt waits (for 3 or 4 minutes) until the node is ready, then logs you in
 
 
 How much energy will this save?
 -------------------------------
 
-The answer to that very much depends on what the cluster is doing. If it's busy most of the time - with nodes allocated and processing jobs - then it won't make much of a difference, but if nodes are idle for long periods of time (eg overnight or at weekends) then the potential for energy savings are obviously greater.
+The answer to that very much depends on what the cluster is doing. If it's busy most of the time - with nodes allocated and processing jobs - then it won't make much of a difference, but if nodes are idle for long periods of time (eg overnight or at weekends) then the potential energy savings are obviously greater.
 
-At the time of writing (June 2020) the cluster uses about 6 kW of energy just to be on, doing nothing, with approximately 4.5 kW being used by the compute nodes. For each node that is powered down, we can save at least 0.85 kW, which adds up to a kilowatt of energy - per node - every 12 hours or so.
+.. note::
+  You can see live metrics (showing our savings so far) by visiting https://cropdiversity.ac.uk/top.
+
+
+Our commitment to Green Computing
+---------------------------------
+
+In addition to the policy outlined above, when specifying and building the cluster we attempted to select processors with excellent *performance per watt* metrics, which improves the general efficiency of the HPC.
+
+The vast majority of the compute nodes also use special four-node chassis units that allow power and cooling to be shared between the nodes, further reducing the energy demands of the cluster.
+
+Finally, the `James Hutton Institute`_, where the Crop Diversity HPC is located, only sources electricity that is backed by Renewable Energy Generation Obligation (REGO) certificates. This is a scheme that supports mechanisms for large-scale renewable electricity projects in the UK.
+
+.. _`James Hutton Institute` : https://www.hutton.ac.uk
