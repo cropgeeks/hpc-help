@@ -77,6 +77,8 @@ You can also get a graphical overview of the state of the cluster and see how bu
 
 .. |top| image:: media/top.png
 
+.. important::
+  You should also make yourself aware of our :doc:`green-computing` policy, that may keep idle nodes in a powered-down state until they are needed.
 
 Interactive jobs
 ----------------
