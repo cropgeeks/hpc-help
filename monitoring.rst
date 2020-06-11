@@ -23,7 +23,7 @@ Disk-usage summaries
 --------------------
 
 .. note::
-  Information on dDisk-usage summaries will be available soon. 
+  Information on disk-usage summaries will be available soon. 
 
 
 Login attempts
