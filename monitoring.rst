@@ -22,21 +22,8 @@ The Ganglia graphs are split into three sections: the **HPC** nodes, the **Stora
 Disk-usage summaries
 --------------------
 
-TODO
-
-Public servers
---------------
-
-We remotely monitor the status of various public-facing servers using UptimeRobot.
-
-https://status.cropdiversity.ac.uk/
-
-  |uptimerobot|
-  
-
-.. |top| image:: media/top.png
-.. |ganglia| image:: media/ganglia.png
-.. |uptimerobot| image:: media/uptimerobot.png
+.. note::
+  Information on dDisk-usage summaries will be available soon. 
 
 
 Login attempts
@@ -51,3 +38,18 @@ https://cropdiversity.ac.uk/botplot
 .. |botplot| image:: media/botplot.png
 
 Each pin represents a location where one or more IP addresses have attempted to log in (tracked over the last seven days). Successfull logins are coloured green, and unsuccessfull logins are coloured red, with the opacity of the pin fading over time, ie, more solid pins represent more recent attempts.
+
+
+Remote monitoring
+-----------------
+
+We remotely monitor the status of various public-facing servers using UptimeRobot.
+
+https://status.cropdiversity.ac.uk/
+
+  |uptimerobot|
+  
+
+.. |top| image:: media/top.png
+.. |ganglia| image:: media/ganglia.png
+.. |uptimerobot| image:: media/uptimerobot.png
