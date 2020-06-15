@@ -208,3 +208,19 @@ Bioconda is installed in ``$APPS/conda``. Simply delete this folder to remove Bi
 
 
 .. _browse the package list: https://bioconda.github.io/conda-recipe_index.html
+
+Using Packages in sbatch jobs scripts
+-------------------------------------
+When using the ``conda activate`` command in an sbatch job script you may encounter an error mesage::
+
+  CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+  
+And subsequently when trying to use commands from the package you may get a ``command not found`` error. If this happens change the conda activate command. The required new command depends where you have installed conda. If conda is installed under /mnt/shared/scratch/$USER/apps/conda (where $USER is your username) you would use the following::
+
+  source /mnt/shared/scratch/$USER/apps/conda/bin/activate <environment>
+  
+where ``<environment>`` is the name of the conda environment you are trying to activate. Alternatively if you installed conda into /home/$USER/miniconda3 you would use::
+
+  source /home/$USER/miniconda3/bin/activate <environment>
+  
+  
