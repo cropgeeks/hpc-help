@@ -223,4 +223,4 @@ where ``<environment>`` is the name of the conda environment you are trying to a
 
   source /home/$USER/miniconda3/bin/activate <environment>
   
-  
+If the conda bin folder is already in your PATH then simply ``source activate <environment>`` should work.
