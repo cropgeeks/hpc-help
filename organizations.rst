@@ -19,6 +19,7 @@ We also welcome researchers closely linked with the above organisations, includi
 
 - Biomathematics & Statistics Scotland (BioSS)
 - JHI-hosted Plant Sciences staff/students from the University of Dundee (UoD)
+- Biology/Medicine staff/students from the University of St Andrews (UoSA)
 
 |organizations-extra|
 
