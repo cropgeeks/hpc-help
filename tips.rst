@@ -47,3 +47,35 @@ While ``head`` and ``tail`` can be used to look at the top or bottom of a file r
   $ tail -f logfile.txt
 
 You can finish watching with a ``CTRL+C``.
+
+Interactive programming and data analysis using a JupyterLab server
+-------------------------------------------------------------------
+
+JupyterLab is the next-generation web-based user interface for `Project Jupyter`_. It allows you to work with documents such as Jupyter notebooks, python scripts, text editors, terminals, etc through a flexible, integrated, web front end. This is particularly useful if you want to do interactive coding on a cluster node rather than locally, functioning like an IDE with plugins for a range of languages. Most of the time you won't need to do this; coding can be done locally and then run on the cluster when ready, however for some use-cases (e.g. deep learning model development) interactive development on significant hardware is particualrly important.
+
+In order to run JupyterLab on a cluster node, first build a ``conda`` environment with jupyterlab installed, connect to a cluster node, and activate the conda environment::
+
+  $ conda create --name jupyterlab jupyterlab
+  $ srsh
+  $ conda activate jupyterlab
+
+Running jupyterlab is straight-forward, however in order to allow a connect from our local web browser to the server on the cluster node we will need to route things through an SSH tunnel. For that, we will need to know the port that we want to access. We don't have to specify this when running the server (the default is port 8888), however it can be specified with ``--port`` if required. We need to specify the ``-ip 0.0.0.0`` switch to allow JupyterLab to accept connections from other locations, and we want to tell it not to try to spawn a browser of its own with ``--no-browser``::
+
+  $ jupyter-lab --no-browser --ip 0.0.0.0
+
+This will produce a few lines of output while it starts up, then ultimately provide you with something similar to::
+
+  Or copy and paste one of these URLs:
+  http://n19-32-192-hela.hpc.hutton.ac.uk:8888/?token=c4fc5b7c965fd5cc9940fcaed065d822483c6015c947a9cc
+  or http://127.0.0.1:8888/?token=c4fc5b7c965fd5cc9940fcaed065d822483c6015c947a9cc
+
+This then gives us the URL we will point our browser to - ``http://127.0.0.1:8888/?token=c4fc5b7c965fd5cc9940fcaed065d822483c6015c947a9cc`` in this case - but it'll be different each time you start jupyterlab.
+
+First though, we need to route our browser through an SSH tunnel for this port. To do that, in a local terminal (not on the cluster) we need to log into the cluster and enable port listening on the right port and pointing to the right host (in this example it was ``hela``)::
+
+  $ ssh -L8888:hela:8888 username@gruffalo.cropdiversity.ac.uk
+
+Now all we need to do is paste the URL (``http://127.0.0.1:8888/?token=c4fc5b7c965fd5cc9940fcaed065d822483c6015c947a9cc``) into our browser, and away we go!
+
+
+.. _`Project Jupyter`: https://jupyter.org/documentation
