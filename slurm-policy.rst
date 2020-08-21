@@ -20,17 +20,17 @@ To do this, we primarily use three main queues/partitions called ``short``, ``me
      - Run-time Limit
      - Description
    * - ``short``
-     - 256
+     - 192
      - 192 GB
      - 6 hours
      - This is a high priority queue for smaller jobs with thresholds set to allow smaller jobs to squeeze through that might have to wait in the other queues.
    * - ``medium``
-     - 512
+     - 384
      - 192 GB
      - 24 hours
      - This is the default queue that all jobs will submit to unless otherwise requested.
    * - ``long``
-     - 1,024
+     - 960
      - 192 GB
      - No limit
      - This queue is for long running jobs.
