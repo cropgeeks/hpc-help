@@ -15,7 +15,7 @@ The admins
 
 |iain|
 
-Iain has been nuts on computers ever since getting access to a BBC Micro in the early 80s. His enthusiasm for them hasn't waned over time, and he now splits his time between all things HPC/Linux and more general software development, concentrating on infomatics visualization and decision support tools.
+Iain has been nuts on computers ever since getting access to a BBC Micro in the early 80s. His enthusiasm for them hasn't waned over time, and he now splits his time between all things HPC/Linux and more general software development, concentrating on informatics visualization and decision support tools.
 
 .. |iain| image:: media/iain.jpg
 
