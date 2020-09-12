@@ -259,7 +259,7 @@ You can retrieve summary information about a finished job by using the ``sacct``
 
 By default this only shows basic information, such as the queue that ran the job and whether it completed or not. For more details try::
 
-  $ sacct -j <jobid> --format JobID,MaxVMSize,MaxRSS,NodeList,AllocCPUS,TotalCPU,State,Start,End
+  $ sacct -j <jobid> --units=G --format JobID,MaxVMSize,MaxRSS,NodeList,AllocCPUS,TotalCPU,State,Start,End
 
 which provides information on:
 
