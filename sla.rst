@@ -7,7 +7,7 @@ This resource is managed by teams from JHI and NIAB. While we will endeavour to 
 Maintenance and patching
 ------------------------
 
-Like any computing system, our HPC resource relies on operating systems and software that will need updates or patches from time to time. Many of these can be applied silently in the background and will have no noticeable affect, but there are certain cases - particularly with regards to the parallel storage array - where we may need to take the entire system offline to ensure we can update it safely and correctly.
+Like any computing system, our HPC resource relies on operating systems and software that will need updates or patches from time to time. Many of these can be applied silently in the background and will have no noticeable effect, but there are certain cases - particularly with regards to the parallel storage array - where we may need to take the entire system offline to ensure we can update it safely and correctly.
 
 .. important:: 
   If we plan any major upgrades or changes that require the system to be taken offline, we will communicate them to you with as much notice (ie at least several weeks) as is possible.
