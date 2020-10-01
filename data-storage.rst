@@ -9,7 +9,7 @@ Storage at-a-glance
 -------------------
 * The cluster has approximately 1.5 PB of storage available
 * Most user-accessible folders are found under ``/mnt/shared``
-* You must contact an administrator when starting a new project
+* You may need to contact an administrator when starting a new project
 * All important project data should be kept in ``/mnt/shared/projects``
 * Intermediate working data should be kept on a **scratch** drive
 * Please restrict data in ``/home`` to small and/or miscellaneous files; total usage here should be under 10 GB
@@ -46,7 +46,8 @@ All important Institute-related project data should be stored in ``/mnt/shared/p
 
 This location holds subfolders for the :doc:`organizations` (eg ``/mnt/shared/projects/jhi``) and there may be further (local) guidelines on how you should structure your data below this point.
 
-Please :doc:`contact-us` when starting a new project, or to request help with moving existing data into the correct folder structure.
+.. note::
+  JHI/NIAB users should :doc:`contact-us` when starting a new project, or to request help with moving existing data into the correct folder structure.
   
 
 User home folders
