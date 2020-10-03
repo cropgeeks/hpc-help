@@ -1,9 +1,6 @@
 Backups
 =======
 
-.. warning::
-  Backups are **not** currently enabled on the system.
-
 In addition to the 1.5 PB of primary storage, the cluster has an additional 1.0 PB of capacity dedicated to storing backups.
 
 .. important::
@@ -31,4 +28,4 @@ Restoring backups
 -----------------
 
 .. important::
-  Because of the COVID-19 pandemic and lockdown, the backup system described above is not fully up and running. Please :doc:`contact-us` with all queries regarding restoring data from backup.
+  Because of the COVID-19 pandemic and lockdown, an alternative backup system is temporarily in use. Please :doc:`contact-us` with all queries regarding restoring data from backup.
