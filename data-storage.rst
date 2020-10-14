@@ -46,8 +46,10 @@ All important Institute-related project data should be stored in ``/mnt/shared/p
 
 This location holds subfolders for the :doc:`organizations` (eg ``/mnt/shared/projects/jhi``) and there may be further (local) guidelines on how you should structure your data below this point.
 
+Joint projects shared between multiple institutes are located in ``/mnt/shared/projects/joint``. Please :doc:`contact-us` if working on a joint project and access by multiple users is required.
+
 .. note::
-  JHI/NIAB users should :doc:`contact-us` when starting a new project, or to request help with moving existing data into the correct folder structure.
+  JHI/NIAB users should :doc:`contact-us` when starting *any* new project, or to request help with moving existing data into the correct folder structure.
   
 
 User home folders
@@ -76,6 +78,9 @@ This area should be used for all intermediate and/or working data, and especiall
   We do not have the capacity to maintain backups of intermediate/working data so it is **very important** that you store this kind of data on scratch.
 
 It's also worth noting - especially when running large or complex jobs - that job performance can be significantly enhanced if you store scratch data using node-specific scratch storage instead. Despite its high-performance, BeeGFS is still a networked filesystem and certain file operations (particularly those involving high numbers of small files) will almost always perform better using local scratch space.
+
+.. note::
+  Scratch data for joint projects (where access is required by multiple users) should be kept in ``/mnt/shared/scratch/joint``.
 
 
 User applications
