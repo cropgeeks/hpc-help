@@ -2,16 +2,16 @@ Remote Access
 =============
 
 .. warning::
-  If you exceed three failed remote authentication attempts (within a 10 minute window) the system will ban your IP address from further attempts for the next 30 minutes.
+  If you exceed three failed remote authentication attempts (within a 10 minute window) the system will block your IP address from further attempts for the next 30 minutes.
 
 The cluster can be accessed via SSH (see :doc:`ssh`) with only password authentication so long as you are connecting via a :doc:`organizations` network address.
 
-To connect from remote addresses, we require using a cryptographic authentication instead of a password. For this authentication method you need to generate an SSH key pair.
+To connect from remote addresses, we require using a cryptographic authentication instead of a password. For this authentication method you need to generate an **SSH key pair**.
 
 .. important::
   You can see why it's critical that we enforce key use for remote access by looking at the number of rogue access attempts on our login tracker at https://cropdiversity.ac.uk/botplot.
 
-SSH key pairs consist of two individual parts: a private and a public key. The private key must always be kept secret, much like a password. The public part, however, may be transported (as the name says) publicly and will be installed on ``gruffalo``. Your private key will then be used to verify your access.
+SSH key pairs consist of two individual parts: a **private** and a **public** key. The private key must always be kept secret, much like a password. The public part, however, may be transported (as the name says) publicly and will be installed on ``gruffalo``. Your private key will then be used to verify your access.
 
 The following steps will show you how to generate a key pair and how to install it. If you already have a key pair, you can skip straight to the `installing`_ section.
 
@@ -29,9 +29,12 @@ The tool **ssh-keygen** can be used to generate an SSH key pair. For further det
 
 .. _`Ed25519`: https://en.wikipedia.org/wiki/EdDSA
 
-If no parameter is specified on execution, ssh-keygen will create an RSA key, but `Ed25519`_ keys are a better choice for ``gruffalo``, which can be generated using the following command::
+If no parameter is specified on execution, ssh-keygen will create an RSA key, but `Ed25519`_ keys are a better choice for ``gruffalo``, and can be generated using the following command::
 
   $ ssh-keygen -t ed25519
+
+This will walk you through setting a location to store the keypair (stick with the default) and setting a passphrase for the private key::
+
   Generating public/private ed25519 key pair.
   Enter file in which to save the key (/home/dvader/.ssh/id_ed25519):
   Enter passphrase (empty for no passphrase):
