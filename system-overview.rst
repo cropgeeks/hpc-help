@@ -12,9 +12,6 @@ You can monitor the current state of the cluster using:
 Compute cluster
 ---------------
 
-.. important::
-  Due to the ongoing COVID-19 situation, not all of the machines listed below are currently up and running. The links above will show which machines are currently live.
-
 The tables below list the various batches of hardware the make up the current cluster, with each set of nodes named something 'fun' on a (geeky) thematic basis.
 
 - **Year**: 2019 (October)
