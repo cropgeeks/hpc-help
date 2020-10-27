@@ -27,6 +27,9 @@ There are two main locations for storing data on the system:
 
 Where you decide to store data will have an effect on performance, available capacity, and backup policies, so it's important that you understand the differences between the storage locations and the folders they contain. These are described in more detail below.
 
+.. note::
+  Many of the locations listed here are automatically added (as symlinks) to your home folder.
+
 
 BeeGFS storage
 --------------
@@ -40,11 +43,12 @@ Project data
 ~~~~~~~~~~~~
 
 - **Path:** ``/mnt/shared/projects``
+- **Shortcut:** ``$PROJECTS``
 - **Backed up:** yes
 
 All important Institute-related project data should be stored in ``/mnt/shared/projects``.
 
-This location holds subfolders for the :doc:`organizations` (eg ``/mnt/shared/projects/jhi``) and there may be further (local) guidelines on how you should structure your data below this point.
+The Projects folder holds subfolders for the :doc:`organizations` (eg ``/mnt/shared/projects/jhi``) and there may be further (local) guidelines on how you should structure your data below this point.
 
 Joint projects shared between multiple institutes are located in ``/mnt/shared/projects/joint``. Please :doc:`contact-us` if working on a joint project and access by multiple users is required.
 
@@ -99,7 +103,8 @@ This is a special area that **must** be used for all downloaded (ie external) so
 Local scratch
 -------------
 
-- **Path:** ``$TMPDIR``
+- **Path:** *dynamically generated*
+- **Shortcut:** ``$TMPDIR``
 - **Backed up:** no
 
 .. note::
