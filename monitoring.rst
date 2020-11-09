@@ -22,8 +22,13 @@ The Ganglia graphs are split into three sections: the **HPC** nodes, the **Stora
 Disk-usage summaries
 --------------------
 
-.. note::
-  Information on disk-usage summaries will be available soon. 
+Information on your last seven days' worth of disk usage, across the Home, Projects, and Scratch areas, is available here:
+
+https://cropdiversity.ac.uk/diskusage
+
+  |diskusage|
+
+.. |diskusage| image:: media/diskusage.png
 
 
 Login attempts
