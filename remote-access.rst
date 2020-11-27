@@ -64,8 +64,15 @@ The keypair will be written to ``~/.ssh/`` on your local machine and consists of
   ~/.ssh/id_ed25519
   ~/.ssh/id_ed25519.pub
 
+Your public key
+~~~~~~~~~~~~~~~
+
+Your public key - ``id_ed25519.pub`` - must be installed on the cluster to allow you remote access. It contains text that will be similar to the below::
+
+  ssh-ed25519 AAARF3NzaC1lZDI1NTE5VVAAICJeEIONzSuv1GSKcvNmSSDUIB2zHB9byh8sAh4vnDha [comment]
+
 .. warning::
-  If you provided a custom name for your key, you may find it wasn't created within ``~/.ssh``. You can either rename/move the file to match the above, or use the ``ssh -i`` option to let SSH know where to find your private key.
+  If you provided a custom name for your key, you may find it wasn't created within ``~/.ssh``. You can either rename/move the file to match the above listings, or use the ``ssh -i`` option to let SSH know where to find your private key.
 
 
 Installing your public key
