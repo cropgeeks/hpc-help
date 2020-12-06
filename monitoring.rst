@@ -30,6 +30,8 @@ https://cropdiversity.ac.uk/diskusage
 
 .. |diskusage| image:: media/diskusage.png
 
+.. note::
+  You'll need to log in with your Crop Diversity username and password if you're not connecting via a :doc:`organizations` network address.
 
 Login attempts
 --------------
