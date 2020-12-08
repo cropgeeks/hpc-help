@@ -100,7 +100,7 @@ To use Puttygen make sure you installed this tool from the putty tool bundle, la
 
 .. raw:: html
 
-   <video controls width="320" height="240"> <source src="_static/videos/sshkeygen_mobaxterm.mp4" type="video/mp4"></video><br>
+   <video controls width="320" height="240"> <source src="_static/sshkeygen_mobaxterm.mp4" type="video/mp4"></video><br>
 
 Installing your public key
 --------------------------
