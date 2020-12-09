@@ -45,4 +45,4 @@ To activate and work with a different toolset, use the ``scl enable`` command, a
   gcc (GCC) 9.1.1 20190605 (Red Hat 9.1.1-2)
 
 .. note::
-  In previous versions of RHEL/CentOS this feature was called Software Collections Libraries, hence the scl command that's still in use.
+  In previous versions of RHEL/CentOS this feature was called Software Collections Libraries, hence the ``scl`` command that's still in use.
