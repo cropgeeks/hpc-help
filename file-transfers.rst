@@ -30,7 +30,7 @@ The ``/path/to/destination`` is optional. If you don't include it, copied files 
 rsync
 ~~~~~
 
-``rsync`` also copies files over a network connection (employing a special `delta transfer algorithm`_ to make things a bit faster) but supports resuming an interrupted transfer with its ``-P`` flag. It's also great for keeping two folders synchronized because it only copies files not already on the destination, or that it detects are different between source and destination. 
+``rsync`` also copies files over a network connection (employing a special `delta transfer algorithm`_ to make things a bit faster) but supports resuming an interrupted transfer with its ``-P`` flag. It's also great for keeping two folders synchronized because it only copies files not already on the destination, or that it detects are different between source and destination.
 
 .. _`delta transfer algorithm`: https://rsync.samba.org/tech_report
 
@@ -42,6 +42,12 @@ A common way of synchronizing folders is::
 
 .. note::
   Pay attention to whether you have a trailing slash (``/``) on the source or not. No slash means you want to copy the directory *and* its contents, whereas including a slash means you only want to copy the contents.
+
+Here is short video demonstration of using rsync to import a folder of data from another Linux server external to Crop Diversity.
+
+.. raw:: html
+
+   <video controls width="320" height="240"> <source src="_static/rsync_example.mp4" type="video/mp4"></video><br>
 
 
 Graphical options
