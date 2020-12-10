@@ -43,7 +43,7 @@ A common way of synchronizing folders is::
 .. note::
   Pay attention to whether you have a trailing slash (``/``) on the source or not. No slash means you want to copy the directory *and* its contents, whereas including a slash means you only want to copy the contents.
 
-Here is short video demonstration of using rsync to import a folder of data from another Linux server external to Crop Diversity.
+Here is a short video demonstration of using rsync to import a folder of data from another Linux server external to Crop Diversity.
 
 .. raw:: html
 
