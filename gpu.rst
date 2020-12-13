@@ -1,7 +1,7 @@
 GPU Processing
 ==============
 
-The cluster contains two nodes (``jaws``, not yet setup) and (``thanos``, available now) with **Nvidia Tesla V100 GPU** co-processors to accelerate CPUs for general-purpose scientific and engineering computing.
+The cluster contains two nodes with **Nvidia Tesla V100 GPU** co-processors to accelerate CPUs for general-purpose scientific and engineering computing.
 
 - ``jaws`` contains a single card with 16GB of dedicated GPU memory
 - ``thanos`` contains dual cards, each with 32GB of dedicated GPU Memory
@@ -17,11 +17,11 @@ To access the GPUs submit to the ``gpu`` Slurm partition, for example, to run an
 .. note::
   Slurm is configured to allocate GPU resources at the level of whole GPUs (rather than CUDA cores), therefore you can request ``--gpus=1`` (``thanos`` or ``jaws``) or ``--gpus=2`` (``thanos`` only).
 
-``thanos`` is also the high memory node and spans two partitions, one for high memory jobs and one for GPU jobs. Currently the ``gpu`` partition has 70G of RAM assigned to it and 16 CPUs, therefore the maximum resources you can allocate to a single GPU job are::
+``thanos`` is also a high memory node and spans two partitions, one for high memory jobs and one for GPU jobs. Currently the ``gpu`` partition has 70G of RAM assigned to it and 16 CPUs, therefore the maximum resources you can allocate to a single GPU job are::
 
   --partition=gpu --mem=70G --cpus-per-task=16 --gpus=2
 
-See also Slurm's documentation on `Generic Resource Scheduling`_, although as we only have one type of GPU at present there is little need to do anything more than just ask for one or two GPUs.
+See also Slurm's documentation on `Generic Resource Scheduling`_.
 
 .. _`Generic Resource Scheduling`: https://slurm.schedmd.com/gres.html#Running_Jobs
 
