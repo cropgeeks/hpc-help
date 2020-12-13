@@ -90,7 +90,7 @@ Starting an interactive job is a quick and easy way to get access to a powerful 
 .. tip::
   You can also use just ``srsh``. See :doc:`slurm-shortcuts` for details.
 
-This will assign you an interactive shell on an available node and reserve - by default - one CPU and 4 GB of memory for your *exclusive* use until you exit the shell. (Information on how to request more than the default is given below in the `Allocating resources`_ section.)
+This will assign you an interactive shell on an available node and reserve - by default - 1 CPU and 1 GB of memory for your use until you exit the shell. (Information on how to request more than the default is given below in the `Allocating resources`_ section.)
 
 .. important::
   Remember that this allocation is reserved for your use for the entire time the shell is active, so if you are not doing anything you should really exit the shell - type ``exit`` or ``CTRL+D`` - to avoid tying up resources that could otherwise be utilized.
@@ -178,7 +178,7 @@ Allocating resources
 Queues, CPUs, and memory
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Each job task is assigned 1 CPU and 4 GB of memory by default, and is submitted to the ``medium`` queue, but you can request different resources by passing additional parameters to Slurm.
+Each job task is assigned 1 CPU and 1 GB of memory by default, and is submitted to the ``medium`` queue, but you can request different resources by passing additional parameters to Slurm.
 
 For instance, to start an interactive job on the ``short`` queue with 8 CPUs and 16 GB of memory, use::
 
@@ -211,6 +211,8 @@ Further to the above point, you can see this hyperthread allocation in action by
 
 We passed no extra parameters, meaning the job only has access to a single CPU, but it's actually taken up two CPUs (``2/64``) in the allocation list for the node it's running on.
 
+.. note::
+  CPU resources may be shared (up to two jobs running per CPU) when a queue is full, but memory is always exclusive, so if you ask for 4 GB then no-one else can use up that memory and negatively effect your job.
 
 GPU resources
 ~~~~~~~~~~~~~
