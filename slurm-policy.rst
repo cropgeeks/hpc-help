@@ -11,56 +11,58 @@ Our Slurm setup runs with the following goals and constraints in mind:
 To do this, we primarily use three main queues/partitions called ``short``, ``medium`` and ``long`` (referring to their runtime), with ``medium`` being the default queue that jobs will go to unless you specify otherwise:
 
 .. list-table::
-   :widths: 20 20 20 20 60
+   :widths: 10 10 25 20 60
    :header-rows: 1
 
    * - Queue
-     - Total CPUs
-     - Max RAM
-     - Run-time Limit
+     - CPUs
+     - RAM
+     - Time Limit
      - Description
    * - ``short``
-     - 192
-     - 192 GB
-     - 6 hours
-     - This is a high priority queue for smaller jobs with thresholds set to allow smaller jobs to squeeze through that might have to wait in the other queues.
-   * - ``medium``
      - 384
      - 192 GB
-     - 24 hours
-     - This is the default queue that all jobs will submit to unless otherwise requested.
-   * - ``long``
-     - 960
+     - 6 hours
+     - This is a high priority queue for smaller jobs with thresholds set to allow smaller jobs to squeeze through that might have to wait in the other queues
+   * - ``medium``
+     - 768
      - 192 GB
+     - 24 hours
+     - This is the default queue that all jobs will submit to unless otherwise requested
+   * - ``long``
+     - 2,032
+     - 192 - 384 GB
      - No limit
-     - This queue is for long running jobs.
+     - This queue is for long running jobs
 
 There are also two special queues that should only be used for jobs that require large amounts of memory or access to :doc:`gpu`:
 
 
 .. list-table::
-   :widths: 20 20 20 20 60
+   :widths: 10 10 25 20 60
    :header-rows: 1
 
    * - Queue
-     - Total CPUs
-     - Max RAM
-     - Run-time Limit
+     - CPUs
+     - RAM
+     - Time Limit
      - Description
    * - ``himem``
-     - 112
-     - 2,980 GB
+     - 168
+     - 1.5 - 3.0 TB
      - No limit
      - This queue is for jobs requiring a very large amount of RAM
    * - ``gpu``
-     - 16
+     - 32
      - 70 GB
      - No limit
-     - This queue is for jobs requiring GPUs, currently two V100 Tesla cards are online.
+     - This queue is for jobs requiring GPUs
 
 .. note::
   All queues run with the same priority across all nodes. Only the time limits differ, with the ``short`` and ``medium`` queues automatically killing a job if it exceeds their limits. GPUs can only be accessed from the ``gpu`` queue, and large RAM requests can only run on the ``himem`` queue.
 
+.. note::
+  The maximum amount of memory you can request (per node) will be a few GB less than shown above, because Slurm reserves some allocation for the rest of the operating system.
 
 Specifying queues
 -----------------
