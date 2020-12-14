@@ -16,7 +16,7 @@ To do this, we primarily use three main queues/partitions called ``short``, ``me
 
    * - Queue
      - CPUs
-     - RAM
+     - Max RAM
      - Time Limit
      - Description
    * - ``short``
@@ -44,7 +44,7 @@ There are also two special queues that should only be used for jobs that require
 
    * - Queue
      - CPUs
-     - RAM
+     - Max RAM
      - Time Limit
      - Description
    * - ``himem``
