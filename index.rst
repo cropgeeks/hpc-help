@@ -5,14 +5,8 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
 
 .. _`Crop Diversity Bioinformatics High Performance Computing (HPC)`: https://www.cropdiversity.ac.uk
 
-.. warning::
-  This documentation is still a work-in-progress and not all sections are complete. Please :doc:`contact-us` if in doubt about anything.
-
 .. important::
   Run by the James Hutton Institute's `Information & Computational Sciences`_ (ICS) Research Computing team, and the Scientific Computing section of NIAB's IT team, this resource supports the computational needs of researchers from **six UK institutions**. See :doc:`organizations` for details.
-
-.. note::
-  Use the **Edit on GitHub** links to make or suggest changes or additions to this help; new or updated pages are synced every five minutes.
 
 .. toctree::
    :maxdepth: 1
@@ -73,5 +67,8 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
    sla
    acceptable-use
    gdpr
+
+.. note::
+  Use the **Edit on GitHub** links to make or suggest changes or additions to this help; new or updated pages are synced every five minutes.
 
 .. _Information & Computational Sciences: https://ics.hutton.ac.uk
