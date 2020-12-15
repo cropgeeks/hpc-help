@@ -8,6 +8,9 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
 .. important::
   Run by the James Hutton Institute's `Information & Computational Sciences`_ (ICS) Research Computing team, and the Scientific Computing section of NIAB's IT team, this resource supports the computational needs of researchers from **six UK institutions**. See :doc:`organizations` for details.
 
+.. note::
+  Compute clusters contain a lot of CPUs, so it's worth seeing how we're :doc:`cpus`.
+
 .. toctree::
    :maxdepth: 1
    :caption: Introduction
