@@ -30,6 +30,7 @@ Once you've found your browser's Network/Proxy settings, you need to modify them
 - enable proxying
 - set the SOCKS host to ``localhost``
 - set the SOCKS port to ``8080`` (or whatever port number you selected)
+- turn on DNS via the proxy
 
 The example below shows this configuration in Firefox.
 
