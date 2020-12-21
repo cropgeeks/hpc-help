@@ -27,5 +27,4 @@ New or changed data is synced nightly to our backup server - ``delorean`` - and 
 Restoring backups
 -----------------
 
-.. important::
-  Because of the COVID-19 pandemic and lockdown, an alternative backup system is temporarily in use. Please :doc:`contact-us` with all queries regarding restoring data from backup.
+Please :doc:`contact-us` with all queries regarding restoring data from backup.
