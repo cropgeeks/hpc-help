@@ -1,7 +1,7 @@
 SSH SOCKS Proxies
 =================
 
-Certain (usually sensitive) Crop Diversity HPC web pages are only available to you if you are connecting via a :doc:`organizations` network, and will block you from viewing them via a :doc:`remote-access` connection.
+Certain (usually sensitive) Crop Diversity HPC web pages are only available to you if you are connecting via a :doc:`organizations` network, and will block you from viewing them via a remote access connection.
 
 You can work around this limitation by employing SSH's ability to *proxy* your web traffic via ``gruffalo``, thereby allowing you access to any protected pages
 

@@ -71,7 +71,7 @@ You can find more information on how we expect you to manage your data on the :d
 Can I access the cluster when off site?
 ---------------------------------------
 
-Yes. Access to the cluster via a username/password combination is available if you are connected via a :doc:`organizations` network address, but for other locations you must first enable your account for SSH public key authentication, described in more detail on the :doc:`remote-access` page.
+Yes. Access to the cluster via a username/password combination is available if you are connected via a :doc:`organizations` network address, but for other locations you must first enable your account for SSH public key authentication, described in more detail on the :doc:`ssh` page.
 
 
 Is training available to help me with Linux or using the cluster?

@@ -4,7 +4,7 @@ File Transfers
 Here are some tips to help you get your data transferred to and from the cluster's file system.
 
 .. important::
-  When considering your **source** or **destination** in the text below, remember that ``gruffalo`` - because it's accessible from anywhere (see :doc:`remote-access`) - can be both, but your local client may be firewalled and therefore only able to act as a source.
+  When considering your **source** or **destination** in the text below, remember that ``gruffalo`` - because it's accessible from anywhere (see :doc:`ssh`) - can be both, but your local client may be firewalled and therefore only able to act as a source.
 
 Command line options
 --------------------
