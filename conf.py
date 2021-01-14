@@ -20,7 +20,7 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'Crop Diversity HPC Help'
-copyright = '2020 Information & Computational Sciences, The James Hutton Institute'
+copyright = '2021 Information & Computational Sciences, The James Hutton Institute'
 author = 'Iain Milne'
 
 # The short X.Y version
