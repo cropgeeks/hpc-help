@@ -51,7 +51,7 @@ You can finish watching with a ``CTRL+C``.
 Interactive programming and data analysis using a JupyterLab server
 -------------------------------------------------------------------
 
-JupyterLab is the next-generation web-based user interface for `Project Jupyter`_. It allows you to work with documents such as Jupyter notebooks, python scripts, text editors, terminals, etc through a flexible, integrated, web front end. This is particularly useful if you want to do interactive coding on a cluster node rather than locally, functioning like an IDE with plugins for a range of languages. Most of the time you won't need to do this; coding can be done locally and then run on the cluster when ready, however for some use-cases (e.g. deep learning model development) interactive development on significant hardware is particualrly important.
+JupyterLab is the next-generation web-based user interface for `Project Jupyter <https://jupyter.org/documentation>`_. It allows you to work with documents such as Jupyter notebooks, python scripts, text editors, terminals, etc through a flexible, integrated, web front end. This is particularly useful if you want to do interactive coding on a cluster node rather than locally, functioning like an IDE with plugins for a range of languages. Most of the time you won't need to do this; coding can be done locally and then run on the cluster when ready, however for some use-cases (e.g. deep learning model development) interactive development on significant hardware is particualrly important.
 
 In order to run JupyterLab on a cluster node, first build a ``conda`` environment with jupyterlab installed, connect to a cluster node, and activate the conda environment::
 
@@ -76,6 +76,3 @@ First though, we need to route our browser through an SSH tunnel for this port. 
   $ ssh -L8888:hela:8888 username@gruffalo.cropdiversity.ac.uk
 
 Now all we need to do is paste the URL (``http://127.0.0.1:8888/?token=c4fc5b7c965fd5cc9940fcaed065d822483c6015c947a9cc``) into our browser, and away we go!
-
-
-.. _`Project Jupyter`: https://jupyter.org/documentation
