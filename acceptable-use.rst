@@ -6,9 +6,7 @@ Our Crop Diversity HPC **Acceptable Use Policy** is presented to each user when 
 
 
 .. important::
-  This policy is subject to change, but we will always notify you of any changes via email at which point the latest version will then apply to you. The content in this policy is consistent with the `JISC Acceptable Use Policy`_ (by which we are bound) and the law.
-
-.. _`JISC Acceptable Use Policy`: https://community.jisc.ac.uk/library/acceptable-use-policy
+  This policy is subject to change, but we will always notify you of any changes via email at which point the latest version will then apply to you. The content in this policy is consistent with the `JISC Acceptable Use Policy <https://community.jisc.ac.uk/library/acceptable-use-policy>`_ (by which we are bound) and the law.
 
 You agree:
 
