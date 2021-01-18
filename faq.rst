@@ -64,7 +64,7 @@ If you get stuck installing applications though, don't hesitate to :doc:`contact
 How much memory or CPU should I allocate to my job?
 ---------------------------------------------------
 
-This is a complex question, and the answer depends on a variety of factors, not least the type of job you're running and the amount of data being processed. See `Slurm - Queue Policies & Advice <https://help.cropdiversity.ac.uk/slurm-policy.html#additional-advice-and-guidance>`_ for more discussion about this.
+This is a complex question, and the answer depends on a variety of factors, not least the type of job you're running and the amount of data being processed. See `Slurm - Queue Policies & Advice <slurm-policy.html#additional-advice-and-guidance>`_ for more discussion about this.
 
 How should I manage my data?
 ----------------------------

@@ -30,9 +30,7 @@ The ``/path/to/destination`` is optional. If you don't include it, copied files 
 rsync
 ~~~~~
 
-``rsync`` also copies files over a network connection (employing a special `delta transfer algorithm`_ to make things a bit faster) but supports resuming an interrupted transfer with its ``-P`` flag. It's also great for keeping two folders synchronized because it only copies files not already on the destination, or that it detects are different between source and destination.
-
-.. _`delta transfer algorithm`: https://rsync.samba.org/tech_report
+``rsync`` also copies files over a network connection (employing a special `delta transfer algorithm <https://rsync.samba.org/tech_report>`_ to make things a bit faster) but supports resuming an interrupted transfer with its ``-P`` flag. It's also great for keeping two folders synchronized because it only copies files not already on the destination, or that it detects are different between source and destination.
 
 A common way of synchronizing folders is::
 
@@ -60,15 +58,10 @@ How to use the various graphical file transfer programs that are available is be
 
 Here are a few recommended clients to get you started:
 
-- `SSHFS`_ - all platforms, although it can be a little tricky to set up, especially on Windows
-- `FileZilla`_ - all platforms
-- `MobaXterm`_ - Windows only, but enables a graphical file browser in addition to normal SSH functionality
-- `WinSCP`_ - Windows only
-
-.. _`SSHFS`: https://en.wikipedia.org/wiki/SSHFS
-.. _`MobaXterm`: https://mobaxterm.mobatek.net/download-home-edition.html
-.. _`WinSCP`: https://winscp.net/eng/index.php
-.. _`FileZilla`: https://filezilla-project.org/
+- `SSHFS <https://en.wikipedia.org/wiki/SSHFS>`_ - all platforms, although it can be a little tricky to set up, especially on Windows
+- `FileZilla <https://filezilla-project.org/>`_ - all platforms
+- `MobaXterm <https://mobaxterm.mobatek.net/download-home-edition.html>`_ - Windows only, but enables a graphical file browser in addition to normal SSH functionality
+- `WinSCP <https://winscp.net/eng/index.php>`_ - Windows only
 
 .. note::
   JHI users can also enable :doc:`samba` for easy graphical file browsing.
