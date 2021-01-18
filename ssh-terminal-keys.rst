@@ -18,9 +18,7 @@ Generating a key pair
 
 The tool **ssh-keygen** can be used to generate an SSH key pair. For further details about its usage, please refer to the *ssh-keygen(1)* manual page.
 
-.. _`Ed25519`: https://en.wikipedia.org/wiki/EdDSA
-
-If no parameter is specified on execution, ssh-keygen will create an RSA key, but `Ed25519`_ keys are a better choice for ``gruffalo``, and can be generated using the following command::
+If no parameter is specified on execution, ssh-keygen will create an RSA key, but `Ed25519 <https://en.wikipedia.org/wiki/EdDSA>`_ keys are a better choice for ``gruffalo``, and can be generated using the following command::
 
   $ ssh-keygen -t ed25519
 

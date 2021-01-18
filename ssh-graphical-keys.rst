@@ -11,12 +11,9 @@ The following steps will show you how to generate a key pair and register it wit
 Generating a key pair
 ---------------------
 
-`MobaXterm`_ and `PuTTY`_ are two Windows programs that you can use to connect to the HPC, both also include tools for SSH key generation. The key generation tools are very similar, so we will use MobaXterm as the example but PuTTYgen (a tool included with the PuTTY bundle) is almost identical.
+`MobaXterm <https://mobaxterm.mobatek.net/download-home-edition.html>`_ and `PuTTY <https://www.putty.org/>`_ are two Windows programs that you can use to connect to the HPC, both also include tools for SSH key generation. The key generation tools are very similar, so we will use MobaXterm as the example but PuTTYgen (a tool included with the PuTTY bundle) is almost identical.
 
 Launch MobaXterm, click on the Tools icon, then on MobaKeyGen. This will launch the MobaXterm SSH Key Generation tool. Select the Ed25519 key type (other types should also work but this is the best type), then click Generate. Move your mouse about to create random input for the key! We strongly recommend using a passphrase to protect your private key, so choose a new passphrase and enter it into the Key passphrase box and also retype it into the Confirm passphrase box. Your key is now ready to save. Click "Save public key" and choose a place to save the public key that you will later need to email to us. Then finally click "Save private key" and choose a place to save your private key which you should keep safe and not share with anyone. Once both files are saved you can close the tool by clicking on the X at the top right of the dialog.
-
-.. _`MobaXterm`: https://mobaxterm.mobatek.net/download-home-edition.html
-.. _`PuTTY`: https://www.putty.org/
 
 The public key should contain something looking like this::
 

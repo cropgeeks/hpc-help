@@ -12,9 +12,7 @@ Account details
 
 Samba uses its own authentication system, so you must first set a password for your account by visiting the following link and signing in with your Crop Diversity HPC username and password:
 
-- `Create/Update Samba Password`_
-
-.. _`Create/Update Samba Password`: https://help.cropdiversity.ac.uk/samba
+- `Create/Update Samba Password <https://help.cropdiversity.ac.uk/samba>`_
 
 
 Connection details

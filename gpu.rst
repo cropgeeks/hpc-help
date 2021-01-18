@@ -21,9 +21,7 @@ To access the GPUs submit to the ``gpu`` Slurm partition, for example, to run an
 
   --partition=gpu --mem=66G --cpus-per-task=16 --gpus=2
 
-See also Slurm's documentation on `Generic Resource Scheduling`_.
-
-.. _`Generic Resource Scheduling`: https://slurm.schedmd.com/gres.html#Running_Jobs
+See also Slurm's documentation on `Generic Resource Scheduling <https://slurm.schedmd.com/gres.html#Running_Jobs>`_.
 
 Whenever you run a job on a GPU node, your path will be modified to include Nvidia's cuda platform. This will be required if compiling any programs from source, for example using the ``nvcc`` compiler. Most of the system's cuda files can be found at ``/usr/local/cuda/bin``.
 

@@ -65,9 +65,7 @@ In addition to the policy outlined above, when specifying and building the clust
 
 The vast majority of the compute nodes also use special four-node chassis units that allow power and cooling to be shared between the nodes, further reducing the energy demands of the cluster.
 
-Finally, the `James Hutton Institute`_, where the Crop Diversity HPC is located, only sources electricity that is backed by Renewable Energy Generation Obligation (REGO) certificates. This is a scheme that supports mechanisms for large-scale renewable electricity projects in the UK.
-
-.. _`James Hutton Institute` : https://www.hutton.ac.uk
+Finally, the `James Hutton Institute <https://www.hutton.ac.uk>`_, where the Crop Diversity HPC is located, only sources electricity that is backed by Renewable Energy Generation Obligation (REGO) certificates. This is a scheme that supports mechanisms for large-scale renewable electricity projects in the UK.
 
 What can I do to help?
 ----------------------
