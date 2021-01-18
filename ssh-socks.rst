@@ -1,3 +1,5 @@
+:orphan:
+
 SSH SOCKS Proxies
 =================
 
