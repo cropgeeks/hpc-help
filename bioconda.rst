@@ -30,7 +30,7 @@ Finding packages
 
 There are several options for finding software packages that you can install:
 
-* `browse the package list`_ online to see what’s available
+* `browse the package list <https://anaconda.org/bioconda/>`_ online to see what’s available
 * use ``conda search <packagename>``
 
 For example::
@@ -205,9 +205,6 @@ Removing Bioconda
 -----------------
 
 Bioconda is installed in ``$APPS/conda``. Simply delete this folder to remove Bioconda and any additional packages you've installed or environments you've created.
-
-
-.. _browse the package list: https://bioconda.github.io/conda-recipe_index.html
 
 
 Bioconda and Slurm
