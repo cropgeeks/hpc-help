@@ -13,9 +13,7 @@ All databases can be found at: ``/mnt/shared/apps/databases/``.
 NCBI BLAST
 ----------
 
-Copies of many `NCBI BLAST`_ databases are available at: ``/mnt/shared/apps/databases/ncbi-blast``.
-
-.. _NCBI BLAST: https://en.wikipedia.org/wiki/BLAST
+Copies of many `NCBI BLAST <https://en.wikipedia.org/wiki/BLAST>`_ databases are available at: ``/mnt/shared/apps/databases/ncbi-blast``.
 
 The following databases are currently available:
 
@@ -84,14 +82,10 @@ The following databases are currently available:
 Pfam
 ----
 
-Copies of several popular `Pfam`_ databases are available at: ``/mnt/shared/apps/databases/pfam-31`` (mirrored from http://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam31.0/).
-
-.. _Pfam: https://en.wikipedia.org/wiki/Pfam
+Copies of several popular `Pfam <https://en.wikipedia.org/wiki/Pfam>`_ databases are available at: ``/mnt/shared/apps/databases/pfam-31`` (mirrored from http://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam31.0/).
 
   
 Uniprot
 -------
 
-A full copy of `Uniprot`_ is available at: ``/mnt/shared/apps/databases/uniprot`` (mirrored from ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/).
-
-.. _Uniprot: https://www.uniprot.org/
+A full copy of `Uniprot <https://www.uniprot.org/>`_ is available at: ``/mnt/shared/apps/databases/uniprot`` (mirrored from ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/).
