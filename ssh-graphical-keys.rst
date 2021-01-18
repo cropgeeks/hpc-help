@@ -1,5 +1,5 @@
 Graphical Clients Connection Guide (Keys)
-========================================
+=========================================
 
 To connect from remote addresses, we require using a cryptographic authentication instead of a password. For this authentication method you need to generate an **SSH key pair**.
 
