@@ -90,7 +90,7 @@ Starting an interactive job is a quick and easy way to get access to a powerful 
 .. tip::
   You can also use just ``srsh``. See :doc:`slurm-shortcuts` for details.
 
-This will assign you an interactive shell on an available node and reserve - by default - 1 CPU and 1 GB of memory for your use until you exit the shell. (Information on how to request more than the default is given below in the `Allocating resources`_ section.)
+This will assign you an interactive shell on an available node and reserve - by default - 1 CPU and 1.5 GB of memory for your use until you exit the shell. (Information on how to request more than the default is given below in the `Allocating resources`_ section.)
 
 .. important::
   Remember that this allocation is reserved for your use for the entire time the shell is active, so if you are not doing anything you should really exit the shell - type ``exit`` or ``CTRL+D`` - to avoid tying up resources that could otherwise be utilized.
