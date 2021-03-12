@@ -33,18 +33,6 @@ The following databases are currently available:
      - Cog.*
      - Protein domain database (for RPS-BLAST etc) using sequences classified in the COGs resource, which focuses primarily on prokaryotes.
    * - NCBI
-     - est.*
-     - This file requires est_human.*.tar.gz, est_mouse.*.tar.gz, and est_others.*.tar.gz files to function. It contains the est.nal alias so that searches against est (-db est) will include est_human, est_mouse and est_others.
-   * - NCBI
-     - est_others.*
-     - The non-human and non-mouse subset of the EST database. Entries are excluded from nt.
-   * - NCBI
-     - est_human.*
-     - Human subset of the est database from the est division of GenBank, EMBL and DDBJ.
-   * - NCBI
-     - est_mouse.*
-     - Mouse subset of the est database
-   * - NCBI
      - Kog.*
      - Protein domain database (for RPS-BLAST etc) using sequences classified in the KOGs resource, the eukaryotic counterpart to COGs, see http://www.ncbi.nlm.nih.gov/COG/new/
    * - NCBI
