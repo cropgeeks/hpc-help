@@ -137,7 +137,7 @@ After submission, the job is assigned a unique ID and added to the queue, then r
 Array jobs
 ----------
 
-An array job is one in which the submitted script is run multiple times. The individual instances of the job, known as **tasks**, are distinguished by the value of the ``$SLURM_ARRAY_TASK_ID`` environment variable. For example, if an array job of 10 tasks is run, ``$SLURM_ARRAY_TASK_ID`` will have a value of 1 in the first instance, 2 in the second instance and so on up to 10.
+An array job is one in which the submitted script is run multiple times. The individual instances of the job, known as **tasks**, are distinguished by the value of the ``$SLURM_ARRAY_TASK_ID`` environment variable. For example, if an array job of 50 tasks is run as follows, ``$SLURM_ARRAY_TASK_ID`` will have a value of 1 in the first instance, 2 in the second instance, and so on up to 50.
 
 Use the ``--array`` option to specify an array job, eg::
 
@@ -147,7 +147,7 @@ Use the ``--array`` option to specify an array job, eg::
 
   mycommand.exe input_file_$SLURM_ARRAY_TASK_ID
 
-This example will run ``mycommand.exe`` 10 times, starting with ``input_file_1``, ``input_file_2``, and so on up to ``input_file_10``.
+This example will run ``mycommand.exe`` 50 times, starting with ``input_file_1``, ``input_file_2``, and so on up to ``input_file_50``.
 
 As an a second example, consider compressing a folder of 50 ``.fasta`` files. We could just run ``pigz *.fasta``, but each file will be processed sequentially - and where's the fun in that when you have a cluster with thousands of CPUs? Instead, a simple array job can run this in parallel and compress all 50 files *at the same time*::
 
