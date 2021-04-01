@@ -13,7 +13,11 @@ All databases can be found at: ``/mnt/shared/apps/databases/``.
 NCBI BLAST
 ----------
 
-Copies of many `NCBI BLAST <https://en.wikipedia.org/wiki/BLAST>`_ databases are available at: ``/mnt/shared/apps/databases/ncbi-blast``.
+Copies of many `NCBI BLAST <https://en.wikipedia.org/wiki/BLAST>`_ databases are available at: ``/mnt/shared/apps/databases/ncbi/``. You can tell the command line BLAST tools to search here by setting an environment variable:
+
+.. code:: console
+
+    $ export BLASTDB=/mnt/shared/apps/databases/ncbi/
 
 The following databases are currently available:
 
