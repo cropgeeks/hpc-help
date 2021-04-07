@@ -25,7 +25,7 @@ The Samba server runs on ``narnia``, and should always be specified using double
 You can either type this into Windows Search or Explorer's navigation bar. Either way, you'll then be asked for your username and the password you set above.
 
 .. note::
-  You may need to supply your username with a single backslash (eg ``.\username`` (dot backslash username)) to ensure no existing domain information from your Window account is used.
+  You may need to supply your username preceded with dot backslash (eg ``.\username``) to ensure no existing domain information from your Window account is used.
 
 The shares will appear in a new window that you can use to either browse or to right-click and map a network drive to.
 
