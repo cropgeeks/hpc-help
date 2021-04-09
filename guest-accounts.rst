@@ -38,13 +38,15 @@ MobaXterm also allows you to connect using a graphical interface without having 
     Advanced SSH settings:
         Use private key: browse and select guestxxx_key
 
-As with the command line method you may be asked to verify the server's fingerprint (see `here <ssh-terminal-pw>`_). You will also have to enter the passphrase we provided you with.
+Where xxx is replaced by the number of your guest account. Make sure you use guestxxx_key and not guestxxx_key_putty.ppk. As with the command line method you may be asked to verify the server's fingerprint (see `here <ssh-terminal-pw>`_). You will also have to enter the passphrase we provided you with.
 
 Connecting Using Putty
 ======================
-Similary Putty allows you to connect using a graphical interface::
+Similarly Putty allows you to connect using a graphical interface::
 
  Session:
     Hostname: gruffalo.cropdiversity.ac.uk
  Connection -> SSH -> Auth
     Private key file for authentication: browse and select guestxxx_key_putty.ppk
+
+Where xxx is replaced by the number of your guest account. Make sure you use guestxxx_key_putty.ppk and not guestxxx_key. As with the command line method you may be asked to verify the server's fingerprint (see `here <ssh-terminal-pw>`_). You will also have to enter the passphrase we provided you with.
