@@ -22,6 +22,7 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
    
    user-accounts
    ssh
+   guest-accounts
       
 .. toctree::
    :maxdepth: 2
