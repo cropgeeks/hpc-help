@@ -17,7 +17,7 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
    system-overview
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Getting started
    
    user-accounts
