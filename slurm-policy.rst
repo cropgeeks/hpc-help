@@ -58,6 +58,9 @@ There are also two special queues that should only be used for jobs that require
      - No limit
      - This queue is for jobs requiring GPUs
 
+.. important::
+  If you have a job that will last more than 21 days, we ask that you :doc:`contact-us` beforehand to discuss its requirements. We reserve the right to **terminate any long running job** that we believe is negatively affecting the cluster, running inefficiently, and/or impacting other users.
+
 .. note::
   All queues run with the same priority across all nodes. Only the time limits differ, with the ``short`` and ``medium`` queues automatically killing a job if it exceeds their limits. GPUs can only be accessed from the ``gpu`` queue, and large RAM requests can only run on the ``himem`` queue.
 
