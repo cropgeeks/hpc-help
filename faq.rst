@@ -96,4 +96,4 @@ The BeeGFS storage system uses transparent compression to automatically compress
 Why "gruffalo"?
 ---------------
 
-The name ``gruffalo`` goes way back to the early days of HPC at the Scottish Crop Research Institute (that merged with the Macaulay Land Use Institute to become the James Hutton Institute in 2011). Our first cluster - circa 2004 - used this name, and we've carried it on ever since, upgrading and/or rebuilding it across a range of hardware and software (RHEL, Fedora, CentOS) generations.
+The name ``gruffalo`` goes way back to the early days of HPC at the Scottish Crop Research Institute (that merged with the Macaulay Land Use Institute to become the James Hutton Institute in 2011). Our first cluster - circa 2004 - used this name, and we've carried it on ever since, upgrading and/or rebuilding it across a range of hardware and software (RHEL, Fedora, CentOS, Rocky) generations.

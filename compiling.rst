@@ -25,14 +25,14 @@ or::
 Compiler versions (a.k.a. changing gcc)
 ---------------------------------------
 
-Enterprise Linux distributions are designed to be around for a long time (10 years in the case of CentOS) and have to maintain ABI/API compatibility over that lifetime, so that developers can create programs on day 1 of the release that will work as long as the distribution is supported. Over time though, this means the programming language versions included are getting very old compared to those that are available in "cutting edge" Linux distributions.
+Enterprise Linux distributions are designed to be around for a long time (10 years in the case of Rocky Linux) and have to maintain ABI/API compatibility over that lifetime, so that developers can create programs on day 1 of the release that will work as long as the distribution is supported. Over time though, this means the programming language versions included are getting very old compared to those that are available in "cutting edge" Linux distributions.
 
 At the time of writing, the version of gcc (GNU C Compiler) installed on our cluster is::
 
   $ gcc --version
   gcc (GCC) 8.3.1 20190507 (Red Hat 8.3.1-4)
 
-However, we can take advantage of an *Application Stream* built into RHEL/CentOS called ``GCC Toolset`` to temporarily enable different environments with newer versions of developer tools, such as updated versions of gcc.
+However, we can take advantage of an *Application Stream* built into RHEL/Rocky called ``GCC Toolset`` to temporarily enable different environments with newer versions of developer tools, such as updated versions of gcc.
 
 Toolsets currently installed include::
 
@@ -45,4 +45,4 @@ To activate and work with a different toolset, use the ``scl enable`` command, a
   gcc (GCC) 9.1.1 20190605 (Red Hat 9.1.1-2)
 
 .. note::
-  In previous versions of RHEL/CentOS this feature was called Software Collections Libraries, hence the ``scl`` command that's still in use.
+  In previous versions of RHEL/Rocky this feature was called Software Collections Libraries, hence the ``scl`` command that's still in use.

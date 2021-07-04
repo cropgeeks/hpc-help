@@ -7,7 +7,7 @@ Linux Basics
 About Linux
 -----------
 
-Linux is a free, open-source operating system (OS) that's been in development since the early 90s. There are many - often subtly - different versions of Linux, known as *distributions*, and on this cluster all of our nodes are running a distribution called **CentOS 8**.
+Linux is a free, open-source operating system (OS) that's been in development since the early 90s. There are many - often subtly - different versions of Linux, known as *distributions*, and on this cluster all of our nodes are running a distribution called **Rocky Linux 8**.
 
 We use Linux not just because it's free, but because it's also very powerful and very easy to control via scripts which makes it ideal for use in a multi-node computing cluster with thousands of CPUs. Almost all of the top super computers and clusters in the world are likely to be running some variant of Linux.
 

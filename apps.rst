@@ -48,4 +48,4 @@ Java
 - ``/mnt/shared/apps/java``
 - On default path: ``no``
 
-Updated versions of the **Java JDK** are available here. CentOS 8 ships with JDK 8 by default, although you can also get other versions via :doc:`bioconda`.
+Updated versions of the **Java JDK** are available here. Rocky Linux 8 ships with JDK 8 by default, although you can also get other versions via :doc:`bioconda`.
