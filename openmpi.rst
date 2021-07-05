@@ -1,7 +1,7 @@
 OpenMPI
 =======
 
-Many programs require a **Message Passing Interface** (MPI) to communicate between processes running on different CPUs across different physical hosts. On our cluster, OpenMPI 4.0.3 is available for use in these cases.
+Many programs require a **Message Passing Interface** (MPI) to communicate between processes running on different CPUs across different physical hosts. On our cluster, OpenMPI 4.1.1 is available for use in these cases.
 
 You can give it a quick test to confirm everything is in order by running::
 
