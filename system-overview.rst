@@ -14,6 +14,20 @@ Compute cluster
 
 The tables below list the various batches of hardware the make up the current cluster, with each set of nodes named something 'fun' on a (geeky) thematic basis.
 
+- **Year**: 2021
+- **Theme**: Buck Rogers
+- **Hardware**: Dell PowerEdge R7525 (2x)
+- **CPUs/GPUs**: 2nd-Gen AMD EPYC (Rome) / Nvidia Quadro
+- **Capacity**: 80 CPU cores (160 threads), 9,216 Cuda cores, and 1,152 Tensor cores
+
+==============  ==============================  ================  ======  ============
+Name            CPUs                            GPUs              Memory  Disk
+==============  ==============================  ================  ======  ============
+buck            2x 7502 @2.5GHz 32C/64T                           2.0 TB  890 GB (SSD)
+twiki           2x 7252 @3.1GHz 8C/16T          2x RTX 8000 48GB  256 GB  440 GB (SSD)
+==============  ==============================  ================  ======  ============
+
+
 - **Year**: 2019 (October)
 - **Theme**: Marvel Cinematic Universe
 - **Hardware**: Dell PowerEdge C6420 (48x) and R940xa (1x)

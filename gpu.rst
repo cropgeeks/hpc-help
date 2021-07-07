@@ -1,21 +1,22 @@
 GPU Processing
 ==============
 
-The cluster contains two nodes with **Nvidia Tesla V100 GPU** co-processors to accelerate CPUs for general-purpose scientific and engineering computing.
+The cluster contains three nodes with **Nvidia GPU** co-processors to accelerate CPUs for general-purpose scientific and engineering computing.
 
-- ``jaws`` contains a single card with 16 GB of dedicated GPU memory
-- ``thanos`` contains dual cards, each with 32 GB of dedicated GPU Memory
+- ``jaws`` contains a single Tesla V100 card with 16 GB of dedicated GPU memory
+- ``thanos`` contains dual Tesla V100 cards, each with 32 GB of dedicated GPU memory
+- ``twiki`` contains dual Quadro RTX 8000 cards, each with 48 GB of dedicated GPU memory
 
-Each card has 5,120 **CUDA** processing cores and 640 **Tensor** cores. CUDA is Nvidia's parallel computing platform and API for general GPU processing, whereas Tensor cores are specifically intended to speed up the training of neural networks.
+The Tesla cards each have 5,120 **CUDA** processing cores and 640 **Tensor** cores. The RTX cards have 4,608 **CUDA** processing cores and 576 **Tensor** cores. CUDA is Nvidia's parallel computing platform and API for general GPU processing, whereas Tensor cores are specifically intended to speed up the training of neural networks.
 
-You can find more information about the V100 by visiting https://www.nvidia.com/en-gb/data-center/tesla-v100/.
+More iformation about the cards is available at https://www.nvidia.com/en-gb/data-center/tesla-v100/ and https://www.nvidia.com/en-gb/design-visualization/quadro/rtx-8000/.
 
 To access the GPUs submit to the ``gpu`` Slurm partition, for example, to run an interactive job::
 
   $ srsh --partition=gpu --gpus=1
 
 .. note::
-  Slurm is configured to allocate GPU resources at the level of whole GPUs (rather than CUDA cores), therefore you can request ``--gpus=1`` (``thanos`` or ``jaws``) or ``--gpus=2`` (``thanos`` only).
+  Slurm is configured to allocate GPU resources at the level of whole GPUs (rather than CUDA cores), therefore you can request ``--gpus=1`` (all nodes) or ``--gpus=2`` (``thanos`` and ``twiki`` only).
 
 ``thanos`` is also a high memory node and spans two partitions, one for high memory jobs and one for GPU jobs. Currently the ``gpu`` partition has ~70 GB of RAM assigned to it and 16 CPUs, therefore the maximum resources you can allocate to a single GPU job are::
 
@@ -25,7 +26,7 @@ See also Slurm's documentation on `Generic Resource Scheduling <https://slurm.sc
 
 Whenever you run a job on a GPU node, your path will be modified to include Nvidia's cuda platform. This will be required if compiling any programs from source, for example using the ``nvcc`` compiler. Most of the system's cuda files can be found at ``/usr/local/cuda/bin``.
 
-To see the current state (and power usage) of the Tesla card, run::
+To see the current state (and power usage) of the GPUs, run::
 
   $ nvidia-smi
 
