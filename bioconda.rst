@@ -119,7 +119,10 @@ To update an existing package at a later date (eg to its newest version), you ca
 
   $ conda update samtools
   
-  
+.. note::
+  At some point you will run into a conflict and/or find this process gets slower and slower. One recommendation is to use "environments" (see below). Another suggestion is ``conda install mamba`` and then use ``mamba install <packagename>``. Continuing the snake naming theme, `Mamba <https://mamba.readthedocs.io/>`__ is an alternative to the Conda installation tool which uses a different and faster approach to solving the dependency tree - hopefully that technique will be adopted into the standard conda tool at some point.
+
+
 Listing packages
 ----------------
 
@@ -198,7 +201,7 @@ If you want to get rid of an environment, make sure it's not active, then run::
   $ conda remove --all -n samtools-old
 
 .. note::
-  One school of thought suggests installing every package into its own unique environment. While this certainly avoids any dependency clash problems, it can make things a little awkward if you have pipelines or scripts relying on multiple packages as you're then constantly running ``conda activate`` and ``conda deactivate``. Ultimately though, it's up to you how you set up and manage Bioconda.
+  One school of thought suggests installing every package into its own unique environment. While this certainly avoids any dependency clash problems, it can make things a little awkward if you have pipelines or scripts relying on multiple packages as you're then constantly running ``conda activate`` and ``conda deactivate``. Some people go further and suggest your base environment should include only the alternative installation tool ``mamba``, and everything else should go in environments. Ultimately though, it's up to you how you set up and manage Bioconda.
 
   
 Removing Bioconda
