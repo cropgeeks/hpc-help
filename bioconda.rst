@@ -1,9 +1,9 @@
 Bioconda
 ========
 
-Bioconda (https://bioconda.github.io) is a package manager that specializes in providing bioinformatics software, with a repository of over 7,000 packages (as of March 2020) ready to install.
+Bioconda (https://bioconda.github.io) is a community managed set of packages providing bioinformatics software, with a repository of over 8,500 packages (as of August 2021) ready to install. It is part of the conda system which includes standard Linux/Unix tools as well.
 
-Using Bioconda allows you to pick and choose the software (and versions) that you want without any danger of clashing with anyone else's requirements, and as most packages require nothing more than running ``conda install <packagename>``, the process is incredibly easy.
+Using conda allows you to pick and choose the software (and versions) that you want without any danger of clashing with anyone else's requirements, and as most packages require nothing more than running ``conda install <packagename>``, the process is incredibly easy.
 
 Follow the instructions below to get up and running with Bioconda in just a few minutes.
 
@@ -14,7 +14,7 @@ Follow the instructions below to get up and running with Bioconda in just a few 
 Installing Bioconda
 -------------------
 
-To install Bioconda, simply run: ``install-bioconda`` while logged into ``gruffalo``. This will automatically download the necessary files for you, install it to an appropriate area, and then setup the correct channels for finding software for you. By default, it'll install channel information for R, conda-forge, and Bioconda itself.
+To install Bioconda, simply run: ``install-bioconda`` while logged into ``gruffalo``. This will automatically download the necessary files for you, install it to an appropriate area, and then setup the correct channels for finding software for you. By default, it'll install channel information for R, conda-forge,  Bioconda and the underlying Conda system itself.
 
 .. important::
   You must log out and in again (or open a new shell window) before the changes made by the install script will take effect.
@@ -22,7 +22,7 @@ To install Bioconda, simply run: ``install-bioconda`` while logged into ``gruffa
 You should test that installation was successful::
 
   $ conda --version
-  conda 4.3.27
+  conda 4.10.3
 
 
 Finding packages
@@ -82,7 +82,7 @@ Once you know the name of the package (and optionally its version), you can quer
       xz
       zlib
 
-Importantly, this will tell you what dependencies the package may have, although Bioconda will always resolve these for you automatically.
+Importantly, this will tell you what dependencies the package may have, although conda will always resolve these for you automatically.
 	  
 .. note::
   If you don't specify a version (by using ``<packagename>=<version>``) then Bioconda will assume you're interested in the latest version, which is probably what you want most of the time anyway.
@@ -162,15 +162,15 @@ Removing packages is as simple as::
 Environments
 ------------
 
-While Bioconda is great at resolving package dependencies, it's likely you'll (eventually) find a package you can't install because its dependencies clash with those of already-installed package (which often happens when packages rely on one of the major versions of Python (2 or 3)). Another problematic situation arises if you want to have multiple versions of the same package installed.
+While conda is good at resolving package dependencies, it's likely you'll (eventually) find a package you can't install because its dependencies clash with those of already-installed package (which often happens when packages rely on one of the major versions of Python (2 or 3)). Another problematic situation arises if you want to have multiple versions of the same package installed.
 
-Both of these issues can be resolved using environments, which are best thought of as a standalone, isolated working copies of Bioconda.
+Both of these issues can be resolved using environments, which are best thought of as a standalone, isolated working copies of conda.
 
 To use a separate environment, you first need to create it::
 
   $ conda create -n samtools-old
 
-This environment is isolated from your main Bioconda installation, so you need to activate it before use (note how the command prompt changes when this happens)::
+This environment is isolated from your main conda installation, so you need to activate it before use (note how the command prompt changes when this happens)::
 
   $ conda activate samtools-old
   (samtools-old) $
@@ -182,7 +182,7 @@ You can then proceed to install packages into your new environment::
 .. tip::
   You can merge creating a new environment and installing packages into it using just a single command: ``conda create -n samtools-old samtools=1.4``.
   
-You can continue to install more packages into this environment if need be, and run scripts and analyses as normal. Once finished with an environment, return to a normal prompt (and your default Bioconda environment) using::
+You can continue to install more packages into this environment if need be, and run scripts and analyses as normal. Once finished with an environment, return to a normal prompt (and your default conda environment) using::
 
   (samtools-old) $ conda deactivate
 
@@ -194,7 +194,7 @@ Here's how to get a list of all available environments::
   samtools-old             /$APPS/conda/envs/samtools-old
   root                  *  /$APPS/conda
 
-Bioconda refers to your base environment as ``root`` and marks the active one with a ``*``.
+Conda refers to your base environment as ``root`` and marks the active one with a ``*``.
 
 If you want to get rid of an environment, make sure it's not active, then run::
 
@@ -207,11 +207,11 @@ If you want to get rid of an environment, make sure it's not active, then run::
 Removing Bioconda
 -----------------
 
-Bioconda is installed in ``$APPS/conda``. Simply delete this folder to remove Bioconda and any additional packages you've installed or environments you've created.
+Conda and Bioconda are installed in ``$APPS/conda``. Simply delete this folder to remove Bioconda and any additional packages you've installed or environments you've created.
 
 
 Bioconda and Slurm
--------------------------------------
+------------------
 
 When using the ``conda activate`` command in an ``sbatch`` job script you may encounter an error mesage::
 
