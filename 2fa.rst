@@ -5,7 +5,7 @@ Two Factor Authentication (2FA)
 
 You can use this page to set up 2FA for your account. You will need a 2FA app that serves time-based one-time passwords (TOTP). Some apps confirmed to work are Google Authenticator, Duo Mobile, and Authy, but other TOTP apps are also likely to work.
 
-While using one of these apps on a smartphone is prefered, you'll also find many of these apps work on Windows, macOS, or Linux, or as browser extensions.
+While using one of these apps on a smartphone is preferred, you'll also find many of these apps work on Windows, macOS, or Linux, or as browser extensions.
 
 To link your account with an app, simply scan the QR code below into your app, or enter the details manually:
 
