@@ -12,7 +12,7 @@ Authentication options
 Regardless of the client you use to connect, we support two primary methods of SSH authentication:
 
 - **password authentication**
-- **key authentication**
+- **key authentication** (with 2FA)
 
 Using passwords is only possible if connecting from one of our :doc:`organizations`, either directly while onsite or via VPN, whereas you can use keys to connect from any location, although it does involve additional initial setup.
 
@@ -31,15 +31,18 @@ The following links will guide you through getting connected to ``gruffalo`` usi
 - :doc:`ssh-graphical-pw`
 
 
-Key authentication
-------------------
+Key authentication (with 2FA)
+-----------------------------
 
 To connect from remote addresses, we require using a strong cryptographic authentication instead of a password. For this authentication method you need to generate an **SSH key pair**.
 
-.. important::
-  You can see why it's critical that we enforce key use for remote access by looking at last seven days' worth of rogue access attempts on our login tracker: https://cropdiversity.ac.uk/botplot
+.. note::
+  SSH key-based authentication *also* requires occasional two-factor authentication (2FA) verification via the use of one-time codes. Information on registering an app to generate these codes will have been sent to you with your account details.
 
 Again, we have seperate guides depending on the client type you're using:
 
 - :doc:`ssh-terminal-keys`
 - :doc:`ssh-graphical-keys`
+
+.. important::
+  You can see why it's critical that we enforce key use for remote access by looking at last seven days' worth of rogue access attempts on our login tracker: https://cropdiversity.ac.uk/botplot

@@ -97,11 +97,11 @@ Connecting to gruffalo
 .. warning::
   If you exceed three failed **remote** authentication attempts (within a 10 minute window) the system will block your IP address from further attempts for the next 30 minutes.
 
-You can now test your key by attempting to connect to ``gruffalo`` and issuing a command (``uptime`` in this example). You should be asked for your private key's *passphrase* rather than your user account's *password*::
+You can now test your key by attempting to connect to ``gruffalo``. You should be asked for your private key's *passphrase* rather than your user account's *password*, as well as a *6-digit code* from your 2FA app::
 
-  $ ssh <username>@gruffalo.cropdiversity.ac.uk uptime
+  $ ssh <username>@gruffalo.cropdiversity.ac.uk
   Enter passphrase for key '/home/<username>/.ssh/id_ed25519': [Passphrase]
-   16:41:43 up 33 days,  3:13, 22 users,  load average: 0.62, 0.62, 0.63
+  2FA Verification Code: [6-digit code]
 
 If you manage to log in successfully, then you should be good to connect from anywhere. Excellent!
 
