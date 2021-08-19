@@ -12,15 +12,19 @@ To link your account with an app, simply scan the QR code below into your app, o
 .. raw:: html
 
   <p><img id="qrcode" src=""></p>
-  <p id="details"></p>
+  <p id="details"><b>token/label parameters missing - unable to generate a QR code</b></p>
   <script>
     const url = new URL(window.location.href)
     const token = url.searchParams.get('token')
     const label = url.searchParams.get('label')
-    document.getElementById("details").innerHTML = "Account name: <b>Crop Diversity HPC (" + label + ")</b>" +
-     "<br>Token: <b>" + token + "</b>"
-    document.getElementById("qrcode").src  = "https://chart.googleapis.com/chart?chs=200x200&chld=M|0&cht=qr&chl=otpauth://totp/"
-      + label + "%3Fsecret%3D" + token + "%26issuer%3DCrop%2520Diversity%2520HPC"
+    
+    if (token !== null || label !== null)
+    {
+      document.getElementById("details").innerHTML = "Account name: <b>Crop Diversity HPC (" + label + ")</b>" +
+        "<br>Token: <b>" + token + "</b>"
+      document.getElementById("qrcode").src  = "https://chart.googleapis.com/chart?chs=200x200&chld=M|0&cht=qr&chl=otpauth://totp/"
+       + label + "%3Fsecret%3D" + token + "%26issuer%3DCrop%2520Diversity%2520HPC"
+    }
   </script>
 
 Once the account is linked, the app should display a 6-digit code that changes every 30 seconds, and the system will occasionally prompt you for a code when logging in from an non-trusted IP address. You SSH public key must also be associated with your HPC account.
