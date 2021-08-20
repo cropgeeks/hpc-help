@@ -17,13 +17,12 @@ To link your account with an app, simply scan the QR code below into your app, o
     const url = new URL(window.location.href)
     const token = url.searchParams.get('token')
     const label = url.searchParams.get('label')
-    
+  
     if (token !== null || label !== null)
     {
       document.getElementById("details").innerHTML = "Account name: <b>Crop Diversity HPC (" + label + ")</b>" +
         "<br>Token: <b>" + token + "</b>"
-      document.getElementById("qrcode").src  = "https://chart.googleapis.com/chart?chs=200x200&chld=M|0&cht=qr&chl=otpauth://totp/"
-       + label + "%3Fsecret%3D" + token + "%26issuer%3DCrop%2520Diversity%2520HPC"
+        document.getElementById("qrcode").src = "_static/qrcode/display.pl?token=" + token + "&label=" + label
     }
   </script>
 
