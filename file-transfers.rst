@@ -60,6 +60,7 @@ Here are a few recommended clients to get you started:
 
 - `SSHFS <https://en.wikipedia.org/wiki/SSHFS>`_ - all platforms, although it can be a little tricky to set up, especially on Windows
 - `FileZilla <https://filezilla-project.org/>`_ - all platforms
+- `CyberDuck <https://cyberduck.io/>`_ - macOS or Windows, suggest setting double click to open in editor
 - `MobaXterm <https://mobaxterm.mobatek.net/download-home-edition.html>`_ - Windows only, but enables a graphical file browser in addition to normal SSH functionality
 - `WinSCP <https://winscp.net/eng/index.php>`_ - Windows only
 
