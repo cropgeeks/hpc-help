@@ -119,7 +119,7 @@ SSH uses port 22 by default, but if you find your connection to ``gruffalo`` bei
   Host gruffalo
     Hostname gruffalo.cropdiversity.ac.uk
     Port 443
-    Username <username>
+    User <username>
 
 .. note::
   Only the most evil of deep-packet inspection (DPI) firewalls are likely to block SSH over port 443, so if you're going to connect remotely a lot it's probably worth setting port 443 as your default.
