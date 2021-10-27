@@ -53,9 +53,9 @@ For example::
                                1.5                           2  bioconda
                                1.6                           0  bioconda
 							   
-Once you know the name of the package (and optionally its version), you can query for more information using ``conda info <packagename>`` or ``conda info <packagename>=<version>``::
+Once you know the name of the package (and optionally its version), you can query for more information using ``conda search <packagename> --info`` or ``conda search <packagename>=<version> --info``::
 
-  $ conda info samtools=1.4
+  $ conda search samtools=1.4 --info
   Fetching package metadata .................
   
   samtools 1.4 0
