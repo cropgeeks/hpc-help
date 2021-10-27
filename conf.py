@@ -17,6 +17,9 @@
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
 
+def setup(app):
+   app.add_css_file("theme_overrides.css")
+
 # -- Project information -----------------------------------------------------
 
 project = 'Crop Diversity HPC Help'
@@ -88,9 +91,9 @@ html_context = {
   "github_version": "master",
   "conf_py_path": "/",
   "source_suffix": source_suffix,
-  'css_files': [
-        '_static/theme_overrides.css',  # override wide tables in RTD theme
-        ],
+#  'css_files': [
+#        '_static/theme_overrides.css',  # override wide tables in RTD theme
+#        ],
 }
 
 # Theme options are theme-specific and customize the look and feel of a theme
