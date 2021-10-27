@@ -6,10 +6,10 @@ Many programs require a **Message Passing Interface** (MPI) to communicate betwe
 You can give it a quick test to confirm everything is in order by running::
 
   $ srun -N 2 -n 2 mpirun hostname
-  n19-32-192-hela.hpc.hutton.ac.uk
-  n19-32-192-hela.hpc.hutton.ac.uk
-  n19-32-192-hulk.hpc.hutton.ac.uk
-  n19-32-192-hulk.hpc.hutton.ac.uk  
+  n19-32-192-hela
+  n19-32-192-hela
+  n19-32-192-hulk
+  n19-32-192-hulk  
 
   
 How to submit MPI jobs
@@ -58,24 +58,24 @@ We can then use a Slurm script for submission to the cluster. In ``run.sh`` we p
 And then submit with ``sbatch run.sh``. You should end up with an output file similar to the following::
 
   $ tail slurm-[id].out
-  Process 81 on n19-32-192-loki.hpc.hutton.ac.uk out of 128
-  Process 74 on n19-32-192-killmonger.hpc.hutton.ac.uk out of 128
-  Process 58 on n19-32-192-kaecilius.hpc.hutton.ac.uk out of 128
-  Process 46 on n19-32-192-ironman.hpc.hutton.ac.uk out of 128
-  Process 20 on n19-32-192-hulk.hpc.hutton.ac.uk out of 128
-  Process 126 on n19-32-192-mandarin.hpc.hutton.ac.uk out of 128
-  Process 111 on n19-32-192-malekith.hpc.hutton.ac.uk out of 128
-  Process 83 on n19-32-192-loki.hpc.hutton.ac.uk out of 128
-  Process 65 on n19-32-192-killmonger.hpc.hutton.ac.uk out of 128
-  Process 70 on n19-32-192-killmonger.hpc.hutton.ac.uk out of 128
+  Process 81 on n19-32-192-loki out of 128
+  Process 74 on n19-32-192-killmonger out of 128
+  Process 58 on n19-32-192-kaecilius out of 128
+  Process 46 on n19-32-192-ironman out of 128
+  Process 20 on n19-32-192-hulk out of 128
+  Process 126 on n19-32-192-mandarin out of 128
+  Process 111 on n19-32-192-malekith out of 128
+  Process 83 on n19-32-192-loki out of 128
+  Process 65 on n19-32-192-killmonger out of 128
+  Process 70 on n19-32-192-killmonger out of 128
 
 You can also wrap MPI jobs directly using ``srun`` as follows::
 
   $ srun -N 4 -n 4 ./hellompi
-  Process 0 on n19-32-192-hulk.hpc.hutton.ac.uk out of 4
-  Process 1 on n19-32-192-ironman.hpc.hutton.ac.uk out of 4
-  Process 2 on n19-32-192-kaecilius.hpc.hutton.ac.uk out of 4
-  Process 3 on n19-32-192-killmonger.hpc.hutton.ac.uk out of 4
+  Process 0 on n19-32-192-hulk out of 4
+  Process 1 on n19-32-192-ironman out of 4
+  Process 2 on n19-32-192-kaecilius out of 4
+  Process 3 on n19-32-192-killmonger out of 4
 
 .. tip::
   When using ``srun`` to execute MPI programs, you don't need to use ``mpirun``.
