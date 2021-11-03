@@ -6,14 +6,14 @@ Some of the Slurm commands can be a little clunky, especially if you start modif
 srsh
 ~~~~
 
-Starts a *remote shell* (ie, an interactive job) on a compute node. This is equivilent to ``srun --pty bash`` but still allows for providing additional resource parameters (queue, cpus, etc), which wouldn't be accepted by a normal alias in this specific use case::
+Starts a *remote shell* (ie, an interactive job) on a compute node. This is equivalent to ``srun --pty bash`` but still allows for providing additional resource parameters (queue, cpus, etc), which wouldn't be accepted by a normal alias in this specific use case::
 
   $ srsh --partition=short
 
 snodes
 ~~~~~~
 
-Lists the current state of the nodes, but with additional CPU allocation information (allocated/idle/other/total). This is equivilent to ``sinfo -o '%24N %.6D %.9P %.6t %.14C' -N``::
+Lists the current state of the nodes, but with additional CPU allocation information (allocated/idle/other/total). This is equivalent to ``sinfo -o '%24N %.6D %.9P %.6t %.14C' -N``::
 
   $ snodes
   NODELIST                  NODES PARTITION  STATE  CPUS(A/I/O/T)
@@ -25,7 +25,7 @@ Lists the current state of the nodes, but with additional CPU allocation informa
 sjobacct
 ~~~~~~~~
 
-Provides historical post-job information (memory and CPU usage) for a job (with the ``-j <jobID>``) or all recent jobs if no arguments are given. This is equivilent to ``sacct --format=JobId,ReqMem,MaxRSS,AllocCPUS,TotalCPU,State,Elapsed --units=G``::
+Provides historical post-job information (memory and CPU usage) for a job (with the ``-j <jobID>``) or all recent jobs if no arguments are given. This is equivalent to ``sacct --format=JobId,ReqMem,MaxRSS,AllocCPUS,TotalCPU,State,Elapsed --units=G``::
 
   $ sjobacct -j 1000
          JobID     ReqMem     MaxRSS  AllocCPUS   TotalCPU      State    Elapsed
@@ -37,7 +37,7 @@ Provides historical post-job information (memory and CPU usage) for a job (with 
 sjobstat
 ~~~~~~~~
 
-Provides (limited) information on the maximum memory use of an active job. This is equivilent to ``sstat --format=JobId,MaxRSS``::
+Provides (limited) information on the maximum memory use of an active job. This is equivalent to ``sstat --format=JobId,MaxRSS``::
 
   $ sjobstat -j 1000
          JobID     MaxRSS
