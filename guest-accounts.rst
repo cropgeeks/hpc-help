@@ -5,7 +5,7 @@ If you have been allocated a guest account on the Crop Diversity HPC system the 
 
 As with a normal user account you must log in to the main login server called ``gruffalo`` using the **Secure Shell (SSH)** protocol.
 
-If using Linux or macOS, then you'll already have an SSH client installed that you can access via a local terminal. If using Windows, then you'll have to install one or more new programs in order to connect, good options include `MobaXterm <https://mobaxterm.mobatek.net/download-home-edition.html>`_, `WSL <https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux>`_ (Windows 10 only), `Cygwin/mintty <https://www.cygwin.com/>`_ or `PuTTY <https://www.putty.org/>`_.
+If using Linux or macOS, then you'll already have an SSH client installed that you can access via a local terminal. If using Windows, then you'll have to install one or more new programs in order to connect, good options include `MobaXterm <https://mobaxterm.mobatek.net/download-home-edition.html>`_, `WSL <https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux>`_ (Windows 10+ only), `Cygwin/mintty <https://www.cygwin.com/>`_ or `PuTTY <https://www.putty.org/>`_.
 
 Key Authentication
 ------------------
