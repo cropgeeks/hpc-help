@@ -82,11 +82,11 @@ Yes. Access to the cluster via a username/password combination is available if y
 Is training available to help me with Linux or using the cluster?
 -----------------------------------------------------------------
 
-This is something we're actively investigating.
+We do have some limited training materials from past workshops that can be made available on demand. Please :doc:`contact-us` for more details.
 
-In the meantime, there are some basic guides covering :doc:`linux-basics` and :doc:`tips`, as well as more in-depth information for getting the most out of cluster computing in the various topics listed under **High Performance Computing**.
+There are also some basic guides covering :doc:`linux-basics` and :doc:`tips`, as well as more in-depth information for getting the most out of cluster computing in the various topics listed under **High Performance Computing**.
 
-It's also worth joining our Slack workspace (https://cropdiversity-hpc.slack.com) where there are plenty of expects on hand to help answer your questions.
+Additionally, it's worth joining our Slack workspace (https://cropdiversity-hpc.slack.com) where there are plenty of expects on hand to help answer your questions.
 
 Why does the login message show remaining space as a range?
 -----------------------------------------------------------
