@@ -67,7 +67,7 @@ How long will we retain your personal data?
 We will most usually keep your personal data for as long as you have an account on the system. We will keep your personal data for no longer than is necessary for the purpose we obtained it for or until such time that you withdraw your consent and exercised your right to request that we stop processing your personal data (if relevant).
 
 
-Does we make any automated decisions about you or profile your personal data?
+Do we make any automated decisions about you or profile your personal data?
 ------------------------------------------------------------------------------
 No.
 
