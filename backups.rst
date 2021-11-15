@@ -19,7 +19,7 @@ New or changed data is synced nightly to our backup server - ``delorean`` - and 
    * - Location
      - Policy
    * - ``/mnt/shared/projects``
-     - 30 daily snapshots and 12 monthly snapshots
+     - 30 daily snapshots and 18 monthly snapshots
    * - ``$HOME``
      - 30 daily snapshots
 
