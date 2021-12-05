@@ -30,19 +30,21 @@ Enterprise Linux distributions are designed to be around for a long time (10 yea
 At the time of writing, the version of gcc (GNU C Compiler) installed on our cluster is::
 
   $ gcc --version
-  gcc (GCC) 8.3.1 20190507 (Red Hat 8.3.1-4)
+  gcc (GCC) 8.5.0 20210514 (Red Hat 8.5.0-4)
 
 However, we can take advantage of an *Application Stream* built into RHEL/Rocky called ``GCC Toolset`` to temporarily enable different environments with newer versions of developer tools, such as updated versions of gcc.
 
 Toolsets currently installed include::
 
-  toolset-9
+  toolset-9   (gcc 9.2.1) 
+  toolset-10  (gcc 10.3.1)
+  toolset-11  (gcc 11.2.1)
 
 To activate and work with a different toolset, use the ``scl enable`` command, as follows::
 
-  $ scl enable gcc-toolset-9 bash
+  $ scl enable gcc-toolset-11 bash
   $ gcc --version
-  gcc (GCC) 9.1.1 20190605 (Red Hat 9.1.1-2)
+  gcc (GCC) 11.2.1 20210728 (Red Hat 11.2.1-1)
 
 .. note::
   In previous versions of RHEL/Rocky this feature was called Software Collections Libraries, hence the ``scl`` command that's still in use.
