@@ -74,7 +74,7 @@ The following databases are currently available:
 Pfam
 ----
 
-Copies of several popular `Pfam <https://en.wikipedia.org/wiki/Pfam>`_ databases are available at: ``/mnt/shared/apps/databases/pfam-31`` (mirrored from http://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam31.0/).
+Copies of several popular `Pfam <https://en.wikipedia.org/wiki/Pfam>`_ databases are available at: ``/mnt/shared/apps/databases/pfam-31`` and ``/pfam-35`` (mirrored from http://ftp.ebi.ac.uk/pub/databases/Pfam/releases).
 
   
 Uniprot
