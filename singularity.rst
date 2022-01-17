@@ -1,13 +1,14 @@
-Singularity
-===========
+Apptainer (Singularity)
+=======================
 
-The following description is taken from the `Singularity <https://sylabs.io/docs/>`_ web site:
+.. note::
+  Apptainer was called Singularity until November 2021. See https://apptainer.org/ for more details.
 
-  Singularity enables users to have full control of their environment. Singularity containers can be used to package entire scientific workflows, software and libraries, and even data. This means that you don’t have to ask your cluster admin to install anything for you - you can put it in a Singularity container and run. Did you already invest in Docker? The Singularity software can import your Docker images without having Docker installed or being a superuser. Need to share your code? Put it in a Singularity container and your collaborator won’t have to go through the pain of installing missing dependencies. Do you need to run a different operating system entirely? You can “swap out” the operating system on your host for a different one within a Singularity container. As the user, you are in control of the extent to which your container interacts with its host. 
+Apptainer containers can be used to package entire scientific workflows, software and libraries, and even data. This means that you don’t have to ask your cluster admin to install anything for you - you can put it in an Apptainer container and run (it can import your Docker images without having Docker installed or being a superuser). Need to share your code? Put it in a Apptainer container and your collaborator won’t have to go through the pain of installing missing dependencies. Do you need to run a different operating system entirely? You can "swap out" the operating system on your host for a different one within a Apptainer container. As the user, you are in control of the extent to which your container interacts with its host. 
 
   
 .. warning::
-  Singularity is a new technology, and changes often. Although we've attempted to provide some basic instructions on getting up and running with containers, your best source of up-to-date information should always be the Singularity website itself. But do let us know if the info provided here is wrong or out of date too!
+  Apptainer is a new technology, and changes often. Although we've attempted to provide some basic instructions on getting up and running with containers, your best source of up-to-date information should always be the Apptainer website itself. But do let us know if the info provided here is wrong or out of date too!
   
   
 Running containers
@@ -49,7 +50,7 @@ You can then run the app in question by using ``run --app <app name>``. All othe
 Shell
 ~~~~~
 
-To fully step inside of a container, start Singularity with the ``shell`` command::
+To fully step inside of a container, start Apptainer with the ``shell`` command::
 
   $ singularity shell <container name>
   
@@ -86,7 +87,7 @@ You can do anything inside of the container that you would do normally outside o
 Using aliases
 -------------
 
-Wrapping applications in Singularity obviously makes the commands required to launch them a little verbose, so it's worthwhile setting up aliases for commonly used ones. This is very simple, for example::
+Wrapping applications in Apptainer obviously makes the commands required to launch them a little verbose, so it's worthwhile setting up aliases for commonly used ones. This is very simple, for example::
 
   $ alias R='singularity run --app R /mnt/shared/apps/singularity/images/r/3.4.2/r.simg'
 
@@ -104,11 +105,11 @@ Type ``R`` (along with any parameters), and the command wrapped inside of the qu
 Building containers
 -------------------
 
-For help with building containers, it's best to check the official documentation: http://singularity.lbl.gov/docs-build-container
+For help with building containers, it's best to check the official documentation: https://apptainer.org/docs/user/main/
 
 .. warning::
   You'll need root/admin access to perform most build operations - basically the ability to run ``sudo singularity [options...]`` - which isn't available on ``gruffalo``, so you'll need to run builds off-cluster (see below). However, *anything* you build, regardless of what it contains, should be runnable on the cluster - (usually) with no questions asked.
 
-If you can't run Singularity on your own PC/laptop, please :doc:`contact-us` and if we decide there's enough demand we may build a special Singularity *sandbox* machine where all users have been granted the necessary ``sudo singularity`` rights.
+If you can't run Apptainer on your own PC/laptop, please :doc:`contact-us` and if we decide there's enough demand we may build a special Apptainer *sandbox* machine where all users have been granted the necessary ``sudo singularity`` rights.
 
-Any Singularity images you copy to the cluster should be kept in your ``$APPS`` folder.
+Any Apptainer images you copy to the cluster should be kept in your ``$APPS`` folder.
