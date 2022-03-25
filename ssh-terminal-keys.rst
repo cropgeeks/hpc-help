@@ -65,39 +65,18 @@ Your public key - ``id_ed25519.pub`` - must be installed on the cluster to allow
 .. note::
   If you provided a custom name for your key, you may find it wasn't created within ``~/.ssh``. You can either rename/move the file to match the above listings, or use the ``ssh -i`` option to let SSH know where to find your private key.
 
+You must :doc:`contact-us` to install your public key for you, sending us either the key file itself or the text within it. **Do not** send us your private key.
 
-Installing your public key
---------------------------
-
-.. note::
-  If you are working from home or away from a :doc:`organizations` network, then you won't be able to install your public key using these instructions. Instead, you can email it to us (see :doc:`contact-us` and we'll get it installed for you.
-
-To install your public key, visit https://ipa.cropdiversity.ac.uk
-
-.. warning::
-  Depending on your browser, you may initially see a popup box prompting for your username and password. Ignore it, hitting Cancel or Escape until you see the screen below.
-
-Log in using your username and password.
-
-.. image:: media/freeipa-login.png
-
-It should default to showing you the details of your account, so scroll down until you see the section marked **SSH public keys**:
-
-.. image:: media/freeipa-keys1.png
-
-Next, click ``Add`` and then paste your *public* key into the box that appears:
-
-.. image:: media/freeipa-keys2.png
-
-Close the popup by pressing ``Set``, then scroll back to the top of the page and select ``Save`` to confirm your changes.
 
 Connecting to gruffalo
 ----------------------
 
+Once we have confirmed installation of your key, you can attempt to connect to the cluster.
+
 .. warning::
   If you exceed three failed **remote** authentication attempts (within a 10 minute window) the system will block your IP address from further attempts for the next 30 minutes.
 
-You can now test your key by attempting to connect to ``gruffalo``. You should be asked for your private key's *passphrase* rather than your user account's *password*, as well as a *6-digit code* from your 2FA app::
+Use the command below to connect to ``gruffalo``. You should be asked for your private key's *passphrase* rather than your user account's *password*, as well as a *6-digit code* from your 2FA app::
 
   $ ssh <username>@gruffalo.cropdiversity.ac.uk
   Enter passphrase for key '/home/<username>/.ssh/id_ed25519': [Passphrase]
