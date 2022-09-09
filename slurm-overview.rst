@@ -279,6 +279,22 @@ which provides information on:
   We've set up some :doc:`slurm-shortcuts` to make running some of these longer commands easier for you.
 
 
+Automatic requeuing
+-------------------
+
+Slurm performs automatic requeuing of jobs upon node failure, meaning that if a node fails, your job will be automatically resubmitted with the same job ID and may truncate any previous output/error stream files. Here are some important ``sbatch`` parameters you can use to alter the default behavior.
+
+- you can disable automatic requeuing with ``--no-requeue``
+- you can avoid requeued output files being truncated with ``--open-mode=append``
+
+You can apply these two options permanently by exporting the following environment variables in your .bashrc:
+
+- ``SBATCH_NO_REQUEUE=1`` to disable requeuing
+- ``SBATCH_OPEN_MODE=append`` to avoid output truncating after requeuing
+
+If you want to perform specific operations in your batch script when a job has been requeued you can check the value of the ``SLURM_RESTART_COUNT`` variable. The value of this variable will be 0 if it's the first time the job is run, otherwise it'll hold the number of times the job has been restarted.
+
+
 Other helpful parameters
 ------------------------
 
