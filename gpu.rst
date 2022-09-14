@@ -9,9 +9,9 @@ The cluster contains three nodes with **Nvidia GPU** co-processors to accelerate
 
 The Tesla cards each have 5,120 **CUDA** processing cores and 640 **Tensor** cores. The RTX cards have 4,608 **CUDA** processing cores and 576 **Tensor** cores. CUDA is Nvidia's parallel computing platform and API for general GPU processing, whereas Tensor cores are specifically intended to speed up the training of neural networks.
 
-More iformation about the cards is available at https://www.nvidia.com/en-gb/data-center/tesla-v100/ and https://www.nvidia.com/en-gb/design-visualization/quadro/rtx-8000/.
+More information about the cards is available at https://www.nvidia.com/en-gb/data-center/tesla-v100/ and https://www.nvidia.com/en-gb/design-visualization/quadro/rtx-8000/.
 
-To access the GPUs submit to the ``gpu`` Slurm partition, for example, to run an interactive job::
+To access the GPUs, you must both submit to the ``gpu`` Slurm partition and specify how many GPUs you require. For example, to run a basic interactive job::
 
   $ srsh --partition=gpu --gpus=1
 
@@ -24,9 +24,17 @@ To access the GPUs submit to the ``gpu`` Slurm partition, for example, to run an
 
 See also Slurm's documentation on `Generic Resource Scheduling <https://slurm.schedmd.com/gres.html#Running_Jobs>`_.
 
-Whenever you run a job on a GPU node, your path will be modified to include Nvidia's cuda platform. This will be required if compiling any programs from source, for example using the ``nvcc`` compiler. Most of the system's cuda files can be found at ``/usr/local/cuda/bin``.
+You can also specify the exact type of GPU you need, for example to request a single RTX8000 card::
 
-To see the current state (and power usage) of the GPUs, run::
+  $ srsh --partition=gpu --gpus=rtx_8000:1
+
+The possible cards are defined as follows:
+
+- ``v100-pcie-16g`` - Tesla V100 16 GB 
+- ``v100-pcie-32g`` - Tesla V100 32 GB 
+- ``rtx_8000`` - Quadro RTX 8000 48 GB
+
+To see the current state (and power usage) of the GPUs, run ``nvidia-smi``, eg::
 
   $ nvidia-smi
 
@@ -49,3 +57,5 @@ To see the current state (and power usage) of the GPUs, run::
   |=============================================================================|
   |  No running processes found                                                 |
   +-----------------------------------------------------------------------------+
+
+Whenever you run a job on a GPU node, your path will be modified to include Nvidia's CUDA platform. This will be required if compiling any programs from source, for example using the ``nvcc`` compiler. Most of the system's CUDA files can be found at ``/usr/local/cuda/bin``.
