@@ -82,7 +82,7 @@ Yes. Access to the cluster via a username/password combination is available if y
 Is training available to help me with Linux or using the cluster?
 -----------------------------------------------------------------
 
-We do have some limited training materials from past workshops that can be made available on demand. Please :doc:`contact-us` for more details.
+We do have training materials from past workshops that can be made available on demand. Please :doc:`contact-us` for more details. Our workshops and training sessions are run regularly and you should look out for emails advertising the next one.
 
 There are also some basic guides covering :doc:`linux-basics` and :doc:`tips`, as well as more in-depth information for getting the most out of cluster computing in the various topics listed under **High Performance Computing**.
 
