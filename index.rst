@@ -59,6 +59,7 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
    monitoring
    linux-basics
    tips
+   publications
 
 .. toctree::
    :maxdepth: 1
