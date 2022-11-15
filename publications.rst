@@ -14,6 +14,7 @@ Preprints:
 
 2022:
 
+- https://doi.org/10.1111/tpj.15871 - BaRTv2: a highly resolved barley reference transcriptome for accurate transcript-specific RNA-seq quantification
 - https://doi.org/10.1111/tpj.15908 - The evolutionary patterns of barley pericentromeric chromosome regions, as shaped by linkage disequilibrium and domestication
 - https://doi.org/10.1002/pld3.388 - The first genome for the Cape Primrose Streptocarpus rexii (Gesneriaceae), a model plant for studying meristem-driven shoot diversity 
 - https://doi.org/10.1111/cobi.13992 - Evidence-based guidelines for automated conservation assessments of plant species
@@ -23,7 +24,7 @@ Preprints:
 - https://doi.org/10.1016/j.funeco.2022.101191 - Nitrogen deposition and temperature structure fungal communities associated with alpine moss-sedge heath in the UK
 - https://doi.org/10.1002/ajb2.1827 - Phylogenomic discordance suggests polytomies along the backbone of the large genus Solanum
 - https://doi.org/10.1016/j.gecco.2022.e02308 - Biogeography in the deep: Hierarchical population genomic structure of two beaked whale species
-- https://doi.org/10.24823/ejb.2022.1928 - RESOLVING PHYLOGENETIC AND TAXONOMIC CONFLICT IN BEGONIA
+- https://doi.org/10.24823/ejb.2022.1928 - Resolving phylogenetic and taxonomic conflict in Begonia
 - https://doi.org/10.1016/j.physa.2022.128261 - Co-evolution of network structure and consumer inequality in a spatially explicit model of energetic resource acquisition
 - https://doi.org/10.1093/sysbio/syac042 - Recoding Amino Acids to a Reduced Alphabet may Increase or Decrease Phylogenetic Accuracy
 - https://doi.org/10.1098/rspb.2021.2668 - Population viscosity promotes altruism under density-dependent dispersal
