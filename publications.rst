@@ -16,6 +16,8 @@ Preprints:
 
 - https://doi.org/10.1111/tpj.15871 - BaRTv2: a highly resolved barley reference transcriptome for accurate transcript-specific RNA-seq quantification
 - https://doi.org/10.1111/tpj.15908 - The evolutionary patterns of barley pericentromeric chromosome regions, as shaped by linkage disequilibrium and domestication
+- https://doi.org/10.1093/sysbio/syab035 - A Comprehensive Phylogenomic Platform for Exploring the Angiosperm Tree of Life
+- https://doi.org/10.3389/fpls.2021.806407 - Harnessing Large-Scale Herbarium Image Datasets Through Representation Learning
 - https://doi.org/10.1002/pld3.388 - The first genome for the Cape Primrose Streptocarpus rexii (Gesneriaceae), a model plant for studying meristem-driven shoot diversity 
 - https://doi.org/10.1111/cobi.13992 - Evidence-based guidelines for automated conservation assessments of plant species
 - https://doi.org/10.3389/fpls.2021.806407 - Harnessing Large-Scale Herbarium Image Datasets Through Representation Learning
@@ -38,6 +40,7 @@ Preprints:
 
 - https://doi.org/10.1093/plphys/kiab324 - Large-scale field phenotyping using backpack LiDAR and CropQuant-3D to measure structural variation in wheat
 - https://doi.org/10.48130/FruRes-2021-0007 - Seeing the wood for the trees: hyperspectral imaging for high throughput QTL detection in raspberry, a perennial crop species
+- https://doi.org/10.3390/v13102035 - A Bipartite Geminivirus with a Highly Divergent Genomic Organization Identified in Olive Trees May Represent a Novel Evolutionary Direction in the Family Geminiviridae
 - https://doi.org/10.1371/journal.pone.0249735 - Mix and match: Patchwork domain evolution of the land plant-specific Ca2+-permeable mechanosensitive channel MCA
 - https://doi.org/10.1002/ajb2.1698 - A comprehensive phylogenomic study of the monocot order Commelinales, with a new classification of Commelinaceae
 - https://doi.org/10.1016/j.ympev.2021.107068 - Phylogenomics of Gesneriaceae using targeted capture of nuclear genes
@@ -59,6 +62,7 @@ Preprints:
 - https://doi.org/10.1038/s41467-020-18404-w - Diversity analysis of 80,000 wheat accessions reveals consequences and opportunities of selection footprints
 - http://dx.doi.org/10.24823/Sibbaldia.2020.289 - Diversity of woody-host infecting Phytophthora species in public parks and botanic gardens as revealed by metabarcoding, and opportunities for mitigation through best practice
 - https://doi.org/10.1111/efp.12602 - Detection and spread of Phytophthora austrocedri within infected Juniperus communis woodland and diversity of co-associated Phytophthoras as revealed by metabarcoding
+- https://doi.org/10.1016/j.virusres.2019.197837 - RNA sequence analysis of diseased groundnut (Arachis hypogaea) reveals the full genome of groundnut rosette assistor virus (GRAV)
 - https://doi.org/10.1080/15476286.2020.1858253 - 3D RNA-seq: a powerful and flexible tool for rapid and accurate differential expression and alternative splicing analysis of RNA-seq data for biologists
 - https://doi.org/10.1002/csc2.20248 - From bits to bites: Advancement of the Germinate platform to support prebreeding informatics for crop wild relatives
 - https://doi.org/10.1007/s10681-020-02647-1 - QTL dissection of floral traits in Streptocarpus (Gesneriaceae)
@@ -71,7 +75,10 @@ Preprints:
 
 - https://doi.org/10.3389/fpls.2019.00544 - A Comparison of Mainstream Genotyping Platforms for the Evaluation and Use of Barley Genetic Resources
 - https://doi/prg/10.7717/peerj.6931 - Metabarcoding reveals a high diversity of woody host-associated Phytophthora spp. in soils at public gardens and amenity woodlands in Britain
+- https://doi.org/10.1016/j.virusres.2019.03.004 - The complete sequences of two divergent variants of the rhabdovirus raspberry vein chlorosis virus and the design of improved primers for virus detection
+- https://doi.org/10.1099/jgv.0.001210 - Kodoja: A workflow for virus detection in plants using k-mer analysis of RNA-sequencing data
 - https://doi.org/10.1186/s12864-019-6243-7 - BaRTv1.0: an improved barley reference transcript dataset to determine accurate changes in the barley transcriptome using RNA-seq
 - https://doi.org/10.1186/s13007-019-0486-9 - A highly mutagenised barley (cv. Golden Promise) TILLING population coupled with strategies for screening-by-sequencing
 - https://doi.org/10.1016/j.enganabound.2019.03.025 - Smoothed particle hydrodynamics for root growth mechanics
 - https://doi.org/10.1111/nph.15548 - Interaction between row-type genes in barley controls meristem determinacy and reveals novel routes to improved grain
+- https://doi.org/10.1038%2Fs41598-019-49302-x - Juxta-membrane S-acylation of plant receptor-like kinases is likely fortuitous and does not necessarily impact upon function
