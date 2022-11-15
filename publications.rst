@@ -60,7 +60,8 @@ Preprints:
 2020:
 
 - https://doi.org/10.1038/s41467-020-18404-w - Diversity analysis of 80,000 wheat accessions reveals consequences and opportunities of selection footprints
-- http://dx.doi.org/10.24823/Sibbaldia.2020.289 - Diversity of woody-host infecting Phytophthora species in public parks and botanic gardens as revealed by metabarcoding, and opportunities for mitigation through best practice
+- https://dx.doi.org/10.24823/Sibbaldia.2020.289 - Diversity of woody-host infecting Phytophthora species in public parks and botanic gardens as revealed by metabarcoding, and opportunities for mitigation through best practice
+- https://doi.org/10.1093/botlinnean/boaa099 - Resolving generic limits in Cyperaceae tribe Abildgaardieae using targeted sequencing
 - https://doi.org/10.1111/efp.12602 - Detection and spread of Phytophthora austrocedri within infected Juniperus communis woodland and diversity of co-associated Phytophthoras as revealed by metabarcoding
 - https://doi.org/10.1016/j.virusres.2019.197837 - RNA sequence analysis of diseased groundnut (Arachis hypogaea) reveals the full genome of groundnut rosette assistor virus (GRAV)
 - https://doi.org/10.1080/15476286.2020.1858253 - 3D RNA-seq: a powerful and flexible tool for rapid and accurate differential expression and alternative splicing analysis of RNA-seq data for biologists
