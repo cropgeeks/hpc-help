@@ -13,12 +13,15 @@ Preprints:
 - https://doi.org/10.21203/rs.3.rs-2250881/v1 - Combining phylogenomic and morphological data reveals new patterns of diversity in the national tree of Brasil, Paubrasilia echinata
 - https://doi.org/10.1101/2021.09.02.458763  - A high resolution single molecule sequencing-based Arabidopsis transcriptome using novel methods of Iso-seq analysis
 - https://doi.org/10.21203/rs.3.rs-137842/v1 - QTL Across Fruit Development in Red Raspberry, A Study of A Primocane X Biennial Raspberry Population
+- https://doi.org/10.1101/2021.08.12.456076 - Analysis of wild plant pathogen populations reveals a signal of adaptation in genes evolving for survival in agriculture in the beet rust pathogen (Uromyces beticola)
 
 2022:
 
 - https://doi.org/10.1111/tpj.15871 - BaRTv2: a highly resolved barley reference transcriptome for accurate transcript-specific RNA-seq quantification
 - https://doi.org/10.1111/tpj.15908 - The evolutionary patterns of barley pericentromeric chromosome regions, as shaped by linkage disequilibrium and domestication
 - https://doi.org/10.1093/sysbio/syab035 - A Comprehensive Phylogenomic Platform for Exploring the Angiosperm Tree of Life
+- https://doi.org/10.1002/csc2.20768 - Genetic resistance to yellow rust infection of the wheat ear is controlled by genes controlling foliar resistance and flowering time
+- https://doi.org/10.1007/s00122-021-03967-z - Wheat genetic loci conferring resistance to stripe rust in the face of genetically diverse races of the fungus Puccinia striiformis f. sp. tritici 
 - https://doi.org/10.3390/agronomy12040782 - Genome-Wide Association Study for Resistance to Rhynchosporium in a Diverse Collection of Spring Barley Germplasm 
 - https://doi.org/10.3389/fpls.2021.806407 - Harnessing Large-Scale Herbarium Image Datasets Through Representation Learning
 - https://doi.org/10.1534/g3.119.401010 - A genome assembly of the barley ‘transformation reference’ cultivar golden promise
@@ -37,7 +40,9 @@ Preprints:
 - https://doi.org/10.1016/j.cub.2022.08.036 - Genomes from a medieval mass burial show Ashkenazi-associated hereditary diseases pre-date the 12th century
 - https://doi.org/10.1111/cla.12507 - Benefits of alignment quality-control processing steps and an Angiosperms353 phylogenomics pipeline applied to the Celastrales
 - https://doi.org/10.1111/nph.18314 - AirMeasurer: open-source software to quantify static and dynamic traits derived from multiseason aerial phenotyping to empower genetic mapping studies in rice
+- https://doi.org/10.1098/rsta.2021.0298 - Estimation of age-stratified contact rates during the COVID-19 pandemic using a novel inference algorithm
 - https://doi.org/10.1038/s41588-022-01153-5 - A multi-tissue atlas of regulatory variants in cattle
+- https://doi.org/10.1111%2Fcobi.13918 - Genomic erosion in a demographically recovered bird species during conservation rescue
 - https://doi.org/10.1186/s13059-022-02745-4 - Comparative transcriptome in large-scale human and cattle populations
 
 2021:
@@ -46,6 +51,7 @@ Preprints:
 - https://doi.org/10.1038/s41597-021-00872-4 - EORNA, a barley gene and transcript abundance database
 - https://doi.org/10.48130/FruRes-2021-0007 - Seeing the wood for the trees: hyperspectral imaging for high throughput QTL detection in raspberry, a perennial crop species
 - https://doi.org/10.3390/v13102035 - A Bipartite Geminivirus with a Highly Divergent Genomic Organization Identified in Olive Trees May Represent a Novel Evolutionary Direction in the Family Geminiviridae
+- https://doi.org/10.1007/s00122-021-03781-7 - Identification of eight QTL controlling multiple yield components in a German multi-parental wheat population, including Rht24, WAPO-A1, WAPO-B1 and genetic loci on chromosomes 5A and 6A
 - https://doi.org/10.1371/journal.pone.0249735 - Mix and match: Patchwork domain evolution of the land plant-specific Ca2+-permeable mechanosensitive channel MCA
 - https://doi.org/10.1002/ajb2.1698 - A comprehensive phylogenomic study of the monocot order Commelinales, with a new classification of Commelinaceae
 - https://doi.org/10.1016/j.ympev.2021.107068 - Phylogenomics of Gesneriaceae using targeted capture of nuclear genes
