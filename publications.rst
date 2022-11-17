@@ -14,6 +14,7 @@ Preprints:
 - https://doi.org/10.1101/2021.09.02.458763  - A high resolution single molecule sequencing-based Arabidopsis transcriptome using novel methods of Iso-seq analysis
 - https://doi.org/10.21203/rs.3.rs-137842/v1 - QTL Across Fruit Development in Red Raspberry, A Study of A Primocane X Biennial Raspberry Population
 - https://doi.org/10.1101/2021.08.12.456076 - Analysis of wild plant pathogen populations reveals a signal of adaptation in genes evolving for survival in agriculture in the beet rust pathogen (Uromyces beticola)
+- https://doi.org/10.1101/2022.03.16.484639 - Selection on the fly: short term adaptation to an altered sexual selection regime in Drosophila pseudoobscura
 
 2022:
 
@@ -42,6 +43,7 @@ Preprints:
 - https://doi.org/10.1111/nph.18314 - AirMeasurer: open-source software to quantify static and dynamic traits derived from multiseason aerial phenotyping to empower genetic mapping studies in rice
 - https://doi.org/10.1098/rsta.2021.0298 - Estimation of age-stratified contact rates during the COVID-19 pandemic using a novel inference algorithm
 - https://doi.org/10.1038/s41588-022-01153-5 - A multi-tissue atlas of regulatory variants in cattle
+- https://doi.org/10.1186/s12859-022-04755-2 - GridScore: a tool for accurate, cross-platform phenotypic data collection and visualization
 - https://doi.org/10.1111%2Fcobi.13918 - Genomic erosion in a demographically recovered bird species during conservation rescue
 - https://doi.org/10.1186/s13059-022-02745-4 - Comparative transcriptome in large-scale human and cattle populations
 
@@ -78,6 +80,7 @@ Preprints:
 - https://doi.org/10.1080/15476286.2020.1858253 - 3D RNA-seq: a powerful and flexible tool for rapid and accurate differential expression and alternative splicing analysis of RNA-seq data for biologists
 - https://doi.org/10.1002/csc2.20248 - From bits to bites: Advancement of the Germinate platform to support prebreeding informatics for crop wild relatives
 - https://doi.org/10.1007/s10681-020-02647-1 - QTL dissection of floral traits in Streptocarpus (Gesneriaceae)
+- https://doi.org/10.1016/j.molp.2020.08.011 - Mobilizing Crop Biodiversity
 - https://doi.org/10.1111/nph.16439 - Moving on up - controlling internode growth
 - https://doi.org/10.1111/nph.16736 - SeedGerm: a cost-effective phenotyping platform for automated seed imaging and machine-learning based phenotypic analysis of crop seed germination
 - https://doi.org/10.1111/tpj.14910 - Signatures of adaptation to a monocot host in the plant-parasitic cyst nematode Heterodera sacchari
