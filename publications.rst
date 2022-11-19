@@ -44,6 +44,7 @@ Preprints:
 - https://doi.org/10.1098/rsta.2021.0298 - Estimation of age-stratified contact rates during the COVID-19 pandemic using a novel inference algorithm
 - https://doi.org/10.1038/s41588-022-01153-5 - A multi-tissue atlas of regulatory variants in cattle
 - https://doi.org/10.1186/s12859-022-04755-2 - GridScore: a tool for accurate, cross-platform phenotypic data collection and visualization
+- http://dx.doi.org/10.7488/era/2224 - The Land Capability for Agriculture: building a tool to enable climate change assessments
 - https://doi.org/10.1111%2Fcobi.13918 - Genomic erosion in a demographically recovered bird species during conservation rescue
 - https://doi.org/10.1186/s13059-022-02745-4 - Comparative transcriptome in large-scale human and cattle populations
 
