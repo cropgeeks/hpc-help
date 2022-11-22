@@ -22,6 +22,9 @@ Preprints:
 - https://doi.org/10.1111/tpj.15908 - The evolutionary patterns of barley pericentromeric chromosome regions, as shaped by linkage disequilibrium and domestication
 - https://doi.org/10.1093/sysbio/syab035 - A Comprehensive Phylogenomic Platform for Exploring the Angiosperm Tree of Life
 - https://doi.org/10.1002/csc2.20768 - Genetic resistance to yellow rust infection of the wheat ear is controlled by genes controlling foliar resistance and flowering time
+- https://doi.org/10.1111/nph.18554 - Diversity and Divergence: Evolution of secondary metabolism in the tropical tree genus Inga
+- https://doi.org/10.24823/EJB.2022.398 - Comparative transcriptome analysis of two closely related begonia species reveals divergent patterns in key light-regulated pathways
+- https://doi.org/10.24823/EJB.2022.409 - A hybrid capture bait set for begonia
 - https://doi.org/10.1007/s00122-021-03967-z - Wheat genetic loci conferring resistance to stripe rust in the face of genetically diverse races of the fungus Puccinia striiformis f. sp. tritici 
 - https://doi.org/10.3390/agronomy12040782 - Genome-Wide Association Study for Resistance to Rhynchosporium in a Diverse Collection of Spring Barley Germplasm 
 - https://doi.org/10.3389/fpls.2021.806407 - Harnessing Large-Scale Herbarium Image Datasets Through Representation Learning
@@ -45,6 +48,7 @@ Preprints:
 - https://doi.org/10.1038/s41588-022-01153-5 - A multi-tissue atlas of regulatory variants in cattle
 - https://doi.org/10.1186/s12859-022-04755-2 - GridScore: a tool for accurate, cross-platform phenotypic data collection and visualization
 - http://dx.doi.org/10.7488/era/2224 - The Land Capability for Agriculture: building a tool to enable climate change assessments
+- https://doi.org/10.1016/j.physa.2022.128261 - Co-evolution of network structure and consumer inequality in a spatially explicit model of energetic resource acquisition
 - https://doi.org/10.1111%2Fcobi.13918 - Genomic erosion in a demographically recovered bird species during conservation rescue
 - https://doi.org/10.1186/s13059-022-02745-4 - Comparative transcriptome in large-scale human and cattle populations
 
@@ -53,6 +57,8 @@ Preprints:
 - https://doi.org/10.1093/plphys/kiab324 - Large-scale field phenotyping using backpack LiDAR and CropQuant-3D to measure structural variation in wheat
 - https://doi.org/10.1038/s41597-021-00872-4 - EORNA, a barley gene and transcript abundance database
 - https://doi.org/10.48130/FruRes-2021-0007 - Seeing the wood for the trees: hyperspectral imaging for high throughput QTL detection in raspberry, a perennial crop species
+- http://doi.org/10.21425/F5FBG49226 - Phylogeny and biogeography of Ceiba Mill. (Malvaceae, Bombacoideae)
+- http://doi.org/10.1038/s41598-021-96854-y - Multi-tissue transcriptome analysis of two Begonia species reveals dynamic patterns of evolution in the chalcone synthase gene family
 - https://doi.org/10.3390/v13102035 - A Bipartite Geminivirus with a Highly Divergent Genomic Organization Identified in Olive Trees May Represent a Novel Evolutionary Direction in the Family Geminiviridae
 - https://doi.org/10.1007/s00122-021-03781-7 - Identification of eight QTL controlling multiple yield components in a German multi-parental wheat population, including Rht24, WAPO-A1, WAPO-B1 and genetic loci on chromosomes 5A and 6A
 - https://doi.org/10.1371/journal.pone.0249735 - Mix and match: Patchwork domain evolution of the land plant-specific Ca2+-permeable mechanosensitive channel MCA
@@ -92,6 +98,7 @@ Preprints:
 
 - https://doi.org/10.3389/fpls.2019.00544 - A Comparison of Mainstream Genotyping Platforms for the Evaluation and Use of Barley Genetic Resources
 - https://doi/prg/10.7717/peerj.6931 - Metabarcoding reveals a high diversity of woody host-associated Phytophthora spp. in soils at public gardens and amenity woodlands in Britain
+- http://doi.org/10.3389/fevo.2019.00439 - The Limits of Hyb-Seq for Herbarium Specimens: Impact of Preservation Techniques
 - https://doi.org/10.1016/j.virusres.2019.03.004 - The complete sequences of two divergent variants of the rhabdovirus raspberry vein chlorosis virus and the design of improved primers for virus detection
 - https://doi.org/10.1099/jgv.0.001210 - Kodoja: A workflow for virus detection in plants using k-mer analysis of RNA-sequencing data
 - https://doi.org/10.1186/s12864-019-6243-7 - BaRTv1.0: an improved barley reference transcript dataset to determine accurate changes in the barley transcriptome using RNA-seq
