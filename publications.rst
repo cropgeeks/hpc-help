@@ -23,6 +23,7 @@ Preprints:
 - https://doi.org/10.1093/sysbio/syab035 - A Comprehensive Phylogenomic Platform for Exploring the Angiosperm Tree of Life
 - https://doi.org/10.1002/csc2.20768 - Genetic resistance to yellow rust infection of the wheat ear is controlled by genes controlling foliar resistance and flowering time
 - https://doi.org/10.1111/nph.18554 - Diversity and Divergence: Evolution of secondary metabolism in the tropical tree genus Inga
+- https://doi.org/10.1111/nph.18628 - Transcriptional profiling reveals a critical role for GmFT2a in soybean staygreen syndrome caused by the pest Riptortus pedestris
 - https://doi.org/10.24823/EJB.2022.398 - Comparative transcriptome analysis of two closely related begonia species reveals divergent patterns in key light-regulated pathways
 - https://doi.org/10.24823/EJB.2022.409 - A hybrid capture bait set for begonia
 - https://doi.org/10.1007/s00122-021-03967-z - Wheat genetic loci conferring resistance to stripe rust in the face of genetically diverse races of the fungus Puccinia striiformis f. sp. tritici 
