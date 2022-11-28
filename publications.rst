@@ -15,12 +15,15 @@ Preprints:
 - https://doi.org/10.21203/rs.3.rs-137842/v1 - QTL Across Fruit Development in Red Raspberry, A Study of A Primocane X Biennial Raspberry Population
 - https://doi.org/10.1101/2021.08.12.456076 - Analysis of wild plant pathogen populations reveals a signal of adaptation in genes evolving for survival in agriculture in the beet rust pathogen (Uromyces beticola)
 - https://doi.org/10.1101/2022.03.16.484639 - Selection on the fly: short term adaptation to an altered sexual selection regime in Drosophila pseudoobscura
+- https://doi.org/10.1101/2022.09.13.507768 - Genomic erosion in the assessment of species extinction risk
 
 2022:
 
 - https://doi.org/10.1111/tpj.15871 - BaRTv2: a highly resolved barley reference transcriptome for accurate transcript-specific RNA-seq quantification
 - https://doi.org/10.1111/tpj.15908 - The evolutionary patterns of barley pericentromeric chromosome regions, as shaped by linkage disequilibrium and domestication
 - https://doi.org/10.1093/sysbio/syab035 - A Comprehensive Phylogenomic Platform for Exploring the Angiosperm Tree of Life
+- https://doi.org/10.1111/nph.18257 - Stomata on the abaxial and adaxial leaf surface contribute differently to leaf gas exchange and photosynthesis in wheat
+- https://doi.org/10.1007/s00122-021-03991-z - Trends of genetic changes uncovered by Env- and Eigen-GWAS in wheat and barley
 - https://doi.org/10.1002/csc2.20768 - Genetic resistance to yellow rust infection of the wheat ear is controlled by genes controlling foliar resistance and flowering time
 - https://doi.org/10.1111/nph.18554 - Diversity and Divergence: Evolution of secondary metabolism in the tropical tree genus Inga
 - https://doi.org/10.1111/nph.18628 - Transcriptional profiling reveals a critical role for GmFT2a in soybean staygreen syndrome caused by the pest Riptortus pedestris
@@ -48,7 +51,7 @@ Preprints:
 - https://doi.org/10.1098/rsta.2021.0298 - Estimation of age-stratified contact rates during the COVID-19 pandemic using a novel inference algorithm
 - https://doi.org/10.1038/s41588-022-01153-5 - A multi-tissue atlas of regulatory variants in cattle
 - https://doi.org/10.1186/s12859-022-04755-2 - GridScore: a tool for accurate, cross-platform phenotypic data collection and visualization
-- http://dx.doi.org/10.7488/era/2224 - The Land Capability for Agriculture: building a tool to enable climate change assessments
+- https://dx.doi.org/10.7488/era/2224 - The Land Capability for Agriculture: building a tool to enable climate change assessments
 - https://doi.org/10.1016/j.physa.2022.128261 - Co-evolution of network structure and consumer inequality in a spatially explicit model of energetic resource acquisition
 - https://doi.org/10.1111%2Fcobi.13918 - Genomic erosion in a demographically recovered bird species during conservation rescue
 - https://doi.org/10.1186/s13059-022-02745-4 - Comparative transcriptome in large-scale human and cattle populations
@@ -58,8 +61,11 @@ Preprints:
 - https://doi.org/10.1093/plphys/kiab324 - Large-scale field phenotyping using backpack LiDAR and CropQuant-3D to measure structural variation in wheat
 - https://doi.org/10.1038/s41597-021-00872-4 - EORNA, a barley gene and transcript abundance database
 - https://doi.org/10.48130/FruRes-2021-0007 - Seeing the wood for the trees: hyperspectral imaging for high throughput QTL detection in raspberry, a perennial crop species
-- http://doi.org/10.21425/F5FBG49226 - Phylogeny and biogeography of Ceiba Mill. (Malvaceae, Bombacoideae)
-- http://doi.org/10.1038/s41598-021-96854-y - Multi-tissue transcriptome analysis of two Begonia species reveals dynamic patterns of evolution in the chalcone synthase gene family
+- https://doi.org/10.21425/F5FBG49226 - Phylogeny and biogeography of Ceiba Mill. (Malvaceae, Bombacoideae)
+- https://doi.org/10.1002/csc2.20692 - Genome-wide association mapping of Hagberg falling number, protein content, test weight, and grain yield in U.K. wheat
+- https://doi.org/10.1186/s13059-021-02354-7 - Limited haplotype diversity underlies polygenic trait architecture across 70 years of wheat breeding
+- https://doi.org/10.1038/s41586-020-2961-x - Multiple wheat genomes reveal global variation in modern breeding
+- https://doi.org/10.1038/s41598-021-96854-y - Multi-tissue transcriptome analysis of two Begonia species reveals dynamic patterns of evolution in the chalcone synthase gene family
 - https://doi.org/10.3390/v13102035 - A Bipartite Geminivirus with a Highly Divergent Genomic Organization Identified in Olive Trees May Represent a Novel Evolutionary Direction in the Family Geminiviridae
 - https://doi.org/10.1007/s00122-021-03781-7 - Identification of eight QTL controlling multiple yield components in a German multi-parental wheat population, including Rht24, WAPO-A1, WAPO-B1 and genetic loci on chromosomes 5A and 6A
 - https://doi.org/10.1371/journal.pone.0249735 - Mix and match: Patchwork domain evolution of the land plant-specific Ca2+-permeable mechanosensitive channel MCA
@@ -82,6 +88,7 @@ Preprints:
 
 - https://doi.org/10.1038/s41467-020-18404-w - Diversity analysis of 80,000 wheat accessions reveals consequences and opportunities of selection footprints
 - https://dx.doi.org/10.24823/Sibbaldia.2020.289 - Diversity of woody-host infecting Phytophthora species in public parks and botanic gardens as revealed by metabarcoding, and opportunities for mitigation through best practice
+- https://doi.org/10.1534/g3.120.401234 - Genetic Characterization of a Wheat Association Mapping Panel Relevant to Brazilian Breeding Using a High-Density Single Nucleotide Polymorphism Array
 - https://doi.org/10.1093/botlinnean/boaa099 - Resolving generic limits in Cyperaceae tribe Abildgaardieae using targeted sequencing
 - https://doi.org/10.1111/efp.12602 - Detection and spread of Phytophthora austrocedri within infected Juniperus communis woodland and diversity of co-associated Phytophthoras as revealed by metabarcoding
 - https://doi.org/10.1016/j.virusres.2019.197837 - RNA sequence analysis of diseased groundnut (Arachis hypogaea) reveals the full genome of groundnut rosette assistor virus (GRAV)
@@ -99,7 +106,7 @@ Preprints:
 
 - https://doi.org/10.3389/fpls.2019.00544 - A Comparison of Mainstream Genotyping Platforms for the Evaluation and Use of Barley Genetic Resources
 - https://doi/prg/10.7717/peerj.6931 - Metabarcoding reveals a high diversity of woody host-associated Phytophthora spp. in soils at public gardens and amenity woodlands in Britain
-- http://doi.org/10.3389/fevo.2019.00439 - The Limits of Hyb-Seq for Herbarium Specimens: Impact of Preservation Techniques
+- https://doi.org/10.3389/fevo.2019.00439 - The Limits of Hyb-Seq for Herbarium Specimens: Impact of Preservation Techniques
 - https://doi.org/10.1016/j.virusres.2019.03.004 - The complete sequences of two divergent variants of the rhabdovirus raspberry vein chlorosis virus and the design of improved primers for virus detection
 - https://doi.org/10.1099/jgv.0.001210 - Kodoja: A workflow for virus detection in plants using k-mer analysis of RNA-sequencing data
 - https://doi.org/10.1186/s12864-019-6243-7 - BaRTv1.0: an improved barley reference transcript dataset to determine accurate changes in the barley transcriptome using RNA-seq
