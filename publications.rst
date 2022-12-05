@@ -20,6 +20,7 @@ Preprints:
 2022:
 
 - https://doi.org/10.1111/tpj.15871 - BaRTv2: a highly resolved barley reference transcriptome for accurate transcript-specific RNA-seq quantification
+- https://doi.org/10.3389/fpls.2022.965217 - Measuring the frequency and distribution of meiotic crossovers in homozygous barley inbred lines
 - https://doi.org/10.1111/tpj.15908 - The evolutionary patterns of barley pericentromeric chromosome regions, as shaped by linkage disequilibrium and domestication
 - https://doi.org/10.1093/sysbio/syab035 - A Comprehensive Phylogenomic Platform for Exploring the Angiosperm Tree of Life
 - https://doi.org/10.1111/nph.18257 - Stomata on the abaxial and adaxial leaf surface contribute differently to leaf gas exchange and photosynthesis in wheat
