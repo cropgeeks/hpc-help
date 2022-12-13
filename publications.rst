@@ -30,6 +30,7 @@ Preprints:
 - https://doi.org/10.1111/nph.18628 - Transcriptional profiling reveals a critical role for GmFT2a in soybean staygreen syndrome caused by the pest Riptortus pedestris
 - https://doi.org/10.24823/EJB.2022.398 - Comparative transcriptome analysis of two closely related begonia species reveals divergent patterns in key light-regulated pathways
 - https://doi.org/10.24823/EJB.2022.409 - A hybrid capture bait set for begonia
+- https://doi.org/10.1126/science.abm7525 - Attenuated evolution of mammals through the Cenozoic
 - https://doi.org/10.1007/s00122-021-03967-z - Wheat genetic loci conferring resistance to stripe rust in the face of genetically diverse races of the fungus Puccinia striiformis f. sp. tritici 
 - https://doi.org/10.3390/agronomy12040782 - Genome-Wide Association Study for Resistance to Rhynchosporium in a Diverse Collection of Spring Barley Germplasm 
 - https://doi.org/10.3389/fpls.2021.806407 - Harnessing Large-Scale Herbarium Image Datasets Through Representation Learning
