@@ -23,7 +23,7 @@ def setup(app):
 # -- Project information -----------------------------------------------------
 
 project = 'Crop Diversity HPC Help'
-copyright = '2022 Information & Computational Sciences, The James Hutton Institute'
+copyright = '2023 Information & Computational Sciences, The James Hutton Institute'
 author = 'Iain Milne'
 
 # The short X.Y version
