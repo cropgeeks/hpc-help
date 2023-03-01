@@ -5,6 +5,7 @@ This is a list of peer-reviewed publications that were made possible due to thei
 
 Preprints:
 
+- https://doi.org/10.1101/2022.12.08.519582 - SMRT-AgRenSeq-d in potato (Solanum tuberosum) identifies candidates for the nematode resistance Gpa5
 - https://doi.org/10.1101/2022.06.22.497172 - KPop: An assembly-free and scalable method for the comparative analysis of microbial genomes
 - https://doi.org/10.1101/2022.07.15.500228 - Distinguishing imported cases from locally acquired cases within a geographically limited genomic sample of an infectious disease
 - https://doi.org/10.1101/2022.11.01.514708 - HISS: Snakemake-based workflows for performing SMRT-RenSeq assembly, AgRenSeq and dRenSeq for the discovery of novel plant disease resistance genes
