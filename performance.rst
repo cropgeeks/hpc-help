@@ -46,4 +46,4 @@ AMD EPYC 7502 @2.5Ghz 32C           n21-64-*
 Network throughput
 ------------------
 
-The cluster's compute and storage nodes are linked together using network switches that support 25-gigabit speeds, with dual-bonding employed across the storage nodes. Interlinks between the switches are currently limited to ``100 Gbps`` (gigabits per second), which allows for maximum data transfer of around ``12 GB/s`` (gigaBYTEs per second), although this is generally only seen when running very parallel tasks.
+The cluster's compute and storage nodes are linked together using network switches that support 25-gigabit speeds (over 400 times faster than the UK's average broadband speed of 60-megabits), with dual-bonding employed across the storage nodes. Interlinks between the switches are currently limited to ``100 Gbps`` (gigabits per second), which allows for maximum data transfer of around ``12 GB/s`` (gigaBYTEs per second), although this is generally only seen when running very parallel tasks.
