@@ -27,17 +27,17 @@ The following graphs show the relative performance of the different CPU types av
 
 Details of which nodes use which CPUs are below:
 
-==============================  =====================
-CPU                             Node name begins with
-==============================  =====================
-Intel Xeon Silver 4116 @2.1GHz  n19-32-*
-Intel Xeon E5-2680 v4 @2.4GHz   n17-28-*
-AMD EPYC 7252 @3.1GHz           n21-16-*
-Intel Xeon Silver 4216 @2.1GHz  n19-24-*
-Intel Xeon Gold 6132 @2.6GHz    n19-28-*
-Intel Xeon Gold 6242 @2.8GHz    n19-64-*
-AMD EPYC 7502 @2.5Ghz           n21-64-*
-==============================  =====================
+==================================  =====================
+CPU                                 Node name begins with
+==================================  =====================
+Intel Xeon Silver 4116 @2.1GHz 12C  n19-32-*
+Intel Xeon E5-2680 v4 @2.4GHz 14C   n17-28-*
+AMD EPYC 7252 @3.1GHz 8C            n21-16-*
+Intel Xeon Silver 4216 @2.1GHz 16C  n19-24-*
+Intel Xeon Gold 6132 @2.6GHz 14C    n19-28-*
+Intel Xeon Gold 6242 @2.8GHz 16C    n19-64-*
+AMD EPYC 7502 @2.5Ghz 32C           n21-64-*
+==================================  =====================
 
 
 .. tip::
