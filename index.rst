@@ -15,6 +15,7 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
    
    faq
    system-overview
+   performance
 
 .. toctree::
    :maxdepth: 1
