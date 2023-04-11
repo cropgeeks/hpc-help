@@ -1,6 +1,10 @@
 Frequently Asked Questions
 ==========================
 
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
+
 How do I cite use of this HPC resource?
 ---------------------------------------
 
