@@ -73,3 +73,7 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
 
 .. note::
   Use the **Edit on GitHub** links to make or suggest changes or additions to this help; new or updated pages are synced every five minutes.
+
+
+.. raw:: html
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
