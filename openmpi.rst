@@ -79,3 +79,8 @@ You can also wrap MPI jobs directly using ``srun`` as follows::
 
 .. tip::
   When using ``srun`` to execute MPI programs, you don't need to use ``mpirun``.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
