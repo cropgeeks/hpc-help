@@ -59,3 +59,8 @@ To see the current state (and power usage) of the GPUs, run ``nvidia-smi``, eg::
   +-----------------------------------------------------------------------------+
 
 Whenever you run a job on a GPU node, your path will be modified to include Nvidia's CUDA platform. This will be required if compiling any programs from source, for example using the ``nvcc`` compiler. Most of the system's CUDA files can be found at ``/usr/local/cuda/bin``.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
