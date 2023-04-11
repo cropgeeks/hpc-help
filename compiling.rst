@@ -48,3 +48,8 @@ To activate and work with a different toolset, use the ``scl enable`` command, a
 
 .. note::
   In previous versions of RHEL/Rocky this feature was called Software Collections Libraries, hence the ``scl`` command that's still in use.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

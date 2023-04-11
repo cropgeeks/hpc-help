@@ -345,3 +345,8 @@ If you want to run a simple binary command, it can be quicker to use the ``--wra
   $ sbatch --wrap "pigz hugefile.txt"
 
 Slurm now does the work of wrapping that up into a (virtual) script for you and submits it to the queue.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

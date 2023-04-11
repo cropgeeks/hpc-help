@@ -20,3 +20,8 @@ While you can install full Windows-like desktop graphical environments for Linux
   The core of the Linux OS is called the *kernel*. The shell (which wraps around a kernel) provides a way of communication with the kernel.
 
 The shell is a text-based interface, and just like there are many different distributions of Linux, there are also many different types of shell you can use. One of the most common, and the one installed to your user account by default, is called **Bash**.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

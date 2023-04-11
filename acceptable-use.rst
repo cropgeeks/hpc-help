@@ -41,3 +41,8 @@ You accept:
 
 .. note::
   Minor breaches of this AUP will be dealt with by Crop Diversity HPC administrators, but your host organisation may be informed of the fact that a breach of policy has taken place. Where appropriate, breaches of the law will be reported to the police, or where the breach has occurred in a jurisdiction outside the UK, the breach may be reported to the relevant authorities within that jurisdiction.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

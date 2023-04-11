@@ -76,3 +76,8 @@ First though, we need to route our browser through an SSH tunnel for this port. 
   $ ssh -L12345:hela:12345 username@gruffalo.cropdiversity.ac.uk
 
 Now all we need to do is paste the URL (``http://127.0.0.1:12345/?token=c4fc5b7c965fd5cc9940fcaed065d822483c6015c947a9cc``) into our browser, and away we go!
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

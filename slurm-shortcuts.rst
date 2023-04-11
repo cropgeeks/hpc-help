@@ -43,3 +43,8 @@ Provides (limited) information on the maximum memory use of an active job. This 
          JobID     MaxRSS
   ------------ ----------
   637874.0         11580K
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

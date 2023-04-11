@@ -74,3 +74,8 @@ How you allocate and run jobs also has an impact on how energy efficient the sys
 
 - **Don't over allocate resources** - a single node running 32 tasks uses far less energy than 32 nodes running 1 task each, so if you over-allocate resources then more nodes need to be online to meet your requirements, ultimately wasting energy.
 - **Don't leave idle interactive jobs running** - nodes can only be fully powered down when all their jobs are finished, which can't happen if you've started an interactive job and left it idle after your task is finished.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

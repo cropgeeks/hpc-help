@@ -116,3 +116,8 @@ Each node also has space for temporary working data, and because it's directly a
   Bear in mind that these scratch drives are unique per node, which means any data stored there can only be seen by that node. The contents are automatically erased when the job ends, so you *must* copy any files you need to keep back to somewhere on shared storage as the final step in your job script.
 
 It's also important to be aware of the differences between local scratch drives, as the different nodes may have different capacities. Check the :doc:`system-overview` page for more details.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

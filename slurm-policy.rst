@@ -159,3 +159,8 @@ Try to avoid submitting jobs that lock out too much of the cluster at once, eith
 However, if you under-allocate on memory, the cluster will kill jobs that try to go beyond their requested allocation. It may therefore be tempting to just over-allocate everything for every job, asking for all the CPUs or all the memory, but this is easily spotted and we'll take action if we notice your jobs continually requesting resources significantly beyond what they're using. Jobs requesting more resources also tend to take longer to run as they must wait until all those resources become available if the cluster is busy. It may just take a little trial and error until you get confortable with how much to request for a given job or data set.
 
 Finally, you should also take :doc:`green-computing` into account. A single node running 32 tasks uses **far less energy** than 32 nodes running 1 task each. If you over-allocate resources, then more nodes need to be online to meet your requirements, which wastes power if they're not being used effectively.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

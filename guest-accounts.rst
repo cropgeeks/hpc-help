@@ -50,3 +50,8 @@ Similarly PuTTY allows you to connect using a graphical interface::
     Private key file for authentication: browse and select guestxxx_key_putty.ppk
 
 Where xxx is replaced by the number of your guest account. Make sure you use guestxxx_key_putty.ppk and not guestxxx_key. As with the command line method you may be asked to verify the server's fingerprint (see `here <ssh-terminal-pw.html>`_). You'll also have to enter the passphrase you'll be provided with.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

@@ -162,3 +162,8 @@ Name            CPUs                            Memory  Disk
 hpcvmh01        2x Gold 6242 CPU @2.8G 16C/32T  384 GB  240 GB (SSD)
 hpcvmh02        2x Gold 6242 CPU @2.8G 16C/32T  384 GB  240 GB (SSD)
 ==============  ==============================  ======  ============
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

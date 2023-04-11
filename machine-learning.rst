@@ -54,3 +54,8 @@ We are now ready to run the training, which should take about 30 seconds to run 
             validation_data=(test_images, test_labels))
 
 In production use you will obviously not have to create the conda environment or install tensorflow-gpu as you've now set those up in the above example. To run your own code you only need to use the srun commands to access the gpu node and then conda activate tensorflow-gpu-env.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

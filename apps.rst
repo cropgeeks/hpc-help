@@ -49,3 +49,8 @@ Java
 - On default path: ``no``
 
 Updated versions of the **Java JDK** are available here. Rocky Linux 8 ships with JDK 8 by default, although you can also get other versions via :doc:`bioconda`.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

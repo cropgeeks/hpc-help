@@ -113,3 +113,8 @@ For help with building containers, it's best to check the official documentation
 If you can't run Apptainer on your own PC/laptop, please :doc:`contact-us` and if we decide there's enough demand we may build a special Apptainer *sandbox* machine where all users have been granted the necessary ``sudo singularity`` rights.
 
 Any Apptainer images you copy to the cluster should be kept in your ``$APPS`` folder.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

@@ -27,3 +27,8 @@ To link your account with an app, simply scan the QR code below into your app, o
   </script>
 
 Once the account is linked, the app should display a 6-digit code that changes every 30 seconds, and the system will occasionally prompt you for a code when logging in from an non-trusted IP address. You SSH public key must also be associated with your HPC account.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

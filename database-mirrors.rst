@@ -81,3 +81,8 @@ Uniprot
 -------
 
 A full copy of `Uniprot <https://www.uniprot.org/>`_ is available at: ``/mnt/shared/apps/databases/uniprot`` (mirrored from ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/).
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

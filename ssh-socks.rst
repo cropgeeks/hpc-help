@@ -47,3 +47,8 @@ You should now be able to access our protected web pages.
 
 .. important::
   Your web browser is now configured to proxy **all** traffic via ``gruffalo``, which will work **only** while your SSH connection is active. You should disable proxy settings when access to protected web pages is not required and/or find a browser plugin that allows you to quickly toggle them on or off.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

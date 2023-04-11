@@ -66,3 +66,8 @@ Here are a few recommended clients to get you started:
 
 .. note::
   JHI users can also enable :doc:`samba` for easy graphical file browsing.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

@@ -13,3 +13,8 @@ Finally, all of our compute nodes contain multiple CPUs (usually either 2 or 4) 
 
 .. note::
   When specifically talking about hardware - such as on the :doc:`system-overview` page - then we'll use the correct physical CPU count of a node, while also listing each CPU's cores/thread count too.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

@@ -99,3 +99,8 @@ Any changes we may make to our privacy notice in the future will be communicated
 Contact
 -------
 Questions, comments and requests regarding this privacy notice are welcomed and should be addressed to: dpo@hutton.ac.uk or gdpr@niab.com
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

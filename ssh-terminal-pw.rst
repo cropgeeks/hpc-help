@@ -42,3 +42,8 @@ You can make subsequent connections faster, by editing your local ``~/.ssh/confi
     User <username>
 
 You'll then be able to connect using just ``ssh gruffalo``.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

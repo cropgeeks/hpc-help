@@ -48,3 +48,8 @@ Access from macOS
 -----------------
 
 To access the shares from macOS, use the Finder’s menu to select Go, Connect to Server and enter ``smb://narnia.cropdiversity.ac.uk`` (or ``cifs://narnia.cropdiversity.ac.uk``) as the server address. You'll also need to supply your credentials (as detailed above) and decide which share to connect to.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

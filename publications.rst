@@ -117,3 +117,8 @@ Preprints:
 - https://doi.org/10.1016/j.enganabound.2019.03.025 - Smoothed particle hydrodynamics for root growth mechanics
 - https://doi.org/10.1111/nph.15548 - Interaction between row-type genes in barley controls meristem determinacy and reveals novel routes to improved grain
 - https://doi.org/10.1038%2Fs41598-019-49302-x - Juxta-membrane S-acylation of plant receptor-like kinases is likely fortuitous and does not necessarily impact upon function
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

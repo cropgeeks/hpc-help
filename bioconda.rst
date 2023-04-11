@@ -224,3 +224,7 @@ You can work around this by using ``source activate <environment>`` instead.
 .. note::
   If conda cannot be found on your ``$PATH`` then you'll need to provide its full path with the command, for example: ``source /full/path/to/conda/bin/activate <environment>``.
   
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

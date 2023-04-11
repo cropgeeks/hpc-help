@@ -40,3 +40,8 @@ If using PuTTY instead of MobaXterm it's very similar:
 .. image:: media/putty.png
 
 For "Host Name or IP address" enter: gruffalo.cropdiversity.ac.uk, for "Port" enter: 22, connection type: SSH. You may wish to save this information for next time by entering a name and pressing Save. Then click Open.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

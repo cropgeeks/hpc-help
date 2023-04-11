@@ -46,3 +46,8 @@ Again, we have seperate guides depending on the client type you're using:
 
 .. important::
   You can see why it's critical that we enforce key use for remote access by looking at last seven days' worth of rogue access attempts on our login tracker: https://cropdiversity.ac.uk/botplot
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

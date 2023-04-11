@@ -60,3 +60,8 @@ https://status.cropdiversity.ac.uk/
 .. |top| image:: media/top.png
 .. |ganglia| image:: media/ganglia.png
 .. |uptimerobot| image:: media/uptimerobot.png
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

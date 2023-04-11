@@ -28,3 +28,8 @@ Restoring backups
 -----------------
 
 Please :doc:`contact-us` with all queries regarding restoring data from backup.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

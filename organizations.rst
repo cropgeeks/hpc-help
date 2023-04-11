@@ -27,3 +27,8 @@ We also welcome researchers closely linked with the above organisations, includi
 
 
 If you are unsure about your eligibility for an account, then please :doc:`contact-us` first.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

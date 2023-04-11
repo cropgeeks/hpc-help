@@ -42,3 +42,8 @@ The majority of our hardware is protected by uninterruptable power supply (UPS) 
   The system may automatically shut itself down (in order to protect critical file systems and disks) if we experience an unexpected loss of power.
 
 Obviously, any running jobs will be terminated without warning if this were to happen.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

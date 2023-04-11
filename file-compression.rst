@@ -69,3 +69,8 @@ To convert the output file of a program into a compressed file via process subst
 
 .. note::
   Not every program will support this, unfortunately. For instance, if a program expects to take a file and use it to determine a working directory where it can write more files to, then the above will likely fail.
+
+
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
