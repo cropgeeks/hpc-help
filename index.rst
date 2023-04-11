@@ -1,6 +1,10 @@
 Crop Diversity HPC Help
 =======================
 
+.. raw:: html
+   
+   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
+
 Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinformatics High Performance Computing (HPC) <https://www.cropdiversity.ac.uk>`_ Linux cluster - ``gruffalo`` - and its associated data storage and services.
 
 .. important::
@@ -73,7 +77,3 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
 
 .. note::
   Use the **Edit on GitHub** links to make or suggest changes or additions to this help; new or updated pages are synced every five minutes.
-
-
-.. raw:: html
-   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
