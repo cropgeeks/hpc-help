@@ -19,6 +19,9 @@ Preprints:
 - https://doi.org/10.1101/2022.03.16.484639 - Selection on the fly: short term adaptation to an altered sexual selection regime in Drosophila pseudoobscura
 - https://doi.org/10.1101/2022.09.13.507768 - Genomic erosion in the assessment of species extinction risk
 
+2023:
+- https://doi.org/10.1016/j.avrs.2023.100095 - Systematics of the avian family Alaudidae using multilocus and genomic data
+
 2022:
 
 - https://doi.org/10.1111/tpj.15871 - BaRTv2: a highly resolved barley reference transcriptome for accurate transcript-specific RNA-seq quantification
