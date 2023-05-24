@@ -22,6 +22,7 @@ Preprints:
 2023:
 
 - https://doi.org/10.1016/j.avrs.2023.100095 - Systematics of the avian family Alaudidae using multilocus and genomic data
+- https://doi.org/10.1111/2041-210X.14093 - Modelling density surfaces of intraspecific classes using camera trap distance sampling
 
 2022:
 
