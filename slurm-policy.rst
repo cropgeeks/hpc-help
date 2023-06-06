@@ -20,20 +20,23 @@ To do this, we primarily use three main queues/partitions called ``short``, ``me
      - Time Limit
      - Description
    * - ``short``
-     - 384
+     - 512
      - 192 GB
      - 6 hours
-     - This is a high priority queue for smaller jobs with thresholds set to allow smaller jobs to squeeze through that might have to wait in the other queues
+     - This is a high priority queue for smaller jobs with thresholds set to allow smaller jobs to squeeze through that might have to wait in the other queues.
    * - ``medium``
-     - 768
+     - 1024
      - 192 GB
      - 24 hours
-     - This is the default queue that all jobs will submit to unless otherwise requested
+     - This is the default queue that all jobs will submit to unless otherwise requested.
    * - ``long``
-     - 2,032
+     - 1,760
      - 192 - 384 GB
      - No limit
-     - This queue is for long running jobs
+     - This queue is for long running jobs. **You can access a maximum of 256 cores at once**.
+
+.. note::
+  When running array jobs, each *individual* job has its own time limit, so even an array job with 1000 parts that each take 3 hours to run could still use the short queue.
 
 There are also two special queues that should only be used for jobs that require large amounts of memory or access to :doc:`gpu`:
 
@@ -59,7 +62,7 @@ There are also two special queues that should only be used for jobs that require
      - This queue is for jobs requiring GPUs
 
 .. important::
-  If you have a job that will last more than 21 days, we ask that you :doc:`contact-us` beforehand to discuss its requirements. We reserve the right to **terminate any long running job** that we believe is negatively affecting the cluster, running inefficiently, and/or impacting other users.
+  If you have a job that will last more than 21 days, we ask that you :doc:`contact-us` beforehand to discuss its requirements. We reserve the right to **terminate any long running job** that we believe are negatively affecting the cluster, running inefficiently, and/or impacting other users.
 
 .. note::
   All queues run with the same priority across all nodes. Only the time limits differ, with the ``short`` and ``medium`` queues automatically killing a job if it exceeds their limits. GPUs can only be accessed from the ``gpu`` queue, and large RAM requests can only run on the ``himem`` queue.
