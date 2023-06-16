@@ -37,6 +37,7 @@ Intel Xeon Silver 4216 @2.1GHz 16C  n19-24-*
 Intel Xeon Gold 6132 @2.6GHz 14C    n19-28-*
 Intel Xeon Gold 6242 @2.8GHz 16C    n19-64-*
 AMD EPYC 7502 @2.5Ghz 32C           n21-64-*
+AMD EPYC 7543 @2.8Ghz 32C           n23-64-*
 ==================================  =====================
 
 
