@@ -14,6 +14,19 @@ Compute cluster
 
 The tables below list the various batches of hardware the make up the current cluster, with each set of nodes named something 'fun' on a (geeky) thematic basis.
 
+- **Year**: 2023
+- **Theme**: Harry Potter
+- **Hardware**: Dell PowerEdge XE8545 (1x)
+- **CPUs/GPUs**: 3rd-Gen AMD EPYC (Milan) / Nvidia Ampere
+- **Capacity**: 64 CPU cores (128 threads), 6,912 Cuda cores, and 432 Tensor cores
+
+==============  ==============================  ================  ======  ============
+Name            CPUs                            GPUs              Memory  Disk
+==============  ==============================  ================  ======  ============
+weasley         2x 7543 @2.8GHz 32C/64T         4x A100 80 GB     512 GB  960 GB (SSD)
+==============  ==============================  ================  ======  ============
+
+
 - **Year**: 2021
 - **Theme**: Buck Rogers
 - **Hardware**: Dell PowerEdge R7525 (2x)
