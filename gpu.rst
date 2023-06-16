@@ -6,21 +6,21 @@ The cluster contains three nodes with **Nvidia GPU** co-processors to accelerate
 - ``jaws`` contains a single Tesla V100 card with 16 GB of dedicated GPU memory
 - ``thanos`` contains dual Tesla V100 cards, each with 32 GB of dedicated GPU memory
 - ``twiki`` contains dual Quadro RTX 8000 cards, each with 48 GB of dedicated GPU memory
+- ``weasley`` contains quad Ampere A100 cards, each with 80 GB of dedicated GPU memory
 
-The Tesla cards each have 5,120 **CUDA** processing cores and 640 **Tensor** cores. The RTX cards have 4,608 **CUDA** processing cores and 576 **Tensor** cores. CUDA is Nvidia's parallel computing platform and API for general GPU processing, whereas Tensor cores are specifically intended to speed up the training of neural networks.
+.. warning::
+  As of June 2023 ``thanos`` is no longer part of the ``gpu`` queue but its GPUs remain accessible for now.
 
-More information about the cards is available at https://www.nvidia.com/en-gb/data-center/tesla-v100/ and https://www.nvidia.com/en-gb/design-visualization/quadro/rtx-8000/.
+The Tesla cards each have 5,120 **CUDA** processing cores and 640 **Tensor** cores. The RTX cards have 4,608 **CUDA** processing cores and 576 **Tensor** cores. The Ampere cards each have 6,912 **CUDA** processing cores and 432 **Tensor** cores. CUDA is Nvidia's parallel computing platform and API for general GPU processing, whereas Tensor cores are specifically intended to speed up the training of neural networks.
+
+More information about the cards is available at https://www.nvidia.com/en-gb/data-center/tesla-v100/, https://www.nvidia.com/en-gb/design-visualization/quadro/rtx-8000/, and https://www.nvidia.com/en-us/data-center/a100/.
 
 To access the GPUs, you must both submit to the ``gpu`` Slurm partition and specify how many GPUs you require. For example, to run a basic interactive job::
 
   $ srsh --partition=gpu --gpus=1
 
 .. note::
-  Slurm is configured to allocate GPU resources at the level of whole GPUs (rather than CUDA cores), therefore you can request ``--gpus=1`` (all nodes) or ``--gpus=2`` (``thanos`` and ``twiki`` only).
-
-``thanos`` is also a high memory node and spans two partitions, one for high memory jobs and one for GPU jobs. Currently the ``gpu`` partition has ~70 GB of RAM assigned to it and 16 CPUs, therefore the maximum resources you can allocate to a single GPU job are::
-
-  --partition=gpu --mem=66G --cpus-per-task=16 --gpus=2
+  Slurm is configured to allocate GPU resources at the level of whole GPUs (rather than CUDA cores), therefore you can request ``--gpus=1`` (all nodes) or ``--gpus=2`` (``twiki`` and ``weasley``), or ``--gpus=3 (or 4)`` (weasley only).
 
 See also Slurm's documentation on `Generic Resource Scheduling <https://slurm.schedmd.com/gres.html#Running_Jobs>`_.
 
@@ -33,6 +33,7 @@ The possible cards are defined as follows:
 - ``v100-pcie-16g`` - Tesla V100 16 GB 
 - ``v100-pcie-32g`` - Tesla V100 32 GB 
 - ``rtx_8000`` - Quadro RTX 8000 48 GB
+- ``a100-sxm4-80gb`` - Ampere A100 80GB
 
 To see the current state (and power usage) of the GPUs, run ``nvidia-smi``, eg::
 
