@@ -20,7 +20,7 @@ To access the GPUs, you must both submit to the ``gpu`` Slurm partition and spec
   $ srsh --partition=gpu --gpus=1
 
 .. note::
-  Slurm is configured to allocate GPU resources at the level of whole GPUs (rather than CUDA cores), therefore you can request ``--gpus=1`` (all nodes) or ``--gpus=2`` (``twiki`` and ``weasley``), or ``--gpus=3 (or 4)`` (weasley only).
+  Slurm is configured to allocate GPU resources at the level of whole GPUs (rather than CUDA cores), therefore you can request ``--gpus=1`` (all nodes), ``--gpus=2`` (``twiki`` and ``weasley``), or ``--gpus=3|4`` (weasley only).
 
 See also Slurm's documentation on `Generic Resource Scheduling <https://slurm.schedmd.com/gres.html#Running_Jobs>`_.
 
