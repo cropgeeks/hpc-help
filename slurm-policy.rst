@@ -51,8 +51,8 @@ There are also two special queues that should only be used for jobs that require
      - Time Limit
      - Description
    * - ``himem``
-     - 312
-     - 1.5 - 3.0 TB
+     - 440
+     - 1.5 - 4.0 TB
      - No limit
      - This queue is for jobs requiring a very large amount of RAM
    * - ``gpu``
