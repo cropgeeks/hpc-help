@@ -48,6 +48,8 @@ Eeep! Don’t do that, no.
 
 You can use ``gruffalo`` for compiling and debugging code, installing software, editing and managing files, submitting jobs, or any other work that is not long-running or computationally intensive, but for everything else, you must submit a job using Slurm (see :doc:`slurm-overview`).
 
+Note that ``gruffalo`` has a 6 GB memory limit for your shell to avoid processes using up the node's memory.
+
 
 How do I submit jobs to the cluster?
 ------------------------------------
