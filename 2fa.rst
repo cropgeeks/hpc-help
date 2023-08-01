@@ -1,3 +1,4 @@
+:nosearch:
 :orphan:
 
 Two Factor Authentication (2FA)
