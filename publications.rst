@@ -21,6 +21,7 @@ Preprints:
 
 2023:
 
+- https://doi.org/10.1002/ajb2.16241 - Phylogenomic and morphological data reveal hidden patterns of diversity in the national tree of Brazil, Paubrasilia echinata
 - https://doi.org/10.1016/j.virol.2023.109870 - Alternative splicing impacts the rice stripe virus response transcriptome
 - https://doi.org/10.1186/s13007-023-01009-x - A high quality, high molecular weight DNA extraction method for PacBio HiFi genome sequencing of recalcitrant plants
 - https://doi.org/10.1093/zoolinnean/zlad107 - Integrative taxonomy reveals unrecognised species diversity in African Corypha larks (Aves: Alaudidae) 
@@ -102,7 +103,7 @@ Preprints:
 
 - https://doi.org/10.1038/s41467-020-18404-w - Diversity analysis of 80,000 wheat accessions reveals consequences and opportunities of selection footprints
 - https://dx.doi.org/10.24823/Sibbaldia.2020.289 - Diversity of woody-host infecting Phytophthora species in public parks and botanic gardens as revealed by metabarcoding, and opportunities for mitigation through best practice
-- https://doi.org/10.1534/g3.120.401234 - Genetic Characterization of a Wheat Association Mapping Panel Relevant to Brazilian Breeding Using a High-Density Single Nucleotide Polymorphism Array
+- https://doi.org/10.1534/g3.120.401234 - Genetic Characterization of a Wheat Association Mapping Panel Relevant to ian Breeding Using a High-Density Single Nucleotide Polymorphism Array
 - https://doi.org/10.1093/botlinnean/boaa099 - Resolving generic limits in Cyperaceae tribe Abildgaardieae using targeted sequencing
 - https://doi.org/10.1111/efp.12602 - Detection and spread of Phytophthora austrocedri within infected Juniperus communis woodland and diversity of co-associated Phytophthoras as revealed by metabarcoding
 - https://doi.org/10.1016/j.virusres.2019.197837 - RNA sequence analysis of diseased groundnut (Arachis hypogaea) reveals the full genome of groundnut rosette assistor virus (GRAV)
