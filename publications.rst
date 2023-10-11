@@ -21,6 +21,8 @@ Preprints:
 
 2023:
 
+- https://doi.org/10.1016/j.virol.2023.109870 - Alternative splicing impacts the rice stripe virus response transcriptome
+- https://doi.org/10.1186/s13007-023-01009-x - A high quality, high molecular weight DNA extraction method for PacBio HiFi genome sequencing of recalcitrant plants
 - https://doi.org/10.1093/zoolinnean/zlad107 - Integrative taxonomy reveals unrecognised species diversity in African Corypha larks (Aves: Alaudidae) 
 - https://doi.org/10.1111/nph.19295 - Re-evaluating the importance of threatened species in maintaining global phytoregions
 - https://doi.org/10.1016/j.avrs.2023.100095 - Systematics of the avian family Alaudidae using multilocus and genomic data
@@ -28,6 +30,7 @@ Preprints:
 
 2022:
 
+- http://doi.org/10.26508/lsa.202101255 - The value of genotype-specific reference for transcriptome analyses in barley
 - https://doi.org/10.1111/tpj.15871 - BaRTv2: a highly resolved barley reference transcriptome for accurate transcript-specific RNA-seq quantification
 - https://doi.org/10.3389/fpls.2022.965217 - Measuring the frequency and distribution of meiotic crossovers in homozygous barley inbred lines
 - https://doi.org/10.1111/tpj.15908 - The evolutionary patterns of barley pericentromeric chromosome regions, as shaped by linkage disequilibrium and domestication
