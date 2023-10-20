@@ -9,7 +9,6 @@ Preprints:
 - https://doi.org/10.1101/2022.12.08.519582 - SMRT-AgRenSeq-d in potato (Solanum tuberosum) identifies candidates for the nematode resistance Gpa5
 - https://doi.org/10.1101/2022.06.22.497172 - KPop: An assembly-free and scalable method for the comparative analysis of microbial genomes
 - https://doi.org/10.1101/2022.07.15.500228 - Distinguishing imported cases from locally acquired cases within a geographically limited genomic sample of an infectious disease
-- https://doi.org/10.1101/2022.11.01.514708 - HISS: Snakemake-based workflows for performing SMRT-RenSeq assembly, AgRenSeq and dRenSeq for the discovery of novel plant disease resistance genes
 - https://doi.org/10.1101/2022.09.23.22279632 - Consideration of within-patient diversity highlights transmission pathways and antimicrobial resistance gene variability in vancomycin resistant Enterococcus faecium
 - https://doi.org/10.1101/2022.11.03.515020 - Ancient dolphin genomes reveal rapid repeated adaptation to coastal waters
 - https://doi.org/10.21203/rs.3.rs-2250881/v1 - Combining phylogenomic and morphological data reveals new patterns of diversity in the national tree of Brasil, Paubrasilia echinata
@@ -21,6 +20,7 @@ Preprints:
 
 2023:
 
+- https://doi.org/10.1186/s12859-023-05335-8 - HISS: Snakemake-based workflows for performing SMRT-RenSeq assembly, AgRenSeq and dRenSeq for the discovery of novel plant disease resistance genes
 - https://doi.org/10.1002/ajb2.16241 - Phylogenomic and morphological data reveal hidden patterns of diversity in the national tree of Brazil, Paubrasilia echinata
 - https://doi.org/10.1016/j.virol.2023.109870 - Alternative splicing impacts the rice stripe virus response transcriptome
 - https://doi.org/10.1186/s13007-023-01009-x - A high quality, high molecular weight DNA extraction method for PacBio HiFi genome sequencing of recalcitrant plants
@@ -51,7 +51,7 @@ Preprints:
 - https://doi.org/10.1002/pld3.388 - The first genome for the Cape Primrose Streptocarpus rexii (Gesneriaceae), a model plant for studying meristem-driven shoot diversity 
 - https://doi.org/10.1111/cobi.13992 - Evidence-based guidelines for automated conservation assessments of plant species
 - https://doi.org/10.3389/fpls.2021.806407 - Harnessing Large-Scale Herbarium Image Datasets Through Representation Learning
-- https://doi.org/10.1038/s41467-022-33300- - Conserved signalling components coordinate epidermal patterning and cuticle deposition in barley
+- https://doi.org/10.1038/s41467-022-33300-1 - Conserved signalling components coordinate epidermal patterning and cuticle deposition in barley
 - https://doi.org/10.1111/nph.18365 - Biogeographic history of a large clade of ectomycorrhizal fungi, the Russulaceae, in the Neotropics and adjacent regions
 - https://doi.org/10.1016/j.funeco.2022.101191 - Nitrogen deposition and temperature structure fungal communities associated with alpine moss-sedge heath in the UK
 - https://doi.org/10.1002/ajb2.1827 - Phylogenomic discordance suggests polytomies along the backbone of the large genus Solanum
