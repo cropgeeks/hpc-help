@@ -16,15 +16,16 @@ The tables below list the various batches of hardware the make up the current cl
 
 - **Year**: 2023
 - **Theme**: Harry Potter
-- **Hardware**: Dell PowerEdge R6525 (1x) and XE8545 (1x)
+- **Hardware**: Dell PowerEdge R6525 (1x) and XE8545 (2x)
 - **CPUs/GPUs**: 3rd-Gen AMD EPYC (Milan) / Nvidia Ampere
-- **Capacity**: 64 CPU cores (128 threads), 6,912 Cuda cores, and 432 Tensor cores
+- **Capacity**: 96 CPU cores (192 threads), 13,824 Cuda cores, and 864 Tensor cores
 
 ==============  ==============================  ================  ======  ============
 Name            CPUs                            GPUs              Memory  Disk
 ==============  ==============================  ================  ======  ============
 voldemort       2x 7543 @2.8GHz 32C/64T                           4.0 TB  1.9 TB (SSD)
-weasley         2x 7543 @2.8GHz 32C/64T         4x A100 80 GB     512 GB  960 GB (SSD)
+pigwidgeon      2x 7543 @2.8GHz 32C/64T         4x A100 80 GB     512 GB  960 GB (SSD)
+nagini          2x 7543 @2.8GHz 32C/64T         4x A100 80 GB     512 GB  960 GB (SSD)
 ==============  ==============================  ================  ======  ============
 
 
