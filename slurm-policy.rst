@@ -56,7 +56,7 @@ There are also two special queues that should only be used for jobs that require
      - No limit
      - This queue is for jobs requiring a very large amount of RAM
    * - ``gpu``
-     - 208
+     - 336
      - 192 - 512 GB
      - No limit
      - This queue is for jobs requiring GPUs
