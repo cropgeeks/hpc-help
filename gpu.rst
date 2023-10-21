@@ -6,7 +6,7 @@ The cluster contains three nodes with **Nvidia GPU** co-processors to accelerate
 - ``jaws`` contains a single Tesla V100 card with 16 GB of dedicated GPU memory
 - ``thanos`` contains dual Tesla V100 cards, each with 32 GB of dedicated GPU memory
 - ``twiki`` contains dual Quadro RTX 8000 cards, each with 48 GB of dedicated GPU memory
-- ``weasley`` contains quad Ampere A100 cards, each with 80 GB of dedicated GPU memory
+- ``pigwidgeon`` ``nagini`` contain quad Ampere A100 cards, each with 80 GB of dedicated GPU memory
 
 .. warning::
   As of June 2023 ``thanos`` is no longer part of the ``gpu`` queue but its GPUs remain accessible for now.
@@ -20,7 +20,7 @@ To access the GPUs, you must both submit to the ``gpu`` Slurm partition and spec
   $ srsh --partition=gpu --gpus=1
 
 .. note::
-  Slurm is configured to allocate GPU resources at the level of whole GPUs (rather than CUDA cores), therefore you can request ``--gpus=1`` (all nodes), ``--gpus=2`` (``twiki`` and ``weasley``), or ``--gpus=3|4`` (weasley only).
+  Slurm is configured to allocate GPU resources at the level of whole GPUs (rather than CUDA cores), therefore you can request ``--gpus=1`` (all nodes), ``--gpus=2`` (``twiki``, ``pigwidgeon`` and ``nagini``), or ``--gpus=3|4`` (``pigwidgeon`` and ``nagini`` only).
 
 See also Slurm's documentation on `Generic Resource Scheduling <https://slurm.schedmd.com/gres.html#Running_Jobs>`_.
 
