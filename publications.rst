@@ -21,6 +21,7 @@ Preprints:
 
 2023:
 
+- https://doi.org/10.1016/j.ympev.2023.107907 - Frog phylogeny: a time-calibrated, species-level tree based on hundreds of loci and 5,242 species
 - https://doi.org/10.1002/ajb2.16241 - Phylogenomic and morphological data reveal hidden patterns of diversity in the national tree of Brazil, Paubrasilia echinata
 - https://doi.org/10.1016/j.virol.2023.109870 - Alternative splicing impacts the rice stripe virus response transcriptome
 - https://doi.org/10.1186/s13007-023-01009-x - A high quality, high molecular weight DNA extraction method for PacBio HiFi genome sequencing of recalcitrant plants
@@ -31,6 +32,7 @@ Preprints:
 
 2022:
 
+- https://doi.org/10.1002/ece3.9537 - Population genomic analyses support sympatric origins of parapatric morphs in a salamander
 - http://doi.org/10.26508/lsa.202101255 - The value of genotype-specific reference for transcriptome analyses in barley
 - https://doi.org/10.1111/tpj.15871 - BaRTv2: a highly resolved barley reference transcriptome for accurate transcript-specific RNA-seq quantification
 - https://doi.org/10.3389/fpls.2022.965217 - Measuring the frequency and distribution of meiotic crossovers in homozygous barley inbred lines
