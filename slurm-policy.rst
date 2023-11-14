@@ -8,7 +8,10 @@ Our Slurm setup runs with the following goals and constraints in mind:
 * try to divide the cluster equally among users
 * keep all of the cluster’s processors as busy as possible all of the time
 
-To do this, we primarily use three main queues/partitions called ``short``, ``medium`` and ``long`` (referring to their runtime), with ``medium`` being the default queue that jobs will go to unless you specify otherwise:
+To do this, we primarily use three main queues/partitions called ``short``, ``medium`` and ``long`` (referring to their runtime), with ``medium`` being the default queue that jobs will go to unless you specify otherwise.
+
+.. important::
+  You can access a maximum of 256 cores per queue at a time. Any subsequent jobs will queue until your usage allows for more to start running.
 
 .. list-table::
    :widths: 10 10 25 20 60
@@ -33,7 +36,7 @@ To do this, we primarily use three main queues/partitions called ``short``, ``me
      - 1,760
      - 192 - 384 GB
      - No limit
-     - This queue is for long running jobs. **You can access a maximum of 256 cores at once**.
+     - This queue is for long running jobs.
 
 .. note::
   When running array jobs, each *individual* job has its own time limit, so even an array job with 1000 parts that each take 3 hours to run could still use the short queue.
