@@ -212,7 +212,7 @@ Further to the above point, you can see this hyperthread allocation in action by
 We passed no extra parameters, meaning the job only has access to a single CPU, but it's actually taken up two CPUs (``2/64``) in the allocation list for the node it's running on.
 
 .. note::
-  CPU resources may be shared (up to two jobs running per CPU) when a queue is full, but memory is always exclusive, so if you ask for 4 GB then no-one else can use up that memory and negatively effect your job.
+  CPU resources may be shared (up to two jobs running per CPU) when a queue is full, but memory is always exclusive, so if you ask for 4 GB then no-one else can use up that memory and negatively affect your job.
 
 GPU resources
 ~~~~~~~~~~~~~
