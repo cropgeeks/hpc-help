@@ -26,6 +26,9 @@ Name            CPUs                            GPUs              Memory  Disk
 voldemort       2x 7543 @2.8GHz 32C/64T                           4.0 TB  1.9 TB (SSD)
 pigwidgeon      2x 7543 @2.8GHz 32C/64T         4x A100 80 GB     512 GB  960 GB (SSD)
 nagini          2x 7543 @2.8GHz 32C/64T         4x A100 80 GB     512 GB  960 GB (SSD)
+delacour	2x 7543 @2.8Ghz 32C/64T				  512 GB  960 GB (SSD)
+snape   	2x 7543 @2.8Ghz 32C/64T				  512 GB  960 GB (SSD)
+tonks   	2x 7543 @2.8Ghz 32C/64T				  512 GB  960 GB (SSD)
 ==============  ==============================  ================  ======  ============
 
 
