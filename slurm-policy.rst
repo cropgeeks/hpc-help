@@ -35,7 +35,7 @@ To do this, we primarily use three main queues/partitions called ``short``, ``me
    * - ``long``
      - 1,888
      - 192 - 384 GB
-     - No limit
+     - 14 days
      - This queue is for long running jobs.
 
 .. note::
@@ -56,16 +56,13 @@ There are also two special queues that should only be used for jobs that require
    * - ``himem``
      - 440
      - 1.5 - 4.0 TB
-     - No limit
+     - 14 days
      - This queue is for jobs requiring a very large amount of RAM
    * - ``gpu``
      - 336
      - 192 - 512 GB
-     - No limit
+     - 14 days
      - This queue is for jobs requiring GPUs
-
-.. important::
-  If you have a job that will last more than 21 days, we ask that you :doc:`contact-us` beforehand to discuss its requirements. We reserve the right to **terminate any long running job** that we believe are negatively affecting the cluster, running inefficiently, and/or impacting other users.
 
 .. note::
   All queues run with the same priority across all nodes. Only the time limits differ, with the ``short`` and ``medium`` queues automatically killing a job if it exceeds their limits. GPUs can only be accessed from the ``gpu`` queue, and large RAM requests can only run on the ``himem`` queue.
