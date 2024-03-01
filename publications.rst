@@ -18,8 +18,13 @@ Preprints:
 - https://doi.org/10.1101/2022.03.16.484639 - Selection on the fly: short term adaptation to an altered sexual selection regime in Drosophila pseudoobscura
 - https://doi.org/10.1101/2022.09.13.507768 - Genomic erosion in the assessment of species extinction risk
 
+2024:
+
+- https://doi.org/10.1093/aob/mcae022 - Phylogenomic analysis reveals five independently evolved African forage grass clades in the genus Urochloa
+
 2023:
 
+- https://doi.org/10.1111/nph.19421 - Global analysis of Poales diversification – parallel evolution in space and time into open and closed habitats
 - https://doi.org/10.1016/j.ympev.2023.107907 - Frog phylogeny: a time-calibrated, species-level tree based on hundreds of loci and 5,242 species
 - https://doi.org/10.1186/s12859-023-05335-8 - HISS: Snakemake-based workflows for performing SMRT-RenSeq assembly, AgRenSeq and dRenSeq for the discovery of novel plant disease resistance genes
 - https://doi.org/10.1002/ajb2.16241 - Phylogenomic and morphological data reveal hidden patterns of diversity in the national tree of Brazil, Paubrasilia echinata
