@@ -5,11 +5,12 @@ This is a list of peer-reviewed publications that were made possible due to thei
 
 Preprints:
 
+- https://doi.org/10.1093/jac/dkae023 - Consideration of within-patient diversity highlights transmission pathways and antimicrobial resistance gene variability in vancomycin-resistant Enterococcus faecium
+- https://doi.org/10.1101/2024.02.16.580628 - Transcriptional profiling during infection of potato NLRs and Phytophthora infestans effectors using cDNA enrichment sequencing
 - https://doi.org/10.1101/2024.02.14.580321 - Resistify - A rapid and accurate annotation tool to identify NLRs and study their genomic organisation
 - https://doi.org/10.1101/2024.02.16.580628 - Transcriptional profiling during infection of potato NLRs and Phytophthora infestans effectors using cDNA enrichment sequencing
 - https://doi.org/10.1101/2023.03.24.534090 - THAPBI PICT - a fast, cautious, and accurate metabarcoding analysis pipeline
 - https://doi.org/10.1101/2022.06.22.497172 - KPop: An assembly-free and scalable method for the comparative analysis of microbial genomes
-- https://doi.org/10.1101/2022.07.15.500228 - Distinguishing imported cases from locally acquired cases within a geographically limited genomic sample of an infectious disease
 - https://doi.org/10.1101/2022.09.23.22279632 - Consideration of within-patient diversity highlights transmission pathways and antimicrobial resistance gene variability in vancomycin resistant Enterococcus faecium
 - https://doi.org/10.1101/2022.11.03.515020 - Ancient dolphin genomes reveal rapid repeated adaptation to coastal waters
 - https://doi.org/10.21203/rs.3.rs-2250881/v1 - Combining phylogenomic and morphological data reveals new patterns of diversity in the national tree of Brasil, Paubrasilia echinata
@@ -22,9 +23,12 @@ Preprints:
 2024:
 
 - https://doi.org/10.1093/aob/mcae022 - Phylogenomic analysis reveals five independently evolved African forage grass clades in the genus Urochloa
+- https://doi.org/10.3389/fpls.2024.1360087 - The origin and the genetic regulation of the self-compatibility mechanism in clementine (Citrus clementina Hort. ex Tan.)
+- https://doi.org/10.1093/aob/mcae022 - Phylogenomic analysis reveals five independently evolved African forage grass clades in the genus Urochloa
 
 2023:
 
+- https://doi.org/10.1111/nph.19421 - Global analysis of Poales diversification – parallel evolution in space and time into open and closed habitats
 - https://doi.org/10.1093/hr/uhad211 - SMRT–AgRenSeq-d in potato (Solanum tuberosum) as a method to identify candidates for the nematode resistance Gpa5
 - https://doi.org/10.1111/nph.19421 - Global analysis of Poales diversification – parallel evolution in space and time into open and closed habitats
 - https://doi.org/10.1016/j.ympev.2023.107907 - Frog phylogeny: a time-calibrated, species-level tree based on hundreds of loci and 5,242 species
@@ -39,6 +43,7 @@ Preprints:
 
 2022:
 
+- https://doi.org/10.1093/bioinformatics/btac761 - Distinguishing imported cases from locally acquired cases within a geographically limited genomic sample of an infectious disease
 - https://doi.org/10.1002/ece3.9537 - Population genomic analyses support sympatric origins of parapatric morphs in a salamander
 - http://doi.org/10.26508/lsa.202101255 - The value of genotype-specific reference for transcriptome analyses in barley
 - https://doi.org/10.1111/tpj.15871 - BaRTv2: a highly resolved barley reference transcriptome for accurate transcript-specific RNA-seq quantification
