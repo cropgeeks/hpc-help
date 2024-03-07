@@ -21,6 +21,7 @@ Preprints:
 
 2024:
 
+- https://doi.org/10.1038/s41597-023-02850-4 - Genomic resources for a historical collection of cultivated two-row European spring barley genotypes
 - https://doi.org/10.1111/nph.19592 - Extinction risk predictions for the world's flowering plants to support their conservation
 - https://doi.org/10.1093/jac/dkae023 - Consideration of within-patient diversity highlights transmission pathways and antimicrobial resistance gene variability in vancomycin-resistant Enterococcus faecium
 - https://doi.org/10.1093/aob/mcae022 - Phylogenomic analysis reveals five independently evolved African forage grass clades in the genus Urochloa
