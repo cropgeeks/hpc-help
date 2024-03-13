@@ -6,9 +6,9 @@ How do I cite use of this HPC resource?
 
 Citations and acknowledgements help us demonstrate the importance of computational resources and support staff in research at our institutes, and we ask that you acknowledge use of this system in any publications, presentations, or talks that were made possible because of it. An acceptable example citation is below:
 
-    *The authors acknowledge the Research/Scientific Computing teams at The James Hutton Institute and NIAB for providing computational resources and technical support for the "UK's Crop Diversity Bioinformatics HPC" (BBSRC grant BB/S019669/1), use of which has contributed to the results reported within this paper.*
+    *The authors acknowledge Research Computing at the James Hutton Institute for providing computational resources and technical support for the "UK's Crop Diversity Bioinformatics HPC" (BBSRC grants BB/S019669/1 and BB/X019683/1), use of which has contributed to the results reported within this paper.*
 
-If you cite or acknowledge us in your work, please :doc:`contact-us` to let us know.
+If you cite or acknowledge us in your work, please :doc:`contact-us` to let us know and/or edit our :doc:`publications` list.
 
 
 What hardware is available on the cluster?
