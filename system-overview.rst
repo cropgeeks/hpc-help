@@ -163,7 +163,18 @@ death (exp)                                            144 TB (HDD)
 luggage (exp)                                          144 TB (HDD)
 ===============  ============================  ======  ============
 
+- **Year**: 2023
+- **Theme**: Back to the Future
+- **Hardware**: Dell PowerEdge R7525 (1x) and ME5084 (1x)
+- **CPUs**: 3rd-Gen AMD EPYC (Milan)
+- **Capacity**: 1.3 PB (backup)
 
+===============  ============================  ======  ============
+Name             CPUs                          Memory  Disk
+===============  ============================  ======  ============
+docbrown         2x 7313 @3.0GHz 16C/32T       256 GB  480 GB (SSD)
+docbrown (exp)                                         1.3 PB (HDD)
+===============  ============================  ======  ============
 
 Virtual infrastructure
 ----------------------
