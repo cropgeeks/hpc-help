@@ -21,6 +21,7 @@ Preprints:
 
 2024:
 
+- https://doi.org/10.21203/rs.3.rs-4155640/v1 - A novel root hair mutant, srh1, affects root hair elongation and reactive oxygen species levels in wheat
 - https://doi.org/10.3389/fpls.2024.1360087 - The origin and the genetic regulation of the self-compatibility mechanism in clementine (Citrus clementina Hort. ex Tan.)
 - https://doi.org/10.1007/s00122-024-04577-1 - A new winter wheat genetic resource harbors untapped diversity from synthetic hexaploid wheat
 - https://doi.org/10.1038/s41597-023-02850-4 - Genomic resources for a historical collection of cultivated two-row European spring barley genotypes
