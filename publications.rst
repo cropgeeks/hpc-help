@@ -5,7 +5,6 @@ This is a list of peer-reviewed publications that were made possible due to thei
 
 Preprints:
 
-- https://doi.org/10.1101/2024.02.16.580628 - Transcriptional profiling during infection of potato NLRs and Phytophthora infestans effectors using cDNA enrichment sequencing
 - https://doi.org/10.1101/2024.02.14.580321 - Resistify - A rapid and accurate annotation tool to identify NLRs and study their genomic organisation
 - https://doi.org/10.1101/2024.02.16.580628 - Transcriptional profiling during infection of potato NLRs and Phytophthora infestans effectors using cDNA enrichment sequencing
 - https://doi.org/10.1101/2023.03.24.534090 - THAPBI PICT - a fast, cautious, and accurate metabarcoding analysis pipeline
