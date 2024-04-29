@@ -20,6 +20,7 @@ Preprints:
 
 2024:
 
+- https://doi.org/10.1038/s41586-024-07324-0 - Phylogenomics and the rise of the angiosperms
 - https://doi.org/10.1093/aob/mcae043 - Phylogeny, biogeography and ecological diversification of New Caledonian palms (Arecaceae)
 - https://doi.org/10.21203/rs.3.rs-4155640/v1 - A novel root hair mutant, srh1, affects root hair elongation and reactive oxygen species levels in wheat
 - https://doi.org/10.3389/fpls.2024.1360087 - The origin and the genetic regulation of the self-compatibility mechanism in clementine (Citrus clementina Hort. ex Tan.)
