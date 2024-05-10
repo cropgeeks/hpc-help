@@ -3,16 +3,6 @@
 Performance
 ===========
 
-Headline figures
-----------------
-
-.. note::
-  The Crop Diversity HPC compute cluster has a theoretical peak **CPU** performance of approximately ``40 TFLOPs`` (40 trillion floating point operations per second).
-  
-This is a cumulative figure estimated via `Intel's LINPACK <https://software.intel.com/content/www/us/en/develop/articles/intel-mkl-benchmarks-suite.html>`_ benchmarking tool, run per-node rather than simultaneously cross-cluster.
-
-There is also an additional ``14 TFLOPs`` of (double precision) **GPU** performance available, rising to ``224 TFLOPs`` if only counting Tensor (Deep Learning) performance.
-
 CPU benchmarks
 ---------------
 
