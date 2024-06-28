@@ -4,7 +4,8 @@ Publications
 This is a list of peer-reviewed publications that were made possible due to their use of this HPC resource. To cite Crop Diversity HPC in your work, please see our :doc:`faq`.
 
 Preprints:
-
+- https://doi.org/10.1111/ejss.13538 - A Deep Learning Approach for High-Resolution Mapping of Scottish Peatland Degradation
+- https://doi.org/10.48550/arXiv.2305.09418 - Leaf Only SAM: A Segment Anything Pipeline for Zero-Shot Automated Leaf Segmentation
 - https://doi.org/10.1101/2024.02.14.580321 - Resistify - A rapid and accurate annotation tool to identify NLRs and study their genomic organisation
 - https://doi.org/10.1101/2024.02.16.580628 - Transcriptional profiling during infection of potato NLRs and Phytophthora infestans effectors using cDNA enrichment sequencing
 - https://doi.org/10.1101/2023.03.24.534090 - THAPBI PICT - a fast, cautious, and accurate metabarcoding analysis pipeline
