@@ -1,7 +1,7 @@
 Autumn 2024 Upgrades
 ====================
 
-Crop Diversity HPC was successful in winning funding for new hardware that will be deployed during Autumn 2024. This also coincides with a physical move of existing equipment from its existing location in Aberdeen to a brand-new, **purpose built data-centre** in Dundee.
+Crop Diversity HPC was successful in winning funding for new hardware that will be deployed during Autumn 2024. This also coincides with a physical move of existing equipment from its current location in Aberdeen to a brand-new, **purpose built data-centre** in Dundee.
 
 While it's currently impossible to give an exact timeline of what will happen when, we've put together the following FAQ to give you more information, but please :doc:`contact-us` with any further queries.
 
