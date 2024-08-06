@@ -9,7 +9,7 @@ While it's currently impossible to give an exact timeline of what will happen wh
 There's a new data centre?
 --------------------------
 
-The existing cluster's data centre is at capacity (physical space, power, cooling) which is why much of the new equipment that we've bought has not been deployed yet. As part of the James Hutton Institute's new International Barley Hub / Advanced Plant Growth Centre, significant new data centre space was included and will give Crop Diversity HPC ample room for expansion in addition to improving our energy efficiency due to improved cooling facilties. The entire building is also partially powered by renewable energy, primarily solar.
+The existing cluster's data centre is at capacity (physical space, power, cooling) which is why much of the new equipment that we've bought has not been deployed yet. As part of the James Hutton Institute's new International Barley Hub / Advanced Plant Growth Centre, significant new data centre space was included and will give Crop Diversity HPC ample room for expansion in addition to improving our energy efficiency due to improved cooling facilities. The entire building is also partially powered by renewable energy, primarily solar.
 
   |ibh|
 
@@ -20,9 +20,9 @@ The existing cluster's data centre is at capacity (physical space, power, coolin
 When will the cluster move?
 ---------------------------
 
-We have enough *new* equipment to build an entirely new cluster in Dundee while the existing one continues in Aberdeen. This allows us to properly setup and test things without any interuption to service.
+We have enough *new* equipment to build an entirely new cluster in Dundee while the existing one continues in Aberdeen. This allows us to properly setup and test things without any interruption to service.
 
-Once the new build is ready, we'll offline the existing cluster, and move *just* its storage to Dundee. This is expected to take around a week, but the storage is really the only key component of the existing cluster that needs to move in the first instance. Once integrated into the new build, you'll be able to log in and access your files etc as if nothing had changed. The only noticable difference will be new node names for the CPU and GPU kit, which will be primarily new 2023/2024 equipment.
+Once the new build is ready, we'll offline the existing cluster, and move *just* its storage to Dundee. This is expected to take around a week, but the storage is really the only key component of the existing cluster that needs to move in the first instance. Once integrated into the new build, you'll be able to log in and access your files etc as if nothing had changed. The only noticeable difference will be new node names for the CPU and GPU kit, which will be primarily new 2023/2024 equipment.
 
 
 What happens to the old cluster?
@@ -34,7 +34,7 @@ When the new cluster comes online, it'll be the only Crop Diversity HPC you can 
 What new equipment will we have?
 --------------------------------
 
-Almost three million pound's worth of new equipment is ready for deployment. This includes new storage, networking infrastructure, backup, and of course CPU and GPU worker nodes. Some of this has already been added (see the 2023 entries in :doc:`system-overview`) but there is significantly more to come. The slide below gives a brief overview, showing current equipment on the left, and newly purchased on the right:
+Almost three million pounds worth of new equipment is ready for deployment. This includes new storage, networking infrastructure, backup, and of course CPU and GPU worker nodes. Some of this has already been added (see the 2023 entries in :doc:`system-overview`) but there is significantly more to come. The slide below gives a brief overview, showing current equipment on the left, and newly purchased on the right:
 
   |upgrades|
 
@@ -44,7 +44,7 @@ Almost three million pound's worth of new equipment is ready for deployment. Thi
 What's the plan for the new storage?
 ------------------------------------
 
-The new storage will *replace* not extend our existing capacity, and it's actually been in place for a while now (check out ``/mnt/destiny`` on the filesystem) slowly syncing all of the data from the old array to the new. This allows us to move the new storage to the new Dundee build (when ready) without changing anything on the current cluster, and again allowing for a gradual physical move of the old storage to Dundee.
+The new storage will *replace* not extend our existing capacity. It's been in place for a while now (check out ``/mnt/destiny`` on the filesystem) slowly syncing all of the data from the old array to the new. This allows us to move the new storage to the new Dundee build (when ready) without changing anything on the current cluster, and again allowing for a gradual physical move of the old storage to Dundee.
 
 We're hoping that the new storage will be much faster (newer hardware, better networking, etc), so don't want to bottleneck it by merging old and new. Instead, the old array will be repurposed as an archive facility with the new array taking over ``/mnt/shared`` duties.
 
