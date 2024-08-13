@@ -162,7 +162,7 @@ Removing packages is as simple as::
 Environments
 ------------
 
-While conda is good at resolving package dependencies, it's likely you'll (eventually) find a package you can't install because its dependencies clash with those of already-installed package (which often happens when packages rely on one of the major versions of Python (2 or 3)). Another problematic situation arises if you want to have multiple versions of the same package installed.
+While conda is good at resolving package dependencies, it's likely you'll (eventually) find a package you can't install because its dependencies clash with those of an already-installed package (which often happens when packages rely on one of the major versions of Python (2 or 3)). Another problematic situation arises if you want to have multiple versions of the same package installed.
 
 Both of these issues can be resolved using environments, which are best thought of as a standalone, isolated working copies of conda.
 
