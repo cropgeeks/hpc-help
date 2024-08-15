@@ -1,20 +1,25 @@
 Bioconda
 ========
 
-Bioconda (https://bioconda.github.io) is a community managed set of packages providing bioinformatics software, with a repository of over 8,500 packages (as of August 2021) ready to install. It is part of the conda system which includes standard Linux/Unix tools as well.
+.. warning::
+  Anaconda Inc, the company behind *some* aspects of the conda ecosystem no longer licence their ``defaults`` and ``r`` channels for free use by organisations with >200 members of staff. Crop Diversity HPC blocks access to these channels and you should remove them from any existing installs using ``conda config --remove channels [channel name]``.
+
+Bioconda (https://bioconda.github.io) is a community managed set of packages providing bioinformatics software, with a repository of over 10,000 packages (as of August 2024) ready to install. It is part of the conda system which includes standard Linux/Unix tools as well.
 
 Using conda allows you to pick and choose the software (and versions) that you want without any danger of clashing with anyone else's requirements, and as most packages require nothing more than running ``conda install <packagename>``, the process is incredibly easy.
 
 Follow the instructions below to get up and running with Bioconda in just a few minutes.
 
-.. warning::
-  In order to maintain compatibility with the system's backup and data policies, you should not attempt to install Bioconda using any other method than the one listed here.
-
+.. tip::
+  Conda can be quite memory hungry, so it's best to start an interactive job asking for additional memory before running these commands, eg: ``srsh --mem=4G``.
   
 Installing Bioconda
 -------------------
 
-To install Bioconda, simply run: ``install-bioconda`` while logged into ``gruffalo``. This will automatically download the necessary files for you, install it to an appropriate area, and then setup the correct channels for finding software for you. By default, it'll install channel information for R, conda-forge,  Bioconda and the underlying Conda system itself.
+.. warning::
+  In order to maintain compatibility with the system's backup and data policies, you **should not** attempt to install Bioconda using any other method than the one listed here.
+
+To install Bioconda, simply run: ``install-bioconda`` while logged into ``gruffalo``. This will automatically download the necessary files for you, install it to an appropriate area, and then setup the correct channels for finding software for you. By default, it'll install channel information for Bioconda and conda-forge.
 
 .. important::
   You must log out and in again (or open a new shell window) before the changes made by the install script will take effect.
@@ -22,7 +27,7 @@ To install Bioconda, simply run: ``install-bioconda`` while logged into ``gruffa
 You should test that installation was successful::
 
   $ conda --version
-  conda 4.10.3
+  conda 24.3.0
 
 
 Finding packages
