@@ -22,6 +22,7 @@ Preprints:
 
 2024:
 
+- https://doi.org/10.5281/zenodo.13385757 - Automated trait extraction from unstructured species descriptions for species ID: a pilot study using a large language model
 - https://doi.org/10.1099/mgen.0.001247 - Presence of phage-plasmids in multiple serovars of Salmonella enterica
 - https://doi.org/10.1038/s41586-024-07324-0 - Phylogenomics and the rise of the angiosperms
 - https://doi.org/10.1093/aob/mcae043 - Phylogeny, biogeography and ecological diversification of New Caledonian palms (Arecaceae)
