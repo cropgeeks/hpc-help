@@ -54,6 +54,7 @@ Preprints:
 
 2022:
 
+- https://royalsocietypublishing.org/doi/10.1098/rsif.2022.0013 - Exact Bayesian inference of epidemiological parameters from mortality data: application to African swine fever virus
 - https://doi.org/10.1093/bioinformatics/btac761 - Distinguishing imported cases from locally acquired cases within a geographically limited genomic sample of an infectious disease
 - https://doi.org/10.1002/ece3.9537 - Population genomic analyses support sympatric origins of parapatric morphs in a salamander
 - http://doi.org/10.26508/lsa.202101255 - The value of genotype-specific reference for transcriptome analyses in barley
