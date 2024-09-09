@@ -22,6 +22,10 @@ Preprints:
 
 2024:
 
+- https://doi.org/10.1007/s00122-024-04568-2 - Construction of relatedness matrices in autopolyploid populations using low-depth high-throughput sequencing data
+- https://doi.org/10.1007/s00122-024-04605-0 - Characterisation and mapping of a Globodera pallida resistance derived from the wild potato species Solanum spegazzinii
+- https://doi.org/10.3389/fpls.2024.1384401 - A genomic dataset integrating genotyping-by-sequencing, SolCAP array and PCR marker data on tetraploid potato advanced breeding lines
+- https://doi.org/10.1007/s00122-024-04651-8 - Genotyping-by-sequencing targets genic regions and improves resolution of genome-wide association studies in autotetraploid potato
 - https://doi.org/10.5281/zenodo.13385757 - Automated trait extraction from unstructured species descriptions for species ID: a pilot study using a large language model
 - https://doi.org/10.1099/mgen.0.001247 - Presence of phage-plasmids in multiple serovars of Salmonella enterica
 - https://doi.org/10.1038/s41586-024-07324-0 - Phylogenomics and the rise of the angiosperms
