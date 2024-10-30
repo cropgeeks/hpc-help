@@ -22,6 +22,7 @@ Preprints:
 
 2024:
 
+- https://doi.org/10.3389/fpls.2024.1490502 - A novel root hair mutant, srh1, affects root hair elongation and reactive oxygen species levels in wheat
 - https://doi.org/10.1007/s00122-024-04568-2 - Construction of relatedness matrices in autopolyploid populations using low-depth high-throughput sequencing data
 - https://doi.org/10.1007/s00122-024-04605-0 - Characterisation and mapping of a Globodera pallida resistance derived from the wild potato species Solanum spegazzinii
 - https://doi.org/10.3389/fpls.2024.1384401 - A genomic dataset integrating genotyping-by-sequencing, SolCAP array and PCR marker data on tetraploid potato advanced breeding lines
@@ -30,7 +31,6 @@ Preprints:
 - https://doi.org/10.1099/mgen.0.001247 - Presence of phage-plasmids in multiple serovars of Salmonella enterica
 - https://doi.org/10.1038/s41586-024-07324-0 - Phylogenomics and the rise of the angiosperms
 - https://doi.org/10.1093/aob/mcae043 - Phylogeny, biogeography and ecological diversification of New Caledonian palms (Arecaceae)
-- https://doi.org/10.21203/rs.3.rs-4155640/v1 - A novel root hair mutant, srh1, affects root hair elongation and reactive oxygen species levels in wheat
 - https://doi.org/10.3389/fpls.2024.1360087 - The origin and the genetic regulation of the self-compatibility mechanism in clementine (Citrus clementina Hort. ex Tan.)
 - https://doi.org/10.1007/s00122-024-04577-1 - A new winter wheat genetic resource harbors untapped diversity from synthetic hexaploid wheat
 - https://doi.org/10.1038/s41597-023-02850-4 - Genomic resources for a historical collection of cultivated two-row European spring barley genotypes
