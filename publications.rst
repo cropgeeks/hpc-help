@@ -8,7 +8,6 @@ Preprints:
 - https://doi.org/10.1111/ejss.13538 - A Deep Learning Approach for High-Resolution Mapping of Scottish Peatland Degradation
 - https://doi.org/10.48550/arXiv.2305.09418 - Leaf Only SAM: A Segment Anything Pipeline for Zero-Shot Automated Leaf Segmentation
 - https://doi.org/10.1101/2024.02.14.580321 - Resistify - A rapid and accurate annotation tool to identify NLRs and study their genomic organisation
-- https://doi.org/10.1101/2024.02.16.580628 - Transcriptional profiling during infection of potato NLRs and Phytophthora infestans effectors using cDNA enrichment sequencing
 - https://doi.org/10.1101/2023.03.24.534090 - THAPBI PICT - a fast, cautious, and accurate metabarcoding analysis pipeline
 - https://doi.org/10.1101/2022.06.22.497172 - KPop: An assembly-free and scalable method for the comparative analysis of microbial genomes
 - https://doi.org/10.1101/2022.09.23.22279632 - Consideration of within-patient diversity highlights transmission pathways and antimicrobial resistance gene variability in vancomycin resistant Enterococcus faecium
@@ -22,6 +21,7 @@ Preprints:
 
 2024:
 
+- https://doi.org/10.1016/j.cj.2024.09.013 - Transcriptional profiling during infection of potato NLRs and Phytophthora infestans effectors using cDNA enrichment sequencing
 - https://doi.org/10.3389/fpls.2024.1490502 - A novel root hair mutant, srh1, affects root hair elongation and reactive oxygen species levels in wheat
 - https://doi.org/10.1007/s00122-024-04568-2 - Construction of relatedness matrices in autopolyploid populations using low-depth high-throughput sequencing data
 - https://doi.org/10.1007/s00122-024-04605-0 - Characterisation and mapping of a Globodera pallida resistance derived from the wild potato species Solanum spegazzinii
