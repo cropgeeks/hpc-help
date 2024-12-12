@@ -45,22 +45,10 @@ https://cropdiversity.ac.uk/botplot
 .. |botplot| image:: media/botplot.png
 
 Each pin represents a location where one or more IP addresses have attempted to log in (tracked over the last seven days). Successfull logins are coloured green, and unsuccessfull logins are coloured red, with the opacity of the pin fading over time, ie, more solid pins represent more recent attempts.
-
-
-Remote monitoring
------------------
-
-We remotely monitor the status of various public-facing servers using UptimeRobot.
-
-https://status.cropdiversity.ac.uk/
-
-  |uptimerobot|
   
 
 .. |top| image:: media/top.png
 .. |ganglia| image:: media/ganglia.png
-.. |uptimerobot| image:: media/uptimerobot.png
-
 
 .. raw:: html
    
