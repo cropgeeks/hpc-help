@@ -23,12 +23,45 @@ The tables below list the various batches of hardware the make up the current cl
 ==============  ==============================  ================  ======  ============
 Name            CPUs                            GPUs              Memory  Disk
 ==============  ==============================  ================  ======  ============
-voldemort       2x 7543 @2.8GHz 32C/64T                           4.0 TB  1.9 TB (SSD)
-pigwidgeon      2x 7543 @2.8GHz 32C/64T         4x A100 80 GB     512 GB  960 GB (SSD)
+black           2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+carrow          2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+chang           2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+crabbe          2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+delacour	      2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+diggory         2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+dumbledore      2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+dursley         2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+filch           2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+flitwick        2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+goyle           2x 7543 @2.8Ghz 32C/64T				                    512 GB  960 GB (SSD)
+granger         2x 7543 @2.8Ghz 32C/64T				                    512 GB  960 GB (SSD)
+greyback        2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+grindelwald     2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+gryffindor      2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+hagrid          2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+hufflepuff      2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+karkaroff       2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+krum            2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+lestrange       2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+lockhart        2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+longbottom      2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+lovegood        2x 7543 @2.8Ghz 32C/64T				                    512 GB  960 GB (SSD)
+lupin           2x 7543 @2.8Ghz 32C/64T				                    512 GB  960 GB (SSD)
+malfoy          2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+mcgonagall      2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+moody           2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
 nagini          2x 7543 @2.8GHz 32C/64T         4x A100 80 GB     512 GB  960 GB (SSD)
-delacour	2x 7543 @2.8Ghz 32C/64T				  512 GB  960 GB (SSD)
-snape   	2x 7543 @2.8Ghz 32C/64T				  512 GB  960 GB (SSD)
-tonks   	2x 7543 @2.8Ghz 32C/64T				  512 GB  960 GB (SSD)
+ollivander      2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+pettigrew       2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+pigwidgeon      2x 7543 @2.8GHz 32C/64T         4x A100 80 GB     512 GB  960 GB (SSD)
+quirrell        2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+ravenclaw       2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+slughorn        2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+slytherin       2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+snape           2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
+tonks           2x 7543 @2.8Ghz 32C/64T				                    512 GB  960 GB (SSD)
+umbridge        2x 7543 @2.8Ghz 32C/64T				                    512 GB  960 GB (SSD)
+voldemort       2x 7543 @2.8GHz 32C/64T                           4.0 TB  1.9 TB (SSD)
 ==============  ==============================  ================  ======  ============
 
 
@@ -49,8 +82,8 @@ twiki           2x 7252 @3.1GHz 8C/16T          2x RTX 8000 48GB  256 GB  440 GB
 - **Year**: 2019 (October)
 - **Theme**: Marvel Cinematic Universe
 - **Hardware**: Dell PowerEdge C6420 (48x) and R940xa (1x)
-- **CPUs/GPUs**: 2nd-Gen Intel Xeon Scalable (Cascade Lake) / Nvidia Tesla
-- **Capacity**: 1,600 CPU cores (3,200 threads), 10,240 Cuda cores, and 1,280 Tensor cores
+- **CPUs/GPUs**: 2nd-Gen Intel Xeon Scalable (Cascade Lake)
+- **Capacity**: 1,600 CPU cores (3,200 threads)
 
 ==============  ==============================  ============  ======  ============
 Name            CPUs                            GPUs          Memory  Disk
@@ -91,7 +124,7 @@ scarletwitch    2x Silver 4216 @2.1Ghz 16C/32T                192 GB  1.3 TB (SS
 spiderman       2x Silver 4216 @2.1Ghz 16C/32T                192 GB  1.3 TB (SSD)
 starlord        2x Silver 4216 @2.1Ghz 16C/32T                192 GB  1.3 TB (SSD)
 taserface       2x Silver 4216 @2.1Ghz 16C/32T                192 GB  1.3 TB (SSD)
-thanos          4x Gold 6242 @2.8Ghz 16C/32T    2x V100 32GB  3.0 TB  1.3 TB (SSD) 
+thanos          4x Gold 6242 @2.8Ghz 16C/32T                  3.0 TB  1.3 TB (SSD) 
 thor            2x Silver 4216 @2.1Ghz 16C/32T                192 GB  1.3 TB (SSD)
 ultron          2x Silver 4216 @2.1Ghz 16C/32T                192 GB  1.3 TB (SSD)
 valkyrie        2x Silver 4216 @2.1Ghz 16C/32T                192 GB  1.3 TB (SSD)
