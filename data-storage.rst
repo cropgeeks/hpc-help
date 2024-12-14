@@ -7,12 +7,12 @@ Data Storage & Management Policy
 
 Storage at-a-glance
 -------------------
-* The cluster has approximately 1.5 PB of storage available
+* The cluster has approximately 5.2 PB of storage available
 * Most user-accessible folders are found under ``/mnt/shared``
 * You may need to contact an administrator when starting a new project
 * All important project data should be kept in ``/mnt/shared/projects``
 * Intermediate working data should be kept on a **scratch** drive
-* Please restrict data in ``/home`` to small and/or miscellaneous files; total usage here should be under 10 GB
+* Please restrict data in ``/home`` to small and/or miscellaneous files; total usage here should be under 15 GB
 
 You can check your current data usage using the :doc:`monitoring` page.
 
@@ -34,7 +34,7 @@ Where you decide to store data will have an effect on performance, available cap
 BeeGFS storage
 --------------
 
-The cluster's primary storage is a high-performance parallel file system running **BeeGFS**. This system, dsitributed across five servers and expansion units, has **1.5 PB** of capacity offered as a single global namespace - ``/mnt/shared`` - that is visible from all nodes of the cluster.
+The cluster's primary storage is a high-performance parallel file system running **BeeGFS**. This system, dsitributed across multiple servers and disk arrays, has **5.2 PB** of capacity offered as a single global namespace - ``/mnt/shared`` - that is visible from all nodes of the cluster.
 
 It holds the following data:
 
@@ -53,7 +53,7 @@ The Projects folder holds subfolders for the :doc:`organizations` (eg ``/mnt/sha
 Joint projects shared between multiple institutes are located in ``/mnt/shared/projects/joint``. Please :doc:`contact-us` if working on a joint project and access by multiple users is required.
 
 .. note::
-  JHI/NIAB users should :doc:`contact-us` when starting *any* new project, or to request help with moving existing data into the correct folder structure.
+  JHI users should :doc:`contact-us` when starting *any* new project, or to request help with moving existing data into the correct folder structure.
   
 
 User home folders
@@ -66,7 +66,7 @@ User home folders
 This is where your home folder is located (your Linux equivalent of *My Documents* on Windows). Athough backed up, it's not suitable for storing large data sets and should be restricted to small and/or miscellaneous files only – perhaps common scripts you find handy across multiple projects or random files that don’t really "fit" anywhere else.
 
 .. important::
-  We'd appreciate it if your total usage within ``$HOME`` can be kept to less than 10 GB.
+  We'd appreciate it if your total usage within ``$HOME`` can be kept to less than 15 GB.
 
 
 Shared scratch
@@ -90,7 +90,7 @@ It's also worth noting - especially when running large or complex jobs - that jo
 User applications
 ~~~~~~~~~~~~~~~~~
 
-- **Path:** ``/mnt/shared/scratch/<username>/apps``
+- **Path:** ``/mnt/apps/<username>``
 - **Shortcut:** ``$APPS``
 - **Backed up:** no
 

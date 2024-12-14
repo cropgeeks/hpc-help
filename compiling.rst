@@ -22,34 +22,6 @@ or::
   $ cmake .. && make
 
 
-Compiler versions (a.k.a. changing gcc)
----------------------------------------
-
-Enterprise Linux distributions are designed to be around for a long time (10 years in the case of Rocky Linux) and have to maintain ABI/API compatibility over that lifetime, so that developers can create programs on day 1 of the release that will work as long as the distribution is supported. Over time though, this means the programming language versions included are getting very old compared to those that are available in "cutting edge" Linux distributions.
-
-At the time of writing, the version of gcc (GNU C Compiler) installed on our cluster is::
-
-  $ gcc --version
-  gcc (GCC) 8.5.0 20210514 (Red Hat 8.5.0-4)
-
-However, we can take advantage of an *Application Stream* built into RHEL/Rocky called ``GCC Toolset`` to temporarily enable different environments with newer versions of developer tools, such as updated versions of gcc.
-
-Toolsets currently installed include::
-
-  toolset-9   (gcc 9.2.1) 
-  toolset-10  (gcc 10.3.1)
-  toolset-11  (gcc 11.2.1)
-
-To activate and work with a different toolset, use the ``scl enable`` command, as follows::
-
-  $ scl enable gcc-toolset-11 bash
-  $ gcc --version
-  gcc (GCC) 11.2.1 20210728 (Red Hat 11.2.1-1)
-
-.. note::
-  In previous versions of RHEL/Rocky this feature was called Software Collections Libraries, hence the ``scl`` command that's still in use.
-
-
 .. raw:: html
    
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

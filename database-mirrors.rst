@@ -3,7 +3,7 @@ Database Mirrors
 
 We maintain local mirrors of several popular bioinformatics databases which are accessible over the high-performance storage network from any node in the cluster.
 
-All databases can be found at: ``/mnt/shared/apps/databases/``.
+All databases can be found at: ``/mnt/shared/datasets/databases/``.
 
 .. important::
   The databases are updated and/or synced from their master copies at 1am on the **first Sunday of each month**. You may wish to avoid using them during this time in case any active files are changed.
@@ -13,11 +13,11 @@ All databases can be found at: ``/mnt/shared/apps/databases/``.
 NCBI BLAST
 ----------
 
-Copies of many `NCBI BLAST <https://en.wikipedia.org/wiki/BLAST>`_ databases are available at: ``/mnt/shared/apps/databases/ncbi/``. You can tell the command line BLAST tools to search here by setting an environment variable:
+Copies of many `NCBI BLAST <https://en.wikipedia.org/wiki/BLAST>`_ databases are available at: ``/mnt/shared/datasets/databases/ncbi/``. You can tell the command line BLAST tools to search here by setting an environment variable:
 
 .. code:: console
 
-    $ export BLASTDB=/mnt/shared/apps/databases/ncbi/
+    $ export BLASTDB=/mnt/shared/datasets/databases/ncbi/
 
 The following databases are currently available:
 
@@ -74,13 +74,13 @@ The following databases are currently available:
 Pfam
 ----
 
-Copies of several popular `Pfam <https://en.wikipedia.org/wiki/Pfam>`_ databases are available at: ``/mnt/shared/apps/databases/pfam-31`` and ``/pfam-35`` (mirrored from http://ftp.ebi.ac.uk/pub/databases/Pfam/releases).
+Copies of several popular `Pfam <https://en.wikipedia.org/wiki/Pfam>`_ databases are available at: ``/mnt/shared/datasets/databases/pfam-31`` and ``/pfam-35`` (mirrored from http://ftp.ebi.ac.uk/pub/databases/Pfam/releases).
 
   
 Uniprot
 -------
 
-A full copy of `Uniprot <https://www.uniprot.org/>`_ is available at: ``/mnt/shared/apps/databases/uniprot`` (mirrored from ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/).
+A full copy of `Uniprot <https://www.uniprot.org/>`_ is available at: ``/mnt/shared/datasets/databases/uniprot`` (mirrored from ftp://ftp.ebi.ac.uk/pub/databases/uniprot/current_release/).
 
 
 .. raw:: html
