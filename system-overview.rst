@@ -7,62 +7,100 @@ You can monitor the current state of the cluster using:
 - https://ganglia.cropdiversity.ac.uk - detailed stats per node
 
 .. note::
-  Everything listed below is connected together over a super-fast 25-gigabit fibre optic network.
+  Everything listed below is connected together over a super-fast 100-gigabit fibre optic network.
   
 Compute cluster
 ---------------
 
 The tables below list the various batches of hardware the make up the current cluster, with each set of nodes named something 'fun' on a (geeky) thematic basis.
 
+- **Year**: 2024
+- **Theme**: Buffy the Vampire Slayer
+- **Hardware**: Dell PowerEdge R6625 (12x) and R7625 (6x)
+- **CPUs/GPUs**: 4th-Gen AMD EPYC (Genoa) / Nvidia Lovelace
+- **Capacity**: 1,152 CPU cores (2,304 threads), 109,056 Cuda cores, and 3,408 Tensor cores
+
+==============  =======================  =============  ======  ============
+Name            CPUs                     GPUs           Memory  Disk
+==============  =======================  =============  ======  ============
+angel           2x 9334 @2.7Ghz 32C/64T  2x L40S 48 GB  384 GB  1.9 TB (SSD)
+anya            2x 9334 @2.7Ghz 32C/64T  2x L40S 48 GB  384 GB  1.9 TB (SSD)
+buffy           2x 9334 @2.7Ghz 32C/64T                 384 GB  1.9 TB (SSD)
+cordelia        2x 9334 @2.7Ghz 32C/64T                 384 GB  1.9 TB (SSD)
+darla           2x 9334 @2.7Ghz 32C/64T  2x L40S 48 GB  384 GB  1.9 TB (SSD)
+dawn            2x 9334 @2.7Ghz 32C/64T                 384 GB  1.9 TB (SSD)
+doyle           2x 9334 @2.7Ghz 32C/64T                 384 GB  1.9 TB (SSD)
+drusilla        2x 9334 @2.7Ghz 32C/64T  2x L40S 48 GB  384 GB  1.9 TB (SSD)
+faith           2x 9334 @2.7Ghz 32C/64T                 384 GB  1.9 TB (SSD)
+fred            2x 9334 @2.7Ghz 32C/64T                 384 GB  1.9 TB (SSD)
+giles           2x 9334 @2.7Ghz 32C/64T                 384 GB  1.9 TB (SSD)
+gunn            2x 9334 @2.7Ghz 32C/64T                 384 GB  1.9 TB (SSD)
+lorne           2x 9334 @2.7Ghz 32C/64T  2x L40S 48 GB  384 GB  1.9 TB (SSD)
+spike           2x 9334 @2.7Ghz 32C/64T  2x L40S 48 GB  384 GB  1.9 TB (SSD)
+tara            2x 9334 @2.7Ghz 32C/64T                 384 GB  1.9 TB (SSD)
+wesley          2x 9334 @2.7Ghz 32C/64T                 384 GB  1.9 TB (SSD)
+willow          2x 9334 @2.7Ghz 32C/64T                 384 GB  1.9 TB (SSD)
+xander          2x 9334 @2.7Ghz 32C/64T                 384 GB  1.9 TB (SSD)
+==============  =======================  =============  ======  ============
+
 - **Year**: 2023
 - **Theme**: Harry Potter
-- **Hardware**: Dell PowerEdge R6525 (1x) and XE8545 (2x)
+- **Hardware**: Dell PowerEdge R6525 (39x) and XE8545 (9x)
 - **CPUs/GPUs**: 3rd-Gen AMD EPYC (Milan) / Nvidia Ampere
-- **Capacity**: 96 CPU cores (192 threads), 13,824 Cuda cores, and 864 Tensor cores
+- **Capacity**: 2,496 CPU cores (4,992 threads), 248,832 Cuda cores, and 15,552 Tensor cores
 
-==============  ==============================  ================  ======  ============
-Name            CPUs                            GPUs              Memory  Disk
-==============  ==============================  ================  ======  ============
-black           2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-carrow          2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-chang           2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-crabbe          2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-delacour	      2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-diggory         2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-dumbledore      2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-dursley         2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-filch           2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-flitwick        2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-goyle           2x 7543 @2.8Ghz 32C/64T				                    512 GB  960 GB (SSD)
-granger         2x 7543 @2.8Ghz 32C/64T				                    512 GB  960 GB (SSD)
-greyback        2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-grindelwald     2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-gryffindor      2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-hagrid          2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-hufflepuff      2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-karkaroff       2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-krum            2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-lestrange       2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-lockhart        2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-longbottom      2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-lovegood        2x 7543 @2.8Ghz 32C/64T				                    512 GB  960 GB (SSD)
-lupin           2x 7543 @2.8Ghz 32C/64T				                    512 GB  960 GB (SSD)
-malfoy          2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-mcgonagall      2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-moody           2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-nagini          2x 7543 @2.8GHz 32C/64T         4x A100 80 GB     512 GB  960 GB (SSD)
-ollivander      2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-pettigrew       2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-pigwidgeon      2x 7543 @2.8GHz 32C/64T         4x A100 80 GB     512 GB  960 GB (SSD)
-quirrell        2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-ravenclaw       2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-slughorn        2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-slytherin       2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-snape           2x 7543 @2.8Ghz 32C/64T				                    256 GB  960 GB (SSD)
-tonks           2x 7543 @2.8Ghz 32C/64T				                    512 GB  960 GB (SSD)
-umbridge        2x 7543 @2.8Ghz 32C/64T				                    512 GB  960 GB (SSD)
-voldemort       2x 7543 @2.8GHz 32C/64T                           4.0 TB  1.9 TB (SSD)
-==============  ==============================  ================  ======  ============
+==============  =======================  ================  ======  ============
+Name            CPUs                     GPUs              Memory  Disk
+==============  =======================  ================  ======  ============
+aragog          2x 7543 @2.8GHz 32C/64T  4x A100 80 GB     512 GB  960 GB (SSD)
+black           2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+buckbeak        2x 7543 @2.8GHz 32C/64T  4x A100 80 GB     512 GB  960 GB (SSD)
+carrow          2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+chang           2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+crabbe          2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+crookshanks     2x 7543 @2.8GHz 32C/64T  4x A100 80 GB     512 GB  960 GB (SSD)
+delacour        2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+diggory         2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+dobby           2x 7543 @2.8GHz 32C/64T  4x A100 80 GB     512 GB  960 GB (SSD)
+dumbledore      2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+dursley         2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+fawkes          2x 7543 @2.8GHz 32C/64T  4x A100 80 GB     512 GB  960 GB (SSD)
+filch           2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+flitwick        2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+goyle           2x 7543 @2.8Ghz 32C/64T                    512 GB  960 GB (SSD)
+granger         2x 7543 @2.8Ghz 32C/64T                    512 GB  960 GB (SSD)
+greyback        2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+grindelwald     2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+gryffindor      2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+hagrid          2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+hedwig          2x 7543 @2.8GHz 32C/64T  4x A100 80 GB     1.0 TB  960 GB (SSD)
+hufflepuff      2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+karkaroff       2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+krum            2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+lestrange       2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+lockhart        2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+longbottom      2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+lovegood        2x 7543 @2.8Ghz 32C/64T                    512 GB  960 GB (SSD)
+lupin           2x 7543 @2.8Ghz 32C/64T                    512 GB  960 GB (SSD)
+malfoy          2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+mcgonagall      2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+moody           2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+nagini          2x 7543 @2.8GHz 32C/64T  4x A100 80 GB     512 GB  960 GB (SSD)
+ollivander      2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+peeves          2x 7543 @2.8GHz 32C/64T  4x A100 80 GB     512 GB  960 GB (SSD)
+pettigrew       2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+pigwidgeon      2x 7543 @2.8GHz 32C/64T  4x A100 80 GB     512 GB  960 GB (SSD)
+potter          2x 7543 @2.8Ghz 32C/64T                    2.0 TB  960 GB (SSD)
+quirrell        2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+ravenclaw       2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+slughorn        2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+slytherin       2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+snape           2x 7543 @2.8Ghz 32C/64T                    256 GB  960 GB (SSD)
+tonks           2x 7543 @2.8Ghz 32C/64T                    512 GB  960 GB (SSD)
+umbridge        2x 7543 @2.8Ghz 32C/64T                    512 GB  960 GB (SSD)
+voldemort       2x 7543 @2.8GHz 32C/64T                    4.0 TB  1.9 TB (SSD)
+weasley         2x 7543 @2.8Ghz 32C/64T                    2.0 TB  960 GB (SSD)
+==============  =======================  ================  ======  ============
 
 
 - **Year**: 2021
@@ -71,12 +109,12 @@ voldemort       2x 7543 @2.8GHz 32C/64T                           4.0 TB  1.9 TB
 - **CPUs/GPUs**: 2nd-Gen AMD EPYC (Rome) / Nvidia Quadro
 - **Capacity**: 80 CPU cores (160 threads), 9,216 Cuda cores, and 1,152 Tensor cores
 
-==============  ==============================  ================  ======  ============
-Name            CPUs                            GPUs              Memory  Disk
-==============  ==============================  ================  ======  ============
-buck            2x 7502 @2.5GHz 32C/64T                           2.0 TB  890 GB (SSD)
-twiki           2x 7252 @3.1GHz 8C/16T          2x RTX 8000 48GB  256 GB  440 GB (SSD)
-==============  ==============================  ================  ======  ============
+==============  =======================  ================  ======  ============
+Name            CPUs                     GPUs              Memory  Disk
+==============  =======================  ================  ======  ============
+buck            2x 7502 @2.5GHz 32C/64T                    2.0 TB  890 GB (SSD)
+twiki           2x 7252 @3.1GHz 8C/16T   2x RTX 8000 48GB  256 GB  440 GB (SSD)
+==============  =======================  ================  ======  ============
 
 
 - **Year**: 2019 (October)
@@ -172,57 +210,71 @@ starbuck        2x E5-2680 v4 @2.4GHz 14C/24T                  256 GB  370 GB (S
 Storage and backup
 ------------------
 
-The BeeGFS storage array runs alongside the cluster, however the backup system is located in another location for redundancy.
+The BeeGFS storage array runs alongside the cluster, however the backup systems are located in another location for redundancy.
 
 - **Year**: 2019 (October)
 - **Theme**: Back to the Future / Discworld
 - **Hardware**: Dell PowerEdge R740xa (4x), MD1400 (4x), R640 (1x), and ME484 (1x)
 - **CPUs**: 2nd-Gen Intel Xeon Scalable (Cascade Lake)
-- **Capacity**: 1.5 PB (storage) and 1.0 PB (backup)
+- **Capacity**: 1.7 PB (storage) and 1.0 PB (backup)
 
-===============  ============================  ======  ============
-Name             CPUs                          Memory  Disk
-===============  ============================  ======  ============
-delorean         2x Silver 4208 @2.1G 8C/16T    32 GB  240 GB (SSD)
-delorean (exp)                                         1.0 PB (HDD)
-librarian        2x Silver 4208 @2.1G 8C/16T   192 GB  3.8 TB (SSD)
-rincewind        2x Silver 4210 @2.2G 10C/20T   96 GB  288 TB (HDD)
-twoflower        2x Silver 4210 @2.2G 10C/20T   96 GB  288 TB (HDD)
-death            2x Silver 4210 @2.2G 10C/20T   96 GB  288 TB (HDD)
-luggage          2x Silver 4210 @2.2G 10C/20T   96 GB  288 TB (HDD)
-rincewind (exp)                                        144 TB (HDD)
-twoflower (exp)                                        144 TB (HDD)
-death (exp)                                            144 TB (HDD)
-luggage (exp)                                          144 TB (HDD)
-===============  ============================  ======  ============
+===============  ==============================  ======  ============
+Name             CPUs                            Memory  Disk
+===============  ==============================  ======  ============
+delorean         2x Silver 4208 @2.1GHz 8C/16T   32 GB   1.0 PB (HDD)
+librarian        2x Silver 4208 @2.1GHz 8C/16T   192 GB  3.8 TB (SSD)
+rincewind        2x Silver 4210 @2.2GHz 10C/20T  96 GB   432 TB (HDD)
+twoflower        2x Silver 4210 @2.GHz 10C/20T   96 GB   432 TB (HDD)
+death            2x Silver 4210 @2.2GHz 10C/20T  96 GB   432 TB (HDD)
+luggage          2x Silver 4210 @2.GHz 10C/20T   96 GB   432 TB (HDD)
+===============  ==============================  ======  ============
 
 - **Year**: 2023
-- **Theme**: Back to the Future
-- **Hardware**: Dell PowerEdge R7525 (1x) and ME5084 (1x)
+- **Theme**: Destiny / Back to the Future
+- **Hardware**: Dell PowerEdge R7525 (5x), ME5084 (5x), and ME5024 (1x)
 - **CPUs**: 3rd-Gen AMD EPYC (Milan)
-- **Capacity**: 1.3 PB (backup)
+- **Capacity**: 5.2 PB (storage) and 1.3 PB (backup)
 
-===============  ============================  ======  ============
-Name             CPUs                          Memory  Disk
-===============  ============================  ======  ============
-docbrown         2x 7313 @3.0GHz 16C/32T       256 GB  480 GB (SSD)
-docbrown (exp)                                         1.3 PB (HDD)
-===============  ============================  ======  ============
+===============  =======================  ======  ============
+Name             CPUs                     Memory  Disk
+===============  =======================  ======  ============
+cayde            2x 7313 @3.0GHz 16C/32T  256 GB  46 TB (SSD)
+docbrown         2x 7313 @3.0GHz 16C/32T  256 GB  1.3 PB (HDD)
+ikora            2x 7313 @3.0GHz 16C/32T  256 GB  46 TB (SSD)
+shaxx            2x 7313 @3.0GHz 16C/32T  256 GB  2.6 PB (HDD)
+zavala           2x 7313 @3.0GHz 16C/32T  256 GB  2.6 PB (HDD)
+===============  =======================  ======  ============
+
+- **Year**: 2024
+- **Theme**: ---
+- **Hardware**: Dell PowerEdge R7525 (3x), ME5084 (4x)
+- **CPUs**: 3rd-Gen AMD EPYC (Milan)
+- **Capacity**: 3.2 PB (storage) and 2.6 PB (backup)
+
+===============  =======================  ======  ============
+Name             CPUs                     Memory  Disk
+===============  =======================  ======  ============
+---              2x 9124 @3.0GHz 16C/32T  192 GB  1.6 PB (HDD)
+---              2x 9124 @3.0GHz 16C/32T  192 GB  1.6 PB (HDD)
+---              2x 7313 @3.0GHz 16C/32T  256 GB  2.6 PB (HDD)
+===============  =======================  ======  ============
 
 Virtual infrastructure
 ----------------------
 
-The rest of the infrastructure runs on VMWare ESXi hosts, with various virtual machines (VMs) for handling web servers and applications, databases, domain control, monitoring, remote access, etc. Although they have a small amount of local disk, the VMs primarily use a separate Storage Area Network (SAN) for data.
+The rest of the infrastructure runs on VMWare ESXi hosts, with various virtual machines (VMs) for handling web servers and applications, databases, domain control, monitoring, remote access, etc. Although they have a small amount of local disk, the VMs primarily use a separate Storage Area Network (SAN) with 30 TB of capacity.
 
-- **Year**: 2019 (October)
-- **Hardware**: Dell PowerEdge R640 (2x)
-- **CPUs**: 2nd-Gen Intel Xeon Scalable (Cascade Lake)
+- **Year**: 2019 (October) and 2023
+- **Hardware**: Dell PowerEdge R640 (2x), R7525 (2x), and ME5024 (1x)
+- **CPUs**: 2nd-Gen Intel Xeon Scalable (Cascade Lake) and 3rd-Gen AMD EPYC (Milan)
 
 ==============  ==============================  ======  ============
 Name            CPUs                            Memory  Disk
 ==============  ==============================  ======  ============
-hpcvmh01        2x Gold 6242 CPU @2.8G 16C/32T  384 GB  240 GB (SSD)
-hpcvmh02        2x Gold 6242 CPU @2.8G 16C/32T  384 GB  240 GB (SSD)
+hpcvmh01        2x Gold 6242 @2.8G 16C/32T      384 GB  240 GB (SSD)
+hpcvmh02        2x Gold 6242 @2.8G 16C/32T      384 GB  240 GB (SSD)
+hpcvmh03        2x 7543 @2.8G 16C/32T           512 GB  480 GB (SSD)
+hpcvmh04        2x 7543 @2.8G 16C/32T           512 GB  480 GB (SSD)
 ==============  ==============================  ======  ============
 
 
