@@ -55,12 +55,12 @@ There are also two special queues that should only be used for jobs that require
      - Description
    * - ``himem``
      - 640
-     - 2.0 - 4.0 TB
+     - 2 - 4 TB
      - 14 days
      - This queue is for jobs requiring a very large amount of RAM
    * - ``gpu``
      - 1,664
-     - 384 GB - 1.0 TB
+     - 384 GB - 1 TB
      - 14 days
      - This queue is for jobs requiring GPUs
 
