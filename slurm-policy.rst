@@ -23,18 +23,18 @@ To do this, we primarily use three main queues/partitions called ``short``, ``me
      - Time Limit
      - Description
    * - ``short``
-     - 640
-     - 192 - 512 GB
+     - 1536
+     - 256 - 384 GB
      - 6 hours
      - This is a high priority queue for smaller jobs with thresholds set to allow smaller jobs to squeeze through that might have to wait in the other queues.
    * - ``medium``
      - 1152
-     - 192 - 512 GB
+     - 256 - 384 GB
      - 24 hours
      - This is the default queue that all jobs will submit to unless otherwise requested.
    * - ``long``
-     - 1,888
-     - 192 - 384 GB
+     - 2,304
+     - 256 - 512 GB
      - 14 days
      - This queue is for long running jobs.
 
@@ -54,13 +54,13 @@ There are also two special queues that should only be used for jobs that require
      - Time Limit
      - Description
    * - ``himem``
-     - 440
-     - 1.5 - 4.0 TB
+     - 640
+     - 2.0 - 4.0 TB
      - 14 days
      - This queue is for jobs requiring a very large amount of RAM
    * - ``gpu``
-     - 336
-     - 192 - 512 GB
+     - 1,664
+     - 384 GB - 1.0 TB
      - 14 days
      - This queue is for jobs requiring GPUs
 
