@@ -11,7 +11,7 @@ Our Slurm setup runs with the following goals and constraints in mind:
 To do this, we primarily use three main queues/partitions called ``short``, ``medium`` and ``long`` (referring to their runtime), with ``medium`` being the default queue that jobs will go to unless you specify otherwise.
 
 .. important::
-  You can access a maximum of 256 cores per queue at a time. Any subsequent jobs will queue until your usage allows for more to start running.
+  You can access a maximum of 256 cores per queue at a time. Any subsequent jobs will queue until your usage allows for more to start running. All queues apart from ``himem`` also have a maximum (simultaneous) memory limit of 256 GB.
 
 .. list-table::
    :widths: 10 10 25 20 60
@@ -19,16 +19,16 @@ To do this, we primarily use three main queues/partitions called ``short``, ``me
 
    * - Queue
      - CPUs
-     - Max RAM
+     - Memory
      - Time Limit
      - Description
    * - ``short``
-     - 1536
+     - 768
      - 256 - 384 GB
      - 6 hours
      - This is a high priority queue for smaller jobs with thresholds set to allow smaller jobs to squeeze through that might have to wait in the other queues.
    * - ``medium``
-     - 1152
+     - 1,536
      - 256 - 384 GB
      - 24 hours
      - This is the default queue that all jobs will submit to unless otherwise requested.
@@ -50,7 +50,7 @@ There are also two special queues that should only be used for jobs that require
 
    * - Queue
      - CPUs
-     - Max RAM
+     - Memory
      - Time Limit
      - Description
    * - ``himem``
