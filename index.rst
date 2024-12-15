@@ -23,7 +23,6 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
    
    user-accounts
    ssh
-   guest-accounts
       
 .. toctree::
    :maxdepth: 2
@@ -61,7 +60,7 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
    linux-basics
    tips
    publications
-   upgrades
+   cluster-changes
 
 .. toctree::
    :maxdepth: 1

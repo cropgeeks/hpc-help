@@ -14,7 +14,7 @@ If you cite or acknowledge us in your work, please :doc:`contact-us` to let us k
 What hardware is available on the cluster?
 ------------------------------------------
 
-The cluster has 57 physical nodes, providing a total of 1,844 compute cores (3,688 threads) and 17,600 GB of memory. A 1.5 PB parallel storage array is complemented by a further petabyte of backup capacity. A full description is provided on the :doc:`system-overview` page.
+The cluster has 120 physical nodes, providing a total of 5,224 compute cores (10,448 threads) and 41,984 GB of memory. GPU capacity is close to 500,000 CUDA cores. A 7 PB parallel storage array is complemented by a further 5 PB of backup capacity. A full description is provided on the :doc:`system-overview` page.
 
 
 How do I get an account on the system?
@@ -98,7 +98,7 @@ The BeeGFS storage system uses transparent compression to automatically compress
 Why "gruffalo"?
 ---------------
 
-The name ``gruffalo`` goes way back to the early days of HPC at the Scottish Crop Research Institute (that merged with the Macaulay Land Use Institute to become the James Hutton Institute in 2011). Our first cluster - circa 2004 - used this name, and we've carried it on ever since, upgrading and/or rebuilding it across a range of hardware and software (RHEL, Fedora, CentOS, Rocky) generations.
+The name ``gruffalo`` goes way back to the early days of HPC at the Scottish Crop Research Institute (that merged with the Macaulay Land Use Institute to become the James Hutton Institute in 2011). Our first cluster - circa 2004 - used this name, and we've carried it on ever since, upgrading and/or rebuilding it across a range of hardware and software (RHEL, Fedora, CentOS, Rocky, Debian) generations.
 
 
 .. raw:: html
