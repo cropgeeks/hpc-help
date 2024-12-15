@@ -14,7 +14,7 @@ If you cite or acknowledge us in your work, please :doc:`contact-us` to let us k
 What hardware is available on the cluster?
 ------------------------------------------
 
-The cluster has 120 physical nodes, providing a total of 5,224 compute cores (10,448 threads) and 41,984 GB of memory. GPU capacity is close to 500,000 CUDA cores. A 7 PB parallel storage array is complemented by a further 5 PB of backup capacity. A full description is provided on the :doc:`system-overview` page.
+The cluster has 120 physical nodes, providing a total of 5,224 compute cores (10,448 threads) and 41,984 GB of memory. GPU capacity is close to 500,000 CUDA cores. An 8 PB parallel storage array is complemented by a further 5 PB of backup capacity. A full description is provided on the :doc:`system-overview` page.
 
 
 How do I get an account on the system?
