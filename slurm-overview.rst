@@ -217,7 +217,7 @@ We passed no extra parameters, meaning the job only has access to a single CPU, 
 GPU resources
 ~~~~~~~~~~~~~
 
-The ``gpu`` queue must be used to access a GPU, which are available on the ``thanos`` node (and later on ``jaws`` once setup). Select the ``gpu`` queue and use the --gpus option to request one or both of the available GPUs. See :doc:`gpu` for details.
+The ``gpu`` queue must be used to access a GPU. Select the ``gpu`` queue and use the --gpus option to request one or both of the available GPUs. See :doc:`gpu` for details.
 
 
 Cancelling a job
