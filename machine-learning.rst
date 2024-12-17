@@ -2,9 +2,8 @@ Machine Learning
 ================
 
 This page explains how to set up the tensorflow python module for accelerating machine learning using the
-GPUs installed on nodes in the GPU partition and ``thanos`` in the himem partition. If you have other 
-software you prefer to use for machine learning you are free to 
-try it out instead, but this page uses tensorflow as an example.
+GPUs installed on nodes in the GPU partition. If you have other software you prefer to use for machine 
+learning you are free to try it out instead, but this page uses tensorflow as an example.
 
 Begin by logging in to the HPC onto the ``gruffalo`` server as normal.
 
