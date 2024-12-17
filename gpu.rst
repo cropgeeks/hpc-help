@@ -3,17 +3,23 @@ GPU Processing
 
 The cluster contains three nodes with **Nvidia GPU** co-processors to accelerate CPUs for general-purpose scientific and engineering computing.
 
-- ``jaws`` contains a single Tesla V100 card with 16 GB of dedicated GPU memory
-- ``thanos`` contains dual Tesla V100 cards, each with 32 GB of dedicated GPU memory
-- ``twiki`` contains dual Quadro RTX 8000 cards, each with 48 GB of dedicated GPU memory
-- ``pigwidgeon`` ``nagini`` contain quad Ampere A100 cards, each with 80 GB of dedicated GPU memory
+- ``aragog`` ``buckbeak`` ``crookshanks`` ``dobby`` ``fawkes`` ``hedwig`` `` peeves`` ``pigwidgeon`` ``nagini`` contain quad Ampere A100 cards, each with 80 GB of dedicated GPU memory
+- ``angel`` ``anya`` ``darla`` ``drusilla`` ``lorne`` ``spike`` contain dual L40S cards, each with 48GB of dedicated GPU memory
+- ``thanos`` contains dual Tesla V100 cards, each with 32 GB of dedicated GPU memory (only available via himem queue)
+- ``jaws`` contains a single Tesla V100 card with 16 GB of dedicated GPU memory (currently unavailable)
+- ``twiki`` contains dual Quadro RTX 8000 cards, each with 48 GB of dedicated GPU memory (currently unavailable)
 
 .. warning::
-  As of June 2023 ``thanos`` is no longer part of the ``gpu`` queue but its GPUs remain accessible for now.
+  As of June 2023 ``thanos`` is no longer part of the ``gpu`` queue but its GPUs remain accessible for now. The ``jaws`` and ``twiki`` nodes are currently not available.
 
-The Tesla cards each have 5,120 **CUDA** processing cores and 640 **Tensor** cores. The RTX cards have 4,608 **CUDA** processing cores and 576 **Tensor** cores. The Ampere cards each have 6,912 **CUDA** processing cores and 432 **Tensor** cores. CUDA is Nvidia's parallel computing platform and API for general GPU processing, whereas Tensor cores are specifically intended to speed up the training of neural networks.
+The Ampere cards each have 6,912 **CUDA** processing cores and 432 **Tensor** cores. 
+The L40S cards each have 18,176 **CUDA** processing cores and 568 **Tensor** cores.
+The Tesla cards each have 5,120 **CUDA** processing cores and 640 **Tensor** cores. 
+The RTX cards have 4,608 **CUDA** processing cores and 576 **Tensor** cores. 
 
-More information about the cards is available at https://www.nvidia.com/en-gb/data-center/tesla-v100/, https://www.nvidia.com/en-gb/design-visualization/quadro/rtx-8000/, and https://www.nvidia.com/en-us/data-center/a100/.
+CUDA is Nvidia's parallel computing platform and API for general GPU processing, whereas Tensor cores are specifically intended to speed up the training of neural networks.
+
+More information about the cards is available at https://www.nvidia.com/en-us/data-center/a100/, https://www.nvidia.com/en-gb/data-center/l40s/ https://www.nvidia.com/en-gb/data-center/tesla-v100/, and https://www.nvidia.com/en-gb/design-visualization/quadro/rtx-8000/.
 
 To access the GPUs, you must both submit to the ``gpu`` Slurm partition and specify how many GPUs you require. For example, to run a basic interactive job::
 
