@@ -5,12 +5,11 @@ The cluster contains three nodes with **Nvidia GPU** co-processors to accelerate
 
 - ``aragog`` ``buckbeak`` ``crookshanks`` ``dobby`` ``fawkes`` ``hedwig`` ``peeves`` ``pigwidgeon`` and ``nagini`` contain quad Ampere A100 cards, each with 80 GB of dedicated GPU memory
 - ``angel`` ``anya`` ``darla`` ``drusilla`` ``lorne`` and ``spike`` contain dual L40S cards, each with 48GB of dedicated GPU memory
-- ``thanos`` contains dual Tesla V100 cards, each with 32 GB of dedicated GPU memory (only available via himem queue)
 - ``jaws`` contains a single Tesla V100 card with 16 GB of dedicated GPU memory (currently unavailable)
 - ``twiki`` contains dual Quadro RTX 8000 cards, each with 48 GB of dedicated GPU memory (currently unavailable)
 
 .. warning::
-  As of June 2023 ``thanos`` is no longer part of the ``gpu`` queue but its GPUs remain accessible for now. The ``jaws`` and ``twiki`` nodes are currently not available.
+  The ``jaws`` and ``twiki`` nodes are currently not available.
 
 The Ampere cards each have 6,912 **CUDA** processing cores and 432 **Tensor** cores. 
 The L40S cards each have 18,176 **CUDA** processing cores and 568 **Tensor** cores.
