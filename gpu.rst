@@ -3,8 +3,8 @@ GPU Processing
 
 The cluster contains three nodes with **Nvidia GPU** co-processors to accelerate CPUs for general-purpose scientific and engineering computing.
 
-- ``aragog`` ``buckbeak`` ``crookshanks`` ``dobby`` ``fawkes`` ``hedwig`` `` peeves`` ``pigwidgeon`` ``nagini`` contain quad Ampere A100 cards, each with 80 GB of dedicated GPU memory
-- ``angel`` ``anya`` ``darla`` ``drusilla`` ``lorne`` ``spike`` contain dual L40S cards, each with 48GB of dedicated GPU memory
+- ``aragog`` ``buckbeak`` ``crookshanks`` ``dobby`` ``fawkes`` ``hedwig`` ``peeves`` ``pigwidgeon`` and ``nagini`` contain quad Ampere A100 cards, each with 80 GB of dedicated GPU memory
+- ``angel`` ``anya`` ``darla`` ``drusilla`` ``lorne`` and ``spike`` contain dual L40S cards, each with 48GB of dedicated GPU memory
 - ``thanos`` contains dual Tesla V100 cards, each with 32 GB of dedicated GPU memory (only available via himem queue)
 - ``jaws`` contains a single Tesla V100 card with 16 GB of dedicated GPU memory (currently unavailable)
 - ``twiki`` contains dual Quadro RTX 8000 cards, each with 48 GB of dedicated GPU memory (currently unavailable)
