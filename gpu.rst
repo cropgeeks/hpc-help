@@ -1,15 +1,14 @@
 GPU Processing
 ==============
 
-The cluster contains three nodes with **Nvidia GPU** co-processors to accelerate CPUs for general-purpose scientific and engineering computing.
+The cluster contains many nodes with **Nvidia GPU** co-processors to accelerate CPUs for general-purpose scientific and engineering computing.
 
-- ``aragog`` ``buckbeak`` ``crookshanks`` ``dobby`` ``fawkes`` ``hedwig`` ``peeves`` ``pigwidgeon`` and ``nagini`` contain quad Ampere A100 cards, each with 80 GB of dedicated GPU memory
-- ``angel`` ``anya`` ``darla`` ``drusilla`` ``lorne`` and ``spike`` contain dual L40S cards, each with 48GB of dedicated GPU memory
-- ``jaws`` contains a single Tesla V100 card with 16 GB of dedicated GPU memory (currently unavailable)
-- ``twiki`` contains dual Quadro RTX 8000 cards, each with 48 GB of dedicated GPU memory (currently unavailable)
+It has nodes with:
 
-.. warning::
-  The ``jaws`` and ``twiki`` nodes are currently not available.
+- **4x Ampere A100 (80 GB)** - 9 nodes in total
+- **2x Lovelace L40S (48 GB)** - 6 nodes in total
+- **2x Quadro RTX 8000 (48 GB)** - 1 node in total
+- **2x Tesla V100 (32 GB)** - 1 node in total
 
 The Ampere cards each have 6,912 **CUDA** processing cores and 432 **Tensor** cores. 
 The L40S cards each have 18,176 **CUDA** processing cores and 568 **Tensor** cores.
@@ -25,20 +24,20 @@ To access the GPUs, you must both submit to the ``gpu`` Slurm partition and spec
   $ srsh --partition=gpu --gpus=1
 
 .. note::
-  Slurm is configured to allocate GPU resources at the level of whole GPUs (rather than CUDA cores), therefore you can request ``--gpus=1`` (all nodes), ``--gpus=2`` (``twiki``, ``pigwidgeon`` and ``nagini``), or ``--gpus=3|4`` (``pigwidgeon`` and ``nagini`` only).
+  Slurm is configured to allocate GPU resources at the level of whole GPUs (rather than CUDA cores), therefore you can request ``--gpus=1``, ``--gpus=2``, or ``--gpus=3|4`` depending on the GPU type requested.
 
 See also Slurm's documentation on `Generic Resource Scheduling <https://slurm.schedmd.com/gres.html#Running_Jobs>`_.
 
 You can also specify the exact type of GPU you need, for example to request a single RTX8000 card::
 
-  $ srsh --partition=gpu --gpus=rtx_8000:1
+  $ srsh --partition=gpu --gpus=rtx8000:1
 
 The possible cards are defined as follows:
 
-- ``v100-pcie-16g`` - Tesla V100 16 GB 
-- ``v100-pcie-32g`` - Tesla V100 32 GB 
-- ``rtx_8000`` - Quadro RTX 8000 48 GB
-- ``a100-sxm4-80gb`` - Ampere A100 80GB
+- ``a100`` - Ampere A100 80 GB
+- ``ls40s`` - Lovelace LS40S 48 GB
+- ``rtx8000`` - Quadro RTX 8000 48 GB
+- ``v100`` - Tesla V100 32 GB 
 
 To see the current state (and power usage) of the GPUs, run ``nvidia-smi``, eg::
 
@@ -64,7 +63,8 @@ To see the current state (and power usage) of the GPUs, run ``nvidia-smi``, eg::
   |  No running processes found                                                 |
   +-----------------------------------------------------------------------------+
 
-Whenever you run a job on a GPU node, your path will be modified to include Nvidia's CUDA platform. This will be required if compiling any programs from source, for example using the ``nvcc`` compiler. Most of the system's CUDA files can be found at ``/usr/local/cuda/bin``.
+.. note::
+  While CUDA drivers exist on all GPU nodes, there is no CUDA toolkit installed. If you need this, eg for compiling, you should add it yourself via :doc:`bioconda`, using ``conda install cuda``.
 
 
 .. raw:: html
