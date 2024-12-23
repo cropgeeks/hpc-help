@@ -20,6 +20,7 @@ Preprints:
 
 2024:
 
+- https://doi.org/10.1002/ppp3.10607 - UKCropDiversity-HPC: A collaborative high-performance computing resource approach for sustainable agriculture and biodiversity conservation
 - https://doi.org/10.1111/nph.20263 - A nuclear phylogenomic tree of grasses (Poaceae) recovers current classification despite gene tree incongruence
 - https://doi.org/10.1016/j.atech.2024.100515 - Leaf Only SAM: A Segment Anything Pipeline for Zero-Shot Automated Leaf Segmentation
 - https://doi.org/10.1016/j.cj.2024.09.013 - Transcriptional profiling during infection of potato NLRs and Phytophthora infestans effectors using cDNA enrichment sequencing
