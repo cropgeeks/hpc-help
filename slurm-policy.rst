@@ -57,18 +57,21 @@ There are also two special queues that should only be used for jobs that require
      - 640
      - 2 - 4 TB
      - 14 days
-     - This queue is for jobs requiring a very large amount of RAM
+     - This queue is for jobs requiring a very large amount of RAM. You should specify a minimum of 32 GB to run a job here.
    * - ``gpu``
      - 1,664
      - 384 GB - 1 TB
      - 14 days
-     - This queue is for jobs requiring GPUs
+     - This queue is for jobs requiring :doc:`gpu`.
 
 .. note::
   All queues run with the same priority across all nodes. Only the time limits differ, with the ``short`` and ``medium`` queues automatically killing a job if it exceeds their limits. GPUs can only be accessed from the ``gpu`` queue, and large RAM requests can only run on the ``himem`` queue.
 
 .. note::
   The maximum amount of memory you can request (per node) will be a few GB less than shown above, because Slurm reserves some allocation for the rest of the operating system.
+
+.. important::
+  Nodes on the ``short``, ``medium``, ``long`` and ``himem`` queues are covered by UPS (Uninterruptible Power Supply) units. Nodes on other queues will fail if power is lost.
 
 Specifying queues
 -----------------
