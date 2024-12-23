@@ -11,64 +11,63 @@ Our Slurm setup runs with the following goals and constraints in mind:
 To do this, we primarily use three main queues/partitions called ``short``, ``medium`` and ``long`` (referring to their runtime), with ``medium`` being the default queue that jobs will go to unless you specify otherwise.
 
 .. important::
-  You can access a maximum of 256 cores per queue at a time. Any subsequent jobs will queue until your usage allows for more to start running. All queues apart from ``himem`` also have a maximum (simultaneous) memory limit of 256 GB.
+  The **CPU** and **memory** user limits listed below are per-user per-queue and are cumulative across all of your active jobs. Any subsequent jobs will queue until your usage allows for more to start running.
 
 .. list-table::
-   :widths: 10 10 25 20 60
+   :widths: 5 5 5 5 5 50
    :header-rows: 1
 
    * - Queue
      - CPUs
      - Memory
+     - User Limits
      - Time Limit
      - Description
    * - ``short``
      - 768
-     - 256 - 384 GB
+     - 256-384G
+     - cpu=256 mem=256G
      - 6 hours
      - This is a high priority queue for smaller jobs with thresholds set to allow smaller jobs to squeeze through that might have to wait in the other queues.
    * - ``medium``
      - 1,536
-     - 256 - 384 GB
+     - 256-384G
+     - cpu=256 mem=256G
      - 24 hours
      - This is the default queue that all jobs will submit to unless otherwise requested.
    * - ``long``
      - 2,304
-     - 256 - 512 GB
+     - 256-512G
+     - cpu=256 mem=256G
      - 14 days
      - This queue is for long running jobs.
+   * - ``gpu``
+     - 1,664
+     - 384G-1T
+     - cpu=256 mem=256G
+     - 14 days
+     - This queue is for jobs requiring :doc:`gpu`.
+   * -
+     -
+     -
+     -
+     -
+     -
+   * - ``himem``
+     - 640
+     - 2-4T
+     - cpu=256
+     - 14 days
+     - This queue is for jobs requiring a very large amount of RAM. You should specify a minimum of 32 GB to run a job here.
+   * - ``hicpu``
+     - 768
+     - 192G
+     - mem=2G
+     - 6 hours
+     - This queue is for rapid-turnover array jobs with a maximum memory limit of just 2 GB per task, but no CPU limit.
 
 .. note::
   When running array jobs, each *individual* job has its own time limit, so even an array job with 1000 parts that each take 3 hours to run could still use the short queue.
-
-There are also two special queues that should only be used for jobs that require large amounts of memory or access to :doc:`gpu`:
-
-
-.. list-table::
-   :widths: 10 10 25 20 60
-   :header-rows: 1
-
-   * - Queue
-     - CPUs
-     - Memory
-     - Time Limit
-     - Description
-   * - ``himem``
-     - 640
-     - 2 - 4 TB
-     - 14 days
-     - This queue is for jobs requiring a very large amount of RAM. You should specify a minimum of 32 GB to run a job here.
-   * - ``gpu``
-     - 1,664
-     - 384 GB - 1 TB
-     - 14 days
-     - This queue is for jobs requiring :doc:`gpu`.
-
-.. note::
-  All queues run with the same priority across all nodes. Only the time limits differ, with the ``short`` and ``medium`` queues automatically killing a job if it exceeds their limits. GPUs can only be accessed from the ``gpu`` queue, and large RAM requests can only run on the ``himem`` queue.
-
-.. note::
-  The maximum amount of memory you can request (per node) will be a few GB less than shown above, because Slurm reserves some allocation for the rest of the operating system.
 
 .. important::
   Nodes on the ``short``, ``medium``, ``long`` and ``himem`` queues are covered by UPS (Uninterruptible Power Supply) units. Nodes on other queues will fail if power is lost.
