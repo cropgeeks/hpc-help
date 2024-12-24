@@ -20,8 +20,9 @@ You can check your current data usage using the :doc:`monitoring` page.
 Data management
 ---------------
 
-There are two main locations for storing data on the system:
+There are three main locations for storing data on the system:
 
+- NFS shared network storage
 - BeeGFS shared network storage
 - Node-specific local scratch storage
 
@@ -29,6 +30,40 @@ Where you decide to store data will have an effect on performance, available cap
 
 .. note::
   Many of the locations listed here are automatically added (as symlinks) to your home folder.
+
+
+NFS storage
+-----------
+
+This is a small array of fast, NFS-based storage that offers **35 TB** of capacity. Visible from all nodes of the cluster, it hosts the following areas:
+
+
+User home folders
+~~~~~~~~~~~~~~~~~
+
+- **Path:** ``/home/<username>``
+- **Shortcut:** ``$HOME``
+- **Backed up:** yes
+
+This is where your home folder is located (your Linux equivalent of *My Documents* on Windows). Athough backed up, it's not suitable for storing large data sets and should be restricted to small and/or miscellaneous files only – perhaps common scripts you find handy across multiple projects or random files that don’t really "fit" anywhere else.
+
+We'd appreciate it if your total usage within ``$HOME`` can be kept to less than 15 GB.
+
+.. warning::
+  If you store more than 250,000 files or folders in ``$HOME`` your ability to run jobs will be severely restricted until you reduce your file count.
+
+
+User applications
+~~~~~~~~~~~~~~~~~
+
+- **Path:** ``/mnt/apps/<username>``
+- **Shortcut:** ``$APPS``
+- **Backed up:** no
+
+This is a special area that **must** be used for all downloaded (ie external) software applications – either in binary or compiled-from-source form. You can also store :doc:`singularity` containers here. If you install :doc:`bioconda`, it uses ``$APPS/conda`` for its data.
+  
+.. tip::
+  If something was a pain to install or compile, keep some notes about it in ``/home`` where they'll be safely backed up in case you ever need to repeat the process. 
 
 
 BeeGFS storage
@@ -52,22 +87,9 @@ The Projects folder holds subfolders for the :doc:`organizations` (eg ``/mnt/sha
 
 Joint projects shared between multiple institutes are located in ``/mnt/shared/projects/joint``. Please :doc:`contact-us` if working on a joint project and access by multiple users is required.
 
-.. note::
-  JHI users should :doc:`contact-us` when starting *any* new project, or to request help with moving existing data into the correct folder structure.
+.. warning::
+  If you store more than 250,000 files or folders in ``$PROJECTS`` your ability to run jobs will be severely restricted until you reduce your file count.
   
-
-User home folders
-~~~~~~~~~~~~~~~~~
-
-- **Path:** ``/home/<username>``
-- **Shortcut:** ``$HOME``
-- **Backed up:** yes
-
-This is where your home folder is located (your Linux equivalent of *My Documents* on Windows). Athough backed up, it's not suitable for storing large data sets and should be restricted to small and/or miscellaneous files only – perhaps common scripts you find handy across multiple projects or random files that don’t really "fit" anywhere else.
-
-.. important::
-  We'd appreciate it if your total usage within ``$HOME`` can be kept to less than 15 GB.
-
 
 Shared scratch
 ~~~~~~~~~~~~~~
@@ -78,26 +100,13 @@ Shared scratch
 
 This area should be used for all intermediate and/or working data, and especially for large throwaway files which either do not need to be kept or can easily be regenerated. A folder is created here automatically for each user; you can structure your data below that however you see fit.
 
-.. warning::
+.. important::
   We do not have the capacity to maintain backups of intermediate/working data so it is **very important** that you store this kind of data on scratch.
 
 It's also worth noting - especially when running large or complex jobs - that job performance can be significantly enhanced if you store scratch data using node-specific scratch storage instead. Despite its high-performance, BeeGFS is still a networked filesystem and certain file operations (particularly those involving high numbers of small files) will almost always perform better using local scratch space.
 
-.. note::
-  Scratch data for joint projects (where access is required by multiple users) should be kept in ``/mnt/shared/scratch/joint``.
-
-
-User applications
-~~~~~~~~~~~~~~~~~
-
-- **Path:** ``/mnt/apps/<username>``
-- **Shortcut:** ``$APPS``
-- **Backed up:** no
-
-This is a special area that **must** be used for all downloaded (ie external) software applications – either in binary or compiled-from-source form. You can also store :doc:`singularity` containers here. If you install :doc:`bioconda`, it uses ``$APPS/conda`` for its data.
-  
-.. tip::
-  If something was a pain to install or compile, keep some notes about it in ``/home`` where they'll be safely backed up in case you ever need to repeat the process. 
+.. important::
+  ``$SCRATCH`` is auto purged of all files and folders older than 90 days' old, once per month. You can use a tool like ``touch`` to update timestamps, but note that continual abuse of this facility to make ``$SCRATCH`` a permanent location for storage is unfair to others. Your usage is monitored and you **will** lose your privilege to use the service as a result.
 
 
 Local scratch
