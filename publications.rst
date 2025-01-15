@@ -5,7 +5,6 @@ This is a list of peer-reviewed publications that were made possible due to thei
 
 Preprints:
 
-- https://doi.org/10.1111/ejss.13538 - A Deep Learning Approach for High-Resolution Mapping of Scottish Peatland Degradation
 - https://doi.org/10.1101/2024.02.14.580321 - Resistify - A rapid and accurate annotation tool to identify NLRs and study their genomic organisation
 - https://doi.org/10.1101/2023.03.24.534090 - THAPBI PICT - a fast, cautious, and accurate metabarcoding analysis pipeline
 - https://doi.org/10.1101/2022.06.22.497172 - KPop: An assembly-free and scalable method for the comparative analysis of microbial genomes
@@ -20,6 +19,7 @@ Preprints:
 
 2024:
 
+- https://doi.org/10.1111/ejss.13538 - A Deep Learning Approach for High-Resolution Mapping of Scottish Peatland Degradation
 - https://doi.org/10.1002/ppp3.10607 - UKCropDiversity-HPC: A collaborative high-performance computing resource approach for sustainable agriculture and biodiversity conservation
 - https://doi.org/10.1111/nph.20263 - A nuclear phylogenomic tree of grasses (Poaceae) recovers current classification despite gene tree incongruence
 - https://doi.org/10.1016/j.atech.2024.100515 - Leaf Only SAM: A Segment Anything Pipeline for Zero-Shot Automated Leaf Segmentation
