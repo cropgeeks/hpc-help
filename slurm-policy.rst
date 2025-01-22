@@ -41,18 +41,18 @@ To do this, we primarily use three main queues/partitions called ``short``, ``me
      - cpu=256 mem=256G
      - 14 days
      - This queue is for long running jobs.
-   * - ``gpu``
-     - 1,664
-     - 384G-1T
-     - cpu=256
-     - 14 days
-     - This queue is for jobs requiring :doc:`gpu`.
    * -
      -
      -
      -
      -
      -
+   * - ``gpu``
+     - 1,664
+     - 384G-1T
+     - cpu=256
+     - 14 days
+     - This queue is for jobs requiring :doc:`gpu`.
    * - ``himem``
      - 640
      - 2-4T
