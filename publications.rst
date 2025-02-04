@@ -5,6 +5,8 @@ This is a list of peer-reviewed publications that were made possible due to thei
 
 Preprints:
 
+- https://www.biorxiv.org/content/10.1101/2024.12.16.628743v1 A modelling framework to estimate vector dispersal and disease spread in an important agricultural pathosystem
+- https://doi.org/10.1093/jxb/erae371 Altered expression of a raspberry homologue of VRN1 is associated with disruption of dormancy induction and misregulation of subsets of dormancy-associated genes
 - https://doi.org/10.1101/2025.01.09.631893 - A high-quality reference genome and comparative genomics of the widely-farmed banded cricket (Gryllodes sigillatus) identifies selective breeding targets
 - https://doi.org/10.1101/2023.03.24.534090 - THAPBI PICT - a fast, cautious, and accurate metabarcoding analysis pipeline
 - https://doi.org/10.1101/2022.06.22.497172 - KPop: An assembly-free and scalable method for the comparative analysis of microbial genomes
