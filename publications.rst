@@ -4,7 +4,7 @@ Publications
 This is a list of peer-reviewed publications that were made possible due to their use of this HPC resource. To cite Crop Diversity HPC in your work, please see our :doc:`faq`.
 
 Preprints:
-
+- https://doi.org/10.1101/2025.01.09.631893 - A high-quality reference genome and comparative genomics of the widely-farmed banded cricket (Gryllodes sigillatus) identifies selective breeding targets
 - https://doi.org/10.1101/2024.02.14.580321 - Resistify - A rapid and accurate annotation tool to identify NLRs and study their genomic organisation
 - https://doi.org/10.1101/2023.03.24.534090 - THAPBI PICT - a fast, cautious, and accurate metabarcoding analysis pipeline
 - https://doi.org/10.1101/2022.06.22.497172 - KPop: An assembly-free and scalable method for the comparative analysis of microbial genomes
@@ -18,7 +18,9 @@ Preprints:
 - https://doi.org/10.1101/2022.09.13.507768 - Genomic erosion in the assessment of species extinction risk
 
 2024:
-
+- https://doi.org/10.1093/evlett/qrae042 - Testing the genomic overlap between intraspecific mating traits and interspecific mating barriers
+- https://doi.org/10.1073/pnas.2317879121 - Competing adaptations maintain nonadaptive variation in a wild cricket population
+- https://doi.org/10.1038/s41467-024-49344-4 - Temporal genomics in Hawaiian crickets reveals compensatory intragenomic coadaptation during adaptive evolution
 - https://doi.org/10.1111/ejss.13538 - A Deep Learning Approach for High-Resolution Mapping of Scottish Peatland Degradation
 - https://doi.org/10.1002/ppp3.10607 - UKCropDiversity-HPC: A collaborative high-performance computing resource approach for sustainable agriculture and biodiversity conservation
 - https://doi.org/10.1111/nph.20263 - A nuclear phylogenomic tree of grasses (Poaceae) recovers current classification despite gene tree incongruence
