@@ -5,8 +5,8 @@ This is a list of peer-reviewed publications that were made possible due to thei
 
 Preprints:
 
-- https://doi.org/10.1101/2023.09.12.557345  - Rampant Reticulation in a Rapid Radiation of Tropical Trees - Insights from Inga (Fabaceae)
-- https://www.biorxiv.org/content/10.1101/2024.12.16.628743v1 - A modelling framework to estimate vector dispersal and disease spread in an important agricultural pathosystem
+- https://doi.org/10.1101/2023.09.12.557345 - Rampant Reticulation in a Rapid Radiation of Tropical Trees - Insights from Inga (Fabaceae)
+- https://doi.org/10.1101/2024.12.16.628743 - A modelling framework to estimate vector dispersal and disease spread in an important agricultural pathosystem
 - https://doi.org/10.1093/jxb/erae371 - Altered expression of a raspberry homologue of VRN1 is associated with disruption of dormancy induction and misregulation of subsets of dormancy-associated genes
 - https://doi.org/10.1101/2025.01.09.631893 - A high-quality reference genome and comparative genomics of the widely-farmed banded cricket (Gryllodes sigillatus) identifies selective breeding targets
 - https://doi.org/10.1101/2023.03.24.534090 - THAPBI PICT - a fast, cautious, and accurate metabarcoding analysis pipeline
@@ -30,6 +30,7 @@ Preprints:
 
 2024:
 
+- https://doi.org/10.1101/2024.12.19.24319320 - Whole-exome sequencing in children with dyslexia identifies rare variants in CLDN3 and ion channel genes
 - https://doi.org/10.1016/j.dib.2024.110372 - Total mRNA sequence dataset from Pectobacterium atrosepticum colonising potato or radish roots
 - https://doi.org/10.3389/fpls.2024.1415534 - Comparative genomics and transcriptomics reveal differences in effector complement and expression between races of Fusarium oxysporum f.sp. lactucae
 - https://doi.org/10.1016/j.xgen.2024.100580 - A gene with a thousand alleles: The hyper-variable effectors of plant-parasitic nematodes
