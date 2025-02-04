@@ -5,6 +5,7 @@ This is a list of peer-reviewed publications that were made possible due to thei
 
 Preprints:
 
+- https://doi.org/10.1101/2023.09.12.557345  - Rampant Reticulation in a Rapid Radiation of Tropical Trees - Insights from Inga (Fabaceae)
 - https://www.biorxiv.org/content/10.1101/2024.12.16.628743v1 - A modelling framework to estimate vector dispersal and disease spread in an important agricultural pathosystem
 - https://doi.org/10.1093/jxb/erae371 - Altered expression of a raspberry homologue of VRN1 is associated with disruption of dormancy induction and misregulation of subsets of dormancy-associated genes
 - https://doi.org/10.1101/2025.01.09.631893 - A high-quality reference genome and comparative genomics of the widely-farmed banded cricket (Gryllodes sigillatus) identifies selective breeding targets
@@ -29,11 +30,12 @@ Preprints:
 
 2024:
 
+- https://doi.org/10.1016/j.dib.2024.110372 - Total mRNA sequence dataset from Pectobacterium atrosepticum colonising potato or radish roots
+- https://doi.org/10.3389/fpls.2024.1415534 - Comparative genomics and transcriptomics reveal differences in effector complement and expression between races of Fusarium oxysporum f.sp. lactucae
 - https://doi.org/10.1016/j.xgen.2024.100580 - A gene with a thousand alleles: The hyper-variable effectors of plant-parasitic nematodes
 - https://doi.org/10.1371/journal.ppat.1012395 - The origin, deployment, and evolution of a plant-parasitic nematode effectorome
 - https://doi.org/10.1038/s41437-024-00694-1 - Evidence for gene flow and trait reversal during radiation of Mexican Goodeid fish
 - https://doi.org/10.1038/s41467-024-49344-4 - Temporal genomics in Hawaiian crickets reveals compensatory intragenomic coadaptation during adaptive evolution
-- 
 - https://doi.org/10.1093/evlett/qrae042 - Testing the genomic overlap between intraspecific mating traits and interspecific mating barriers
 - https://doi.org/10.1073/pnas.2317879121 - Competing adaptations maintain nonadaptive variation in a wild cricket population
 - https://doi.org/10.1038/s41467-024-49344-4 - Temporal genomics in Hawaiian crickets reveals compensatory intragenomic coadaptation during adaptive evolution
@@ -64,6 +66,7 @@ Preprints:
 
 2023:
 
+- https://doi.org/10.1186/s43170-023-00190-2 - The UK Crop Microbiome Cryobank: a utility and model for supporting Phytobiomes research
 - https://doi.org/10.1093/molbev/msad208 - Genomic signatures associated with transitions to viviparity in Cyprinodontiformes
 - https://doi.org/10.1002/pld3.490 - Raspberry plant stress detection using hyperspectral imaging
 - https://doi.org/10.1111/nph.19421 - Global analysis of Poales diversification – parallel evolution in space and time into open and closed habitats
