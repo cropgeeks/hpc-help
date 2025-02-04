@@ -21,11 +21,19 @@ Preprints:
 - https://doi.org/10.21203/rs.3.rs-5661805/v1 - Mutation of the LRG1 Rho-GAP gene is responsible for the hyper branching C-variant phenotype in the Quorn mycoprotein fungus Fusarium venenatum A3/5
 
 2025:
+
+- https://doi.org/10.1111/ppa.14044 - The prevalence of Phytophthora in British plant nurseries; high‐risk hosts and substrates and opportunities to implement best practice
+- https://doi.org/10.1128/mra.01221-24 - A genome-annotated bacterial collection of the plant food system microbiota
 - https://doi.org/10.1371/journal.pone.0318692 - A CACTA-like transposon in the Anthocyanidin synthase 1 (Ans-1) gene is responsible for apricot fruit colour in the raspberry (Rubus idaeus) cultivar ‘Varnes’
 - https://doi.org/10.1177/11779322241308944 - Resistify: A Novel NLR Classifier That Reveals Helitron-Associated NLR Expansion in Solanaceae
 
 2024:
 
+- https://doi.org/10.1016/j.xgen.2024.100580 - A gene with a thousand alleles: The hyper-variable effectors of plant-parasitic nematodes
+- https://doi.org/10.1371/journal.ppat.1012395 - The origin, deployment, and evolution of a plant-parasitic nematode effectorome
+- https://doi.org/10.1038/s41437-024-00694-1 - Evidence for gene flow and trait reversal during radiation of Mexican Goodeid fish
+- https://doi.org/10.1038/s41467-024-49344-4 - Temporal genomics in Hawaiian crickets reveals compensatory intragenomic coadaptation during adaptive evolution
+- 
 - https://doi.org/10.1093/evlett/qrae042 - Testing the genomic overlap between intraspecific mating traits and interspecific mating barriers
 - https://doi.org/10.1073/pnas.2317879121 - Competing adaptations maintain nonadaptive variation in a wild cricket population
 - https://doi.org/10.1038/s41467-024-49344-4 - Temporal genomics in Hawaiian crickets reveals compensatory intragenomic coadaptation during adaptive evolution
@@ -56,6 +64,7 @@ Preprints:
 
 2023:
 
+- https://doi.org/10.1093/molbev/msad208 - Genomic signatures associated with transitions to viviparity in Cyprinodontiformes
 - https://doi.org/10.1002/pld3.490 - Raspberry plant stress detection using hyperspectral imaging
 - https://doi.org/10.1111/nph.19421 - Global analysis of Poales diversification – parallel evolution in space and time into open and closed habitats
 - https://doi.org/10.1093/hr/uhad211 - SMRT–AgRenSeq-d in potato (Solanum tuberosum) as a method to identify candidates for the nematode resistance Gpa5
