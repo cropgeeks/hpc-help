@@ -16,6 +16,10 @@ Preprints:
 - https://doi.org/10.1101/2021.08.12.456076 - Analysis of wild plant pathogen populations reveals a signal of adaptation in genes evolving for survival in agriculture in the beet rust pathogen (Uromyces beticola)
 - https://doi.org/10.1101/2022.03.16.484639 - Selection on the fly: short term adaptation to an altered sexual selection regime in Drosophila pseudoobscura
 - https://doi.org/10.1101/2022.09.13.507768 - Genomic erosion in the assessment of species extinction risk
+- https://doi.org/10.21203/rs.3.rs-5661805/v1 - Mutation of the LRG1 Rho-GAP gene is responsible for the hyper branching C-variant phenotype in the Quorn mycoprotein fungus Fusarium venenatum A3/5
+
+2025:
+- https://doi.org/10.1371/journal.pone.0318692 - A CACTA-like transposon in the Anthocyanidin synthase 1 (Ans-1) gene is responsible for apricot fruit colour in the raspberry (Rubus idaeus) cultivar ‘Varnes’
 
 2024:
 
@@ -41,6 +45,8 @@ Preprints:
 - https://doi.org/10.1093/aob/mcae022 - Phylogenomic analysis reveals five independently evolved African forage grass clades in the genus Urochloa
 - https://doi.org/10.3389/fpls.2024.1360087 - The origin and the genetic regulation of the self-compatibility mechanism in clementine (Citrus clementina Hort. ex Tan.)
 - https://doi.org/10.1093/aob/mcae022 - Phylogenomic analysis reveals five independently evolved African forage grass clades in the genus Urochloa
+- https://doi.org/10.1186/s13007-024-01270-8 - Overexpression of Vitis GRF4-GIF1 improves regeneration efficiency in diploid Fragaria vesca Hawaii 4
+- https://doi.org/10.3389/fpls.2024.1415534 - Comparative genomics and transcriptomics reveal differences in effector complement and expression between races of Fusarium oxysporum f.sp. lactucae
 
 2023:
 
@@ -58,6 +64,7 @@ Preprints:
 - https://doi.org/10.1111/nph.19295 - Re-evaluating the importance of threatened species in maintaining global phytoregions
 - https://doi.org/10.1016/j.avrs.2023.100095 - Systematics of the avian family Alaudidae using multilocus and genomic data
 - https://doi.org/10.1111/2041-210X.14093 - Modelling density surfaces of intraspecific classes using camera trap distance sampling
+- https://doi.org/10.1371/journal.pone.0285756 - Chromosome-scale genome sequence assemblies of the ‘Autumn Bliss’ and ‘Malling Jewel’ cultivars of the highly heterozygous red raspberry (Rubus idaeus L.) derived from long-read Oxford Nanopore sequence data
 
 2022:
 
