@@ -5,6 +5,7 @@ This is a list of peer-reviewed publications that were made possible due to thei
 
 Preprints:
 
+- https://doi.org/10.1101/2025.01.09.631893 - A high-quality reference genome and comparative genomics of the widely-farmed banded cricket (Gryllodes sigillatus) identifies selective breeding targets
 - https://doi.org/10.1101/2023.03.24.534090 - THAPBI PICT - a fast, cautious, and accurate metabarcoding analysis pipeline
 - https://doi.org/10.1101/2022.06.22.497172 - KPop: An assembly-free and scalable method for the comparative analysis of microbial genomes
 - https://doi.org/10.1101/2022.09.23.22279632 - Consideration of within-patient diversity highlights transmission pathways and antimicrobial resistance gene variability in vancomycin resistant Enterococcus faecium
@@ -19,13 +20,13 @@ Preprints:
 
 2025:
 - https://doi.org/10.1371/journal.pone.0318692 - A CACTA-like transposon in the Anthocyanidin synthase 1 (Ans-1) gene is responsible for apricot fruit colour in the raspberry (Rubus idaeus) cultivar ‘Varnes’
-
-2025:
-
 - https://doi.org/10.1177/11779322241308944 - Resistify: A Novel NLR Classifier That Reveals Helitron-Associated NLR Expansion in Solanaceae
 
 2024:
 
+- https://doi.org/10.1093/evlett/qrae042 - Testing the genomic overlap between intraspecific mating traits and interspecific mating barriers
+- https://doi.org/10.1073/pnas.2317879121 - Competing adaptations maintain nonadaptive variation in a wild cricket population
+- https://doi.org/10.1038/s41467-024-49344-4 - Temporal genomics in Hawaiian crickets reveals compensatory intragenomic coadaptation during adaptive evolution
 - https://doi.org/10.1111/ejss.13538 - A Deep Learning Approach for High-Resolution Mapping of Scottish Peatland Degradation
 - https://doi.org/10.1002/ppp3.10607 - UKCropDiversity-HPC: A collaborative high-performance computing resource approach for sustainable agriculture and biodiversity conservation
 - https://doi.org/10.1111/nph.20263 - A nuclear phylogenomic tree of grasses (Poaceae) recovers current classification despite gene tree incongruence
