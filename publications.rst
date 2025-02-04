@@ -35,7 +35,6 @@ Preprints:
 - https://doi.org/10.1016/j.xgen.2024.100580 - A gene with a thousand alleles: The hyper-variable effectors of plant-parasitic nematodes
 - https://doi.org/10.1371/journal.ppat.1012395 - The origin, deployment, and evolution of a plant-parasitic nematode effectorome
 - https://doi.org/10.1038/s41437-024-00694-1 - Evidence for gene flow and trait reversal during radiation of Mexican Goodeid fish
-- https://doi.org/10.1038/s41467-024-49344-4 - Temporal genomics in Hawaiian crickets reveals compensatory intragenomic coadaptation during adaptive evolution
 - https://doi.org/10.1093/evlett/qrae042 - Testing the genomic overlap between intraspecific mating traits and interspecific mating barriers
 - https://doi.org/10.1073/pnas.2317879121 - Competing adaptations maintain nonadaptive variation in a wild cricket population
 - https://doi.org/10.1038/s41467-024-49344-4 - Temporal genomics in Hawaiian crickets reveals compensatory intragenomic coadaptation during adaptive evolution
