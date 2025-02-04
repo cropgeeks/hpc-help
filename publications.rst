@@ -7,17 +7,12 @@ Preprints:
 
 - https://doi.org/10.1101/2023.09.12.557345 - Rampant Reticulation in a Rapid Radiation of Tropical Trees - Insights from Inga (Fabaceae)
 - https://doi.org/10.1101/2024.12.16.628743 - A modelling framework to estimate vector dispersal and disease spread in an important agricultural pathosystem
-- https://doi.org/10.1093/jxb/erae371 - Altered expression of a raspberry homologue of VRN1 is associated with disruption of dormancy induction and misregulation of subsets of dormancy-associated genes
 - https://doi.org/10.1101/2025.01.09.631893 - A high-quality reference genome and comparative genomics of the widely-farmed banded cricket (Gryllodes sigillatus) identifies selective breeding targets
-- https://doi.org/10.1101/2023.03.24.534090 - THAPBI PICT - a fast, cautious, and accurate metabarcoding analysis pipeline
 - https://doi.org/10.1101/2022.06.22.497172 - KPop: An assembly-free and scalable method for the comparative analysis of microbial genomes
-- https://doi.org/10.1101/2022.09.23.22279632 - Consideration of within-patient diversity highlights transmission pathways and antimicrobial resistance gene variability in vancomycin resistant Enterococcus faecium
-- https://doi.org/10.1101/2022.11.03.515020 - Ancient dolphin genomes reveal rapid repeated adaptation to coastal waters
 - https://doi.org/10.21203/rs.3.rs-2250881/v1 - Combining phylogenomic and morphological data reveals new patterns of diversity in the national tree of Brasil, Paubrasilia echinata
 - https://doi.org/10.1101/2021.09.02.458763  - A high resolution single molecule sequencing-based Arabidopsis transcriptome using novel methods of Iso-seq analysis
 - https://doi.org/10.21203/rs.3.rs-137842/v1 - QTL Across Fruit Development in Red Raspberry, A Study of A Primocane X Biennial Raspberry Population
 - https://doi.org/10.1101/2021.08.12.456076 - Analysis of wild plant pathogen populations reveals a signal of adaptation in genes evolving for survival in agriculture in the beet rust pathogen (Uromyces beticola)
-- https://doi.org/10.1101/2022.03.16.484639 - Selection on the fly: short term adaptation to an altered sexual selection regime in Drosophila pseudoobscura
 - https://doi.org/10.1101/2022.09.13.507768 - Genomic erosion in the assessment of species extinction risk
 - https://doi.org/10.21203/rs.3.rs-5661805/v1 - Mutation of the LRG1 Rho-GAP gene is responsible for the hyper branching C-variant phenotype in the Quorn mycoprotein fungus Fusarium venenatum A3/5
 
@@ -31,6 +26,8 @@ Preprints:
 
 2024:
 
+- https://doi.org/10.1093/jxb/erae371 - Altered expression of a raspberry homologue of VRN1 is associated with disruption of dormancy induction and misregulation of subsets of dormancy-associated genes
+- https://doi.org/10.1093/jac/dkae023 - Consideration of within-patient diversity highlights transmission pathways and antimicrobial resistance gene variability in vancomycin-resistant Enterococcus faecium
 - https://doi.org/10.1101/2024.12.19.24319320 - Whole-exome sequencing in children with dyslexia identifies rare variants in CLDN3 and ion channel genes
 - https://doi.org/10.1016/j.dib.2024.110372 - Total mRNA sequence dataset from Pectobacterium atrosepticum colonising potato or radish roots
 - https://doi.org/10.3389/fpls.2024.1415534 - Comparative genomics and transcriptomics reveal differences in effector complement and expression between races of Fusarium oxysporum f.sp. lactucae
@@ -67,6 +64,9 @@ Preprints:
 
 2023:
 
+- https://doi.org/10.1038/s41467-023-39532-z - Ancient dolphin genomes reveal rapid repeated adaptation to coastal waters
+- https://doi.org/10.1093/gbe/evad113 - Selection on the fly: short term adaptation to an altered sexual selection regime in Drosophila pseudoobscura
+- https://doi.org/10.7717/peerj.15648 - THAPBI PICT—a fast, cautious, and accurate metabarcoding analysis pipeline
 - https://doi.org/10.1186/s43170-023-00190-2 - The UK Crop Microbiome Cryobank: a utility and model for supporting Phytobiomes research
 - https://doi.org/10.1093/molbev/msad208 - Genomic signatures associated with transitions to viviparity in Cyprinodontiformes
 - https://doi.org/10.1002/pld3.490 - Raspberry plant stress detection using hyperspectral imaging
