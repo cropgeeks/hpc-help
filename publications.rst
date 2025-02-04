@@ -23,6 +23,7 @@ Preprints:
 
 2025:
 
+- https://doi.org/10.1038/s41588-024-02069-y - A barley pan-transcriptome reveals layers of genotype-dependent transcriptional complexity
 - https://doi.org/10.1111/ppa.14044 - The prevalence of Phytophthora in British plant nurseries; high‐risk hosts and substrates and opportunities to implement best practice
 - https://doi.org/10.1128/mra.01221-24 - A genome-annotated bacterial collection of the plant food system microbiota
 - https://doi.org/10.1371/journal.pone.0318692 - A CACTA-like transposon in the Anthocyanidin synthase 1 (Ans-1) gene is responsible for apricot fruit colour in the raspberry (Rubus idaeus) cultivar ‘Varnes’
@@ -86,10 +87,10 @@ Preprints:
 
 2022:
 
-- https://royalsocietypublishing.org/doi/10.1098/rsif.2022.0013 - Exact Bayesian inference of epidemiological parameters from mortality data: application to African swine fever virus
+- https://doi.org/10.1098/rsif.2022.0013 - Exact Bayesian inference of epidemiological parameters from mortality data: application to African swine fever virus
 - https://doi.org/10.1093/bioinformatics/btac761 - Distinguishing imported cases from locally acquired cases within a geographically limited genomic sample of an infectious disease
 - https://doi.org/10.1002/ece3.9537 - Population genomic analyses support sympatric origins of parapatric morphs in a salamander
-- http://doi.org/10.26508/lsa.202101255 - The value of genotype-specific reference for transcriptome analyses in barley
+- https://doi.org/10.26508/lsa.202101255 - The value of genotype-specific reference for transcriptome analyses in barley
 - https://doi.org/10.1111/tpj.15871 - BaRTv2: a highly resolved barley reference transcriptome for accurate transcript-specific RNA-seq quantification
 - https://doi.org/10.3389/fpls.2022.965217 - Measuring the frequency and distribution of meiotic crossovers in homozygous barley inbred lines
 - https://doi.org/10.1111/tpj.15908 - The evolutionary patterns of barley pericentromeric chromosome regions, as shaped by linkage disequilibrium and domestication
@@ -124,7 +125,7 @@ Preprints:
 - https://doi.org/10.1098/rsta.2021.0298 - Estimation of age-stratified contact rates during the COVID-19 pandemic using a novel inference algorithm
 - https://doi.org/10.1038/s41588-022-01153-5 - A multi-tissue atlas of regulatory variants in cattle
 - https://doi.org/10.1186/s12859-022-04755-2 - GridScore: a tool for accurate, cross-platform phenotypic data collection and visualization
-- https://dx.doi.org/10.7488/era/2224 - The Land Capability for Agriculture: building a tool to enable climate change assessments
+- https://doi.org/10.7488/era/2224 - The Land Capability for Agriculture: building a tool to enable climate change assessments
 - https://doi.org/10.1016/j.physa.2022.128261 - Co-evolution of network structure and consumer inequality in a spatially explicit model of energetic resource acquisition
 - https://doi.org/10.1111%2Fcobi.13918 - Genomic erosion in a demographically recovered bird species during conservation rescue
 - https://doi.org/10.1186/s13059-022-02745-4 - Comparative transcriptome in large-scale human and cattle populations
@@ -160,7 +161,7 @@ Preprints:
 2020:
 
 - https://doi.org/10.1038/s41467-020-18404-w - Diversity analysis of 80,000 wheat accessions reveals consequences and opportunities of selection footprints
-- https://dx.doi.org/10.24823/Sibbaldia.2020.289 - Diversity of woody-host infecting Phytophthora species in public parks and botanic gardens as revealed by metabarcoding, and opportunities for mitigation through best practice
+- https://doi.org/10.24823/Sibbaldia.2020.289 - Diversity of woody-host infecting Phytophthora species in public parks and botanic gardens as revealed by metabarcoding, and opportunities for mitigation through best practice
 - https://doi.org/10.1534/g3.120.401234 - Genetic Characterization of a Wheat Association Mapping Panel Relevant to ian Breeding Using a High-Density Single Nucleotide Polymorphism Array
 - https://doi.org/10.1093/botlinnean/boaa099 - Resolving generic limits in Cyperaceae tribe Abildgaardieae using targeted sequencing
 - https://doi.org/10.1111/efp.12602 - Detection and spread of Phytophthora austrocedri within infected Juniperus communis woodland and diversity of co-associated Phytophthoras as revealed by metabarcoding
