@@ -4,9 +4,13 @@ Frequently Asked Questions
 How do I cite use of this HPC resource?
 ---------------------------------------
 
-Citations and acknowledgements help us demonstrate the importance of computational resources and support staff in research at our institutes, and we ask that you acknowledge use of this system in any publications, presentations, or talks that were made possible because of it. An acceptable example citation is below:
+Citations and acknowledgements help us demonstrate the importance of computational resources and support staff in research at our institutes, and we ask that you acknowledge use of this system in any publications, presentations, or talks that were made possible because of it. When citing or acknowledging Crop Diversity HPC, you can use the following:
 
-    *The authors acknowledge Research Computing at the James Hutton Institute for providing computational resources and technical support for the "UK's Crop Diversity Bioinformatics HPC" (BBSRC grants BB/S019669/1 and BB/X019683/1), use of which has contributed to the results reported within this paper.* Please cite: https://doi.org/10.1002/ppp3.10607.
+    **In the article** (modify as required): *The bioinformatics and computational analyses were performed on Crop Diversity HPC, described by Percival-Alwyn et al. (2024).*
+
+    **Reference**: *Percival-Alwyn, L., Barnes, I., Clark, M.D., Cockram, J., Coffey, M.P., Jones, S., Kersey, P.J., Kidner, C.A., Kosiol, C., Li, B., Marsh, W.A., Zhou, J., Caccamo, M., Milne, I. (2024). UKCropDiversity‐HPC: A collaborative high-performance computing resource approach for sustainable agriculture and biodiversity conservation. Plants, People, Planet. DOI: 10.1002/ppp3.10607*
+
+    **In the acknowledgements**: *The authors acknowledge Research Computing at the James Hutton Institute for providing computational resources and technical support for the "UK's Crop Diversity Bioinformatics HPC" (BBSRC grants BB/S019669/1 and BB/X019683/1), use of which has contributed to the results reported within this paper.* Please cite: https://doi.org/10.1002/ppp3.10607.
 
 If you cite or acknowledge us in your work, :doc:`contact-us` to let us know and/or edit our :doc:`publications` list.
 
