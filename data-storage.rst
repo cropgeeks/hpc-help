@@ -106,7 +106,7 @@ This area should be used for all intermediate and/or working data, and especiall
 It's also worth noting - especially when running large or complex jobs - that job performance can be significantly enhanced if you store scratch data using node-specific scratch storage instead. Despite its high-performance, BeeGFS is still a networked filesystem and certain file operations (particularly those involving high numbers of small files) will almost always perform better using local scratch space.
 
 .. important::
-  ``$SCRATCH`` is auto purged of all files and folders older than 90 days' old, once per month. You can use a tool like ``touch`` to update timestamps, but note that continual abuse of this facility to make ``$SCRATCH`` a permanent location for storage is unfair to others. Your usage is monitored and you **will** lose your privilege to use the service as a result.
+  ``$SCRATCH`` is auto purged of all files and folders older than 180 days' old, once per month. You can use a tool like ``touch`` to update timestamps, but note that continual abuse of this facility to make ``$SCRATCH`` a permanent location for storage is unfair to others. Your usage is monitored and you **will** lose your privilege to use the service as a result.
 
 
 Local scratch
