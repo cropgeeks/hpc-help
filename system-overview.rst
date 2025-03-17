@@ -193,7 +193,7 @@ nicknack        2x Gold 6132 @2.6GHz 14C/28T                   384 GB  1.3 TB (S
 ==============  ==============================  =============  ======  ============
 
 
-- **Year**: 2017
+- **Year**: 2017 (EOL)
 - **Theme**: Battlestar Galactica
 - **Hardware**: Dell PowerEdge R630 (3x)
 - **CPUs**: Intel E5 v4 (Broadwell)
@@ -221,7 +221,7 @@ The BeeGFS storage array runs alongside the cluster, however the backup systems 
 ===============  ==============================  ======  ============
 Name             CPUs                            Memory  Disk
 ===============  ==============================  ======  ============
-delorean         2x Silver 4208 @2.1GHz 8C/16T   32 GB   1.0 PB (HDD)
+delorean         2x Silver 4208 @2.1GHz 8C/16T   256 GB  1.0 PB (HDD)
 librarian        2x Silver 4208 @2.1GHz 8C/16T   192 GB  3.8 TB (SSD)
 rincewind        2x Silver 4210 @2.2GHz 10C/20T  96 GB   432 TB (HDD)
 twoflower        2x Silver 4210 @2.GHz 10C/20T   96 GB   432 TB (HDD)
@@ -246,7 +246,7 @@ zavala           2x 7313 @3.0GHz 16C/32T  256 GB  2.6 PB (HDD)
 ===============  =======================  ======  ============
 
 - **Year**: 2024
-- **Theme**: ---
+- **Theme**: Destiny / Back to the Future
 - **Hardware**: Dell PowerEdge R7525 (3x), ME5084 (4x)
 - **CPUs**: 3rd-Gen AMD EPYC (Milan)
 - **Capacity**: 3.2 PB (storage) and 2.6 PB (backup)
@@ -256,7 +256,7 @@ Name             CPUs                     Memory  Disk
 ===============  =======================  ======  ============
 ---              2x 9124 @3.0GHz 16C/32T  192 GB  1.6 PB (HDD)
 ---              2x 9124 @3.0GHz 16C/32T  192 GB  1.6 PB (HDD)
----              2x 7313 @3.0GHz 16C/32T  256 GB  2.6 PB (HDD)
+marty            2x 7313 @3.0GHz 16C/32T  256 GB  2.6 PB (HDD)
 ===============  =======================  ======  ============
 
 Virtual infrastructure
