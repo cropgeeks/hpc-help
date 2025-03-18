@@ -18,6 +18,7 @@ Preprints:
 
 2025:
 
+- https://doi.org/10.1126/science.adp3437 - Island geography drives evolution of rattan palms in tropical Asian rainforests
 - https://doi.org/10.1038/s41588-024-02069-y - A barley pan-transcriptome reveals layers of genotype-dependent transcriptional complexity
 - https://doi.org/10.1111/ppa.14044 - The prevalence of Phytophthora in British plant nurseries; high‐risk hosts and substrates and opportunities to implement best practice
 - https://doi.org/10.1128/mra.01221-24 - A genome-annotated bacterial collection of the plant food system microbiota
