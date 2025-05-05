@@ -35,7 +35,7 @@ You can also specify the exact type of GPU you need, for example to request a si
 The possible cards are defined as follows:
 
 - ``a100`` - Ampere A100 80 GB
-- ``ls40s`` - Lovelace LS40S 48 GB
+- ``l40s`` - Lovelace L40S 48 GB
 - ``rtx8000`` - Quadro RTX 8000 48 GB
 - ``v100`` - Tesla V100 32 GB 
 
