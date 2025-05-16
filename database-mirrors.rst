@@ -13,7 +13,7 @@ All databases can be found at: ``/mnt/shared/datasets/databases/``.
 NCBI BLAST
 ----------
 
-Copies of many `NCBI BLAST <https://en.wikipedia.org/wiki/BLAST>`_ databases are available at: ``/mnt/shared/datasets/databases/ncbi/``. You can tell the command line BLAST tools to search here by setting an environment variable:
+Copies of many `NCBI BLAST <https://en.wikipedia.org/wiki/BLAST_(biotechnology)>`_ databases are available at: ``/mnt/shared/datasets/databases/ncbi/``. You can tell the command line BLAST tools to search here by setting an environment variable:
 
 .. code:: console
 
