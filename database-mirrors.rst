@@ -6,7 +6,7 @@ We maintain local mirrors of several popular bioinformatics databases which are 
 All databases can be found at: ``/mnt/shared/datasets/databases/``.
 
 .. important::
-  The databases are updated and/or synced from their master copies at 1am on the **first Sunday of each month**. You may wish to avoid using them during this time in case any active files are changed.
+  The databases are updated and/or synced from their master copies every three months. Transfer/sync times are simply too slow to keep them more up to date.
 
 
 
