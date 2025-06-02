@@ -50,7 +50,7 @@ This is where your home folder is located (your Linux equivalent of *My Document
 We'd appreciate it if your total usage within ``$HOME`` can be kept to less than 15 GB.
 
 .. warning::
-  If you store more than 250,000 files or folders in ``$HOME`` your ability to run jobs will be severely restricted until you reduce your file count.
+  If you store more than 250,000 files or folders in ``$HOME`` you won't be able to run more than three jobs simultaneously. If you store over 1 million files or folders, the limit reduces to just one.
 
 
 User applications
@@ -88,7 +88,7 @@ The Projects folder holds subfolders for the :doc:`organizations` (eg ``/mnt/sha
 Joint projects shared between multiple institutes are located in ``/mnt/shared/projects/joint``. Please :doc:`contact-us` if working on a joint project and access by multiple users is required.
 
 .. warning::
-  If you store more than 250,000 files or folders in ``$PROJECTS`` your ability to run jobs will be severely restricted until you reduce your file count.
+  If you store more than 250,000 files or folders in ``$PROJECTS`` you won't be able to run more than three jobs simultaneously. If you store over 1 million files or folders, the limit reduces to just one.
   
 
 Shared scratch

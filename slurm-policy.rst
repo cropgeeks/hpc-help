@@ -72,6 +72,9 @@ To do this, we primarily use three main queues/partitions called ``short``, ``me
 .. important::
   Nodes on the ``short``, ``medium``, ``long`` and ``himem`` queues are covered by UPS (Uninterruptible Power Supply) units. Nodes on other queues will fail if power is lost.
 
+.. warning::
+  There are :doc:`data-storage` restrictions that may limit the number of simultaneous jobs you can run, in addition to the limits listed above. Check the link for full details.
+
 Specifying queues
 -----------------
 
