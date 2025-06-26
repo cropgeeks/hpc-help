@@ -5,6 +5,7 @@ This is a list of peer-reviewed publications that were made possible due to thei
 
 Preprints:
 
+- https://doi.org/10.1101/2025.04.05.647358 - Negligible effect of host DNA on metagenomic analysis enables microbial ecology investigation in historical samples
 - https://doi.org/10.1101/2023.09.12.557345 - Rampant Reticulation in a Rapid Radiation of Tropical Trees - Insights from Inga (Fabaceae)
 - https://doi.org/10.1101/2024.12.16.628743 - A modelling framework to estimate vector dispersal and disease spread in an important agricultural pathosystem
 - https://doi.org/10.1101/2025.01.09.631893 - A high-quality reference genome and comparative genomics of the widely-farmed banded cricket (Gryllodes sigillatus) identifies selective breeding targets
