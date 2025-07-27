@@ -30,6 +30,7 @@ Preprints:
 
 2024:
 
+- https://doi.org/10.1038/s41586-024-08187-1 - Structural variation in the pangenome of wild and domesticated barley
 - https://doi.org/10.1111/1755-0998.13967 - Genomics-informed captive breeding can reduce inbreeding depression and the genetic load in zoo populations
 - https://doi.org/10.1093/jxb/erae371 - Altered expression of a raspberry homologue of VRN1 is associated with disruption of dormancy induction and misregulation of subsets of dormancy-associated genes
 - https://doi.org/10.1093/jac/dkae023 - Consideration of within-patient diversity highlights transmission pathways and antimicrobial resistance gene variability in vancomycin-resistant Enterococcus faecium
