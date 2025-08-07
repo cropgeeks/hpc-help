@@ -36,8 +36,8 @@ To do this, we primarily use three main queues/partitions called ``short``, ``me
      - 24 hours
      - This is the default queue that all jobs will submit to unless otherwise requested.
    * - ``long``
-     - 2,304
-     - 256-512G
+     - 1,792
+     - 256-384G
      - cpu=256 mem=256G
      - 14 days
      - This queue is for long running jobs.
@@ -54,8 +54,8 @@ To do this, we primarily use three main queues/partitions called ``short``, ``me
      - 14 days
      - This queue is for jobs requiring :doc:`gpu`.
    * - ``himem``
-     - 640
-     - 2-4T
+     - 1,152
+     - 512G-4T
      - cpu=256
      - 14 days
      - This queue is for jobs requiring a very large amount of RAM. You should specify a minimum of 32 GB to run a job here.
