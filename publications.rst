@@ -19,6 +19,7 @@ Preprints:
 
 2025:
 
+- https://doi.org/10.1016/j.sajb.2025.08.006 - Refined generic and infrageneric classification of the Cape Psoraleeae clade (Fabaceae) – taxonomic studies in the phylogenomic era
 - https://doi.org/10.1002/tax.13375 - Integrative taxonomy recognises four species within the legume Inga chocoensis (Leguminosae: Caesalpinioideae)
 - https://doi.org/10.1016/j.sajb.2025.05.058 - Biome shifts and recent rapid radiations in the Cape Clade of the genus Indigofera (Fabaceae: Indigofereae) explain contemporary diversity in the GCFR
 - https://doi.org/10.1126/science.adp3437 - Island geography drives evolution of rattan palms in tropical Asian rainforests
@@ -199,3 +200,4 @@ Preprints:
 .. raw:: html
    
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
+
