@@ -38,7 +38,7 @@ To do this, we primarily use three main queues/partitions called ``short``, ``me
    * - ``long``
      - 1,792
      - 256-384G
-     - cpu=256 mem=256G
+     - cpu=384 mem=384G
      - 14 days
      - This queue is for long running jobs.
    * -
@@ -56,7 +56,7 @@ To do this, we primarily use three main queues/partitions called ``short``, ``me
    * - ``himem``
      - 1,152
      - 512G-4T
-     - cpu=256
+     - cpu=256 mem=>32G
      - 14 days
      - This queue is for jobs requiring a very large amount of RAM. You should specify a minimum of 32 GB to run a job here.
    * - ``hicpu``
