@@ -16,6 +16,7 @@ Preprints:
 - https://doi.org/10.1101/2021.08.12.456076 - Analysis of wild plant pathogen populations reveals a signal of adaptation in genes evolving for survival in agriculture in the beet rust pathogen (Uromyces beticola)
 - https://doi.org/10.1101/2022.09.13.507768 - Genomic erosion in the assessment of species extinction risk
 - https://doi.org/10.21203/rs.3.rs-5661805/v1 - Mutation of the LRG1 Rho-GAP gene is responsible for the hyper branching C-variant phenotype in the Quorn mycoprotein fungus Fusarium venenatum A3/5
+- https://doi.org/10.1101/2025.08.04.667887 - Phased Potato Genome Assembly and Association Genetics Enable Characterisation of the Elusive H1 Resistance Locus Against Potato Cyst Nematodes
 
 2025:
 
@@ -200,4 +201,5 @@ Preprints:
 .. raw:: html
    
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
+
 
