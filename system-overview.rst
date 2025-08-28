@@ -254,9 +254,9 @@ zavala           2x 7313 @3.0GHz 16C/32T  256 GB  2.6 PB (HDD)
 ===============  =======================  ======  ============
 Name             CPUs                     Memory  Disk
 ===============  =======================  ======  ============
----              2x 9124 @3.0GHz 16C/32T  192 GB  2.6 PB (HDD)
-docbrown         2x 7313 @3.0GHz 16C/32T  256 GB  1.6 PB (HDD)
-marty            2x 7313 @3.0GHz 16C/32T  256 GB  1.6 PB (HDD)
+---              2x 9124 @3.0GHz 16C/32T  192 GB  1.6 PB (HDD)
+---              2x 9124 @3.0GHz 16C/32T  192 GB  1.6 PB (HDD)
+marty            2x 7313 @3.0GHz 16C/32T  256 GB  1.3 PB (HDD)
 ===============  =======================  ======  ============
 
 Virtual infrastructure
@@ -281,4 +281,5 @@ hpcvmh04        2x 7543 @2.8G 16C/32T           512 GB  480 GB (SSD)
 .. raw:: html
    
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
+
 
