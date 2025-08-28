@@ -207,10 +207,10 @@ boomer          2x E5-2680 v4 @2.4GHz 14C/24T                  256 GB  370 GB (S
 starbuck        2x E5-2680 v4 @2.4GHz 14C/24T                  256 GB  370 GB (SSD)
 ==============  ==============================  =============  ======  ============
 
-Storage and backup
-------------------
+Storage, backup, and archive
+----------------------------
 
-The BeeGFS storage array runs alongside the cluster, however the backup systems are located in another location for redundancy.
+The BeeGFS storage array runs alongside the cluster, however the backup and archive systems are located in another location for redundancy.
 
 - **Year**: 2019 (October)
 - **Theme**: Back to the Future / Discworld
@@ -249,7 +249,7 @@ zavala           2x 7313 @3.0GHz 16C/32T  256 GB  2.6 PB (HDD)
 - **Theme**: Destiny / Back to the Future
 - **Hardware**: Dell PowerEdge R7525 (3x), ME5084 (4x)
 - **CPUs**: 3rd-Gen AMD EPYC (Milan)
-- **Capacity**: 3.2 PB (storage) and 2.6 PB (backup)
+- **Capacity**: 3.2 PB (storage) and 1.3 PB (backup)
 
 ===============  =======================  ======  ============
 Name             CPUs                     Memory  Disk
@@ -281,5 +281,6 @@ hpcvmh04        2x 7543 @2.8G 16C/32T           512 GB  480 GB (SSD)
 .. raw:: html
    
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
+
 
 
