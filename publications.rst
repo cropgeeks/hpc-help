@@ -5,6 +5,7 @@ This is a list of peer-reviewed publications that were made possible due to thei
 
 Preprints:
 
+- https://doi.org/10.1101/2025.07.14.664697 - pyRootHair: Machine Learning Accelerated Software for High-Throughput Phenotyping of Plant Root Hair Traits
 - https://doi.org/10.1101/2025.04.05.647358 - Negligible effect of host DNA on metagenomic analysis enables microbial ecology investigation in historical samples
 - https://doi.org/10.1101/2023.09.12.557345 - Rampant Reticulation in a Rapid Radiation of Tropical Trees - Insights from Inga (Fabaceae)
 - https://doi.org/10.1101/2024.12.16.628743 - A modelling framework to estimate vector dispersal and disease spread in an important agricultural pathosystem
@@ -20,6 +21,7 @@ Preprints:
 
 2025:
 
+- https://doi.org/10.1186/s40793-025-00768-5 - Introducing the UK Crop Microbiome Cryobank data resource, AgMicrobiomeBase, with case studies and methods on metabarcoding analyses.
 - https://doi.org/10.15553/c2025v802a2 - Ochnaceae subtribe Ochninae: circumscribing and naming monophyletic genera
 - https://doi.org/10.1016/j.sajb.2025.08.006 - Refined generic and infrageneric classification of the Cape Psoraleeae clade (Fabaceae) – taxonomic studies in the phylogenomic era
 - https://doi.org/10.1002/tax.13375 - Integrative taxonomy recognises four species within the legume Inga chocoensis (Leguminosae: Caesalpinioideae)
@@ -202,6 +204,7 @@ Preprints:
 .. raw:: html
    
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
+
 
 
 
