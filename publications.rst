@@ -21,6 +21,7 @@ Preprints:
 
 2025:
 
+- https://doi.org/10.1111/nph.70472 - Whole genome sequencing of historical specimens from the world's largest fungal collection yields high-quality assemblies
 - https://doi.org/10.1371/journal.ppat.1012963 - Over-expression and increased copy numbers of a cytochrome P450 and two UDP-glucuronosyltransferase genes in macrocyclic lactone resistant Psoroptes ovis of cattle
 - https://doi.org/10.1186/s40793-025-00768-5 - Introducing the UK Crop Microbiome Cryobank data resource, AgMicrobiomeBase, with case studies and methods on metabarcoding analyses.
 - https://doi.org/10.15553/c2025v802a2 - Ochnaceae subtribe Ochninae: circumscribing and naming monophyletic genera
@@ -206,6 +207,7 @@ Preprints:
 .. raw:: html
    
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
+
 
 
 
