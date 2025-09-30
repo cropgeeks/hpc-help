@@ -20,6 +20,7 @@ Preprints:
 
 2025:
 
+- https://doi.org/10.15553/c2025v802a2 - Ochnaceae subtribe Ochninae: circumscribing and naming monophyletic genera
 - https://doi.org/10.1016/j.sajb.2025.08.006 - Refined generic and infrageneric classification of the Cape Psoraleeae clade (Fabaceae) – taxonomic studies in the phylogenomic era
 - https://doi.org/10.1002/tax.13375 - Integrative taxonomy recognises four species within the legume Inga chocoensis (Leguminosae: Caesalpinioideae)
 - https://doi.org/10.1016/j.sajb.2025.05.058 - Biome shifts and recent rapid radiations in the Cape Clade of the genus Indigofera (Fabaceae: Indigofereae) explain contemporary diversity in the GCFR
@@ -201,5 +202,6 @@ Preprints:
 .. raw:: html
    
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
+
 
 
