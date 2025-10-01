@@ -21,6 +21,7 @@ Preprints:
 
 2025:
 
+- https://doi.org/10.1093/database/baaf048 - BrAPI v2: real-world applications for data integration and collaboration in the breeding and genetics community
 - https://doi.org/10.1111/nph.70472 - Whole genome sequencing of historical specimens from the world's largest fungal collection yields high-quality assemblies
 - https://doi.org/10.1371/journal.ppat.1012963 - Over-expression and increased copy numbers of a cytochrome P450 and two UDP-glucuronosyltransferase genes in macrocyclic lactone resistant Psoroptes ovis of cattle
 - https://doi.org/10.1186/s40793-025-00768-5 - Introducing the UK Crop Microbiome Cryobank data resource, AgMicrobiomeBase, with case studies and methods on metabarcoding analyses.
@@ -208,3 +209,4 @@ Preprints:
 .. raw:: html
    
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
+
