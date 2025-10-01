@@ -34,6 +34,7 @@ Preprints:
 - https://doi.org/10.1128/mra.01221-24 - A genome-annotated bacterial collection of the plant food system microbiota
 - https://doi.org/10.1371/journal.pone.0318692 - A CACTA-like transposon in the Anthocyanidin synthase 1 (Ans-1) gene is responsible for apricot fruit colour in the raspberry (Rubus idaeus) cultivar ‘Varnes’
 - https://doi.org/10.1177/11779322241308944 - Resistify: A Novel NLR Classifier That Reveals Helitron-Associated NLR Expansion in Solanaceae
+- https://doi.org/10.21105/joss.08456 - Gene Fetch: A Python tool for sequence retrieval from GenBank across the tree of life
 
 2024:
 
@@ -207,9 +208,3 @@ Preprints:
 .. raw:: html
    
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
-
-
-
-
-
-
