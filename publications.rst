@@ -21,6 +21,8 @@ Preprints:
 
 2025:
 
+- https://doi.org/10.1111/nph.70472 - Whole genome sequencing of historical specimens from the world's largest fungal collection yields high-quality assemblies
+- https://doi.org/10.1371/journal.ppat.1012963 - Over-expression and increased copy numbers of a cytochrome P450 and two UDP-glucuronosyltransferase genes in macrocyclic lactone resistant Psoroptes ovis of cattle
 - https://doi.org/10.1186/s40793-025-00768-5 - Introducing the UK Crop Microbiome Cryobank data resource, AgMicrobiomeBase, with case studies and methods on metabarcoding analyses.
 - https://doi.org/10.15553/c2025v802a2 - Ochnaceae subtribe Ochninae: circumscribing and naming monophyletic genera
 - https://doi.org/10.1016/j.sajb.2025.08.006 - Refined generic and infrageneric classification of the Cape Psoraleeae clade (Fabaceae) – taxonomic studies in the phylogenomic era
@@ -36,6 +38,7 @@ Preprints:
 
 2024:
 
+- https://doi.org/10.1016/j.dib.2024.110372 - Total mRNA sequence dataset from Pectobacterium atrosepticum colonising potato or radish roots
 - https://doi.org/10.1038/s41586-024-08187-1 - Structural variation in the pangenome of wild and domesticated barley
 - https://doi.org/10.1111/1755-0998.13967 - Genomics-informed captive breeding can reduce inbreeding depression and the genetic load in zoo populations
 - https://doi.org/10.1093/jxb/erae371 - Altered expression of a raspberry homologue of VRN1 is associated with disruption of dormancy induction and misregulation of subsets of dormancy-associated genes
@@ -205,8 +208,3 @@ Preprints:
 .. raw:: html
    
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
-
-
-
-
-
