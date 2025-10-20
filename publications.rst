@@ -5,6 +5,7 @@ This is a list of peer-reviewed publications that were made possible due to thei
 
 Preprints:
 
+- https://doi.org/10.1101/2025.10.17.683038 - An improved Solanum verrucosum genome provides insight into potato centromeres and epigenetic regulation
 - https://doi.org/10.1101/2025.07.14.664697 - pyRootHair: Machine Learning Accelerated Software for High-Throughput Phenotyping of Plant Root Hair Traits
 - https://doi.org/10.1101/2025.04.05.647358 - Negligible effect of host DNA on metagenomic analysis enables microbial ecology investigation in historical samples
 - https://doi.org/10.1101/2023.09.12.557345 - Rampant Reticulation in a Rapid Radiation of Tropical Trees - Insights from Inga (Fabaceae)
@@ -209,4 +210,5 @@ Preprints:
 .. raw:: html
    
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
+
 
