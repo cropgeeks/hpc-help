@@ -19,7 +19,7 @@ New or changed data is synced nightly to our backup servers - ``delorean`` and `
    * - Location
      - Policy
    * - ``/mnt/shared/projects``
-     - 30 daily snapshots and 18 monthly snapshots
+     - 30 daily snapshots and 12 monthly snapshots
    * - ``$HOME``
      - 30 daily snapshots
 
@@ -33,3 +33,4 @@ Please :doc:`contact-us` with all queries regarding restoring data from backup.
 .. raw:: html
    
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
+
