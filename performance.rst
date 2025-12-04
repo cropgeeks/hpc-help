@@ -13,7 +13,7 @@ The following graphs show the relative performance of the different CPU types av
   |singlecore|
 
 .. |multicore| image:: media/cpumark1.png
-.. |singlecore| image:: media/cpumark2.png  
+.. |singlecore| image:: media/cpumark2.png
 
 Details of which nodes use which CPUs are below:
 
@@ -37,9 +37,9 @@ AMD EPYC 7543 @2.8Ghz 32C           n23-64-*
 Network throughput
 ------------------
 
-The cluster's compute and storage nodes are linked together using network switches that support 25-gigabit speeds (over 400 times faster than the UK's average broadband speed of 60-megabits), with dual-bonding employed across the storage nodes. Interlinks between the switches are currently limited to ``100 Gbps`` (gigabits per second), which allows for maximum data transfer of around ``12 GB/s`` (gigaBYTEs per second), although this is generally only seen when running very parallel tasks.
+The cluster's compute and storage nodes are linked together using network switches that support 100-gigabit speeds (over 1,000 times faster than the UK's average broadband speed of 100-megabits), with dual-bonding employed across the storage nodes. Interlinks between the switches run at ``800 Gbps`` (gigabits per second). All together, this allows for a maximum data transfer rate of around ``15 to 20 GB/s`` (gigaBYTEs per second), although this is generally only seen when running highly-parallel tasks.
 
 
 .. raw:: html
-   
+
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
