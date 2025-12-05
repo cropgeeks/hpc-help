@@ -12,7 +12,7 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
 .. toctree::
    :maxdepth: 1
    :caption: Introduction
-   
+
    faq
    system-overview
    performance
@@ -20,14 +20,15 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
 .. toctree::
    :maxdepth: 1
    :caption: Getting started
-   
+
    user-accounts
    ssh
-      
+   password-reset
+
 .. toctree::
    :maxdepth: 2
    :caption: High performance computing
-   
+
    slurm-overview
    slurm-policy
    slurm-shortcuts
@@ -45,7 +46,7 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
 .. toctree::
    :maxdepth: 2
    :caption: Data storage
-   
+
    data-storage
    backups
    file-transfers
@@ -76,5 +77,5 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
 
 
 .. raw:: html
-   
+
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

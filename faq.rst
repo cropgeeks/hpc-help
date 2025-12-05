@@ -37,12 +37,12 @@ You connect via SSH using::
   $ ssh <username>@gruffalo.cropdiversity.ac.uk
 
 making sure to replace ``<username>`` with the username you were allocated when requesting an account. More detailed connection instructions are available on the :doc:`ssh` page.
- 
+
 
 I've forogtten my password - can you recover it?
 ------------------------------------------------
 
-Please :doc:`contact-us` for help with passwords. We can't recover (or even see) your password, but we can reset it in order to allow you to log in again, at which point you'll be prompted to set a new password.
+Please visit the :doc:`password-reset` page and follow the instructions provided to reset your password.
 
 
 Can I run jobs directly on gruffalo?
@@ -59,7 +59,7 @@ How do I submit jobs to the cluster?
 ------------------------------------
 
 The cluster uses the Slurm Work Manager job scheduling system and all jobs should be submitted (from ``gruffalo``) to Slurm, where they will be allocated resources on one of the underlying compute nodes. More detailed instructions can be found on the :doc:`slurm-overview` page.
-  
+
 What software is available?
 ---------------------------
 
@@ -106,5 +106,5 @@ The name ``gruffalo`` goes way back to the early days of HPC at the Scottish Cro
 
 
 .. raw:: html
-   
+
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
