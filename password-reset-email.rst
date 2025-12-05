@@ -1,8 +1,8 @@
 :nosearch:
 :orphan:
 
-Password Reset
-==============
+Password Reset Link Generated
+=============================
 
 Thank you. If an account with that email address exists, a password reset link has been sent to your email. Please check your inbox (and spam/junk folder) for the message.
 
