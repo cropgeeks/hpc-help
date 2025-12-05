@@ -1,7 +1,7 @@
 Password Reset
 ==============
 
-If you've forgotten your HPC password, you can use the form below to request a new, temporary password. When you login with this password, you'll then be prompted to set a new one.
+If you've forgotten your HPC password, you can use the form below to initiate a request for a new, temporary password. When you login with this password, you'll then be prompted to set a new one.
 
 .. raw:: html
 
