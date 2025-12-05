@@ -1,3 +1,4 @@
+:nosearch:
 :orphan:
 
 Password Reset
@@ -8,7 +9,7 @@ Thank you. If an account with that email address exists, a password reset link h
 If you do not receive the email within a few minutes, please try again or :doc:`contact-us`.
 
 .. note::
-   The link will be valid for 24 hours.
+   The link will be valid for 60 minutes.
 
 .. raw:: html
 
