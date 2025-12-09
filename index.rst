@@ -33,6 +33,7 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
    slurm-policy
    slurm-shortcuts
    bioconda
+   bioconda-r
    compiling
    file-compression
    singularity
