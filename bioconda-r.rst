@@ -65,7 +65,7 @@ Once we have our packages installed, we can use them in our scripts. The followi
 You can also submit R jobs directly to Slurm::
 
   $ conda activate r4.5
-  $ sbatch –wrap "Rscript myPlottingScript.r"
+  $ sbatch --wrap "Rscript myPlottingScript.r"
 
 .. tip::
   It's highly recommend to run all your R code from within scripts as opposed to through platforms like RStudio where reproducibility requirements are generally not satisfied. Once you've got your code in a script, it can be tweaked and re-executed readily and it'll also be ready for submission to e.g. a Github account as part of your publication requirements.
