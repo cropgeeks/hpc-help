@@ -71,6 +71,7 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
    organizations
    sla
    acceptable-use
+   commercial-terms
    gdpr
 
 .. note::
