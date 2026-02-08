@@ -36,7 +36,7 @@ The possible cards are defined as follows:
 
 - ``a100`` - Ampere A100 80 GB
 - ``l40s`` - Lovelace L40S 48 GB
-- ``rtx8000`` - Quadro RTX 8000 48 GB
+- ``rtx_8000`` - Quadro RTX 8000 48 GB
 - ``v100`` - Tesla V100 32 GB 
 
 To see the current state (and power usage) of the GPUs, run ``nvidia-smi``, eg::
@@ -70,3 +70,4 @@ To see the current state (and power usage) of the GPUs, run ``nvidia-smi``, eg::
 .. raw:: html
    
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
+
