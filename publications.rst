@@ -20,6 +20,10 @@ Preprints:
 - https://doi.org/10.21203/rs.3.rs-5661805/v1 - Mutation of the LRG1 Rho-GAP gene is responsible for the hyper branching C-variant phenotype in the Quorn mycoprotein fungus Fusarium venenatum A3/5
 - https://doi.org/10.1101/2025.08.04.667887 - Phased Potato Genome Assembly and Association Genetics Enable Characterisation of the Elusive H1 Resistance Locus Against Potato Cyst Nematodes
 
+2026:
+
+- https://doi.org/10.3390/cancers18020254 - Long-Read Spatial Transcriptomics of Patient-Derived Clear Cell Renal Cell Carcinoma Organoids Identifies Heterogeneity and Transcriptional Remodelling Following NUC-7738 Treatment
+
 2025:
 
 - https://doi.org/10.70782/heringeriana.v19ib.918067 - Targeted DNA sequencing and morphology show that Psidium decussatum and P. salutare are distinct species
@@ -211,6 +215,7 @@ Preprints:
 .. raw:: html
    
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
+
 
 
 
