@@ -22,10 +22,12 @@ Preprints:
 
 2026:
 
+- https://doi.org/10.1111/nph.70764 - The frequency and importance of polyploidy in tropical rainforest tree radiations
 - https://doi.org/10.3390/cancers18020254 - Long-Read Spatial Transcriptomics of Patient-Derived Clear Cell Renal Cell Carcinoma Organoids Identifies Heterogeneity and Transcriptional Remodelling Following NUC-7738 Treatment
 
 2025:
 
+- https://doi.org/10.1093/sysbio/syaf027 - Rampant Reticulation in a Rapid Radiation of Tropical Trees—Insights from Inga (Fabaceae)
 - https://doi.org/10.1093/botlinnean/boaf021 - Nuclear phylogenomics and revised tribal classification of Achariaceae, with a redefinition of Oncoba (Salicaceae)
 - https://doi.org/10.70782/heringeriana.v19ib.918067 - Targeted DNA sequencing and morphology show that Psidium decussatum and P. salutare are distinct species
 - https://doi.org/10.1093/database/baaf048 - BrAPI v2: real-world applications for data integration and collaboration in the breeding and genetics community
@@ -216,6 +218,7 @@ Preprints:
 .. raw:: html
    
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
+
 
 
 
