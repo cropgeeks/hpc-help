@@ -27,6 +27,7 @@ Preprints:
 
 2025:
 
+- https://doi.org/10.1101/2025.08.01.668108 - BeeSAM2: detecting bees in cherry flowers using timelapse images and foundational models
 - https://doi.org/10.1093/sysbio/syaf027 - Rampant Reticulation in a Rapid Radiation of Tropical Trees—Insights from Inga (Fabaceae)
 - https://doi.org/10.1093/botlinnean/boaf021 - Nuclear phylogenomics and revised tribal classification of Achariaceae, with a redefinition of Oncoba (Salicaceae)
 - https://doi.org/10.70782/heringeriana.v19ib.918067 - Targeted DNA sequencing and morphology show that Psidium decussatum and P. salutare are distinct species
@@ -218,6 +219,7 @@ Preprints:
 .. raw:: html
    
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
+
 
 
 
