@@ -27,6 +27,7 @@ Preprints:
 
 2025:
 
+- https://doi.org/10.1099/mgen.0.001404 - Integrated population clustering and genomic epidemiology with PopPIPE
 - https://doi.org/10.1101/2025.08.01.668108 - BeeSAM2: detecting bees in cherry flowers using timelapse images and foundational models
 - https://doi.org/10.1093/sysbio/syaf027 - Rampant Reticulation in a Rapid Radiation of Tropical Trees—Insights from Inga (Fabaceae)
 - https://doi.org/10.1093/botlinnean/boaf021 - Nuclear phylogenomics and revised tribal classification of Achariaceae, with a redefinition of Oncoba (Salicaceae)
@@ -49,6 +50,7 @@ Preprints:
 
 2024:
 
+- https://doi.org/10.1136/sextrans-2024-056405 - Investigation of ceftriaxone-resistant Neisseria gonorrhoeae detected in Scotland, 2018–2024
 - https://doi.org/10.1016/j.dib.2024.110372 - Total mRNA sequence dataset from Pectobacterium atrosepticum colonising potato or radish roots
 - https://doi.org/10.1038/s41586-024-08187-1 - Structural variation in the pangenome of wild and domesticated barley
 - https://doi.org/10.1111/1755-0998.13967 - Genomics-informed captive breeding can reduce inbreeding depression and the genetic load in zoo populations
@@ -219,6 +221,7 @@ Preprints:
 .. raw:: html
    
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
+
 
 
 
