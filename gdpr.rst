@@ -7,7 +7,7 @@ GDPR Privacy Notice
 Who are we?
 -----------
 
-The James Hutton Institute and NIAB ("Hutton", "NIAB", "us", "we", "our") are acting as joint Data Controllers over any personal data we process about you for the purposes set out in this Privacy Notice. If you have any concerns about our processing of your personal data or you have a general  enquiry in relation to data protection please contact our Data Protection Officers at dpo@hutton.ac.uk or by telephone on 01382 346814 (Hutton), or gdpr@niab.com (NIAB).
+The James Hutton Institute is acting as a Data Controller over any personal data we process about you for the purposes set out in this Privacy Notice. If you have any concerns about our processing of your personal data or you have a general  enquiry in relation to data protection please contact our Data Protection Officer at dpo@hutton.ac.uk or by telephone on 01382 346814.
 
 
 What is personal data?
@@ -49,7 +49,7 @@ When we process personal data, there needs to be a legal basis for doing so. We 
 
 Will we share your personal data with any other organisation/third parties and if so, why?
 ------------------------------------------------------------------------------------------
-No. However, please note that when you are provided with an account, your username, name and email address may be accessible to other registered users. 
+No. However, please note that when you are provided with an account, your username, name and email address may be accessible to other registered users.
 
 
 Will my personal data be shared outside of the EEA?
@@ -74,7 +74,7 @@ No.
 
 What are your rights in relation to the personal data we hold about you?
 ------------------------------------------------------------------------
-We have summarised your rights below. Please contact either of our Data Protection Officers at dpo@hutton.ac.uk (Hutton) or gdpr@niab.com (NIAB) to exercise these.
+We have summarised your rights below. Please contact our Data Protection Officer at dpo@hutton.ac.uk to exercise these.
 
 - If we are relying on your consent, you can withdraw your consent at any time, at which point we shall stop processing your personal data in that way. Please note this does not affect the legality of our processing up to the date of your withdrawal of consent. However, should you withdraw your consent, we may no longer be able to provide the services or otherwise fulfil our obligations towards you which your consent relates to.
 - You can seek to restrict our processing of your personal data, ask us to rectify any personal data we hold about you or object to us processing your personal data for the purposes stated above.
@@ -98,9 +98,9 @@ Any changes we may make to our privacy notice in the future will be communicated
 
 Contact
 -------
-Questions, comments and requests regarding this privacy notice are welcomed and should be addressed to: dpo@hutton.ac.uk or gdpr@niab.com
+Questions, comments and requests regarding this privacy notice are welcomed and should be addressed to: dpo@hutton.ac.uk
 
 
 .. raw:: html
-   
+
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
