@@ -5,6 +5,7 @@ This is a list of peer-reviewed publications that were made possible due to thei
 
 Preprints:
 
+- https://doi.org/10.64898/2026.03.11.710847 - EoRNA2: Autonomous Data Discovery and Processing for Databasing of Gene Expression Data
 - https://doi.org/10.1101/2025.10.17.683038 - An improved Solanum verrucosum genome provides insight into potato centromeres and epigenetic regulation
 - https://doi.org/10.1101/2025.07.14.664697 - pyRootHair: Machine Learning Accelerated Software for High-Throughput Phenotyping of Plant Root Hair Traits
 - https://doi.org/10.1101/2025.04.05.647358 - Negligible effect of host DNA on metagenomic analysis enables microbial ecology investigation in historical samples
@@ -22,6 +23,7 @@ Preprints:
 
 2026:
 
+- http://dx.doi.org/10.1002/tax.70102 - Incomplete lineage sorting and hybridization as sources of gene tree discordance among species of the Geminata clade of Solanum (Solanaceae)
 - https://doi.org/10.1111/nph.70764 - The frequency and importance of polyploidy in tropical rainforest tree radiations
 - https://doi.org/10.3390/cancers18020254 - Long-Read Spatial Transcriptomics of Patient-Derived Clear Cell Renal Cell Carcinoma Organoids Identifies Heterogeneity and Transcriptional Remodelling Following NUC-7738 Treatment
 
