@@ -6,7 +6,6 @@ This is a list of peer-reviewed publications that were made possible due to thei
 Preprints:
 
 - https://doi.org/10.64898/2026.03.11.710847 - EoRNA2: Autonomous Data Discovery and Processing for Databasing of Gene Expression Data
-- https://doi.org/10.1101/2025.10.17.683038 - An improved Solanum verrucosum genome provides insight into potato centromeres and epigenetic regulation
 - https://doi.org/10.1101/2025.07.14.664697 - pyRootHair: Machine Learning Accelerated Software for High-Throughput Phenotyping of Plant Root Hair Traits
 - https://doi.org/10.1101/2025.04.05.647358 - Negligible effect of host DNA on metagenomic analysis enables microbial ecology investigation in historical samples
 - https://doi.org/10.1101/2023.09.12.557345 - Rampant Reticulation in a Rapid Radiation of Tropical Trees - Insights from Inga (Fabaceae)
@@ -19,10 +18,11 @@ Preprints:
 - https://doi.org/10.1101/2021.08.12.456076 - Analysis of wild plant pathogen populations reveals a signal of adaptation in genes evolving for survival in agriculture in the beet rust pathogen (Uromyces beticola)
 - https://doi.org/10.1101/2022.09.13.507768 - Genomic erosion in the assessment of species extinction risk
 - https://doi.org/10.21203/rs.3.rs-5661805/v1 - Mutation of the LRG1 Rho-GAP gene is responsible for the hyper branching C-variant phenotype in the Quorn mycoprotein fungus Fusarium venenatum A3/5
-- https://doi.org/10.1101/2025.08.04.667887 - Phased Potato Genome Assembly and Association Genetics Enable Characterisation of the Elusive H1 Resistance Locus Against Potato Cyst Nematodes
 
 2026:
 
+- https://doi.org/10.1093/g3journal/jkag089 - An improved Solanum verrucosum genome provides insight into potato centromeres and epigenetic regulation
+- https://doi.org/10.1007/s00122-026-05179-9 - Phased Potato Genome Assembly and Association Genetics Enable Characterisation of the Elusive H1 Resistance Locus Against Potato Cyst Nematodes
 - https://doi.org/10.1111/2041-210x.70258 - The persistent advantage of model-based phylogenetic methods for single-trait prediction
 - http://dx.doi.org/10.1002/tax.70102 - Incomplete lineage sorting and hybridization as sources of gene tree discordance among species of the Geminata clade of Solanum (Solanaceae)
 - https://doi.org/10.1111/nph.70764 - The frequency and importance of polyploidy in tropical rainforest tree radiations
