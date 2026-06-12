@@ -71,3 +71,48 @@ Here are a few recommended clients to get you started:
 .. raw:: html
    
    <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
+
+Third Party Systems
+-------------------
+
+Some larger data providers offer their own tools for bulk data tranfer, such as downloading datasets from the NCBI.
+If they offer command line tools, you will hopefully be able to install and run those on the cluster.
+
+Globus
+======
+
+Some sequencing services use the [Globus](https://www.globus.org/) platform to provide the raw data. Globus is setup to let you transfer data between end-points which have hexadecimal identifiers like `652cc0d6-6340-11f1-ba97-0affd989fabc`. You can download individual files in the browser, but it does not have a simple way to download entire folders.
+
+We can send data to the cluster by temporarily running [Globus Connect Personal](https://docs.globus.org/globus-connect-personal/) on the head node, and then initiating a transfer to that. The following is an outline tested in June 2026:
+
+  $ wget https://downloads.globus.org/globus-connect-personal/linux/stable/globusconnectpersonal-latest.tgz
+  $ tar xzf globusconnectpersonal-latest.tgz
+  $ globusconnectpersonal-3.2.8/globusconnectpersonal -h
+  $ globusconnectpersonal-3.2.8/globusconnectpersonal -dir . -setup
+
+You will be prompted to login at a given URL, and then enter the passphrase given by their website at the terminal.
+This will make a subdirectory `lta/` with configuration information.
+
+You will want to start the end point explicitly saying where it can write the data (otherwise it defaults to your home folder). Note the trailing ampersand as this will run in the background:
+
+  $ globusconnectpersonal-3.2.8/globusconnectpersonal -start -restrict-paths ~/MY_PROJECT &
+
+You can now get the magic string identifying this temporary Globus end point running on the cluster:
+
+  $ globus endpoint local-id
+
+You should now be able to start the transfer to this ID using the Globus website,
+or the [Globus CLI](https://docs.globus.org/cli/):
+
+  $ pip install globus-cli
+  $ globus transfer -r <SOURCE-MAGIC-ID>:<SOURCE-PATH>/ "$(globus endpoint local-id)":~/MY_PROJECT/
+
+There is no feedback at the terminal, check [Globus Activity](https://app.globus.org/activity),
+which will also allow cancelling transfers. You should get an email when it finishes.
+
+Finally, stop your end point:
+
+  $ globusconnectpersonal-3.2.8/globusconnectpersonal -start
+
+If your connection to the cluster is lost, log in again and restart `globusconnectpersonal`
+and any active transfers should resume.
