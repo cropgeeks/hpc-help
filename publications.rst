@@ -21,6 +21,7 @@ Preprints:
 
 2026:
 
+- https://doi.org/10.1093/botlinnean/boag026 - Generic delimitation of Turraea (Meliaceae–Turraeeae) and allied genera in continental Africa and Madagascar
 - https://doi.org/10.1186/s42523-025-00506-9 - Dietary muramidase leads to the downregulation of peptidoglycan biosynthesis and to caecal microbial modulation in laying hens
 - https://doi.org/10.1093/g3journal/jkag089 - An improved Solanum verrucosum genome provides insight into potato centromeres and epigenetic regulation
 - https://doi.org/10.1007/s00122-026-05179-9 - Phased Potato Genome Assembly and Association Genetics Enable Characterisation of the Elusive H1 Resistance Locus Against Potato Cyst Nematodes
