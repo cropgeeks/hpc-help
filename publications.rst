@@ -30,6 +30,7 @@ Preprints:
 - http://dx.doi.org/10.1002/tax.70102 - Incomplete lineage sorting and hybridization as sources of gene tree discordance among species of the Geminata clade of Solanum (Solanaceae)
 - https://doi.org/10.1111/nph.70764 - The frequency and importance of polyploidy in tropical rainforest tree radiations
 - https://doi.org/10.3390/cancers18020254 - Long-Read Spatial Transcriptomics of Patient-Derived Clear Cell Renal Cell Carcinoma Organoids Identifies Heterogeneity and Transcriptional Remodelling Following NUC-7738 Treatment
+- https://doi.org/10.1111/1755-0998.70170 - BeeGees: A High-Throughput Protein-Coding DNA Barcode Recovery Pipeline Tailored for Genome Skims of Museum Specimens
 
 2025:
 
