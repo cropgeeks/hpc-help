@@ -21,6 +21,9 @@ Preprints:
 
 2026:
 
+- https://doi.org/10.1002/nzb2.70079 - Validating Oxford Nanopore Technologies Amplicon Sequencing as an Alternative to Sanger Sequencing for Generating Plant Molecular Markers
+- https://doi.org/10.24823/Sibbaldia.2026.2130 - What lives within and on a plant: our understanding from genome NGS data 
+- https://doi.org/10.1126/science.adz0773 - High risk of extinction across the flowering plant tree of life
 - https://doi.org/10.1002/tax.70171 - A phylogenomic analysis and revised infrageneric classification of Thesium (Santalaceae)
 - https://doi.org/10.1093/botlinnean/boag026 - Generic delimitation of Turraea (Meliaceae–Turraeeae) and allied genera in continental Africa and Madagascar
 - https://doi.org/10.1186/s42523-025-00506-9 - Dietary muramidase leads to the downregulation of peptidoglycan biosynthesis and to caecal microbial modulation in laying hens
