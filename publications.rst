@@ -21,6 +21,7 @@ Preprints:
 
 2026:
 
+- https://doi.org/10.1099/mic.0.001724 - Clinical Rel mutations that increase basal (p)ppGpp promote conjugal transfer of staphylococcal resistance plasmids
 - https://doi.org/10.1002/nzb2.70079 - Validating Oxford Nanopore Technologies Amplicon Sequencing as an Alternative to Sanger Sequencing for Generating Plant Molecular Markers
 - https://doi.org/10.24823/Sibbaldia.2026.2130 - What lives within and on a plant: our understanding from genome NGS data 
 - https://doi.org/10.1126/science.adz0773 - High risk of extinction across the flowering plant tree of life
@@ -37,6 +38,7 @@ Preprints:
 
 2025:
 
+- https://doi.org/10.1111/mmi.70000 - Staphylococcus aureus COL: An Atypical Model Strain of MRSA That Exhibits Slow Growth and Antibiotic Tolerance due to a Mutation in PRPP Synthetase
 - https://doi.org/10.1099/mgen.0.001404 - Integrated population clustering and genomic epidemiology with PopPIPE
 - https://doi.org/10.1101/2025.08.01.668108 - BeeSAM2: detecting bees in cherry flowers using timelapse images and foundational models
 - https://doi.org/10.1093/sysbio/syaf027 - Rampant Reticulation in a Rapid Radiation of Tropical Trees—Insights from Inga (Fabaceae)
