@@ -10,7 +10,3 @@ If you don't receive the email within a few minutes, please try again or :doc:`c
 
 .. note::
    The link will be valid for 60 minutes.
-
-.. raw:: html
-
-   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>

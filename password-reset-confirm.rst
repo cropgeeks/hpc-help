@@ -23,8 +23,3 @@ Please click the button below to confirm you want to reset your HPC password.
 
   </script>
 
-
-.. raw:: html
-
-   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
-

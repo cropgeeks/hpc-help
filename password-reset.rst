@@ -13,7 +13,3 @@ If you've forgotten your HPC password, you can use the form below to initiate a 
 
 .. note::
   Ensure you use the email address associated with your HPC account for this to work.
-
-.. raw:: html
-
-   <script defer data-domain="cropdiversity.ac.uk" src="https://plausible.hutton.ac.uk/js/plausible.js"></script>
