@@ -3,7 +3,7 @@ Getting Connected
 
 All interaction with ``gruffalo`` is handled via an encrypted communication channel, using the **Secure Shell (SSH)** protocol which enables a terminal prompt on ``gruffalo`` from which you can run commands, transfer files, submit jobs, or even run some graphical programs when used in conjunction with an X client.
 
-If using Linux or macOS, then you'll already have an SSH client installed that you can access via a local terminal. If using Windows, then you may want to install one or more new programs in order to connect, good options include `MobaXterm <https://mobaxterm.mobatek.net/download-home-edition.html>`_, `WSL <https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux>`_ (Windows 10+ only), `Cygwin/mintty <https://www.cygwin.com/>`_ or `PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/>`_. Since 2018 there has also been a built-in ssh client in Windows 10 and above which can be run from the Command Prompt or Windows Power Shell, by simply using the command ``ssh`` much like Linux or Mac.
+If using Linux or macOS, then you'll already have an SSH client installed that you can access via a local terminal. If using Windows, then you may want to install one or more new programs in order to connect, good options include `MobaXterm <https://mobaxterm.mobatek.net/download-home-edition.html>`_, `WSL <https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux>`_ (Windows 10+ only), `Cygwin/mintty <https://www.cygwin.com/>`_ or `PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/>`_. Since 2018 there has also been a built-in SSH client in Windows 10 and above which can be run from the Command Prompt or Windows Power Shell, by simply using the command ``ssh`` much like Linux or Mac.
 
 
 Authentication options
@@ -19,7 +19,7 @@ Using passwords is only possible if connecting from one of our :doc:`organizatio
 We recommend - where possible - that you first establish a working connection using your password before attempting key-based authentication.
 
 .. note::
-  With many staff working from home due to the COVID pandemic, you may need to skip straight to the key-based remote access instructions.
+  With more staff working from home since the COVID pandemic, you may need to skip straight to the key-based remote access instructions.
 
 
 Password authentication
