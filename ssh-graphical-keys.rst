@@ -25,16 +25,14 @@ The public key should contain something looking like this::
   qS8k
   ---- END SSH2 PUBLIC KEY ----
 
-You now need to send us your key (see :doc:`contact-us`), attaching only the public key file. You can either attach the file or copy-paste its contents (the public key does not need to be kept secret from anyone). Once we confirm your public key has been added to the system it may take 30 minutes or so for the system to update itself, then you should be able to log in using it.
+Use :doc:`idpa-login` to upload your public key before attempting to log in.
 
-To do so you need to login using your private key instead of your ordinary account password. In MobaXterm click the Session icon, select SSH, then enter gruffalo.cropdiversity.ac.uk as the remote host, enter your username in the username box and leave the port as 22 (or try 443 if you suspect your local firewall is blocking port 22). Next click on the "Advanced SSH settings", select the "Use private key" option, then click on the small white icon in order to browse to and select your private key file, whereever you chose to save it. Finally click OK. MobaXterm should now ask you for the passphrase you used to protect your private key and then try to login to the HPC. If it works you should then be logged in to ``gruffalo``.
+Logging In
+----------
 
-To use PuTTYgen make sure you installed this tool from the PuTTY bundle, launch PuTTYgen, eg by searching "puttygen" in the start menu search box and then follow the same steps as described above for the MobaKeyGen tool. For further assistance you can view the following video demonstration of the entire process using MobaXterm.
+In MobaXterm click the Session icon, select SSH, then enter gruffalo.cropdiversity.ac.uk as the remote host, enter your username in the username box and leave the port as 22 (or try 443 if you suspect your local firewall is blocking port 22). Next click on the "Advanced SSH settings", select the "Use private key" option, then click on the small white icon in order to browse to and select your private key file, whereever you chose to save it. Finally click OK. MobaXterm should now ask you for the passphrase you used to protect your private key and then try to login to the HPC. If it works you should then be logged in to ``gruffalo``.
 
-.. raw:: html
-
-   <video controls width="320" height="240"> <source src="_static/sshkeygen_mobaxterm.mp4" type="video/mp4"></video><br>
-
+To use PuTTYgen make sure you installed this tool from the PuTTY bundle, launch PuTTYgen, eg by searching "puttygen" in the start menu search box and then follow the same steps as described above for the MobaKeyGen tool.
 
 Additional notes
 ----------------

@@ -11,3 +11,47 @@
       overflow: visible !important;
    }
 }
+
+.ssh-key-row {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0.6rem 0;
+}
+
+.ssh-key-item {
+    flex: 1;
+    min-width: 0;
+    margin: 0;
+    padding: 0.6rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.ssh-key-value {
+    font-family: monospace;
+    font-size: 0.9em;
+    white-space: pre;
+    overflow-x: auto;
+    display: block;
+    max-width: 100%;
+}
+
+.ssh-key-delete {
+    flex-shrink: 0;
+    border: none;
+    background: transparent;
+    color: #b42318;
+    cursor: pointer;
+    padding: 0.35rem;
+    font-size: 1.2rem;
+}
+
+.ssh-key-delete:hover {
+    color: #7a1710;
+}
+
+.ssh-key-delete:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+}

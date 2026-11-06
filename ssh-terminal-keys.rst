@@ -65,13 +65,12 @@ Your public key - ``id_ed25519.pub`` - must be installed on the cluster to allow
 .. note::
   If you provided a custom name for your key, you may find it wasn't created within ``~/.ssh``. You can either rename/move the file to match the above listings, or use the ``ssh -i`` option to let SSH know where to find your private key.
 
-You must :doc:`contact-us` to install your public key for you, sending us either the key file itself or the text within it. **Do not** send us your private key.
-
+Use :doc:`idpa-login` to upload your public key before attempting to log in.
 
 Connecting to gruffalo
 ----------------------
 
-Once we have confirmed installation of your key, you can attempt to connect to the cluster.
+Once your key has been uploaded you can attempt to connect to the cluster.
 
 .. warning::
   If you exceed three failed **remote** authentication attempts (within a 10 minute window) the system will block your IP address from further attempts for the next 30 minutes.

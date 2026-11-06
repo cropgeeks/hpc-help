@@ -10,13 +10,7 @@ Samba provides an easy way to connect to Linux storage systems - such as our pri
 Account details
 ---------------
 
-Samba uses its own authentication system, so you must first set a password for your account by visiting the following link and signing in with your Crop Diversity HPC username and password:
-
-.. warning::
-  This link will **not work** if using Microsoft Edge.
-
-- `Create/Update Samba Password <https://help.cropdiversity.ac.uk/samba>`_
-
+Samba uses its own authentication system, so you must first set a password for your account via the :doc:`idpa-login` portal.
 
 Connection details
 ------------------

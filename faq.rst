@@ -42,7 +42,7 @@ making sure to replace ``<username>`` with the username you were allocated when 
 I've forogtten my password - can you recover it?
 ------------------------------------------------
 
-Please visit the :doc:`password-reset` page and follow the instructions provided to reset your password.
+Please visit the :doc:`idpa-login` page and follow the instructions provided to reset your password.
 
 
 Can I run jobs directly on gruffalo?
