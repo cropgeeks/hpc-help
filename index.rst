@@ -62,7 +62,6 @@ Hello! Here you'll find the documentation for the UK's `Crop Diversity Bioinform
    linux-basics
    tips
    publications
-   cluster-changes
 
 .. toctree::
    :maxdepth: 1
