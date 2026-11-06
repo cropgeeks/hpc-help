@@ -1,7 +1,0 @@
-:nosearch:
-:orphan:
-
-Password Reset Completed
-========================
-
-Thank you. Your password's been reset and an email has been sent to you with further details. Please check your inbox (and spam/junk folder) for the message.
