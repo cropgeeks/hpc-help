@@ -162,6 +162,9 @@ Use this option to reset your password for Samba and receive it by email.
     {
       event.preventDefault();
 
+      if (!confirm("Are you sure you want to log out?"))
+        return;
+
       fetch('/api/auth/logout', { method: 'POST' })
         .finally(() => { window.location.href = '/idpa-login.html'; });
     }
